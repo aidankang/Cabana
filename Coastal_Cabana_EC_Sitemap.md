@@ -241,20 +241,56 @@
   - 4-Bedroom (4BR)
   - 5-Bedroom (5BR)
 - Floor Plan Images (per type)
-  - **Note:** Detailed floor plans are not yet publicly available (as of November 2025). Developer indicates "floor plans coming soon — indicative layouts subject to developer approval"
-  - Floor plan types expected:
-    - Type B1: 2BR layouts
-    - Type C1, C2, C3: 3BR and 3BR + Study layouts
-    - Type D1, D2: 4BR and 4BR + Study layouts
-    - Type E1, E2: 5BR layouts
-  - To obtain floor plans: Contact sales team for showflat viewing or register for e-brochure when available
-  - Source: [Coastal Cabana EC Floor Plans](https://coastalcabanaec.com.sg/floor-plan/), [EC-EAPP Coastal Cabana](https://www.ec-eapp.sg/coastalcabanaec)
+  - **3BR Deluxe**
+    - Type C1a: 81 sqm (872 sq ft) - [View Floor Plan](imgs/Coastal_Cabana_Type_C1a_3BR_Deluxe_872sqft.jpeg)
+      - Sizeable living and dining
+      - Sizeable bedrooms
+      - Stand alone kitchen
+      - Natural ventilated kitchen & bathrooms
+      - Hackable wall between rooms (non shaded wall)
+  - **4BR Classic**
+    - Type D1: 92 sqm (990 sq ft) - [View Floor Plan](imgs/Coastal_Cabana_Type_D1_4BR_Classic_990sqft.jpeg)
+      - Sizeable living and dining
+      - Sizeable bedrooms
+      - Stand alone kitchen
+      - Natural ventilated kitchen, bathrooms & WC
+      - Hackable wall between rooms (non shaded wall)
+      - Small bedroom 4 (single bed)
+      - WC included
+  - **4BR Premium + Study**
+    - Type D4: 108 sqm (1,163 sq ft) - [View Floor Plan](imgs/Coastal_Cabana_Type_D4_4BR_Premium_Study_1163sqft.jpeg)
+      - Sizeable living and dining
+      - Sizeable bedrooms
+      - Dry kitchen
+      - Stand alone kitchen
+      - Natural ventilated kitchen, bathrooms & WC
+      - Hackable wall between rooms (non shaded wall)
+      - WC included
+      - Study room
+      - Walk in wardrobe at master bedroom
+  - **5BR Premium**
+    - Type E1: 127 sqm (1,367 sq ft) - [View Floor Plan](imgs/Coastal_Cabana_Type_E1_5BR_Premium_1367sqft.jpeg)
+      - Wide living and dining
+      - Wide balcony
+      - Sizeable bedrooms
+      - Dry kitchen
+      - Stand alone kitchen
+      - Natural ventilated kitchen, bathrooms, WC & utility
+      - Hackable wall between rooms (non shaded wall)
+      - WC & Utility included
+      - Bathroom 3 included
+      - Walk in wardrobe at master bedroom
+  - Additional floor plan variations available for viewing in imgs folder
+  - Source: [Coastal Cabana Official Sales](https://coastalcabana.officialsales.com.sg/site-floor-plans/)
 - Unit Size Ranges
-  - 3BR: ~872-915 sqft
+  - 3BR Deluxe: 872 sqft (81 sqm) - Type C1a
+  - 3BR Premium: 915 sqft (85 sqm)
   - 3BR+Study: 915 sqft (85 sqm)
-  - 4BR: ~990-1,216 sqft
-  - 5BR: 1,367-1,421 sqft (127-132 sqm)
-  - Source: [Pasir Ris EC - Coastal Cabana](https://pasirris-ec.com), [PropertyGuru Listing](https://www.propertyguru.com.sg/listing/for-sale-coastal-cabana-60174912)
+  - 4BR Classic: 990 sqft (92 sqm) - Type D1
+  - 4BR Premium: ~1,012-1,055 sqft
+  - 4BR Premium + Study: 1,163 sqft (108 sqm) - Type D4, also 1,216 sqft variants available
+  - 5BR Premium: 1,367 sqft (127 sqm) - Type E1, up to 1,421 sqft (132 sqm)
+  - Source: [Pasir Ris EC - Coastal Cabana](https://pasirris-ec.com), [PropertyGuru Listing](https://www.propertyguru.com.sg/listing/for-sale-coastal-cabana-60174912), [Coastal Cabana Official Sales](https://coastalcabana.officialsales.com.sg/site-floor-plans/)
 - How to Read a Floor Plan (optional guide)
   - Door and window symbols
   - Structural walls
