@@ -22,8 +22,19 @@
   - Developer: Pasir Ris Development Pte Ltd (Qingjian Realty, Forsea Residence, ZACD Group)
 - Developer Introduction
   - Qingjian Realty background (real estate arm of Qingjian Group, established 1952)
-  - Track record and past projects
-  - Developer awards and reputation
+  - Track record and past projects:
+    - **Executive Condominiums**: Bellewaters EC, Bellewoods EC, The Visionaire EC (Singapore's first EC with smart homes, 2016), iNz Residence EC, Waterbay EC, RiverParc Residence EC, Ecopolitan EC, Altura EC (Asia Property Award 2023 - Best Executive Condominium)
+    - **Private Condominiums**: JadeScape (EdgeProp Excellence Awards 2023 - Top Mega Development, 13 awards total), NiN Residences, Riversound Residences, Le Quest, The Arden, Forett at Bukit Timah (freehold), Bloomsbury Residences (Media Circle, upcoming)
+    - **Commercial/Mixed-Use**: Natura Loft DBSS (BCA top award in construction excellence and environmental sustainability)
+    - Source: [Qingjian Realty Official Website](https://qingjianrealty.com.sg), [Bloomsbury Residences Developer Info](https://www.thebloomsburyresidences.com.sg/developer/)
+  - Developer awards and reputation:
+    - **BCI Asia Top 10 Developers Award**: Consistently received from 2013, 2015-2018, 2021-2024 (9th award as Top 10 Developer)
+    - **BCA Green Mark Awards**: Multiple awards in 2013, 2015, 2018 for sustainability and eco-friendly building designs
+    - **FIABCI Singapore Property Awards**: Recognized in 2018 and 2020 for exceptional residential developments
+    - **Asia Property Awards**: Celebrated in 2016, 2019, 2021, 2023 for architectural excellence and innovation
+    - **BCA Universal Design Mark Awards**: Multiple awards for enhancing accessibility in developments
+    - **EdgeProp Excellence Awards 2023**: Top Mega Development for JadeScape
+    - Source: [Qingjian Realty News](https://qingjianrealty.com.sg/news/), [Media Circle Residences Developer](https://mediacircleresidences.co/developer/)
 - Key Selling Points
   - Resort-style living with modern convenience
   - Prime Pasir Ris location near beach and parks
@@ -35,27 +46,160 @@
 
 - Interactive Map (showing site in context)
 - Connectivity
-  - Pasir Ris MRT (existing station)
-  - Future Cross Island Line interchange
-  - Major bus routes
-  - TPE and expressway access
-  - Easy commuting to city
+  - **Pasir Ris MRT Station (EW1)** - Approximately 1.7km from site (~20 min walk, ~9 min drive, ~10-15 min by bus)
+    - Direct East-West Line access to city
+    - Source: [Rome2Rio Pasir Ris MRT to Loyang](https://www.rome2rio.com/s/Pasir-Ris-MRT-Station/Loyang)
+  - **Future Cross Island Line (CRL) Interchange** - By 2030, Pasir Ris will be an interchange station connecting EWL and CRL Phase 1
+    - Additional stations: Loyang and Pasir Ris East (CRL Phase 1 by 2030)
+    - Elias MRT Station (CRL Punggol Extension by 2032)
+    - Source: [URA Draft Master Plan 2025 - East Region](https://www.uradraftmasterplan.gov.sg/regional-plans/east/transforming-towns-for-tomorrow/)
+  - **Major Bus Routes** 
+    - Nearby bus stops: Pasir Ris Bus Interchange (77009), Bef Pasir Ris Stn (multiple stops), Opp Engine Test Facility (98119)
+    - Bus services: 3, 5, 6, 12, 12e, 15, 15A, 17, 21, 39, 46, 53, 53A, 58, 58B, 68, 81, 88, 89, 89A, 109, 354, 358, 358T, 359, 359T, 403, 518, 518A
+    - Bus commute time from Jalan Loyang Besar to Pasir Ris MRT: ~10-20 minutes
+    - Source: [Pasir Ris Bus Routes](https://sg.commutetour.com/terminal/pasir-ris-interchange-terminal/), [Wikipedia - List of Singapore Bus Routes](https://en.wikipedia.org/wiki/List_of_bus_routes_in_Singapore)
+  - **TPE and Expressway Access** - Easy access to Tampines Expressway (TPE) and major road networks
+  - **Easy Commuting to City** - Direct connectivity via EWL, future CRL will reduce travel times significantly
 - Nearby Amenities
   - Shopping & Dining
-    - Downtown East (0.2km away - eateries, cinema, Wild Wild Wet water park)
-    - White Sands mall
+    - **Downtown East** - 0.2km away (~3 min walk) - eateries, cinema, Wild Wild Wet water park, E!Hub entertainment complex
+      - Source: [Wikipedia - Pasir Ris](https://en.wikipedia.org/wiki/Pasir_Ris)
+    - **White Sands Mall** - Next to Pasir Ris MRT Station (~1.7km, ~20 min walk, ~9 min drive)
+      - Major shopping center with supermarkets, retail, dining
+      - Source: [Wikipedia - Pasir Ris](https://en.wikipedia.org/wiki/Pasir_Ris)
+    - **Pasir Ris Mall** - At Pasir Ris Integrated Transport Hub (~1.7km, ~20 min walk, ~9 min drive)
+      - Opened June 2024, 150+ shops across 4 floors
+      - Retail: Uniqlo, Decathlon, Challenger, Cold Storage, Guardian
+      - Dining: McDonald's, Jollibee, Guzman Y Gomez, Genki Sushi, 4Fingers, Swensen's, Toast Box
+      - Entertainment: Timezone arcade, Have Fun Karaoke
+      - Family facilities: outdoor playground, nursing rooms, family parking
+      - Source: [The Smart Local - Pasir Ris Mall](https://thesmartlocal.com/read/pasir-ris-mall/), [99.co Pasir Ris Mall](https://www.99.co/singapore/insider/pasir-ris-mall/)
+    - **Pasir Ris Central** - Integrated development in town center with new amenities
+      - Pasir Ris Central Hawker Centre (opened January 2018, 42 stalls)
+      - Source: [Wikipedia - Pasir Ris](https://en.wikipedia.org/wiki/Pasir_Ris)
+    - **Loyang Point** - Shopping center along Pasir Ris Drive 3
+      - Source: [Loyang Point Getting There](https://www.loyangpoint.com/getting-there/)
+    - **Elias Mall** - Neighborhood shopping center
+      - One of four neighborhood centers slated for upgrading under URA Master Plan
+      - Source: [Wikipedia - Pasir Ris](https://en.wikipedia.org/wiki/Pasir_Ris)
   - Parks & Recreation
-    - Pasir Ris Park (minutes away)
-    - Pasir Ris Beach (beachside location)
-    - "Balanced lifestyle with recreational and urban conveniences"
+    - **Pasir Ris Park** - Minutes away (~1.5km from town center, ~15-20 min walk)
+      - Coastal park with beach access, park connectors, playgrounds, eateries, fishing pond
+      - Revamped recreational facilities and enhanced coastal park experience planned
+      - Source: [Wikipedia - Pasir Ris](https://en.wikipedia.org/wiki/Pasir_Ris), [URA Draft Master Plan 2025](https://www.uradraftmasterplan.gov.sg/regional-plans/east/transforming-towns-for-tomorrow/)
+    - **Pasir Ris Beach** - Beachside location with easy beach access
+    - **Pasir Ris Sports Centre** - Swimming pools, sports hall for badminton, street soccer court, gym
+      - Source: [Wikipedia - Pasir Ris](https://en.wikipedia.org/wiki/Pasir_Ris)
+    - **Balanced lifestyle** with recreational and urban conveniences
   - Schools & Childcare
-    - Casuarina Primary School (within 1km)
-    - Pasir Ris Primary School (within 1km)
-    - Other reputable schools nearby
+    - **Primary Schools within 1km:**
+      - Casuarina Primary School (within 1km, 30 Pasir Ris Street 41)
+      - Pasir Ris Primary School (within 1km, 5 Pasir Ris Street 21)
+      - White Sands Primary School (2 Pasir Ris Street 11)
+      - Elias Park Primary School (11 Pasir Ris Street 52)
+      - Source: [Wikipedia - Pasir Ris Education](https://en.wikipedia.org/wiki/Pasir_Ris)
+    - **Secondary Schools nearby:**
+      - Hai Sing Catholic School (~0.9km, 9 Pasir Ris Drive 6)
+      - Pasir Ris Crest Secondary School (11 Pasir Ris Street 41)
+      - Loyang View Secondary School
+      - Meridian Secondary School
+      - Source: [Wikipedia - Pasir Ris Education](https://en.wikipedia.org/wiki/Pasir_Ris), [YourSingaporeMap - Secondary Schools](https://m.yoursingaporemap.com/education/schools/secondary/)
+    - **Preschools & Kindergartens:**
+      - MindChamps PreSchool @ Pasir Ris Mall (7 Pasir Ris Central #01-23)
+      - MapleBear Pasir Ris Park (77 Pasir Ris Ave)
+      - Odyssey The Global Preschool (191 Jln Loyang Besar)
+      - My Little Campus (735 Pasir Ris Street 72)
+      - Bright Kids School House (764 Pasir Ris Street 71)
+      - Bethesda Kindergarten (11 Pasir Ris Drive 2)
+      - Learning Adventure Preschool (15 Pasir Ris Way)
+      - Children's Cove Pasir Ris (443 Pasir Ris Drive 6)
+      - Multiple NTUC My First Skool locations throughout Pasir Ris
+      - Source: [Skoolopedia - Pasir Ris Childcare](https://skoolopedia.com/app/childcare/area/pasir-ris), [EPOS - Best Preschools Pasir Ris](https://www.epos.com.sg/10-best-preschools-and-kindergartens-in-pasir-ris/)
+    - **Tertiary Education:**
+      - Tampines Meridian Junior College
+      - Overseas Family School (international school)
+      - Source: [Wikipedia - Pasir Ris Education](https://en.wikipedia.org/wiki/Pasir_Ris)
   - Healthcare & Supermarkets
+    - **Pasir Ris Polyclinic** - Newly redeveloped facility at Pasir Ris Mall (opened October 2024)
+      - 6 Pasir Ris Drive 8 #1M-01, integrated with Pasir Ris Mall
+      - 4 times bigger than previous facility
+      - Services: General practice, dental, physiotherapy, chronic disease management, preventive care (breast, cervical, colorectal cancer screening), vaccinations
+      - Future services (by H2 2025): Memory and mental health support
+      - Can handle almost 1,000 patients per day, staff strength of ~130
+      - Next to Pasir Ris MRT station and bus interchange (~1.7km from site)
+      - Source: [SingHealth Polyclinics - Pasir Ris](https://polyclinic.singhealth.com.sg/our-polyclinics/shp-pasir-ris), [TNP - Upgraded Pasir Ris Polyclinic](https://www.tnp.sg/news/singapore/upgraded-pasir-ris-polyclinic-offers-more-services), [SGH News - Pasir Ris Polyclinic](https://www.sgh.com.sg/news/singapore-health/pasir-ris-polyclinic-redeveloped)
+    - **24-Hour Clinics:**
+      - Central 24-HR Clinic Pasir Ris (446 Pasir Ris Drive 6 #01-122)
+      - Life-Link Clinic & Surgery (24 hours, 446 Pasir Ris Drive 6 #01-120)
+      - Source: [Central Clinic Pasir Ris](https://www.centralclinic.com.sg/pasir-ris-clinic-24-hour-clinic)
+    - **General Practitioners & Medical Centers:**
+      - Fullerton Health Hub @ Pasir Ris (Pasir Ris Mall)
+      - Multiple GP clinics throughout Pasir Ris
+      - Source: [MOH Pasir Ris Clinics](https://www.moh.gov.sg/newsroom/pasir-ris)
+    - **Supermarkets:**
+      - Cold Storage @ Pasir Ris Mall (#B1-11)
+      - Scarlett Supermarket @ Pasir Ris Mall (#B2-11/12, opening soon)
+      - NTUC FairPrice @ E-Hub Downtown East
+      - NTUC FairPrice @ White Sands
+      - Source: [Little Day Out - Pasir Ris Mall](https://www.littledayout.com/pasir-ris-mall-food-shops-playground/)
+    - **Pharmacies:**
+      - Guardian @ Pasir Ris Mall (#B1-29)
+      - Watsons @ Pasir Ris Mall (#B1-19)
+      - Eu Yan Sang @ Pasir Ris Mall (#B1-21)
+      - Source: [Little Day Out - Pasir Ris Mall](https://www.littledayout.com/pasir-ris-mall-food-shops-playground/)
 - Future Developments (URA Master Plan)
-  - Upcoming improvements to Pasir Ris town
-  - Long-term appeal and value enhancement
+  - **Pasir Ris Integrated Transport Hub (Completed 2024-2025)**
+    - Mixed-use development comprising Pasir Ris Mall (150+ shops), Pasir Ris 8 residential condominiums (487 units), new bus interchange, polyclinic, childcare facilities, and town plaza
+    - Seamlessly connected to Pasir Ris MRT station (EWL and future CRL interchange)
+    - Source: [URA Draft Master Plan 2025](https://www.uradraftmasterplan.gov.sg/regional-plans/east/transforming-towns-for-tomorrow/), [Wikipedia - Pasir Ris](https://en.wikipedia.org/wiki/Pasir_Ris)
+  - **Cross Island Line (CRL) - By 2030-2032**
+    - Phase 1 (by 2030): Pasir Ris MRT becomes interchange station with EWL, plus new Loyang and Pasir Ris East stations
+    - Punggol Extension (by 2032): New Elias MRT station
+    - Significantly reduces travel time across Singapore (e.g., Pasir Ris to Punggol Central from 40 min to ~15 min)
+    - Source: [URA Draft Master Plan 2025](https://www.uradraftmasterplan.gov.sg/regional-plans/east/transforming-towns-for-tomorrow/), [Pasir Ris 8 Future Development](https://pasir-ris8.developer-sale.com/future-development/)
+  - **New Housing Developments Near Pasir Ris MRT**
+    - 2.9-hectare residential plot on former bus interchange site (next to Pasir Ris MRT)
+    - Can accommodate ~580-650 condominium units with first-floor commercial use
+    - Increased building height limit to 60m (from previous 45m)
+    - Expected to start demolition of old interchange by end-2025
+    - Source: [Straits Times - Pasir Ris New Homes](https://www.straitstimes.com/singapore/housing/pasir-ris-to-get-more-homes-next-to-mrt-station-potential-new-neighbourhood), [Yahoo News SG](https://sg.news.yahoo.com/pasir-ris-more-homes-next-210000423.html)
+  - **New Neighbourhood Near Sungei Loyang (Under Study)**
+    - 18-hectare site currently forested
+    - Could include ~4,400 condominium units or ~3,000 HDB flats
+    - Will feature homes, commercial facilities, community amenities, and linear park along Sungei Loyang
+    - Environmental study underway to incorporate biodiversity into development plans
+    - Plus additional 2.3-hectare housing plot nearby at Jalan Loyang Besar
+    - Source: [URA Draft Master Plan 2025](https://www.uradraftmasterplan.gov.sg/regional-plans/east/transforming-towns-for-tomorrow/), [Straits Times - Pasir Ris New Homes](https://www.straitstimes.com/singapore/housing/pasir-ris-to-get-more-homes-next-to-mrt-station-potential-new-neighbourhood)
+  - **Housing Near Elias MRT Station (By 2032)**
+    - Two land plots: 15-hectare site (~3,700 private homes or ~2,500 HDB flats) and 3.8-hectare site (~900 private homes or ~650 flats)
+    - Plot ratio 2.1, allowing buildings up to 24 stories
+    - Future rezoning may include commercial uses for retail options
+    - Source: [Straits Times - Pasir Ris New Homes](https://www.straitstimes.com/singapore/housing/pasir-ris-to-get-more-homes-next-to-mrt-station-potential-new-neighbourhood)
+  - **Neighbourhood Center Upgrades**
+    - Four neighbourhood centers planned for upgrading: Loyang Point, Elias Mall, Pasir Ris West Plaza, and Neighbourhood 4 NC
+    - Enhanced neighbourhood parks with new playgrounds, sheltered linkways, and fitness corners
+    - Source: [Wikipedia - Pasir Ris](https://en.wikipedia.org/wiki/Pasir_Ris)
+  - **Community Hub in Town Centre (Planned)**
+    - New community hub for Pasir Ris town center pending further studies
+    - Typically includes integrated retail, social, and recreational facilities
+    - Location to be announced at later date
+    - Source: [Straits Times - Pasir Ris New Homes](https://www.straitstimes.com/singapore/housing/pasir-ris-to-get-more-homes-next-to-mrt-station-potential-new-neighbourhood)
+  - **Pasir Ris Park Enhancements**
+    - Revamped recreational facilities and play spaces
+    - Enhanced coastal park experience with upgraded existing facilities
+    - Source: [URA Draft Master Plan 2025](https://www.uradraftmasterplan.gov.sg/regional-plans/east/transforming-towns-for-tomorrow/)
+  - **Pasir Ris Wafer Fab Park Expansion**
+    - Growth in semiconductor industry creating more jobs closer to home
+    - Boost to wafer fabrication and advanced display companies
+    - Source: [Parktown Residence - Pasir Ris URA Master Plan](https://parktownresidences-official.com.sg/pasir-ris-ura-master-plan-2019/)
+  - **Central Greenway**
+    - 1km long shared cycling and walking trail connecting mall to Pasir Ris Park and beach
+    - Comprehensive cycling and walking network centered around Central Greenway
+    - Source: [URA Draft Master Plan 2025](https://www.uradraftmasterplan.gov.sg/regional-plans/east/transforming-towns-for-tomorrow/), [Little Day Out - Pasir Ris Mall](https://www.littledayout.com/pasir-ris-mall-food-shops-playground/)
+  - **Long-term Appeal and Value Enhancement**
+    - Pasir Ris undergoing comprehensive rejuvenation to provide more facilities, connectivity, and urban sanctuary with nature at doorstep
+    - New developments to serve growing population while maintaining rustic coastal charm
+    - Source: [URA Draft Master Plan 2025](https://www.uradraftmasterplan.gov.sg/regional-plans/east/transforming-towns-for-tomorrow/), [Straits Times - Pasir Ris New Homes](https://www.straitstimes.com/singapore/housing/pasir-ris-to-get-more-homes-next-to-mrt-station-potential-new-neighbourhood)
 
 ## Site Plan & Facilities
 
