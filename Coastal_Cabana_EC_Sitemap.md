@@ -213,26 +213,6 @@
   - Developer message
 - Click to enlarge and carousel functionality
 
-## News & Updates
-
-- Launch Announcements
-  - "Book now to view Coastal Cabana EC showflat and get direct developer discounts"
-  - E-application opening
-  - Preview period announcements
-- Sales Updates (with dates)
-  - Units sold on launch day
-  - "1000 applications received in first weekend"
-  - "Limited 4BR units left!" alerts
-- Construction Progress
-  - Groundbreaking milestones
-  - Final approval of plans
-  - Construction updates
-- EC Policy/Rule Changes (if applicable)
-  - Income ceiling updates
-  - Grant changes
-  - Regulatory updates
-- Keep updated to maintain site currency
-
 ## Contact Us
 
 - Contact Form / Registration Form
