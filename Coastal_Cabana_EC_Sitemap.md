@@ -54,10 +54,10 @@
     - Elias MRT Station (CRL Punggol Extension by 2032)
     - Source: [URA Draft Master Plan 2025 - East Region](https://www.uradraftmasterplan.gov.sg/regional-plans/east/transforming-towns-for-tomorrow/)
   - **Major Bus Routes** 
-    - Nearby bus stops: Pasir Ris Bus Interchange (77009), Bef Pasir Ris Stn (multiple stops), Opp Engine Test Facility (98119)
-    - Bus services: 3, 5, 6, 12, 12e, 15, 15A, 17, 21, 39, 46, 53, 53A, 58, 58B, 68, 81, 88, 89, 89A, 109, 354, 358, 358T, 359, 359T, 403, 518, 518A
-    - Bus commute time from Jalan Loyang Besar to Pasir Ris MRT: ~10-20 minutes
-    - Source: [Pasir Ris Bus Routes](https://sg.commutetour.com/terminal/pasir-ris-interchange-terminal/), [Wikipedia - List of Singapore Bus Routes](https://en.wikipedia.org/wiki/List_of_bus_routes_in_Singapore)
+    - Nearby bus stops within 5 mins walk: Opp Downtown East - Pasir Ris Cl (78091, ~2 min walk), Opp Downtown East - Pasir Ris Dr 3 (78101, ~5 min walk), Downtown East - Pasir Ris Dr 3 (78109, ~2-5 min walk), Aft Loyang Gdns - Jln Loyang Besar (78099, ~5 min walk)
+    - Bus services from nearby stops: 3, 5, 6, 12, 17, 21, 58, 89, 354, 358
+    - Bus commute time from Jalan Loyang Besar to Pasir Ris MRT: ~5-10 minutes
+    - Source: [Downtown East Bus Services](https://www.downtowneast.com.sg/getting-here), [Go-Ahead Bus Service 354](https://go-aheadsingapore.com/bus-services/service-354/), [Moovit - Jalan Loyang Besar Bus Info](https://moovitapp.com/index/en-gb/public_transportation-Jalan_Loyang_Besar_Pasir_Ris-Singapore_%E6%96%B0%E5%8A%A0%E5%9D%A1-site_137401972-1678)
   - **TPE and Expressway Access** - Easy access to Tampines Expressway (TPE) and major road networks
   - **Easy Commuting to City** - Direct connectivity via EWL, future CRL will reduce travel times significantly
 - Nearby Amenities
