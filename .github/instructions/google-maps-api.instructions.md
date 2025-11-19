@@ -1,9 +1,11 @@
 # Google Maps JavaScript API - Copilot Instructions
 
 ## Overview
+
 This instruction file provides comprehensive guidance for working with the Google Maps JavaScript API. Use this when developing features that integrate Google Maps functionality.
 
 ## Official Documentation Reference
+
 - **Main Examples Page**: https://developers.google.com/maps/documentation/javascript/examples
 - **Full Documentation**: https://developers.google.com/maps/documentation/javascript
 - **API Reference**: https://developers.google.com/maps/documentation/javascript/reference
@@ -12,6 +14,7 @@ This instruction file provides comprehensive guidance for working with the Googl
 ## API Categories and Common Use Cases
 
 ### 1. Basics
+
 - **[Simple Map](https://developers.google.com/maps/documentation/javascript/examples/map-simple)**: Initialize a basic map
 - **[Showing Pixel and Tile Coordinates](https://developers.google.com/maps/documentation/javascript/examples/map-coordinates)**: Display coordinate information
 - **[Geolocation](https://developers.google.com/maps/documentation/javascript/examples/map-geolocation)**: Access user's current location
@@ -21,6 +24,7 @@ This instruction file provides comprehensive guidance for working with the Googl
 - **[Lat/Lng Object Literal](https://developers.google.com/maps/documentation/javascript/examples/map-latlng-literal)**: Work with latitude/longitude coordinates
 
 ### 2. Events
+
 - **[Simple Click Events](https://developers.google.com/maps/documentation/javascript/examples/event-simple)**: Handle user clicks on the map
 - **[Using Closures in Event Listeners](https://developers.google.com/maps/documentation/javascript/examples/event-closure)**: Use closures in event handlers
 - **[Accessing Arguments in UI Events](https://developers.google.com/maps/documentation/javascript/examples/event-arguments)**: Access event arguments
@@ -30,6 +34,7 @@ This instruction file provides comprehensive guidance for working with the Googl
 - **[POI Click Events](https://developers.google.com/maps/documentation/javascript/examples/event-poi)**: Interact with Points of Interest
 
 ### 3. Controls and Interaction
+
 - **[Default Controls](https://developers.google.com/maps/documentation/javascript/examples/control-default)**: Zoom, pan, street view controls
 - **[Disabling the Default UI](https://developers.google.com/maps/documentation/javascript/examples/control-disableUI)**: Remove default controls
 - **[Adding Controls to the Map](https://developers.google.com/maps/documentation/javascript/examples/control-simple)**: Add standard controls
@@ -40,6 +45,7 @@ This instruction file provides comprehensive guidance for working with the Googl
 - **[Cooperative Gesture Handling](https://developers.google.com/maps/documentation/javascript/examples/interaction-cooperative)**: Better mobile scrolling and zooming
 
 ### 4. Styling and Customization
+
 - **[Styled Map - map ID](https://developers.google.com/maps/documentation/javascript/examples/map-id-style)**: Use map IDs and custom styles
 - **[Marker Collision Management](https://developers.google.com/maps/documentation/javascript/examples/marker-collision-management)**: Control marker overlap behavior
 - **[Styled Maps - Night Mode](https://developers.google.com/maps/documentation/javascript/examples/style-array)**: Dark theme styling
@@ -50,6 +56,7 @@ This instruction file provides comprehensive guidance for working with the Googl
 ### 5. Markers
 
 #### Advanced Markers (Recommended)
+
 - **[Simple Advanced Markers](https://developers.google.com/maps/documentation/javascript/examples/advanced-markers-simple)**: Basic markers with default styling
 - **[Basic Marker Customization](https://developers.google.com/maps/documentation/javascript/examples/advanced-markers-basic-style)**: Customize marker appearance
 - **[Create Markers with Graphics](https://developers.google.com/maps/documentation/javascript/examples/advanced-markers-graphics)**: Custom SVG and image markers
@@ -63,6 +70,7 @@ This instruction file provides comprehensive guidance for working with the Googl
 - **[Make Markers Draggable](https://developers.google.com/maps/documentation/javascript/examples/advanced-markers-draggable)**: Enable marker dragging
 
 #### Legacy Markers
+
 - **[Simple Markers](https://developers.google.com/maps/documentation/javascript/examples/marker-simple)**: Basic legacy markers
 - **[Marker Labels](https://developers.google.com/maps/documentation/javascript/examples/marker-labels)**: Add text labels to markers
 - **[Removing Markers](https://developers.google.com/maps/documentation/javascript/examples/marker-remove)**: Remove markers from map
@@ -73,9 +81,10 @@ This instruction file provides comprehensive guidance for working with the Googl
 - **[Marker Animations](https://developers.google.com/maps/documentation/javascript/examples/marker-animations)**: Animate legacy markers
 - **[Marker Animations With setTimeout()](https://developers.google.com/maps/documentation/javascript/examples/marker-animations-iteration)**: Delayed animations
 
-*Note: Advanced Markers are preferred for new projects*
+_Note: Advanced Markers are preferred for new projects_
 
 ### 6. Drawing on the Map
+
 - **[Info Windows](https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple)**: Display information popups
 - **[Info Windows With maxWidth](https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple-max)**: Constrain info window width
 - **[Custom Popups](https://developers.google.com/maps/documentation/javascript/examples/overlay-popup)**: Custom popup overlays
@@ -105,6 +114,7 @@ This instruction file provides comprehensive guidance for working with the Googl
 - **[Draw on a map using Terra Draw](https://developers.google.com/maps/documentation/javascript/examples/map-drawing-terradraw)**: Advanced drawing library integration
 
 ### 7. Layers
+
 - **[KML Layers](https://developers.google.com/maps/documentation/javascript/examples/layer-kml)**: Display KML/KMZ files
 - **[KML Feature Details](https://developers.google.com/maps/documentation/javascript/examples/layer-kml-features)**: Access KML feature data
 - **[Data Layer: Polygon](https://developers.google.com/maps/documentation/javascript/examples/layer-data-polygon)**: GeoJSON polygon layer
@@ -125,6 +135,7 @@ This instruction file provides comprehensive guidance for working with the Googl
 ### 8. Services
 
 #### Geocoding
+
 - **[Geocoding Service](https://developers.google.com/maps/documentation/javascript/examples/geocoding-simple)**: Address to coordinates
 - **[Reverse Geocoding](https://developers.google.com/maps/documentation/javascript/examples/geocoding-reverse)**: Coordinates to address
 - **[Reverse Geocoding by Place ID](https://developers.google.com/maps/documentation/javascript/examples/geocoding-place-id)**: Use Place IDs for accuracy
@@ -133,6 +144,7 @@ This instruction file provides comprehensive guidance for working with the Googl
 - **[Region Code Biasing (US)](https://developers.google.com/maps/documentation/javascript/examples/geocoding-region-us)**: Bias results to United States
 
 #### Directions
+
 - **[Directions Service](https://developers.google.com/maps/documentation/javascript/examples/directions-simple)**: Get directions between points
 - **[Displaying Text Directions With setPanel()](https://developers.google.com/maps/documentation/javascript/examples/directions-panel)**: Display turn-by-turn instructions
 - **[Directions Service (Complex)](https://developers.google.com/maps/documentation/javascript/examples/directions-complex)**: Advanced route options
@@ -141,13 +153,16 @@ This instruction file provides comprehensive guidance for working with the Googl
 - **[Draggable Directions](https://developers.google.com/maps/documentation/javascript/examples/directions-draggable)**: Interactive route editing
 
 #### Distance Matrix
+
 - **[Distance Matrix Service](https://developers.google.com/maps/documentation/javascript/examples/distance-matrix)**: Calculate travel distance and time between multiple origins and destinations
 
 #### Elevation
+
 - **[Elevation Service](https://developers.google.com/maps/documentation/javascript/examples/elevation-simple)**: Get elevation data for locations
 - **[Showing Elevation Along a Path](https://developers.google.com/maps/documentation/javascript/examples/elevation-paths)**: Elevation profiles for routes
 
 #### Street View
+
 - **[Street View Containers](https://developers.google.com/maps/documentation/javascript/examples/streetview-embed)**: Embed Street View
 - **[Street View Side-By-Side](https://developers.google.com/maps/documentation/javascript/examples/streetview-simple)**: Map with Street View
 - **[Overlays Within Street View](https://developers.google.com/maps/documentation/javascript/examples/streetview-overlays)**: Add markers to Street View
@@ -161,6 +176,7 @@ This instruction file provides comprehensive guidance for working with the Googl
 ### 9. Places API
 
 #### Places (New) - Recommended
+
 - **[Text Search (New)](https://developers.google.com/maps/documentation/javascript/examples/place-text-search)**: Search for places by query
 - **[Nearby Search (New)](https://developers.google.com/maps/documentation/javascript/examples/place-nearby-search)**: Find places near a location
 - **[Place Details](https://developers.google.com/maps/documentation/javascript/examples/place-class)**: Get detailed place information
@@ -172,6 +188,7 @@ This instruction file provides comprehensive guidance for working with the Googl
 - **[Place Autocomplete Address Form](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-addressform)**: Auto-fill address forms
 
 #### Places Service (Legacy)
+
 - **[Place Searches](https://developers.google.com/maps/documentation/javascript/examples/place-search)**: Search for places (legacy)
 - **[Place Details](https://developers.google.com/maps/documentation/javascript/examples/place-details)**: Get place details (legacy)
 - **[Place Photos](https://developers.google.com/maps/documentation/javascript/examples/place-photos)**: Access photos (legacy)
@@ -184,14 +201,16 @@ This instruction file provides comprehensive guidance for working with the Googl
 - **[Finding a Place ID](https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder)**: Get Place IDs
 - **[Locating a Place ID With Reverse Geocoding](https://developers.google.com/maps/documentation/javascript/examples/places-placeid-geocoder)**: Place ID from coordinates
 
-*Note: Newer Places API is preferred for new projects*
+_Note: Newer Places API is preferred for new projects_
 
 ### 10. Libraries
 
 #### Drawing Library
+
 - **[Drawing Tools](https://developers.google.com/maps/documentation/javascript/examples/drawing-tools)**: Interactive drawing tools for shapes and markers
 
 #### Geometry Library
+
 - **[Navigation Functions (Heading)](https://developers.google.com/maps/documentation/javascript/examples/geometry-headings)**: Calculate bearings between points
 - **[Encoding Methods](https://developers.google.com/maps/documentation/javascript/examples/geometry-encodings)**: Encode/decode polylines
 - **[Polygon/Point Relationship With containsLocation()](https://developers.google.com/maps/documentation/javascript/examples/poly-containsLocation)**: Check if point is within polygon
@@ -199,11 +218,13 @@ This instruction file provides comprehensive guidance for working with the Googl
 ### 11. Advanced Features
 
 #### WebGL Overlays
+
 - **[WebGL Overlays (Native API)](https://developers.google.com/maps/documentation/javascript/examples/webgl/webgl-overlay-simple)**: Low-level WebGL control
 - **[WebGL Overlays (ThreeJS wrapper)](https://developers.google.com/maps/documentation/javascript/examples/webgl/threejs-overlay-simple)**: 3D graphics with Three.js
 - **[Tilt and Rotation](https://developers.google.com/maps/documentation/javascript/examples/webgl/webgl-tilt-rotation)**: 3D perspective views
 
 #### 3D Maps (Experimental)
+
 - **[Simple Map](https://developers.google.com/maps/documentation/javascript/examples/3d/simple-map)**: Photorealistic 3D map tiles
 - **[Polygon](https://developers.google.com/maps/documentation/javascript/examples/3d/polygon)**: 3D polygons
 - **[Polyline](https://developers.google.com/maps/documentation/javascript/examples/3d/polyline)**: 3D polylines
@@ -211,21 +232,25 @@ This instruction file provides comprehensive guidance for working with the Googl
 - **[Places](https://developers.google.com/maps/documentation/javascript/examples/3d/places)**: Places integration with 3D
 
 #### Web Components
+
 - **[Add a Map Web Component](https://developers.google.com/maps/documentation/javascript/examples/web-components-map)**: `<gmp-map>` component
 - **[Add a Map with Markers using Web Components](https://developers.google.com/maps/documentation/javascript/examples/web-components-markers)**: `<gmp-advanced-marker>` component
 - **[Add a Map Web Component with Events](https://developers.google.com/maps/documentation/javascript/examples/web-components-events)**: Event handling with web components
 
 #### Boundaries and Choropleth
+
 - **[Style a boundary polygon](https://developers.google.com/maps/documentation/javascript/examples/boundaries-simple)**: Style boundary polygons
 - **[Make a choropleth map](https://developers.google.com/maps/documentation/javascript/examples/boundaries-choropleth)**: Create choropleth visualizations
 - **[Handle click events](https://developers.google.com/maps/documentation/javascript/examples/boundaries-click)**: Boundary click events
 
 #### React Google Maps Library
+
 - **[Basic Map](https://developers.google.com/maps/documentation/javascript/examples/rgm-basic-map)**: Official React integration
 - **[Place Autocomplete](https://developers.google.com/maps/documentation/javascript/examples/rgm-autocomplete)**: React autocomplete component
 - **[Extended Component Library](https://developers.google.com/maps/documentation/javascript/examples/rgm-college-picker)**: Advanced React components
 
 #### MapTypes
+
 - **[Basic Map Types](https://developers.google.com/maps/documentation/javascript/examples/maptype-base)**: Roadmap, satellite, hybrid, terrain
 - **[Overlay Map Types](https://developers.google.com/maps/documentation/javascript/examples/maptype-overlay)**: Overlay custom map types
 - **[Image Map Types](https://developers.google.com/maps/documentation/javascript/examples/maptype-image)**: Custom image tiles
@@ -234,20 +259,24 @@ This instruction file provides comprehensive guidance for working with the Googl
 - **[Rotating 45° Imagery](https://developers.google.com/maps/documentation/javascript/examples/aerial-rotation)**: Rotate aerial views
 
 #### Address Validation
+
 - **[Simple Address Validation](https://developers.google.com/maps/documentation/javascript/examples/address-validation)**: Validate and standardize addresses
 
 #### Fun
+
 - **[Map Puzzle](https://developers.google.com/maps/documentation/javascript/examples/puzzle)**: Interactive map game
 
 ## Best Practices
 
 ### API Key Management
+
 - Never hardcode API keys in client-side code
 - Use environment variables or secure configuration
 - Restrict API keys by HTTP referrer, IP address, or application
 - Enable only required APIs to minimize costs and security risks
 
 ### Performance Optimization
+
 - Use marker clustering for large numbers of markers
 - Implement lazy loading for map components
 - Use `collision: 'REQUIRED_AND_HIDES_OPTIONAL'` to manage marker density
@@ -255,24 +284,28 @@ This instruction file provides comprehensive guidance for working with the Googl
 - Cache geocoding and place details results
 
 ### Modern Approaches
+
 - Prefer **Advanced Markers** over legacy markers
 - Use **Places (New)** API instead of legacy Places Service
 - Consider **Web Components** for simpler integration
 - Use **React Google Maps Library** for React projects
 
 ### Accessibility
+
 - Provide text alternatives for map content
 - Make markers keyboard accessible
 - Use ARIA labels for custom controls
 - Ensure sufficient color contrast in styled maps
 
 ### Mobile Considerations
+
 - Enable `gestureHandling: 'cooperative'` for better mobile UX
 - Design controls for touch interfaces
 - Test on various screen sizes and devices
 - Consider performance on mobile networks
 
 ### Error Handling
+
 - Always check for API load errors
 - Handle geocoding and service failures gracefully
 - Provide fallback UI when maps fail to load
@@ -281,6 +314,7 @@ This instruction file provides comprehensive guidance for working with the Googl
 ## Common Code Patterns
 
 ### Basic Map Initialization
+
 ```javascript
 let map;
 async function initMap() {
@@ -288,31 +322,34 @@ async function initMap() {
   map = new Map(document.getElementById("map"), {
     center: { lat: 0, lng: 0 },
     zoom: 8,
-    mapId: 'YOUR_MAP_ID' // For advanced markers and styling
+    mapId: "YOUR_MAP_ID", // For advanced markers and styling
   });
 }
 ```
 
 ### Advanced Marker
+
 ```javascript
 const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
 const marker = new AdvancedMarkerElement({
   map,
   position: { lat: 0, lng: 0 },
-  title: "Marker Title"
+  title: "Marker Title",
 });
 ```
 
 ### Loading Multiple Libraries
+
 ```javascript
 const [{ Map }, { AdvancedMarkerElement }, { places }] = await Promise.all([
   google.maps.importLibrary("maps"),
   google.maps.importLibrary("marker"),
-  google.maps.importLibrary("places")
+  google.maps.importLibrary("places"),
 ]);
 ```
 
 ## Support Resources
+
 - **Stack Overflow**: http://stackoverflow.com/questions/tagged/google-maps (use `google-maps` tag)
 - **GitHub**: https://github.com/googlemaps/
 - **Discord Community**: https://discord.gg/f4hvx8Rp2q
@@ -320,6 +357,7 @@ const [{ Map }, { AdvancedMarkerElement }, { places }] = await Promise.all([
 - **FAQ**: https://developers.google.com/maps/faq
 
 ## Pricing Considerations
+
 - Review pricing at: https://mapsplatform.google.com/pricing/
 - Map loads, geocoding, directions, and places have different pricing
 - Use the Capabilities Explorer to understand costs: https://developers.google.com/maps/documentation/capabilities-explorer
@@ -327,6 +365,7 @@ const [{ Map }, { AdvancedMarkerElement }, { places }] = await Promise.all([
 - Set up billing alerts and quotas
 
 ## When to Use Each Example
+
 - **Building a store locator**: Use Places API + Markers + Info Windows
 - **Route planning app**: Use Directions Service + Draggable Directions
 - **Data visualization**: Use Data Layer, Heatmaps, or deck.gl
@@ -336,9 +375,11 @@ const [{ Map }, { AdvancedMarkerElement }, { places }] = await Promise.all([
 - **Geographic analysis**: Use Geometry Library + Polygons + containsLocation
 
 ## License Information
+
 - Code samples are licensed under Apache 2.0 License
 - Documentation content under Creative Commons Attribution 4.0 License
 - Last updated: 2025-11-14 UTC
 
 ---
-*This instruction file helps Copilot provide accurate, up-to-date guidance for Google Maps JavaScript API development.*
+
+_This instruction file helps Copilot provide accurate, up-to-date guidance for Google Maps JavaScript API development._
