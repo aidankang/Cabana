@@ -241,16 +241,19 @@
   - 4-Bedroom (4BR)
   - 5-Bedroom (5BR)
 - Floor Plan Images (per type)
-  - 3BR Deluxe layouts
-  - 3BR + Study layouts
-  - 4BR layouts
-  - 5BR layouts
+  - 2BR layouts - See [imgs/Coastal_Cabana_Floor_Plan_2BR_Type_B1.png](imgs/Coastal_Cabana_Floor_Plan_2BR_Type_B1.png)
+  - 3BR Deluxe layouts - See [imgs/Coastal_Cabana_Floor_Plan_3BR_Type_C1.png](imgs/Coastal_Cabana_Floor_Plan_3BR_Type_C1.png)
+  - 3BR + Study layouts - See [imgs/Coastal_Cabana_Floor_Plan_3BR_Type_C1.png](imgs/Coastal_Cabana_Floor_Plan_3BR_Type_C1.png)
+  - 4BR layouts - See [imgs/Coastal_Cabana_Floor_Plan_4BR_Type_D1.png](imgs/Coastal_Cabana_Floor_Plan_4BR_Type_D1.png)
+  - 5BR layouts - See [imgs/Coastal_Cabana_Floor_Plan_5BR_Type_E1.png](imgs/Coastal_Cabana_Floor_Plan_5BR_Type_E1.png)
   - Click to enlarge/download functionality
+  - Source: [Coastal Cabana EC Floor Plans](https://coastalcabanaec.com.sg/floor-plan/)
 - Unit Size Ranges
   - 3BR: ~872-915 sqft
-  - 3BR+Study: [size range]
+  - 3BR+Study: 915 sqft (85 sqm)
   - 4BR: ~990-1,216 sqft
-  - 5BR: [size range]
+  - 5BR: 1,367-1,421 sqft (127-132 sqm)
+  - Source: [Pasir Ris EC - Coastal Cabana](https://pasirris-ec.com), [PropertyGuru Listing](https://www.propertyguru.com.sg/listing/for-sale-coastal-cabana-60174912)
 - How to Read a Floor Plan (optional guide)
   - Door and window symbols
   - Structural walls
@@ -261,10 +264,11 @@
 
 - Unit Distribution Table
   - 3BR Deluxe: 187 units (~872-915 sqft)
-  - 3BR + Study: 163 units
+  - 3BR + Study: 163 units (915 sqft / 85 sqm)
   - 4BR: 376 units (~990-1,216 sqft)
-  - 5BR: 22 units
+  - 5BR: 22 units (1,367-1,421 sqft / 127-132 sqm)
   - Total: 748 units
+  - Source: [Pasir Ris EC - Coastal Cabana](https://pasirris-ec.com)
 - Starting Prices per Unit Type
   - 3-Bedroom from $1,438,000
   - 4-Bedroom from $1,623,000
