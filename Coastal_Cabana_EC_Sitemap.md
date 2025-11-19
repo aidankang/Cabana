@@ -241,13 +241,14 @@
   - 4-Bedroom (4BR)
   - 5-Bedroom (5BR)
 - Floor Plan Images (per type)
-  - 2BR layouts - See [imgs/Coastal_Cabana_Floor_Plan_2BR_Type_B1.png](imgs/Coastal_Cabana_Floor_Plan_2BR_Type_B1.png)
-  - 3BR Deluxe layouts - See [imgs/Coastal_Cabana_Floor_Plan_3BR_Type_C1.png](imgs/Coastal_Cabana_Floor_Plan_3BR_Type_C1.png)
-  - 3BR + Study layouts - See [imgs/Coastal_Cabana_Floor_Plan_3BR_Type_C1.png](imgs/Coastal_Cabana_Floor_Plan_3BR_Type_C1.png)
-  - 4BR layouts - See [imgs/Coastal_Cabana_Floor_Plan_4BR_Type_D1.png](imgs/Coastal_Cabana_Floor_Plan_4BR_Type_D1.png)
-  - 5BR layouts - See [imgs/Coastal_Cabana_Floor_Plan_5BR_Type_E1.png](imgs/Coastal_Cabana_Floor_Plan_5BR_Type_E1.png)
-  - Click to enlarge/download functionality
-  - Source: [Coastal Cabana EC Floor Plans](https://coastalcabanaec.com.sg/floor-plan/)
+  - **Note:** Detailed floor plans are not yet publicly available (as of November 2025). Developer indicates "floor plans coming soon — indicative layouts subject to developer approval"
+  - Floor plan types expected:
+    - Type B1: 2BR layouts
+    - Type C1, C2, C3: 3BR and 3BR + Study layouts
+    - Type D1, D2: 4BR and 4BR + Study layouts
+    - Type E1, E2: 5BR layouts
+  - To obtain floor plans: Contact sales team for showflat viewing or register for e-brochure when available
+  - Source: [Coastal Cabana EC Floor Plans](https://coastalcabanaec.com.sg/floor-plan/), [EC-EAPP Coastal Cabana](https://www.ec-eapp.sg/coastalcabanaec)
 - Unit Size Ranges
   - 3BR: ~872-915 sqft
   - 3BR+Study: 915 sqft (85 sqm)
