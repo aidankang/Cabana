@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coastal Cabana EC - Location & Amenities</title>
+    <link rel="stylesheet" href="location-map.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Coastal Cabana EC - Location & Amenities</h1>
+        <p class="subtitle">
+          Explore nearby amenities and connectivity options
+        </p>
+      </header>
+
+      <div class="location-explorer">
+        <!-- Category Tabs -->
+        <div class="category-tabs">
+          <button class="category-tab active" data-category="Shopping & Dining">
+            <span class="tab-icon">🛍️</span>
+            Shopping & Dining
+          </button>
+          <button class="category-tab" data-category="Parks & Recreation">
+            <span class="tab-icon">🌳</span>
+            Parks & Recreation
+          </button>
+          <button class="category-tab" data-category="Schools & Childcare">
+            <span class="tab-icon">🎓</span>
+            Schools & Childcare
+          </button>
+          <button class="category-tab" data-category="Healthcare">
+            <span class="tab-icon">🏥</span>
+            Healthcare
+          </button>
+          <button class="category-tab" data-category="Transport">
+            <span class="tab-icon">🚇</span>
+            Transport
+          </button>
+        </div>
+
+        <!-- Map Container -->
+        <div id="map"></div>
+
+        <!-- Travel Info Panel -->
+        <div id="travel-info" class="travel-info-panel">
+          <h3>Travel Information</h3>
+          <div id="travel-details">
+            <p class="info-message">
+              Click on a marker to see route and travel time from Coastal Cabana
+              EC
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Include the JavaScript file -->
+    <script src="location-map.js"></script>
+
+    <!-- Google Maps API - Replace YOUR_API_KEY with your actual API key -->
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAA-VGeXT0DTF2rQd3mAfK47JwDHkB43Y&libraries=marker&callback=initLocationExplorer"
+    ></script>
+  </body>
+</html>

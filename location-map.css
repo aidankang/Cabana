@@ -1,0 +1,333 @@
+/* Coastal Cabana EC - Location Map Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+.location-explorer {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* Category Tabs */
+.category-tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-tab {
+  padding: 14px 24px;
+  border: 2px solid #667eea;
+  background: white;
+  color: #667eea;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.1);
+}
+
+.category-tab:hover {
+  background: #f0f4ff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+}
+
+.category-tab.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: #667eea;
+  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.4);
+}
+
+.tab-icon {
+  font-size: 1.2rem;
+}
+
+/* Map */
+#map {
+  width: 100%;
+  height: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Travel Info Panel */
+.travel-info-panel {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.travel-info-panel h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+#travel-details {
+  color: #555;
+}
+
+.info-message {
+  color: #666;
+  font-style: italic;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.travel-route {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.travel-route h4 {
+  color: #667eea;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.travel-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.stat {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.stat-label {
+  display: block;
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.stat-value {
+  display: block;
+  font-size: 1.5rem;
+  color: #667eea;
+  font-weight: bold;
+}
+
+.route-note {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #e9ecef;
+}
+
+.extra-info {
+  margin-top: 8px;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Info Window Styles */
+.info-window,
+.info-hover,
+.info-detailed,
+.info-error {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.info-window h3,
+.info-detailed h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.info-hover h4,
+.info-error h4 {
+  margin: 0 0 8px 0;
+  color: #667eea;
+  font-size: 1rem;
+}
+
+.info-description {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.info-hint {
+  color: #999;
+  font-size: 0.85rem;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+.address {
+  color: #666;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.info-stats {
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 12px;
+}
+
+.info-stats div {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.info-stats strong {
+  color: #667eea;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .location-explorer {
+    padding: 20px;
+  }
+
+  .category-tabs {
+    gap: 8px;
+  }
+
+  .category-tab {
+    padding: 10px 16px;
+    font-size: 0.85rem;
+  }
+
+  .tab-icon {
+    font-size: 1rem;
+  }
+
+  #map {
+    height: 400px;
+  }
+
+  .travel-info-panel {
+    padding: 15px;
+  }
+
+  .travel-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-value {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .category-tab {
+    flex: 1 1 calc(50% - 8px);
+    justify-content: center;
+  }
+
+  #map {
+    height: 350px;
+  }
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.location-explorer {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.category-tab {
+  animation: fadeIn 0.3s ease-out backwards;
+}
+
+.category-tab:nth-child(1) { animation-delay: 0.1s; }
+.category-tab:nth-child(2) { animation-delay: 0.2s; }
+.category-tab:nth-child(3) { animation-delay: 0.3s; }
+.category-tab:nth-child(4) { animation-delay: 0.4s; }
+.category-tab:nth-child(5) { animation-delay: 0.5s; }
