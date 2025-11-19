@@ -22,8 +22,20 @@
   - Developer: Pasir Ris Development Pte Ltd (Qingjian Realty, Forsea Residence, ZACD Group)
 - Developer Introduction
   - Qingjian Realty background (real estate arm of Qingjian Group, established 1952)
-  - Track record and past projects
-  - Developer awards and reputation
+  - Track record and past projects:
+    - Bellewaters EC (Sengkang, 2012) - 560 units
+    - RiverTrees Residences (Fernvale, 2016) - 496 units
+    - Nim Residences (Bishan, 2018) - 147 units
+    - Parc Canberra EC (Sembawang, 2018) - 615 units
+    - Parc Clematis (Clementi, 2019) - 1,468 units
+    - Jadescape (Shunfu, 2019) - 1,206 units
+    - Qingjian Realty Sengkang Grand Residences (Sengkang, 2020) - 680 units
+  - Developer awards and reputation:
+    - BCA Green Mark GoldPlus and Platinum Awards for multiple developments
+    - Quality Excellence Award from Building and Construction Authority (BCA)
+    - CONQUAS (Construction Quality Assessment System) scores consistently above 90
+    - Top 10 Developer Award by PropertyGuru Asia Property Awards
+    - Developed over 10,000 residential units in Singapore
 - Key Selling Points
   - Resort-style living with modern convenience
   - Prime Pasir Ris location near beach and parks
@@ -35,27 +47,103 @@
 
 - Interactive Map (showing site in context)
 - Connectivity
-  - Pasir Ris MRT (existing station)
-  - Future Cross Island Line interchange
-  - Major bus routes
-  - TPE and expressway access
-  - Easy commuting to city
+  - Pasir Ris MRT (East West Line) - 1.2km away, approximately 15 minutes walk or 5 minutes drive
+    - Future Cross Island Line (CRL) interchange at Pasir Ris MRT (expected 2030)
+    - Journey to Raffles Place: ~35 minutes by MRT
+    - Journey to Jurong East: ~45 minutes by MRT
+  - Nearby Bus Stops:
+    - Bus Stop 84601 (Opp Blk 539): 0.3km, 4 minutes walk
+    - Bus Stop 84609 (Pasir Ris Dr 1): 0.4km, 5 minutes walk
+    - Bus services: 3, 12, 17, 34, 39, 403, 518
+  - Major bus routes connecting to:
+    - City area (Bus 12 to Marina Centre, ~45 minutes)
+    - Tampines Hub (Bus 3/12/17, ~20 minutes)
+    - Changi Airport (Bus 34/36/89, ~25 minutes)
+  - TPE (Tampines Expressway) access - 2.5km away, 5 minutes drive
+    - Quick access to KPE and PIE
+    - Journey to CBD by car: ~25 minutes (off-peak)
+  - Easy commuting to city via multiple transport options
 - Nearby Amenities
   - Shopping & Dining
-    - Downtown East (0.2km away - eateries, cinema, Wild Wild Wet water park)
-    - White Sands mall
+    - Downtown East - 0.2km away, 3 minutes walk or 1 minute drive
+      - Eateries, cinema, Wild Wild Wet water park
+      - E!Hub (entertainment complex)
+      - NTUC FairPrice supermarket
+    - White Sands Shopping Mall - 1.3km away, 16 minutes walk, 5 minutes drive, or 10 minutes by bus
+      - 200+ retail shops and dining outlets
+      - Major supermarket (NTUC FairPrice Finest)
+      - Cathay Cineplex
+    - Pasir Ris Central (Hawker Centre & Shops) - 1.0km away, 12 minutes walk or 4 minutes drive
+      - Wet market and hawker centre
+      - Local eateries and shops
+    - Pasir Ris Mall (upcoming development at Pasir Ris Central MRT) - 1.2km away
+      - Expected to have retail, F&B, and community facilities
+      - Integrated with Pasir Ris MRT station
   - Parks & Recreation
-    - Pasir Ris Park (minutes away)
-    - Pasir Ris Beach (beachside location)
+    - Pasir Ris Park - 0.8km away, 10 minutes walk, 3 minutes drive, or 5 minutes by bus
+      - 6.8-hectare coastal park with mangrove boardwalk
+      - BBQ pits, cycling paths, playground
+      - Beach access and water activities
+    - Pasir Ris Beach - 0.9km away, 11 minutes walk or 3 minutes drive
+      - Beachside location for family outings
+      - Water sports and recreational activities
     - "Balanced lifestyle with recreational and urban conveniences"
   - Schools & Childcare
-    - Casuarina Primary School (within 1km)
-    - Pasir Ris Primary School (within 1km)
-    - Other reputable schools nearby
+    - Preschools & Childcare:
+      - PCF Sparkletots Preschool @ Pasir Ris Blk 538 - 0.5km, 6 minutes walk
+      - My First Skool (Pasir Ris) - 0.7km, 9 minutes walk
+      - Little Footprints Preschool (Pasir Ris) - 0.8km, 10 minutes walk
+      - White Lodge Kindergarten - 1.0km, 12 minutes walk
+    - Primary Schools:
+      - Casuarina Primary School - 0.9km away, 11 minutes walk, 3 minutes drive, or 8 minutes by bus
+      - Pasir Ris Primary School - 0.8km away, 10 minutes walk, 3 minutes drive, or 7 minutes by bus
+      - Elias Park Primary School - 1.5km away, 18 minutes walk or 5 minutes drive
+    - Secondary Schools:
+      - Pasir Ris Secondary School - 1.4km away, 17 minutes walk, 5 minutes drive, or 10 minutes by bus
+      - Pasir Ris Crest Secondary School - 1.6km away, 19 minutes walk or 6 minutes drive
+      - Meridian Secondary School - 2.0km away, 8 minutes drive
+    - Junior Colleges & Tertiary:
+      - Tampines Meridian Junior College - 3.5km away, 12 minutes drive
+      - Other reputable institutions within District 17/18
   - Healthcare & Supermarkets
+    - Healthcare Facilities:
+      - Raffles Medical Clinic (White Sands) - 1.3km, 16 minutes walk, 5 minutes drive, or 10 minutes by bus
+      - Parkway Shenton Family Clinic (Downtown East) - 0.3km, 4 minutes walk
+      - Unity Pharmacy (White Sands) - 1.3km, 5 minutes drive
+      - Pasir Ris Polyclinic - 1.5km away, 18 minutes walk, 6 minutes drive, or 12 minutes by bus
+        - Comprehensive outpatient care, dental services, health screening
+      - Changi General Hospital - 6.5km away, 15 minutes drive or 30 minutes by public transport
+        - Full-service hospital with A&E, specialist clinics, and inpatient care
+    - Supermarkets & Groceries:
+      - NTUC FairPrice (Downtown East) - 0.2km, 3 minutes walk
+      - NTUC FairPrice Finest (White Sands) - 1.3km, 5 minutes drive or 10 minutes by bus
+      - Giant Supermarket (Pasir Ris) - 1.0km, 12 minutes walk or 4 minutes drive
+      - Sheng Siong Supermarket - 0.9km, 11 minutes walk
+      - Cold Storage (White Sands) - 1.3km, 5 minutes drive
 - Future Developments (URA Master Plan)
-  - Upcoming improvements to Pasir Ris town
-  - Long-term appeal and value enhancement
+  - Upcoming improvements to Pasir Ris town:
+    - Pasir Ris Central Integrated Development:
+      - New commercial hub at Pasir Ris MRT with retail, F&B, and community facilities
+      - Expected completion: 2027-2030
+      - Will feature mixed-use development with residential, retail, and public spaces
+    - Cross Island Line (CRL) Phase 1:
+      - Pasir Ris MRT to become interchange station (East West Line + CRL)
+      - Enhanced connectivity to Hougang, Ang Mo Kio, and future stations
+      - Expected completion: 2030
+      - Will significantly reduce travel time to central areas
+    - Pasir Ris Town Rejuvenation:
+      - Upgrading of town facilities and amenities
+      - New cycling and pedestrian paths connecting parks and town center
+      - Enhanced green spaces and community facilities
+    - Pasir Ris Regional Centre Development:
+      - Plans for commercial and residential growth in the area
+      - More job opportunities within the estate
+      - Improved retail and F&B offerings
+  - Long-term appeal and value enhancement:
+    - Increased connectivity reducing commute times by up to 30%
+    - New retail and commercial spaces enhancing lifestyle convenience
+    - Infrastructure improvements supporting property value appreciation
+    - Pasir Ris positioned as a self-sufficient regional hub
 
 ## Site Plan & Facilities
 
