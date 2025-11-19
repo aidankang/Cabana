@@ -54,10 +54,10 @@
     - Elias MRT Station (CRL Punggol Extension by 2032)
     - Source: [URA Draft Master Plan 2025 - East Region](https://www.uradraftmasterplan.gov.sg/regional-plans/east/transforming-towns-for-tomorrow/)
   - **Major Bus Routes** 
-    - Nearby bus stops: Pasir Ris Bus Interchange (77009), Bef Pasir Ris Stn (multiple stops), Opp Engine Test Facility (98119)
-    - Bus services: 3, 5, 6, 12, 12e, 15, 15A, 17, 21, 39, 46, 53, 53A, 58, 58B, 68, 81, 88, 89, 89A, 109, 354, 358, 358T, 359, 359T, 403, 518, 518A
-    - Bus commute time from Jalan Loyang Besar to Pasir Ris MRT: ~10-20 minutes
-    - Source: [Pasir Ris Bus Routes](https://sg.commutetour.com/terminal/pasir-ris-interchange-terminal/), [Wikipedia - List of Singapore Bus Routes](https://en.wikipedia.org/wiki/List_of_bus_routes_in_Singapore)
+    - Nearby bus stops within 5 mins walk: Opp Downtown East - Pasir Ris Cl (78091, ~2 min walk), Opp Downtown East - Pasir Ris Dr 3 (78101, ~5 min walk), Downtown East - Pasir Ris Dr 3 (78109, ~2-5 min walk), Aft Loyang Gdns - Jln Loyang Besar (78099, ~5 min walk)
+    - Bus services from nearby stops: 3, 5, 6, 12, 17, 21, 58, 89, 354, 358
+    - Bus commute time from Jalan Loyang Besar to Pasir Ris MRT: ~5-10 minutes
+    - Source: [Downtown East Bus Services](https://www.downtowneast.com.sg/getting-here), [Go-Ahead Bus Service 354](https://go-aheadsingapore.com/bus-services/service-354/), [Moovit - Jalan Loyang Besar Bus Info](https://moovitapp.com/index/en-gb/public_transportation-Jalan_Loyang_Besar_Pasir_Ris-Singapore_%E6%96%B0%E5%8A%A0%E5%9D%A1-site_137401972-1678)
   - **TPE and Expressway Access** - Easy access to Tampines Expressway (TPE) and major road networks
   - **Easy Commuting to City** - Direct connectivity via EWL, future CRL will reduce travel times significantly
 - Nearby Amenities
@@ -241,16 +241,56 @@
   - 4-Bedroom (4BR)
   - 5-Bedroom (5BR)
 - Floor Plan Images (per type)
-  - 3BR Deluxe layouts
-  - 3BR + Study layouts
-  - 4BR layouts
-  - 5BR layouts
-  - Click to enlarge/download functionality
+  - **3BR Deluxe**
+    - Type C1a: 81 sqm (872 sq ft) - [View Floor Plan](imgs/Coastal_Cabana_Type_C1a_3BR_Deluxe_872sqft.jpeg)
+      - Sizeable living and dining
+      - Sizeable bedrooms
+      - Stand alone kitchen
+      - Natural ventilated kitchen & bathrooms
+      - Hackable wall between rooms (non shaded wall)
+  - **4BR Classic**
+    - Type D1: 92 sqm (990 sq ft) - [View Floor Plan](imgs/Coastal_Cabana_Type_D1_4BR_Classic_990sqft.jpeg)
+      - Sizeable living and dining
+      - Sizeable bedrooms
+      - Stand alone kitchen
+      - Natural ventilated kitchen, bathrooms & WC
+      - Hackable wall between rooms (non shaded wall)
+      - Small bedroom 4 (single bed)
+      - WC included
+  - **4BR Premium + Study**
+    - Type D4: 108 sqm (1,163 sq ft) - [View Floor Plan](imgs/Coastal_Cabana_Type_D4_4BR_Premium_Study_1163sqft.jpeg)
+      - Sizeable living and dining
+      - Sizeable bedrooms
+      - Dry kitchen
+      - Stand alone kitchen
+      - Natural ventilated kitchen, bathrooms & WC
+      - Hackable wall between rooms (non shaded wall)
+      - WC included
+      - Study room
+      - Walk in wardrobe at master bedroom
+  - **5BR Premium**
+    - Type E1: 127 sqm (1,367 sq ft) - [View Floor Plan](imgs/Coastal_Cabana_Type_E1_5BR_Premium_1367sqft.jpeg)
+      - Wide living and dining
+      - Wide balcony
+      - Sizeable bedrooms
+      - Dry kitchen
+      - Stand alone kitchen
+      - Natural ventilated kitchen, bathrooms, WC & utility
+      - Hackable wall between rooms (non shaded wall)
+      - WC & Utility included
+      - Bathroom 3 included
+      - Walk in wardrobe at master bedroom
+  - Additional floor plan variations available for viewing in imgs folder
+  - Source: [Coastal Cabana Official Sales](https://coastalcabana.officialsales.com.sg/site-floor-plans/)
 - Unit Size Ranges
-  - 3BR: ~872-915 sqft
-  - 3BR+Study: [size range]
-  - 4BR: ~990-1,216 sqft
-  - 5BR: [size range]
+  - 3BR Deluxe: 872 sqft (81 sqm) - Type C1a
+  - 3BR Premium: 915 sqft (85 sqm)
+  - 3BR+Study: 915 sqft (85 sqm)
+  - 4BR Classic: 990 sqft (92 sqm) - Type D1
+  - 4BR Premium: ~1,012-1,055 sqft
+  - 4BR Premium + Study: 1,163 sqft (108 sqm) - Type D4, also 1,216 sqft variants available
+  - 5BR Premium: 1,367 sqft (127 sqm) - Type E1, up to 1,421 sqft (132 sqm)
+  - Source: [Pasir Ris EC - Coastal Cabana](https://pasirris-ec.com), [PropertyGuru Listing](https://www.propertyguru.com.sg/listing/for-sale-coastal-cabana-60174912), [Coastal Cabana Official Sales](https://coastalcabana.officialsales.com.sg/site-floor-plans/)
 - How to Read a Floor Plan (optional guide)
   - Door and window symbols
   - Structural walls
@@ -261,10 +301,11 @@
 
 - Unit Distribution Table
   - 3BR Deluxe: 187 units (~872-915 sqft)
-  - 3BR + Study: 163 units
+  - 3BR + Study: 163 units (915 sqft / 85 sqm)
   - 4BR: 376 units (~990-1,216 sqft)
-  - 5BR: 22 units
+  - 5BR: 22 units (1,367-1,421 sqft / 127-132 sqm)
   - Total: 748 units
+  - Source: [Pasir Ris EC - Coastal Cabana](https://pasirris-ec.com)
 - Starting Prices per Unit Type
   - 3-Bedroom from $1,438,000
   - 4-Bedroom from $1,623,000
