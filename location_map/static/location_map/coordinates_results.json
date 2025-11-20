@@ -8,70 +8,11 @@
     "place_id": "ChIJW0wmcAA92jERCiaPULfMw24"
   },
   "locations": {
-    "Shopping & Dining": [
-      {
-        "name": "Downtown East Pasir Ris",
-        "title": "Downtown East",
-        "lat": 1.3775631,
-        "lng": 103.954703,
-        "address": "1 Pasir Ris Cl, Singapore 519599",
-        "place_id": "ChIJHeeu2LU92jER7QLDVe4tKf0"
-      },
-      {
-        "name": "White Sands Shopping Centre Pasir Ris",
-        "title": "White Sands",
-        "lat": 1.3724166,
-        "lng": 103.94965839999999,
-        "address": "1 Pasir Ris Central St 3, Singapore 518457",
-        "place_id": "ChIJQyaM-6892jER4DhQn_hqaYE"
-      },
-      {
-        "name": "Pasir Ris Mall",
-        "title": "Pasir Ris Mall",
-        "lat": 1.3727816,
-        "lng": 103.9482223,
-        "address": "7 Pasir Ris Central, Singapore 519612",
-        "place_id": "ChIJ7QR-fQA92jERw2mUoa6LoYY"
-      },
-      {
-        "name": "Loyang Point Singapore",
-        "title": "Loyang Point",
-        "lat": 1.3669795,
-        "lng": 103.96455379999999,
-        "address": "258-259 Pasir Ris Street 21, Singapore 510259",
-        "place_id": "ChIJxzqK6cg92jERB-QagzzIEzs"
-      },
-      {
-        "name": "Elias Mall Singapore",
-        "title": "Elias mall",
-        "lat": 1.3600257,
-        "lng": 103.8339635,
-        "address": "28 Sin Ming Ln, Singapore 573972",
-        "place_id": "ChIJz9K-MgAX2jERvlEkFsnU8S4"
-      }
-    ],
-    "Parks & Recreation": [
-      {
-        "name": "Pasir Ris Park",
-        "title": "Pasir Ris Town Park",
-        "lat": 1.3720588,
-        "lng": 103.95268,
-        "address": "Along, Pasir Ris Central, Opposite MRT Station, Singapore 519639",
-        "place_id": "ChIJNTlhccg92jERBftThrByZK0"
-      },
-      {
-        "name": "Pasir Ris Sports Centre",
-        "title": "ActiveSG Pasir Ris Sport Centre",
-        "lat": 1.3740237,
-        "lng": 103.95149459999999,
-        "address": "120 Pasir Ris Central, Singapore 519640",
-        "place_id": "ChIJ63CtJbA92jERHCySfnqil9c"
-      }
-    ],
-    "Schools & Childcare": [
+    "Education": [
       {
         "name": "Casuarina Primary School Singapore",
         "title": "Casuarina Primary School",
+        "subcategory": "Primary School",
         "lat": 1.3725006,
         "lng": 103.9570205,
         "address": "30 Pasir Ris Street 41, Singapore 518935",
@@ -80,6 +21,7 @@
       {
         "name": "Pasir Ris Primary School",
         "title": "Pasir Ris Primary School",
+        "subcategory": "Primary School",
         "lat": 1.372403,
         "lng": 103.9629666,
         "address": "5 Pasir Ris Street 21, Singapore 518968",
@@ -88,6 +30,7 @@
       {
         "name": "White Sands Primary School Singapore",
         "title": "White Sands Primary School",
+        "subcategory": "Primary School",
         "lat": 1.3654492999999999,
         "lng": 103.9610714,
         "address": "2 Pasir Ris Street 11, Singapore 519075",
@@ -96,6 +39,7 @@
       {
         "name": "Hai Sing Catholic School Singapore",
         "title": "Hai Sing Catholic School",
+        "subcategory": "Secondary School",
         "lat": 1.3746261,
         "lng": 103.9547645,
         "address": "9 Pasir Ris Drive 6, Singapore 519421",
@@ -104,6 +48,7 @@
       {
         "name": "Pasir Ris Crest Secondary School",
         "title": "Pasir Ris Crest Secondary School",
+        "subcategory": "Secondary School",
         "lat": 1.3728817,
         "lng": 103.95941599999999,
         "address": "11 Pasir Ris Street 41, Singapore 518934",
@@ -112,6 +57,7 @@
       {
         "name": "MindChamps PreSchool Pasir Ris Mall",
         "title": "MindChamps PreSchool @ Pasir Ris",
+        "subcategory": "PreSchool",
         "lat": 1.3731137999999998,
         "lng": 103.9486821,
         "address": "7 Pasir Ris Central, #01-23, Mall 519612",
@@ -120,32 +66,63 @@
       {
         "name": "Odyssey The Global Preschool Loyang",
         "title": "Odyssey The Global Preschool – Loyang",
+        "subcategory": "PreSchool",
         "lat": 1.3797783,
         "lng": 103.9623099,
         "address": "191 Jln. Loyang Besar, Singapore 506996",
         "place_id": "ChIJ9x5WHEs82jER1kODOrzUieI"
       }
     ],
-    "Healthcare": [
+    "Shopping & Dining": [
       {
-        "name": "Pasir Ris Polyclinic",
-        "title": "SingHealth Polyclinics - Pasir Ris",
-        "lat": 1.3735191,
-        "lng": 103.9480152,
-        "address": "6 Pasir Ris Dr 8, #1M-01, Singapore 519466",
-        "place_id": "ChIJGzOCoaw92jERwMKTdjm8d3U"
+        "name": "Downtown East Pasir Ris",
+        "title": "Downtown East",
+        "subcategory": "Shopping Malls",
+        "lat": 1.3775631,
+        "lng": 103.954703,
+        "address": "1 Pasir Ris Cl, Singapore 519599",
+        "place_id": "ChIJHeeu2LU92jER7QLDVe4tKf0"
       },
       {
-        "name": "Central 24-HR Clinic Pasir Ris",
-        "title": "Central 24-Hr Clinic (Pasir Ris) - CHAS | GP Clinic | 24 小时 诊所",
-        "lat": 1.3703975,
-        "lng": 103.9578301,
-        "address": "446 Pasir Ris Drive 6, #01-122, Singapore 510446",
-        "place_id": "ChIJ_68zTaw92jER1Lb0MkEeiFg"
+        "name": "White Sands Shopping Centre Pasir Ris",
+        "title": "White Sands",
+        "subcategory": "Shopping Malls",
+        "lat": 1.3724166,
+        "lng": 103.94965839999999,
+        "address": "1 Pasir Ris Central St 3, Singapore 518457",
+        "place_id": "ChIJQyaM-6892jER4DhQn_hqaYE"
+      },
+      {
+        "name": "Pasir Ris Mall",
+        "title": "Pasir Ris Mall",
+        "subcategory": "Shopping Malls",
+        "lat": 1.3727816,
+        "lng": 103.9482223,
+        "address": "7 Pasir Ris Central, Singapore 519612",
+        "place_id": "ChIJ7QR-fQA92jERw2mUoa6LoYY"
+      },
+      {
+        "name": "Loyang Point Singapore",
+        "title": "Loyang Point",
+        "subcategory": "Shopping Malls",
+        "lat": 1.3669795,
+        "lng": 103.96455379999999,
+        "address": "258-259 Pasir Ris Street 21, Singapore 510259",
+        "place_id": "ChIJxzqK6cg92jERB-QagzzIEzs"
+      },
+      {
+        "name": "Elias Mall Singapore",
+        "title": "Elias mall",
+        "subcategory": "Shopping Malls",
+        "lat": 1.3600257,
+        "lng": 103.8339635,
+        "address": "28 Sin Ming Ln, Singapore 573972",
+        "place_id": "ChIJz9K-MgAX2jERvlEkFsnU8S4"
       },
       {
         "name": "Cold Storage Pasir Ris Mall",
         "title": "Cold Storage @ Pasir Ris Mall",
+        "subcategory": "Supermarkets",
         "lat": 1.3734587,
         "lng": 103.9484921,
         "address": "7 Pasir Ris Central, B1-11, Singapore 519612",
@@ -154,16 +131,58 @@
       {
         "name": "NTUC FairPrice Downtown East",
         "title": "FairPrice Downtown East",
+        "subcategory": "Supermarkets",
         "lat": 1.3759318,
         "lng": 103.9554591,
         "address": "1 Pasir Ris Cl, #02-127, Singapore 519599",
         "place_id": "ChIJgWQB27M92jERb7jMXRnaWdE"
       }
     ],
+    "Parks & Recreation": [
+      {
+        "name": "Pasir Ris Park",
+        "title": "Pasir Ris Town Park",
+        "subcategory": "Parks",
+        "lat": 1.3720588,
+        "lng": 103.95268,
+        "address": "Along, Pasir Ris Central, Opposite MRT Station, Singapore 519639",
+        "place_id": "ChIJNTlhccg92jERBftThrByZK0"
+      },
+      {
+        "name": "Pasir Ris Sports Centre",
+        "title": "ActiveSG Pasir Ris Sport Centre",
+        "subcategory": "Sports Facilities",
+        "lat": 1.3740237,
+        "lng": 103.95149459999999,
+        "address": "120 Pasir Ris Central, Singapore 519640",
+        "place_id": "ChIJ63CtJbA92jERHCySfnqil9c"
+      }
+    ],
+    "Healthcare": [
+      {
+        "name": "Pasir Ris Polyclinic",
+        "title": "SingHealth Polyclinics - Pasir Ris",
+        "subcategory": "Polyclinics",
+        "lat": 1.3735191,
+        "lng": 103.9480152,
+        "address": "6 Pasir Ris Dr 8, #1M-01, Singapore 519466",
+        "place_id": "ChIJGzOCoaw92jERwMKTdjm8d3U"
+      },
+      {
+        "name": "Central 24-HR Clinic Pasir Ris",
+        "title": "Central 24-Hr Clinic (Pasir Ris) - CHAS | GP Clinic | 24 小时 诊所",
+        "subcategory": "24-Hour Clinics",
+        "lat": 1.3703975,
+        "lng": 103.9578301,
+        "address": "446 Pasir Ris Drive 6, #01-122, Singapore 510446",
+        "place_id": "ChIJ_68zTaw92jER1Lb0MkEeiFg"
+      }
+    ],
     "Transport": [
       {
         "name": "Pasir Ris MRT Station",
         "title": "Pasir Ris",
+        "subcategory": "MRT Stations",
         "lat": 1.3732126999999998,
         "lng": 103.949277,
         "address": "Pasir Ris Dr 1, Singapore",
@@ -172,6 +191,7 @@
       {
         "name": "Pasir Ris Bus Interchange",
         "title": "Pasir Ris Bus Interchange",
+        "subcategory": "Bus Interchanges",
         "lat": 1.3735167,
         "lng": 103.95015079999999,
         "address": "501 Pasir Ris Dr 3, Singapore 519490",

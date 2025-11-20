@@ -1,209 +1,9 @@
 // Coastal Cabana EC Location Explorer
 // Interactive map showing nearby amenities with routes and travel times
 
-// Condominium location (Accurate coordinates from Google Maps)
-const CONDO_LOCATION = {
-  lat: 1.3764688,
-  lng: 103.9564391,
-  name: "Coastal Cabana EC",
-};
-
-// Location data organized by category
-const LOCATIONS = {
-  "Shopping & Dining": [
-    {
-      name: "Downtown East",
-      address: "1 Pasir Ris Close, Singapore 519599",
-      lat: 1.3775631,
-      lng: 103.954703,
-      description:
-        "0.2km away (~3 min walk) - eateries, cinema, Wild Wild Wet water park, E!Hub entertainment complex",
-      distance: "0.2km",
-      walkTime: "3 min",
-    },
-    {
-      name: "White Sands Mall",
-      address: "1 Pasir Ris Central St 3, Singapore 518457",
-      lat: 1.3724166,
-      lng: 103.94965839999999,
-      description: "Major shopping center with supermarkets, retail, dining",
-      distance: "1.7km",
-      driveTime: "9 min",
-    },
-    {
-      name: "Pasir Ris Mall",
-      address: "7 Pasir Ris Central, Singapore 519612",
-      lat: 1.3727816,
-      lng: 103.9482223,
-      description:
-        "Opened June 2024, 150+ shops across 4 floors. Retail: Uniqlo, Decathlon, Challenger, Cold Storage, Guardian. Dining: McDonald's, Jollibee, Guzman Y Gomez, Genki Sushi",
-      distance: "1.7km",
-      driveTime: "9 min",
-    },
-    {
-      name: "Loyang Point",
-      address: "258 Pasir Ris Street 21, Singapore 510258",
-      lat: 1.3669795,
-      lng: 103.96455379999999,
-      description: "Shopping center along Pasir Ris Drive 3",
-      distance: "~1km",
-    },
-    {
-      name: "Elias Mall",
-      address: "625 Elias Road, Singapore 510625",
-      lat: 1.3600257,
-      lng: 103.8339635,
-      description:
-        "Neighborhood shopping center - One of four neighborhood centers slated for upgrading under URA Master Plan",
-      distance: "~2km",
-    },
-  ],
-  "Parks & Recreation": [
-    {
-      name: "Pasir Ris Park",
-      address: "Pasir Ris Park, Singapore",
-      lat: 1.3720588,
-      lng: 103.95268,
-      description:
-        "Coastal park with beach access, park connectors, playgrounds, eateries, fishing pond. Revamped recreational facilities and enhanced coastal park experience planned",
-      distance: "1.5km",
-      walkTime: "15-20 min",
-    },
-    {
-      name: "Pasir Ris Beach",
-      address: "Pasir Ris Beach, Singapore",
-      lat: 1.3811,
-      lng: 103.95,
-      description: "Beachside location with easy beach access",
-      distance: "~1.5km",
-    },
-    {
-      name: "Pasir Ris Sports Centre",
-      address: "120 Pasir Ris Central, Singapore 519640",
-      lat: 1.3740237,
-      lng: 103.95149459999999,
-      description:
-        "Swimming pools, sports hall for badminton, street soccer court, gym",
-      distance: "~1.7km",
-    },
-  ],
-  "Schools & Childcare": [
-    {
-      name: "Casuarina Primary School",
-      address: "30 Pasir Ris Street 41, Singapore 518983",
-      lat: 1.3725006,
-      lng: 103.9570205,
-      description: "Primary school within 1km",
-      distance: "within 1km",
-    },
-    {
-      name: "Pasir Ris Primary School",
-      address: "5 Pasir Ris Street 21, Singapore 518979",
-      lat: 1.372403,
-      lng: 103.9629666,
-      description: "Primary school within 1km",
-      distance: "within 1km",
-    },
-    {
-      name: "White Sands Primary School",
-      address: "2 Pasir Ris Street 11, Singapore 518450",
-      lat: 1.3654492999999999,
-      lng: 103.9610714,
-      description: "Primary school in Pasir Ris",
-      distance: "~1.5km",
-    },
-    {
-      name: "Hai Sing Catholic School",
-      address: "9 Pasir Ris Drive 6, Singapore 519388",
-      lat: 1.3746261,
-      lng: 103.9547645,
-      description: "Secondary school approximately 0.9km away",
-      distance: "0.9km",
-    },
-    {
-      name: "Pasir Ris Crest Secondary School",
-      address: "11 Pasir Ris Street 41, Singapore 518980",
-      lat: 1.3728817,
-      lng: 103.95941599999999,
-      description: "Secondary school in Pasir Ris",
-      distance: "~1km",
-    },
-    {
-      name: "MindChamps PreSchool @ Pasir Ris Mall",
-      address: "7 Pasir Ris Central #01-23, Singapore 519612",
-      lat: 1.3731137999999998,
-      lng: 103.9486821,
-      description: "Preschool at Pasir Ris Mall",
-      distance: "~1.7km",
-    },
-    {
-      name: "Odyssey The Global Preschool",
-      address: "191 Jln Loyang Besar, Singapore 509326",
-      lat: 1.3797783,
-      lng: 103.9623099,
-      description: "Preschool near Jalan Loyang Besar",
-      distance: "~0.5km",
-    },
-  ],
-  Healthcare: [
-    {
-      name: "Pasir Ris Polyclinic",
-      address: "6 Pasir Ris Drive 8 #1M-01, Singapore 519457",
-      lat: 1.3735191,
-      lng: 103.9480152,
-      description:
-        "Newly redeveloped facility at Pasir Ris Mall (opened October 2024). 4 times bigger than previous facility. Services: General practice, dental, physiotherapy, chronic disease management",
-      distance: "1.7km",
-    },
-    {
-      name: "Central 24-HR Clinic Pasir Ris",
-      address: "446 Pasir Ris Drive 6 #01-122, Singapore 510446",
-      lat: 1.3703975,
-      lng: 103.9578301,
-      description: "24-hour medical clinic in Pasir Ris",
-      distance: "~1.2km",
-    },
-    {
-      name: "Cold Storage @ Pasir Ris Mall",
-      address: "Pasir Ris Mall #B1-11, Singapore 519612",
-      lat: 1.3734587,
-      lng: 103.9484921,
-      description: "Supermarket at Pasir Ris Mall",
-      distance: "1.7km",
-    },
-    {
-      name: "NTUC FairPrice @ E-Hub Downtown East",
-      address: "1 Pasir Ris Close, E!Hub, Singapore 519599",
-      lat: 1.3759318,
-      lng: 103.9554591,
-      description: "Supermarket at Downtown East",
-      distance: "0.2km",
-      walkTime: "3 min",
-    },
-  ],
-  Transport: [
-    {
-      name: "Pasir Ris MRT Station (EW1)",
-      address: "1 Pasir Ris Central St 3, Singapore 518457",
-      lat: 1.3732126999999998,
-      lng: 103.949277,
-      description:
-        "Approximately 1.7km from site (~20 min walk, ~9 min drive, ~10-15 min by bus). Direct East-West Line access to city. Future CRL interchange by 2030",
-      distance: "1.7km",
-      busTime: "10-15 min",
-      driveTime: "9 min",
-    },
-    {
-      name: "Pasir Ris Bus Interchange",
-      address: "Pasir Ris Bus Interchange, Singapore",
-      lat: 1.3735167,
-      lng: 103.95015079999999,
-      description:
-        "Major bus interchange with multiple bus services: 3, 5, 6, 12, 15, 17, 21, 39, 46, 53, 58, 68, 81, 88, 89, 109, and more",
-      distance: "1.7km",
-    },
-  ],
-};
+// Global variables to hold location data (will be populated from JSON)
+let CONDO_LOCATION = null;
+let LOCATIONS = {};
 
 // Main application class
 class LocationExplorer {
@@ -501,8 +301,76 @@ class LocationExplorer {
   }
 }
 
+// Load location data from JSON file
+async function loadLocationData() {
+  try {
+    const response = await fetch(
+      "/static/location_map/coordinates_results.json"
+    );
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error loading location data:", error);
+    return null;
+  }
+}
+
+// Transform JSON data to match expected format
+function transformLocationData(jsonData) {
+  // Set condo location
+  CONDO_LOCATION = {
+    lat: jsonData.condo.lat,
+    lng: jsonData.condo.lng,
+    name: jsonData.condo.title || jsonData.condo.name,
+  };
+
+  // Transform locations by category
+  // Map JSON categories to display categories
+  const categoryMap = {
+    Education: "Schools & Childcare",
+    "Shopping & Dining": "Shopping & Dining",
+    "Parks & Recreation": "Parks & Recreation",
+    Healthcare: "Healthcare",
+    Transport: "Transport",
+  };
+
+  LOCATIONS = {};
+
+  for (const [jsonCategory, displayCategory] of Object.entries(categoryMap)) {
+    if (jsonData.locations[jsonCategory]) {
+      LOCATIONS[displayCategory] = jsonData.locations[jsonCategory].map(
+        (loc) => ({
+          name: loc.title || loc.name,
+          address: loc.address,
+          lat: loc.lat,
+          lng: loc.lng,
+          description: loc.subcategory || "",
+        })
+      );
+    }
+  }
+
+  console.log("Transformed location data:", { CONDO_LOCATION, LOCATIONS });
+}
+
 // Initialize when Google Maps is loaded
-function initLocationExplorer() {
+async function initLocationExplorer() {
+  // Load JSON data
+  const jsonData = await loadLocationData();
+
+  if (jsonData) {
+    console.log("Loaded location data from JSON");
+    transformLocationData(jsonData);
+  } else {
+    console.error(
+      "Failed to load location data - map may not function correctly"
+    );
+    return;
+  }
+
   const explorer = new LocationExplorer();
   explorer.init();
 }
