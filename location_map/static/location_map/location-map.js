@@ -26,6 +26,10 @@ class LocationExplorer {
       // Load geometry library for polyline encoding/decoding
       this.geometryLibrary = await google.maps.importLibrary("geometry");
 
+      // Load marker library for AdvancedMarkerElement
+      const markerLibrary = await google.maps.importLibrary("marker");
+      this.AdvancedMarkerElement = markerLibrary.AdvancedMarkerElement;
+
       // Initialize services
       this.directionsService = new google.maps.DirectionsService();
       this.directionsRenderer = new google.maps.DirectionsRenderer({
@@ -57,60 +61,30 @@ class LocationExplorer {
   async initMap() {
     const { Map } = await google.maps.importLibrary("maps");
 
-    // Custom map style
-    const mapStyles = [
-      {
-        featureType: "road",
-        elementType: "geometry",
-        stylers: [{ visibility: "on" }, { weight: 0 }],
-      },
-      {
-        featureType: "road",
-        elementType: "labels.text.fill",
-        stylers: [{ visibility: "on" }, { opacity: 0.8 }, { color: "#808080" }],
-      },
-      {
-        featureType: "road",
-        elementType: "labels.text.stroke",
-        stylers: [{ visibility: "off" }, { color: "#ffffff" }],
-      },
-      {
-        featureType: "poi",
-        elementType: "geometry",
-        stylers: [{ visibility: "off" }],
-      },
-      {
-        featureType: "poi",
-        elementType: "labels",
-        stylers: [{ visibility: "off" }],
-      },
-    ];
-
     this.map = new Map(document.getElementById("map"), {
       center: CONDO_LOCATION,
       zoom: 14,
-      styles: mapStyles,
-      mapTypeControl: true,
-      streetViewControl: true,
-      fullscreenControl: true,
-      zoomControl: true,
-      gestureHandling: "cooperative",
+      mapId: "e57770696a6bd1c9cae8181e", // Required for Advanced Markers (styles configured in Cloud Console)
+      mapTypeControl: false,
+      streetViewControl: false,
+      fullscreenControl: false,
+      zoomControl: false,
     });
   }
 
   createCondoMarker() {
-    const marker = new google.maps.Marker({
+    // Create custom HTML for condo marker
+    const condoElement = document.createElement("div");
+    condoElement.className = "condo-marker";
+    condoElement.innerHTML = `
+      <div class="marker-pin condo-pin"></div>
+    `;
+
+    const marker = new this.AdvancedMarkerElement({
       position: CONDO_LOCATION,
       map: this.map,
       title: CONDO_LOCATION.name,
-      icon: {
-        path: google.maps.SymbolPath.CIRCLE,
-        scale: 12,
-        fillColor: "#FF5722",
-        fillOpacity: 1,
-        strokeColor: "#FFFFFF",
-        strokeWeight: 3,
-      },
+      content: condoElement,
       zIndex: 1000,
     });
 
@@ -163,23 +137,19 @@ class LocationExplorer {
   }
 
   createLocationMarker(location, number) {
-    const marker = new google.maps.Marker({
+    // Create custom HTML marker with label
+    const markerElement = document.createElement("div");
+    markerElement.className = "location-marker";
+    markerElement.innerHTML = `
+      <div class="marker-label">${location.name}</div>
+      <div class="marker-pin"></div>
+    `;
+
+    const marker = new this.AdvancedMarkerElement({
       position: { lat: location.lat, lng: location.lng },
       map: this.map,
       title: location.name,
-      label: {
-        text: number.toString(),
-        color: "#FFFFFF",
-        fontWeight: "bold",
-      },
-      icon: {
-        path: google.maps.SymbolPath.CIRCLE,
-        scale: 16,
-        fillColor: "#4285F4",
-        fillOpacity: 1,
-        strokeColor: "#FFFFFF",
-        strokeWeight: 3,
-      },
+      content: markerElement,
     });
 
     // Hover interaction
@@ -444,7 +414,9 @@ class LocationExplorer {
   }
 
   clearMarkers() {
-    this.markers.forEach((marker) => marker.setMap(null));
+    this.markers.forEach((marker) => {
+      marker.map = null; // AdvancedMarkerElement uses .map property instead of .setMap()
+    });
     this.markers = [];
   }
 
@@ -466,7 +438,7 @@ class LocationExplorer {
     const bounds = new google.maps.LatLngBounds();
     bounds.extend(CONDO_LOCATION);
     this.markers.forEach((marker) => {
-      bounds.extend(marker.getPosition());
+      bounds.extend(marker.position);
     });
     this.map.fitBounds(bounds);
 

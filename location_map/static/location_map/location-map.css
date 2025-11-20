@@ -331,3 +331,79 @@ header h1 {
 .category-tab:nth-child(3) { animation-delay: 0.3s; }
 .category-tab:nth-child(4) { animation-delay: 0.4s; }
 .category-tab:nth-child(5) { animation-delay: 0.5s; }
+
+/* Advanced Marker custom styles */
+
+/* Condo marker pin */
+.condo-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.condo-pin {
+  width: 24px;
+  height: 24px;
+  background-color: #FF5722;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Location markers with labels */
+.location-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.marker-label {
+  background-color: #FFFFFF;
+  color: #333333;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #DADCE0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+  margin-bottom: 4px;
+  position: relative;
+}
+
+/* Small triangle pointing down from label to pin */
+.marker-label::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 0);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #FFFFFF;
+}
+
+.marker-pin {
+  width: 12px;
+  height: 12px;
+  background-color: #4285F4;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover effect */
+.location-marker:hover .marker-label {
+  background-color: #F8F9FA;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.location-marker:hover .marker-pin {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+}
+
