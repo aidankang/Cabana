@@ -21,7 +21,30 @@
         "rating": 4.1,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw8lRzyzekdSYfaGneXhtGYhOpw233e7ao-H30WJz4PdqkqEB7TMvsXnlUxKW6aMs2tQj74_eKh8Vrb9qgI8k1x0ed-MGw9F4fEikU5kaVm2mTTPkzjgHGllXS0elcdFr_2itTnqw=w122-h92-k-no",
         "subcategory": "MRT Station",
-        "subcategory_reasoning": "Pasir Ris is a known MRT station in Singapore, serving as a key point for public transportation in the area."
+        "subcategory_reasoning": "Pasir Ris is a known MRT station in Singapore, serving as a key point for public transportation in the area.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XElAB\\F\\Nv@l@rAnAKJ[Xi@f@YZ?ZFBB@@PGXEFIAEASEEA",
+            "duration": "5 mins",
+            "distance": "1.2 km",
+            "duration_value": 290,
+            "distance_value": 1174
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBE\\TB@?@G~@Lr@LLJTL\\FPLLEHCH@D@I^tAT",
+            "duration": "15 mins",
+            "distance": "1.1 km",
+            "duration_value": 892,
+            "distance_value": 1071
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBE\\TB@?@G~@Lr@LLJTL\\FPLLEHCH@D@I^tAT",
+            "duration": "15 mins",
+            "distance": "1.1 km",
+            "duration_value": 892,
+            "distance_value": 1071
+          }
+        }
       },
       {
         "name": "Cross Island Line Pasir Ris",
@@ -33,7 +56,30 @@
         "rating": 4.1,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw8lRzyzekdSYfaGneXhtGYhOpw233e7ao-H30WJz4PdqkqEB7TMvsXnlUxKW6aMs2tQj74_eKh8Vrb9qgI8k1x0ed-MGw9F4fEikU5kaVm2mTTPkzjgHGllXS0elcdFr_2itTnqw=w114-h86-k-no",
         "subcategory": "MRT Station",
-        "subcategory_reasoning": "Pasir Ris is a well-known MRT station in Singapore, serving as a key point for public transportation in the area."
+        "subcategory_reasoning": "Pasir Ris is a well-known MRT station in Singapore, serving as a key point for public transportation in the area.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XElAB\\F\\Nv@l@rAnAKJ[Xi@f@YZ?ZFBB@@PGXEFIAEASEEA",
+            "duration": "5 mins",
+            "distance": "1.2 km",
+            "duration_value": 290,
+            "distance_value": 1174
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBE\\TB@?@G~@Lr@LLJTL\\FPLLEHCH@D@I^tAT",
+            "duration": "15 mins",
+            "distance": "1.1 km",
+            "duration_value": 892,
+            "distance_value": 1071
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBE\\TB@?@G~@Lr@LLJTL\\FPLLEHCH@D@I^tAT",
+            "duration": "15 mins",
+            "distance": "1.1 km",
+            "duration_value": 892,
+            "distance_value": 1071
+          }
+        }
       },
       {
         "name": "Loyang MRT Station",
@@ -45,7 +91,30 @@
         "rating": 4.7,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzVvvZspest3kbrdTxZ3RFdqcRkiNg-jh2B9t7wKUUzhPMAEBmuB9-VfU-VnYbmLyDEDBT5HqxFcF2lUegUCzYpgKfHUrXUUrgiQMhLR_0LIc6WZdpP4bOI4BetpBBOc8fd-T2liOXCbPE=w152-h86-k-no",
         "subcategory": "MRT Station",
-        "subcategory_reasoning": "The location is specifically identified as an MRT Station, which is a type of public transportation facility in Singapore, making 'MRT Station' the most accurate subcategory."
+        "subcategory_reasoning": "The location is specifically identified as an MRT Station, which is a type of public transportation facility in Singapore, making 'MRT Station' the most accurate subcategory.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBATQR[ImG?wC@y@DqAp@oGZuCd@qEVoA\\w@f@y@p@i@t@WvA_@\\Ex@CdMZb@?pAClBm@|FuCh@a@JQN]DOs@eB{@gBaD_GYc@WWkAsAgDeDo@q@KKkAkAHIpBuBZ[]_@kAkAkAmA]]",
+            "duration": "7 mins",
+            "distance": "2.7 km",
+            "duration_value": 428,
+            "distance_value": 2657
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBALEJMDMImG?qC?a@@_@HO@e@@Yr@kHPaBFa@`@cELw@Tq@j@kAl@m@h@[`@MfA[hAMd@?Zu@XkBXiBDWBALAPGTKV_@nBmB^OvAwAb@e@~B}Bt@o@MW?o@Cg@wAuAsAsAa@a@qAqARGdCmCsBsBiBkB",
+            "duration": "31 mins",
+            "distance": "2.3 km",
+            "duration_value": 1843,
+            "distance_value": 2258
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBALEJMDMIqHE?P??mCBmAb@yEVsBPgB\\gDJ}@VoA\\w@f@y@p@i@f@QbA[`@I\\E`@ChA@|KXzAAVCjBo@vFqCh@a@v@a@h@Qr@[tBmAjBkATUP}@@YAWGWy@eAeDcD_EsDyAaBiBoBcB{AoAiAi@e@{AxAq@n@eBjB_C_CEFt@Zl@i@x@aA@GYY{B{Bg@k@?IZ]D?dAdA",
+            "duration": "18 mins",
+            "distance": "3.3 km",
+            "duration_value": 1082,
+            "distance_value": 3312
+          }
+        }
       },
       {
         "name": "Pasir Ris East MRT Station",
@@ -57,7 +126,30 @@
         "rating": 4.1,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzT23v4msayx8utZ9YqEtkCTnIINjN_3hPm1bc9Df5-j1Dy9hXF09SOpVdm-h3owrpc43MlcnTq-aCKE9Gk1ymctPRKg8Xw0FO8WoqAy1lZHQ2SI8v6FLFOq2HwIrKgNHiMpFAG=w122-h92-k-no",
         "subcategory": "MRT Station",
-        "subcategory_reasoning": "Pasir Ris is a well-known MRT station in Singapore, serving as a key point for public transportation in the area."
+        "subcategory_reasoning": "Pasir Ris is a well-known MRT station in Singapore, serving as a key point for public transportation in the area.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XElAB\\F\\Nv@l@rAnAKJ[Xi@f@YZ?ZFBB@@PGXEFIAEASEEA",
+            "duration": "5 mins",
+            "distance": "1.2 km",
+            "duration_value": 290,
+            "distance_value": 1174
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBE\\TB@?@G~@Lr@LLJTL\\FPLLEHCH@D@I^tAT",
+            "duration": "15 mins",
+            "distance": "1.1 km",
+            "duration_value": 892,
+            "distance_value": 1071
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBE\\TB@?@G~@Lr@LLJTL\\FPLLEHCH@D@I^tAT",
+            "duration": "15 mins",
+            "distance": "1.1 km",
+            "duration_value": 892,
+            "distance_value": 1071
+          }
+        }
       },
       {
         "name": "Elias MRT Station",
@@ -69,7 +161,30 @@
         "rating": 5,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy1Z_aar6lazLWueTYe9Zwqs5x-0mAZpNBc_XWGTSnnAbLiayyRMZMrAEWVloeCuDQrVBCtkk2d8qH9C_BJ_hP2NuIJVX1aPvdm09bWr8pLEU2icWuw9k9qJEPczxNT0wLp9qt9dZnnX-Wx=w129-h86-k-no",
         "subcategory": "MRT Station",
-        "subcategory_reasoning": "The location is specifically an MRT station, which is a type of public transportation hub in Singapore, facilitating connectivity for commuters."
+        "subcategory_reasoning": "The location is specifically an MRT station, which is a type of public transportation hub in Singapore, facilitating connectivity for commuters.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEaErJiAfC}@lBw@pAiBnCgCrDwAvB_DnEyAjBs@v@g@h@YTlCnBzAjAbC|AHFGJw@zAaA~BWn@]v@eAnBs@dBa@hAuCmAgAi@cBm@qBaA{A{@?[FUpCgF~@iBV_@",
+            "duration": "10 mins",
+            "distance": "3.5 km",
+            "duration_value": 583,
+            "distance_value": 3478
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?z@zBCp@@VC@RW@L|A?TJXLpBd@nHVlDNnCDhBCtBE|@UxAe@~BUbA[dAKXKLc@hAARiAlCORg@nAEXS`@e@hAm@pA}@nBUn@Wb@iBvCkG`JWTY`@_ApAc@j@ERY^m@v@iCxCo@l@mC~BUF]XUX",
+            "duration": "33 mins",
+            "distance": "2.4 km",
+            "duration_value": 1958,
+            "distance_value": 2371
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQCPf@Lv@HrAZj@FVNIT]KgBc@oAUu@Kk@BSB_@M_@AeAEWGcA_@wAe@e@Dc@RiAvCeDdIiAfCkA`CgChEuBzCaGtIiA|A{CjDi@b@kAfAcBtAWVi@l@s@pAmBlDe@fAA`@HRLJZLlAh@tBx@bGjClBv@|@j@r@DVEPCbBeCzAwBvAmBlAqBFKNHFHBLv@j@`DjBl@^i@x@{A|Be@^YDQ@a@AqAg@_As@aAk@]Gy@lAmAdBm@bAOVQKo@c@{@g@a@UuAg@}EwBcBm@w@_@kAk@o@_@SMECAQBSn@mAhCcFl@_AQMFDwAcB",
+            "duration": "25 mins",
+            "distance": "6.0 km",
+            "duration_value": 1525,
+            "distance_value": 5961
+          }
+        }
       }
     ],
     "Shopping & Dining": [
@@ -83,7 +198,30 @@
         "rating": 4.4,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyAukV4PFTviMUjyg8V21qg1u9DuqFOBmryK_ox4Bf9sfjc1TXoe1Ak0USJvN_611UjBsTybfR9wbuY88lzQnd0TvdQUbhvHMEr6pyapSAmc81AegsqtyVTtVZyBWVeZ0sNdRrP=w122-h92-k-no",
         "subcategory": "Shopping Mall",
-        "subcategory_reasoning": "Downtown East is a large shopping and entertainment complex that includes various retail shops, dining options, and recreational facilities, making 'Shopping Mall' the most appropriate subcategory."
+        "subcategory_reasoning": "Downtown East is a large shopping and entertainment complex that includes various retail shops, dining options, and recreational facilities, making 'Shopping Mall' the most appropriate subcategory.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyRA[o@@cB@?Hm@@@ZLNVNZF@TS@]J@ZFTDhAARIFe@B",
+            "duration": "2 mins",
+            "distance": "0.3 km",
+            "duration_value": 117,
+            "distance_value": 340
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?z@yBDE?@RY@QF@VAHHxAAP[FS@KP",
+            "duration": "4 mins",
+            "distance": "0.3 km",
+            "duration_value": 226,
+            "distance_value": 261
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?z@yBDE?@RY@QF@VAHHxAAP[FS@KP",
+            "duration": "4 mins",
+            "distance": "0.3 km",
+            "duration_value": 226,
+            "distance_value": 261
+          }
+        }
       },
       {
         "name": "White Sands Mall",
@@ -95,7 +233,30 @@
         "rating": 4.1,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyqx0Qou_fZU0XaFYu9I8j8YvuWXcqAy-oujClix0TIhd8b9qMEUjMWKg6hTI9kSKeBjQtoAETqGJMWix65yI9hzdxwm9lFVvjE3n2_UnjCTEE-MeDMQpTVrbjwaZknw66irpiGOQ=w86-h114-k-no",
         "subcategory": "Shopping Mall",
-        "subcategory_reasoning": "White Sands is a shopping and dining destination that features a variety of retail stores and food outlets, making it best categorized as a shopping mall."
+        "subcategory_reasoning": "White Sands is a shopping and dining destination that features a variety of retail stores and food outlets, making it best categorized as a shopping mall.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XElAB\\F\\Nv@l@rAnAKJ[Xi@f@YZ?ZFBB@@P",
+            "duration": "5 mins",
+            "distance": "1.1 km",
+            "duration_value": 271,
+            "distance_value": 1128
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHjE?fAA\\DVHh@XfA`Ah@f@KFUTy@t@EHHPR^ETJBP@@IEE",
+            "duration": "16 mins",
+            "distance": "1.2 km",
+            "duration_value": 975,
+            "distance_value": 1151
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHjE?fAA\\DVHh@XfA`Ah@f@KFUTy@t@EHHPR^ETJBP@@IEE",
+            "duration": "16 mins",
+            "distance": "1.2 km",
+            "duration_value": 975,
+            "distance_value": 1151
+          }
+        }
       },
       {
         "name": "Pasir Ris Mall",
@@ -107,7 +268,30 @@
         "rating": 3.8,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSznJyvLvbx6CyQh4e3gsBgpJqXW8MrvQaAlpPQuW8WtAoW8SsAe5vL94lzrHtasg3i-lD7VaTELVx-GUoBs0p3rVZCFpXVmEu01g2U6tEitoET4t5af8CCUePx5x6D4yOK6cYms=w114-h86-k-no",
         "subcategory": "Shopping Mall",
-        "subcategory_reasoning": "Pasir Ris Mall is primarily a shopping destination that offers a variety of retail stores and dining options, making 'Shopping Mall' the most appropriate subcategory."
+        "subcategory_reasoning": "Pasir Ris Mall is primarily a shopping destination that offers a variety of retail stores and dining options, making 'Shopping Mall' the most appropriate subcategory.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?XJNCn@C^Bf@L\\MDCLQNYGC",
+            "duration": "5 mins",
+            "distance": "1.3 km",
+            "duration_value": 291,
+            "distance_value": 1337
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nH?J|C?n@@bAAZBTHf@XbDxCRXBL?TUnACXKV?XKp@Ud@w@xA",
+            "duration": "18 mins",
+            "distance": "1.3 km",
+            "duration_value": 1087,
+            "distance_value": 1295
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHj@NRIJKNW",
+            "duration": "7 mins",
+            "distance": "1.4 km",
+            "duration_value": 433,
+            "distance_value": 1418
+          }
+        }
       },
       {
         "name": "Pasir Ris Central Hawker Centre",
@@ -119,7 +303,30 @@
         "rating": 4.1,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy6HtrQGx_ZpTire8bnbIY93_cg4oguhTsAH9PRZTjHlPtGxMFwHfuSwU_8NRe9HHkhNIxcqPYcjSicuzYJJs_nD3I_eg44LlKdkiGeENwDWhAYU84onvAD6vTeE5o3cGOl5KhZyQ=w114-h86-k-no",
         "subcategory": "Hawker Centre",
-        "subcategory_reasoning": "The location is specifically a hawker centre, which is a type of food court in Singapore that offers a variety of local food stalls, making it distinct from other dining establishments."
+        "subcategory_reasoning": "The location is specifically a hawker centre, which is a type of food court in Singapore that offers a variety of local food stalls, making it distinct from other dining establishments.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XEt@?",
+            "duration": "3 mins",
+            "distance": "0.9 km",
+            "duration_value": 183,
+            "distance_value": 857
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJrCA~ACN?@JNrBv@nIHFRdAR\\d@jB?REXC^Lj@HZGFKPCN",
+            "duration": "11 mins",
+            "distance": "0.8 km",
+            "duration_value": 688,
+            "distance_value": 806
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJrCA~ACN?@JNrBv@nIHFRdAR\\d@jB?REXC^Lj@HZGFKPCN",
+            "duration": "11 mins",
+            "distance": "0.8 km",
+            "duration_value": 688,
+            "distance_value": 806
+          }
+        }
       },
       {
         "name": "Loyang Point",
@@ -131,7 +338,30 @@
         "rating": 4.2,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyC8Yts_mEXyiu87yBSY9b39_T4PBeUYIa0bcCS7QZKIU-1jEAmEsOMYVrgR-7gszQXOl57pqFjyzK_X927WFA0rFunM2TOD9mWf4-HemA6QcKx4aLoux1Vu2P1LKvoLwggt3AH=w114-h86-k-no",
         "subcategory": "Shopping Mall",
-        "subcategory_reasoning": "Loyang Point is a shopping and dining destination, which fits the characteristics of a shopping mall where various retail and food outlets are available."
+        "subcategory_reasoning": "Loyang Point is a shopping and dining destination, which fits the characteristics of a shopping mall where various retail and food outlets are available.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBATQR[ImG?wC@y@DqAp@oGZuCd@qEVoA\\w@f@y@p@i@t@WvA_@\\Ex@CdMZb@?pAClBm@|FuCh@a@v@a@LEHP`@t@j@r@XID?\\Z",
+            "duration": "5 mins",
+            "distance": "1.9 km",
+            "duration_value": 322,
+            "distance_value": 1855
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@A_@FOCw@GiDIYAqABeABaBBSPsBBc@p@eGFWB[TaCDk@Lu@b@kAf@u@\\[n@_@XMjA]fAEv@AzEHfABHADBzADv@A|AI|Ae@bAi@zA{@bDgBh@O^r@h@r@ZOJ?\\ZBC",
+            "duration": "26 mins",
+            "distance": "1.9 km",
+            "duration_value": 1546,
+            "distance_value": 1857
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBALEJMDMIqHE?P??mCBmAb@yEVsBPgB\\gDJ}@VoA\\w@f@y@p@i@f@QbA[`@I\\E`@ChA@|KXzAAVCjBo@vFqCh@a@v@a@h@Qr@[tBmAMSFLuAz@oAl@WHFHPj@Vb@b@h@RIJ?\\ZBC",
+            "duration": "14 mins",
+            "distance": "2.1 km",
+            "duration_value": 823,
+            "distance_value": 2137
+          }
+        }
       },
       {
         "name": "Elias Mall",
@@ -143,7 +373,30 @@
         "rating": 3.9,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwUnjCR1mEKMd_GPagDlhweQAAERmfr1Y65prJ1eGvj8xJqCbMa77yG98iSzyw_glafxtCcKdg-HYlQ5gbiDU9d17igmGbRdetwS7MixHlsjASph69MiFZPM42iM6YutNzffRir=w122-h92-k-no",
         "subcategory": "Shopping Mall",
-        "subcategory_reasoning": "Elias Mall is primarily a shopping destination that offers a variety of retail stores and dining options, making 'Shopping Mall' the most appropriate subcategory."
+        "subcategory_reasoning": "Elias Mall is primarily a shopping destination that offers a variety of retail stores and dining options, making 'Shopping Mall' the most appropriate subcategory.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEaErJiAfC}@lBw@pAiBnCgCrDe@t@c@p@HFf@TZHd@Jd@HL@?IBODKLGT?",
+            "duration": "6 mins",
+            "distance": "2.0 km",
+            "duration_value": 378,
+            "distance_value": 2028
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR_@jAMf@KNQh@_C`Gy@rBCVg@lASNs@`Bg@fA_AjBuBjDEJRJdAn@]d@aB`CDL?d@CP?LEBFR",
+            "duration": "26 mins",
+            "distance": "1.9 km",
+            "duration_value": 1569,
+            "distance_value": 1898
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR_@jAMf@KNQh@_C`Gy@rBCVg@lASNs@`Bg@fA_AjBuBjDEJRJdAn@]d@aB`CDL?d@CP?LEBFR",
+            "duration": "26 mins",
+            "distance": "1.9 km",
+            "duration_value": 1569,
+            "distance_value": 1898
+          }
+        }
       }
     ],
     "Parks & Recreation": [
@@ -157,7 +410,30 @@
         "rating": 4.4,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxiasVRl97QdvQzHqyfZra52HR34zHxLFtvHSBhj3zw4FEAtofH3oKPiOEm9w7WyW-OTDfYbpQOs_e_iY3Hul-jo7vBwcb0G_IfCcvaGvKWXn5QjtwERxlBRUf5Z2HEnvsxRvk=w163-h92-k-no",
         "subcategory": "Community Park",
-        "subcategory_reasoning": "Pasir Ris Town Park is a public space designed for recreational activities and community gatherings, fitting the definition of a community park."
+        "subcategory_reasoning": "Pasir Ris Town Park is a public space designed for recreational activities and community gatherings, fitting the definition of a community park.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XElAB\\F\\NPNLMPSCCCEAC?K?EFKJEJ?",
+            "duration": "4 mins",
+            "distance": "1.0 km",
+            "duration_value": 218,
+            "distance_value": 990
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJrCA~ACN?@JNrBv@nIHFRdAR\\XbAH\\NEHFFFDZFVHN@HDAB@dA`@BB@IDm@@_@BGDANDb@BJADE",
+            "duration": "13 mins",
+            "distance": "0.9 km",
+            "duration_value": 761,
+            "distance_value": 906
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJrCA~ACN?@JNrBv@nIHFRdAR\\XbAH\\NEHFFFDZFVHN@HDAB@dA`@BB@IDm@@_@BGDANDb@BJADE",
+            "duration": "13 mins",
+            "distance": "0.9 km",
+            "duration_value": 761,
+            "distance_value": 906
+          }
+        }
       },
       {
         "name": "Pasir Ris Sports Centre",
@@ -169,7 +445,30 @@
         "rating": 4.2,
         "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMPCowQLmR27WloHnl2wLPFhUe1-vtw_Xf7Amwm=w131-h86-k-no",
         "subcategory": "Sports Complex",
-        "subcategory_reasoning": "The ActiveSG Pasir Ris Sport Centre is primarily a facility designed for various sports and recreational activities, making 'Sports Complex' the most fitting subcategory."
+        "subcategory_reasoning": "The ActiveSG Pasir Ris Sport Centre is primarily a facility designed for various sports and recreational activities, making 'Sports Complex' the most fitting subcategory.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@fB?@E?SAK",
+            "duration": "4 mins",
+            "distance": "0.8 km",
+            "duration_value": 225,
+            "distance_value": 798
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCFz@H|ADAT@@@DTFdADLlAEP@",
+            "duration": "11 mins",
+            "distance": "0.8 km",
+            "duration_value": 636,
+            "distance_value": 757
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCFz@H|ADAT@@@DTFdADLlAEP@",
+            "duration": "11 mins",
+            "distance": "0.8 km",
+            "duration_value": 636,
+            "distance_value": 757
+          }
+        }
       }
     ],
     "Schools - Primary": [
@@ -183,7 +482,30 @@
         "rating": null,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxmtvgSkqM8HQy0jFIdGxLcDp4gGWtEdDylRzPUExtpVvxOE-y-Aith1LdC7Qe3JnQb2KMcnGw2l2wNQbmiNFDONYLP3Ds6T4twBUiDGxiwXFXCXjHqbd9p3-faIUUBIO7vfea-Lg=w152-h86-k-no",
         "subcategory": "Primary School",
-        "subcategory_reasoning": "The location is explicitly identified as 'Casuarina Primary School', which directly indicates that it is a primary educational institution."
+        "subcategory_reasoning": "The location is explicitly identified as 'Casuarina Primary School', which directly indicates that it is a primary educational institution.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@AjACdAAd@E~@QdCq@",
+            "duration": "2 mins",
+            "distance": "0.5 km",
+            "duration_value": 120,
+            "distance_value": 495
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@~@[",
+            "duration": "7 mins",
+            "distance": "0.5 km",
+            "duration_value": 425,
+            "distance_value": 494
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@~@[",
+            "duration": "7 mins",
+            "distance": "0.5 km",
+            "duration_value": 425,
+            "distance_value": 494
+          }
+        }
       },
       {
         "name": "Pasir Ris Primary School",
@@ -195,7 +517,30 @@
         "rating": null,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyyxCHYUG6BcviQjt1MOwYfYoRKTFITLekk_4ZYJl1FYyXuON_RrYeHRH2BMlc7mlJzc4UBkS5V5i3Ept-alEkMBxMZTgMp-_H2Iu6UPrqNrBdZ9YwvzuEM_Js9RLSd0sb9BkGkRg=w114-h86-k-no",
         "subcategory": "Primary School",
-        "subcategory_reasoning": "The location is explicitly identified as 'Pasir Ris Primary School', which directly indicates that it is a primary educational institution."
+        "subcategory_reasoning": "The location is explicitly identified as 'Pasir Ris Primary School', which directly indicates that it is a primary educational institution.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBATQR[ImG?wC@y@DqAp@oGZuC|Cf@|Cf@x@NHi@d@oCDOT]d@Y\\EbABF_@DE",
+            "duration": "4 mins",
+            "distance": "1.1 km",
+            "duration_value": 256,
+            "distance_value": 1149
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC?mBAcA?KL??sA?]LBJCBADKBGF?FABGBA@A?iAD?H?HBD@?a@?EFEn@?@O@GFCFGBIAo@E[JDX}Ch@kEp@_EXc@h@[^E|@@LFR@LEh@@@k@?a@?s@@Q",
+            "duration": "17 mins",
+            "distance": "1.2 km",
+            "duration_value": 1017,
+            "distance_value": 1214
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBALEJMDMIqHE?P??mCBmAb@yEVsBPgBBSNB~@LbCb@fBXx@NHi@d@oCDOT]NKTM\\EbABrADvAB@OAFwAC@k@?a@?s@@Q",
+            "duration": "10 mins",
+            "distance": "1.4 km",
+            "duration_value": 598,
+            "distance_value": 1375
+          }
+        }
       },
       {
         "name": "White Sands Primary School",
@@ -207,7 +552,30 @@
         "rating": null,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwCuGgd8FKKdldZAXh2l1eSB0XzsnNyNoDv6EF42MK-wDL-HBFsDjCGBufME7f_hiSj_PfVL-FIkO_K0Vn_1681Cj0A1OiIM7U9ksMRiXcMT3NlJbBHuW3w3XNI41uFTUoifzY=w114-h86-k-no",
         "subcategory": "Primary School",
-        "subcategory_reasoning": "The location is explicitly named 'White Sands Primary School' and falls under the category of primary education, making 'Primary School' the most accurate subcategory."
+        "subcategory_reasoning": "The location is explicitly named 'White Sands Primary School' and falls under the category of primary education, making 'Primary School' the most accurate subcategory.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@AjACdAAd@E~@QbAW`Cu@z@UvA]f@E`AA|D@~AFtAJjDh@jBd@^Hv@Lp@Dh@Ep@UVKXQNMNSNc@lAgD|B}DtB}CjA}ALUFa@Aq@M_@cBcBYWKMMLMLK@UK[]",
+            "duration": "7 mins",
+            "distance": "1.9 km",
+            "duration_value": 447,
+            "distance_value": 1926
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A`C?fA?zADz@FENN@@OfDh@|Bj@x@PdAJT?XEp@Sp@]Za@`BqEzBuDrB{CtAkBJa@?m@CSIQ}@_AkAkAQPMFQEc@c@",
+            "duration": "27 mins",
+            "distance": "1.9 km",
+            "duration_value": 1617,
+            "distance_value": 1925
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBALEJMDMIqHE?P??mCBmAb@yEVsBPgBBSNB~@LbCb@fG~@nBVhAJ|@@LAf@I~DOt@@j@FdALf@Ll@PdAd@b@RfC~AjDpBbC`BnD`C~AmCnAmBhCoDLUBKBm@AYGSS[oBkBkAqAIHTHn@r@QPMFQEc@c@",
+            "duration": "25 mins",
+            "distance": "2.5 km",
+            "duration_value": 1477,
+            "distance_value": 2537
+          }
+        }
       },
       {
         "name": "Elias Park Primary School",
@@ -219,7 +587,30 @@
         "rating": null,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxI_Qa8npulUua8h0ZSJskyvocsfoqgXaTMupXj217_0tzMO8BY05ip1gKxuJNhg0rTzwujiv6IhJ88xYXBrsv1xoCUjgWu40Rkl6tVBTN9ZRZzdOnnxWArv-J4SBal3DKdiVzh=w114-h86-k-no",
         "subcategory": "Primary School",
-        "subcategory_reasoning": "The location is explicitly identified as a primary school, which fits directly into the subcategory of 'Primary School' under the broader category of schools."
+        "subcategory_reasoning": "The location is explicitly identified as a primary school, which fits directly into the subcategory of 'Primary School' under the broader category of schools.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEs@`BpAh@rE`CnAbAg@j@@DAHGFKBGAGE",
+            "duration": "5 mins",
+            "distance": "1.5 km",
+            "duration_value": 297,
+            "distance_value": 1516
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR_@jAMf@KNQh@_C`GhAb@dCnAlAr@nA`Ac@f@@JEHIDI?ECEC",
+            "duration": "21 mins",
+            "distance": "1.5 km",
+            "duration_value": 1260,
+            "distance_value": 1516
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHSAS?y@DBLHNAVQp@[r@KHJRTd@?DAXk@fBE?GXa@fA[SGHc@f@@DAHGFOBA?ECCC",
+            "duration": "12 mins",
+            "distance": "1.8 km",
+            "duration_value": 713,
+            "distance_value": 1767
+          }
+        }
       }
     ],
     "Schools - Secondary": [
@@ -233,7 +624,30 @@
         "rating": null,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxmqL6ha8aRf21MXLv8HByQsERqRrPvOGJqO_QIBlS_oMYjM6qC9lHNUHmaBOXFltdcQ7two5mRXNTlYHX3zCnoA2VgrvqKoJ2kuFEOzdlBKYgTkFPPDPp84FKD1GEItqnbh8rn=w132-h86-k-no",
         "subcategory": "Secondary School",
-        "subcategory_reasoning": "Hai Sing Catholic School is specifically categorized as a secondary school, which aligns with its designation in the broader category of schools."
+        "subcategory_reasoning": "Hai Sing Catholic School is specifically categorized as a secondary school, which aligns with its designation in the broader category of schools.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@Ad@AB?@JPvBDn@YDkBR",
+            "duration": "2 mins",
+            "distance": "0.5 km",
+            "duration_value": 139,
+            "distance_value": 476
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@^CCY?OBEDAGaA",
+            "duration": "7 mins",
+            "distance": "0.5 km",
+            "duration_value": 398,
+            "distance_value": 466
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@^CCY?OBEDAGaA",
+            "duration": "7 mins",
+            "distance": "0.5 km",
+            "duration_value": 398,
+            "distance_value": 466
+          }
+        }
       },
       {
         "name": "Pasir Ris Crest Secondary School",
@@ -245,7 +659,30 @@
         "rating": null,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz1raXBYV0XopTW63c2ezMG9dW9qpbkc3IIS-FxuJAD2zahmzAXbmrXo_sIWAhsDNA40fACF_f4rggYHjV2gpuBydi8ZUp36SWi1BNZztKwWRVf3UGbv3I8jaeO9-MIZlR-W2JneQ=w114-h86-k-no",
         "subcategory": "Secondary School",
-        "subcategory_reasoning": "The location is specifically a secondary school, which is a type of educational institution for students typically aged 12 to 16, fitting the category provided."
+        "subcategory_reasoning": "The location is specifically a secondary school, which is a type of educational institution for students typically aged 12 to 16, fitting the category provided.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@AjACdAAd@E~@QbAW`Cu@NEk@qDc@cDK[OOWIYGmCKWCMM?QPiBVBBMRDHF@H",
+            "duration": "4 mins",
+            "distance": "1.0 km",
+            "duration_value": 221,
+            "distance_value": 1019
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC?mBAcA?KL??sA?]LBJCBADKBGF?FABGBA@A?iAD?H?HBD@?a@?EFEn@?@O@GFCFGBIAo@E[JDJqABOJ@RBBMRDHF@H",
+            "duration": "11 mins",
+            "distance": "0.8 km",
+            "duration_value": 654,
+            "distance_value": 765
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC?mBAcA?KL??sA?]LBJCBADKBGF?FABGBA@A?iAD?H?HBD@?a@?EFEn@?@O@GFCFGBIAo@E[JDJqABOJ@RBBMRDHF@H",
+            "duration": "11 mins",
+            "distance": "0.8 km",
+            "duration_value": 654,
+            "distance_value": 765
+          }
+        }
       },
       {
         "name": "Loyang View Secondary School",
@@ -257,7 +694,30 @@
         "rating": null,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwKNUYVFkhggOWR9NVwrNr590K7LjpIzH8ZgunHw2anWhHhjxttm19mdz8w98sBdo5y-fL-_XkDblm0j0ajOMGBJypJbJpYqtPSXAtP7k3tdC93-PeF2dY9levTZe0cc8m-r6B7og=w152-h86-k-no",
         "subcategory": "Secondary School",
-        "subcategory_reasoning": "The location is specifically identified as a secondary school, which is a type of educational institution for students typically aged 12 to 16 years."
+        "subcategory_reasoning": "The location is specifically identified as a secondary school, which is a type of educational institution for students typically aged 12 to 16 years.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@AjACdAAd@E~@QbAW`Cu@z@UvA]f@E`AA|D@~AFtAJjDh@jBd@^HZHJYJKP?LB",
+            "duration": "5 mins",
+            "distance": "1.1 km",
+            "duration_value": 279,
+            "distance_value": 1128
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A`C?fA?zADz@FENN@@OfDh@|Bj@x@PFSLKR?LB",
+            "duration": "16 mins",
+            "distance": "1.1 km",
+            "duration_value": 964,
+            "distance_value": 1129
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A`C?fA?zADz@FENN@@OfDh@|Bj@x@PFSLKR?LB",
+            "duration": "16 mins",
+            "distance": "1.1 km",
+            "duration_value": 964,
+            "distance_value": 1129
+          }
+        }
       },
       {
         "name": "Meridian Secondary School",
@@ -269,7 +729,30 @@
         "rating": null,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSye6xEtFEG0U_U0at5mPW1EFZlbAdLWN8_wur3xDH4Fea3CypycucD4gBPNrAQWTzFqOTMxy1sHS1xbteJdB9LpVWWRAaHCjYtozT6rBXZXQ_8dUeyTwNncHlVkr1YRYUQ1mzI=w114-h86-k-no",
         "subcategory": "Secondary School",
-        "subcategory_reasoning": "The location is specifically a secondary school, which is a type of educational institution for students typically aged 12 to 16, fitting the provided category."
+        "subcategory_reasoning": "The location is specifically a secondary school, which is a type of educational institution for students typically aged 12 to 16, fitting the provided category.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XElAB\\F\\Nv@l@|AxAp@t@FJDl@QjACLnAd@|@`@JJ\\Nd@Jb@?jAH`@BfF~@v@LFKX_@\\sATFD@DCH_@b@{ATa@Fz@",
+            "duration": "7 mins",
+            "distance": "1.8 km",
+            "duration_value": 427,
+            "distance_value": 1762
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHjE?fAA\\DVHh@XfA`AzAzAV\\BNAXSlAN?dA`@j@XVJNLXL`@Hn@@\\D|@DlFdAp@HFIX_@J@\\oATFDCl@{BTa@Fz@",
+            "duration": "24 mins",
+            "distance": "1.8 km",
+            "duration_value": 1467,
+            "distance_value": 1761
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHCHr@Ph@JZHlB`@Da@AMBSJOFYZQ\\G\\DHAbAYj@a@X]~AHnCd@`Cb@RBFKVu@\\sAPFDABCPq@`@sAJQBCFz@",
+            "duration": "17 mins",
+            "distance": "2.2 km",
+            "duration_value": 1028,
+            "distance_value": 2152
+          }
+        }
       }
     ],
     "Schools - Preschools & Kindergartens": [
@@ -283,7 +766,30 @@
         "rating": 4.9,
         "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPfIumHWgQcGK484udD8vfZIWG6808_H4pIDjVj=w80-h120-k-no",
         "subcategory": "Preschool",
-        "subcategory_reasoning": "The location is a preschool, which is a specific type of educational institution for young children, fitting under the broader category of preschools and kindergartens."
+        "subcategory_reasoning": "The location is a preschool, which is a specific type of educational institution for young children, fitting under the broader category of preschools and kindergartens.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?XJNCn@C^Bf@L\\MDCLQNYGC",
+            "duration": "5 mins",
+            "distance": "1.3 km",
+            "duration_value": 291,
+            "distance_value": 1337
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nH?J|C?n@@bAAZBTHf@XbDxCRXBL?TUnACXKV?XKp@Ud@a@v@",
+            "duration": "18 mins",
+            "distance": "1.3 km",
+            "duration_value": 1066,
+            "distance_value": 1273
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHj@NRIJKd@y@",
+            "duration": "7 mins",
+            "distance": "1.4 km",
+            "duration_value": 443,
+            "distance_value": 1440
+          }
+        }
       },
       {
         "name": "MapleBear Pasir Ris Park",
@@ -295,7 +801,30 @@
         "rating": 5,
         "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPE5EyLU-ZS4xAp6AmOsG_Mg36Lx-WsiXKXk4cm=w114-h86-k-no",
         "subcategory": "Preschool",
-        "subcategory_reasoning": "MapleBear Pasir Ris Park is a preschool, which is a specific type of educational institution for young children, fitting under the broader category of preschools and kindergartens."
+        "subcategory_reasoning": "MapleBear Pasir Ris Park is a preschool, which is a specific type of educational institution for young children, fitting under the broader category of preschools and kindergartens.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEaErJiAfC}@lBw@pAiBnCgCrDwAvBm@_@Y[WYOYIUSw@EyACaCC}CIcCwEFgA@eADIBU^yAzC_BfD",
+            "duration": "8 mins",
+            "distance": "2.7 km",
+            "duration_value": 464,
+            "distance_value": 2749
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?j@yBDK?e@OQUOCUAK@OCO`@I^I`@QPYB_@@QCc@Qg@YYWE@KCYWWMk@UQGs@GI?GBWTo@\\qAx@e@f@Y~@MbA?f@Ln@HL`@Fb@JPHJFIJGLGh@UlAIX@FUb@Gf@@^KR?NFNDDAL@J@NELQR]r@M^Ur@k@lAEHK`@OvAQf@]v@I`@A^BZ@DGN[lAGj@GHVZFN@pAENg@f@QJWFU@MXUVKNARA\\?LBFHLZLET?xAQh@i@bA[`@EHH@JDd@^BCJDpAj@`@NFHS\\Q^}BxEi@hA",
+            "duration": "31 mins",
+            "distance": "2.3 km",
+            "duration_value": 1854,
+            "distance_value": 2271
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?j@yBDK?e@OQUOCUAK@OCO`@I^I`@QPYB_@@QCc@Qg@YYWE@KCYWWMk@UQGs@GI?GBWTo@\\qAx@e@f@Y~@MbA?f@Ln@HL`@Fb@JPHJFIJGLGh@UlAIX@FUb@Gf@@^KR?NFNDDAL@J@NELQR]r@M^Ur@k@lAEHK`@OvAQf@]v@I`@A^BZ@DGN[lAGj@GHVZFN@pAENg@f@QJWFU@MXUVKNARA\\?LBFHLZLET?xAQh@i@bA[`@EHH@JDd@^BCJDpAj@`@NFHS\\Q^}BxEi@hA",
+            "duration": "31 mins",
+            "distance": "2.3 km",
+            "duration_value": 1854,
+            "distance_value": 2271
+          }
+        }
       },
       {
         "name": "Odyssey The Global Preschool Pasir Ris",
@@ -307,7 +836,30 @@
         "rating": 4.7,
         "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM6Ptpd6N8crCw7mzNjxYnUUyCK8QKQeBD0Tf_v=w128-h86-k-no",
         "subcategory": "Preschool",
-        "subcategory_reasoning": "The location is specifically a preschool, which is a type of educational institution for young children before they enter primary school."
+        "subcategory_reasoning": "The location is specifically a preschool, which is a type of educational institution for young children before they enter primary school.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBATQR[ImG?wC@y@MYKMKGSC{@?iAEsCIm@Ac@Jk@TYo@m@mB}@_DiA{EGQUU[e@[a@KUIYEa@[BEFNn@",
+            "duration": "4 mins",
+            "distance": "1.2 km",
+            "duration_value": 240,
+            "distance_value": 1186
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyRoCBCC?EAGg@@?e@Ek@@QAa@PaA@e@?WSy@Sg@m@aBOi@Uk@k@eBeAqDcAkEAGODKW_AkAYi@K[C[@MG@QBEDALHXDN",
+            "duration": "12 mins",
+            "distance": "0.9 km",
+            "duration_value": 746,
+            "distance_value": 911
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyRoCBCC?EAGg@@?e@Ek@@QAa@PaA@e@?WSy@Sg@m@aBOi@Uk@k@eBeAqDcAkEAGODKW_AkAYi@K[C[@MG@QBEDALHXDN",
+            "duration": "12 mins",
+            "distance": "0.9 km",
+            "duration_value": 746,
+            "distance_value": 911
+          }
+        }
       },
       {
         "name": "My Little Campus Pasir Ris",
@@ -319,7 +871,30 @@
         "rating": 4.8,
         "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOIpj9P_ZLxXT5BBEmK94RO77_qrxQP-YJ68pTa=w129-h86-k-no",
         "subcategory": "Preschool",
-        "subcategory_reasoning": "The location is a preschool, as indicated by its name 'My Little Campus - MLC' and the category 'Schools - Preschools & Kindergartens', which specifically refers to early childhood education."
+        "subcategory_reasoning": "The location is a preschool, as indicated by its name 'My Little Campus - MLC' and the category 'Schools - Preschools & Kindergartens', which specifically refers to early childhood education.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEaErJiAfC}@lBw@pAiBnCgCrDwAvB_DnEyAjBs@v@g@h@YTlCnBzAjAbC|AHFGJw@zAaA~BWn@]v@TNlBpALQ",
+            "duration": "8 mins",
+            "distance": "2.8 km",
+            "duration_value": 505,
+            "distance_value": 2792
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR_@jAMf@KNQh@_C`Gy@rBCVg@lASNs@`Bg@fA_AjBuBjDEJc@j@mAhBo@~@GTYb@g@x@IJSFy@hA_AvAa@h@FZCLzA`AjChBx@d@ABCJCPoAzBm@dAGLDDJFBBEFKHm@jACJaA~BWn@[p@RLlBpAHK",
+            "duration": "38 mins",
+            "distance": "2.8 km",
+            "duration_value": 2291,
+            "distance_value": 2752
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@NA@NU@LzABf@TnDLpBNjC\\@hD@XElAB\\F\\Nv@l@rAnAv@v@HNFb@AXSlA]`Cw@bBQ\\KPG^rAZj@FVNu@lBkA`EgApDsBdHgA|Dk@fBe@|@oApBi@bAg@p@yCpEaE`G}@jA_AtA}AbCiBnCRNHMOK~@uAZg@KEcCcBe@YSQuBeAq@tAu@jBYn@a@`ACDNJpBrAHK",
+            "duration": "27 mins",
+            "distance": "3.6 km",
+            "duration_value": 1596,
+            "distance_value": 3554
+          }
+        }
       },
       {
         "name": "Bright Kids School House Pasir Ris",
@@ -331,7 +906,30 @@
         "rating": 4.9,
         "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMa0duQmiUsIgZXZ3RQ-O2i526RpqrOAHIOwd9j=w86-h86-k-no",
         "subcategory": "Preschool",
-        "subcategory_reasoning": "The location is specifically a preschool, which is a type of educational institution for young children before they enter primary school."
+        "subcategory_reasoning": "The location is specifically a preschool, which is a type of educational institution for young children before they enter primary school.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEs@`BpAh@rE`CjBvA`BhAzBt@NDOj@uAtEgA|Dw@~B}AfCKNAbAhA\\|Ar@hB|@CJGj@E`AMl@M`@KP_@^wBjAoBjAc@f@ELENkAnB}DrGgBpCdAl@`@ZzA`AUZMLE@[MGDIN",
+            "duration": "10 mins",
+            "distance": "3.2 km",
+            "duration_value": 622,
+            "distance_value": 3200
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR_@jAMf@KNQh@iAvCo@|AhAd@nE~BtAdAj@^rA~@^LZDbAZEXB?JDCJsAnE_@nAY~@A\\k@fBOPGTMVXP\\RZTRRZ`@Td@Pt@Fh@@b@AZEn@CHIZEh@InAOh@MTm@h@kAn@MN_@NsAv@]X_@f@s@lAWd@VRBBGHVNfC~AL??DFPDBXLCRDAB?DF@JqAhCQ`@IZ?ZKZUb@@LPNAD_@r@ALIJKL]l@EJOAFMKC@KAG][uA}@QVMNE@C?YMA?MP",
+            "duration": "47 mins",
+            "distance": "3.3 km",
+            "duration_value": 2814,
+            "distance_value": 3343
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@NA@NU@LzABf@TnD\\lGA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?XJNCn@C^Bf@Lv@HrAZj@FVNu@lBsB`H}@`DuAtEi@nB{@pCMb@e@|@oApBAbAhA\\|Ar@hB|@CJGj@E`AMl@M`@KP_@^cB|@sBlA]ZY^CJs@lAgAjBU^FBCAT_@f@w@NJVNdBbAl@b@L?FV^PCRBAB?B?DL?HeAnBS^K^GV@LCLQd@MXBLNJIPS^ETi@t@O\\OAFMKC?E?MsByA[b@KD[MC?KP",
+            "duration": "27 mins",
+            "distance": "3.6 km",
+            "duration_value": 1616,
+            "distance_value": 3643
+          }
+        }
       },
       {
         "name": "Bethesda Kindergarten Pasir Ris",
@@ -343,7 +941,30 @@
         "rating": 4.7,
         "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNBCGPa13-31SBxPYxC_Y6TkZSJfBRzPbfj2Wk=w114-h86-k-no",
         "subcategory": "Kindergarten",
-        "subcategory_reasoning": "The location is specifically a kindergarten, which is a type of preschool focused on early childhood education for children typically aged 4 to 6 years."
+        "subcategory_reasoning": "The location is specifically a kindergarten, which is a type of preschool focused on early childhood education for children typically aged 4 to 6 years.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBATQR[ImG?wC@y@DqAp@oGZuC|Cf@|Cf@x@NHi@d@oCDOT]d@Y\\EbABhGL|JNnABVGZOjCeCn@s@hBeBVYwB{Bq@s@MO",
+            "duration": "7 mins",
+            "distance": "2.0 km",
+            "duration_value": 400,
+            "distance_value": 1959
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@A_@FOCw@GiDIYAqABeABaBBSPsBBc@p@eGFWB[TaCDk@Lu@b@kAf@u@\\[n@_@XMjA]fAEv@AzEHfABHADBzADv@A|AI|Ae@bAi@zA{@xC_BN?LBNJRNLR",
+            "duration": "24 mins",
+            "distance": "1.8 km",
+            "duration_value": 1461,
+            "distance_value": 1762
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBALEJMDMIqHE?P??mCBmAb@yEVsBPgB\\gDJ}@VoA\\w@f@y@p@i@f@QbA[`@I\\E`@ChA@|KXzAAVCjBo@vFqCh@a@v@a@h@Qr@[tBmAMSFLuAz@oAl@q@TNVP`@ED\\`@",
+            "duration": "13 mins",
+            "distance": "2.1 km",
+            "duration_value": 777,
+            "distance_value": 2075
+          }
+        }
       },
       {
         "name": "Learning Adventure Preschool Pasir Ris",
@@ -355,7 +976,30 @@
         "rating": 5,
         "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMSc_FY-naKEowaLdt8JJ7oJVnr5LUjIz8h7BAT=w129-h86-k-no",
         "subcategory": "Preschool",
-        "subcategory_reasoning": "The location is specifically a preschool, which is a type of educational institution for young children before they enter primary school. It fits within the broader category of preschools and kindergartens."
+        "subcategory_reasoning": "The location is specifically a preschool, which is a type of educational institution for young children before they enter primary school. It fits within the broader category of preschools and kindergartens.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEaErJiAfC}@lBw@pAiBnCgCrDwAvBm@_@Y[WYOYIUSw@EyACaCC}CIcCGcAE}@eDD",
+            "duration": "7 mins",
+            "distance": "2.5 km",
+            "duration_value": 416,
+            "distance_value": 2480
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?j@yBDK?e@OQUOCUAK@OCO`@I^I`@QPYB_@@QCc@Qg@YYWE@KCYWWMk@UQGs@GI?GBWTo@\\qAx@e@f@Y~@MbA?f@Ln@HL`@Fb@JPHJFIJGLGh@UlAIX@FUb@Gf@@^KR?NFNDDAL@J@NELQR]r@M^Ur@k@lAEHK`@OvAQf@]v@I`@A^BZ@DGN[lAGj@NLPJb@HX@PJLRFh@ANFBJDy@jBRF_@z@aAnBrClAJLB~AF@",
+            "duration": "26 mins",
+            "distance": "2.0 km",
+            "duration_value": 1586,
+            "distance_value": 1954
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?j@yBDK?e@OQUOCUAK@OCO`@I^I`@QPYB_@@QCc@Qg@YYWE@KCYWWMk@UQGs@GI?GBWTo@\\qAx@e@f@Y~@MbA?f@Ln@HL`@Fb@JPHJFIJGLGh@UlAIX@FUb@Gf@@^KR?NFNDDAL@J@NELQR]r@M^Ur@k@lAEHK`@OvAQf@]v@I`@A^BZ@DGN[lAGj@NLPJb@HX@PJLRFh@ANFBJDy@jBRF_@z@aAnBrClAJLB~AF@",
+            "duration": "26 mins",
+            "distance": "2.0 km",
+            "duration_value": 1586,
+            "distance_value": 1954
+          }
+        }
       },
       {
         "name": "Children's Cove Pasir Ris",
@@ -367,7 +1011,30 @@
         "rating": 4.9,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz8Z9wK_y5zXvD_72Bfmo_c74tRfL_1BscIgMRKo1dRCiEs2tq9zkP24X5r-qjEHWd1BMd1hfMXk8QxGuIUgyjMc3Ie4TfnlkI8PYhlLwGoTREjyecgSyyqWK1bQ5lZbSCNZacO=w114-h86-k-no",
         "subcategory": "Preschool",
-        "subcategory_reasoning": "The location is specifically a preschool, which is a type of educational institution for young children before they enter primary school."
+        "subcategory_reasoning": "The location is specifically a preschool, which is a type of educational institution for young children before they enter primary school.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@AjACdAAd@E~@QbAW`Cu@z@UvA]f@E`AA|D@?oBzA@D?",
+            "duration": "4 mins",
+            "distance": "0.9 km",
+            "duration_value": 237,
+            "distance_value": 903
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A`C?z@@AaBbB@F?",
+            "duration": "13 mins",
+            "distance": "0.9 km",
+            "duration_value": 760,
+            "distance_value": 901
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A`C?z@@AaBbB@F?",
+            "duration": "13 mins",
+            "distance": "0.9 km",
+            "duration_value": 760,
+            "distance_value": 901
+          }
+        }
       }
     ],
     "Schools - Tertiary & International": [
@@ -381,7 +1048,30 @@
         "rating": 4.3,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxVEpPYNh9s38vnAoKfPk5xNIBLHiVTV1Tse9mid_L_x87bRwNhZxcnlWrTVWIwhIi_eYeV_S8-kaUXO0Lcc7kHDx6z3GySRiq0qSsj1E1fUlYkF6fyQDGFvw5nlSwaVZutJ_kl=w114-h86-k-no",
         "subcategory": "Junior College",
-        "subcategory_reasoning": "Tampines Meridian Junior College is a specific type of educational institution that provides pre-university education, which is characteristic of junior colleges in Singapore."
+        "subcategory_reasoning": "Tampines Meridian Junior College is a specific type of educational institution that provides pre-university education, which is characteristic of junior colleges in Singapore.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEaErJiAfC}@lBw@pAiBnCgCrDwAvB_DnEyAjBs@v@g@h@YTlCnBzAjAbC|AnC~AtAv@bBfAFHBLv@j@bEbCnAqB~@yAWQ[b@IWAU",
+            "duration": "10 mins",
+            "distance": "3.1 km",
+            "duration_value": 594,
+            "distance_value": 3085
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR_@jAMf@KNQh@iAvCo@|AhAd@nE~BtAdAj@^rA~@^LZDbAZEXB?JDCJsAnE_@nAY~@A\\k@fBOPGTMVXP\\RZTRRZ`@Td@Pt@Fh@@b@AZEn@YKEHBNEh@G`AE^I\\KXe@b@sDtBs@b@]^MXmAjBIRi@x@QKQ@UZIY@K",
+            "duration": "38 mins",
+            "distance": "2.8 km",
+            "duration_value": 2306,
+            "distance_value": 2766
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@NA@NU@LzABf@TnD\\lGA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?XJNCn@C^Bf@Lv@HrAZj@FVNu@lBsB`H}@`DuAtEi@nB{@pCMb@e@|@oApBAbAhA\\|Ar@hB|@CJGj@E`AMl@M`@KP_@^cB|@sBlA]ZY^CJs@lAgAjBU^FBCAg@z@KE~@{AWOQ@UZIY@K",
+            "duration": "19 mins",
+            "distance": "3.1 km",
+            "duration_value": 1118,
+            "distance_value": 3068
+          }
+        }
       },
       {
         "name": "Overseas Family School",
@@ -393,7 +1083,30 @@
         "rating": null,
         "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMbbLq3SlyEHsKUJKo01XsCrNgv-bU6Xxxnq4wL=w141-h86-k-no",
         "subcategory": "International School",
-        "subcategory_reasoning": "The Overseas Family School is an educational institution that offers an international curriculum, making it best categorized as an International School."
+        "subcategory_reasoning": "The Overseas Family School is an educational institution that offers an international curriculum, making it best categorized as an International School.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEaErJiAfC}@lBw@pAiBnCgCrDwAvB_DnEyAjBs@v@g@h@YTOLOIiBeA{BoAe@_@CK?[FWzBwDDGD?BDA@^Tp@_B",
+            "duration": "8 mins",
+            "distance": "2.7 km",
+            "duration_value": 495,
+            "distance_value": 2672
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?z@zBCp@@VC@RW@L|A?TJXLpBd@nHVlDNnCDhBCtBE|@UxAe@~BUbA[dAKXKLc@hAARiAlCORg@nAEXS`@e@hAm@pA}@nBUn@Wb@iBvCkG`JWTY`@_ApAc@j@ERY^m@v@qBkA{@g@y@e@g@Yc@UFKFQZPl@yA",
+            "duration": "33 mins",
+            "distance": "2.4 km",
+            "duration_value": 1981,
+            "distance_value": 2367
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?z@zBCp@@VC@RW@L|A?TJXLpBd@nHVlDNnCDhBCtBE|@UxAe@~BUbA[dAKXKLc@hAARiAlCORg@nAEXS`@e@hAm@pA}@nBUn@Wb@iBvCkG`JWTY`@_ApAc@j@ERY^m@v@qBkA{@g@y@e@g@Yc@UFKFQZPl@yA",
+            "duration": "33 mins",
+            "distance": "2.4 km",
+            "duration_value": 1981,
+            "distance_value": 2367
+          }
+        }
       }
     ],
     "Healthcare - Clinics & Polyclinics": [
@@ -407,7 +1120,30 @@
         "rating": 2.9,
         "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMQ9x-FbMKMnTL95_B9bzlglBQuhiIqpfRAgc9R=w168-h86-k-no",
         "subcategory": "Polyclinic",
-        "subcategory_reasoning": "The location is specifically a polyclinic, which is a type of healthcare facility that provides a range of medical services, including outpatient care, making it distinct from other types of clinics."
+        "subcategory_reasoning": "The location is specifically a polyclinic, which is a type of healthcare facility that provides a range of medical services, including outpatient care, making it distinct from other types of clinics.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?XJNCB?",
+            "duration": "4 mins",
+            "distance": "1.2 km",
+            "duration_value": 247,
+            "distance_value": 1214
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR[bANd@LNpBt@d@NXBXDp@@XBTHNCB?",
+            "duration": "17 mins",
+            "distance": "1.2 km",
+            "duration_value": 1013,
+            "distance_value": 1214
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQ?DoA@",
+            "duration": "7 mins",
+            "distance": "1.4 km",
+            "duration_value": 408,
+            "distance_value": 1394
+          }
+        }
       },
       {
         "name": "Central 24-HR Clinic Pasir Ris",
@@ -419,7 +1155,30 @@
         "rating": 3.2,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxrn_Ye-S6sjoCmOS_p8mqwqHSWwjBScmIw2chSiHtksvSZa3jLNakCeffSzqR3qfnAnELkLqmwRAisnNPxVKyLQq1S3Vg4HKTeydRtW7cpa4aieVRLSlQwEW6-8VdVs39sfoqf=w114-h86-k-no",
         "subcategory": "General Practitioner Clinic",
-        "subcategory_reasoning": "The location is a 24-hour clinic that provides general practitioner services, which fits the subcategory of a General Practitioner Clinic within the healthcare sector."
+        "subcategory_reasoning": "The location is a 24-hour clinic that provides general practitioner services, which fits the subcategory of a General Practitioner Clinic within the healthcare sector.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@AjACdAAd@E~@QbAW`Cu@z@UvA]f@E`AA?{Bv@@?]",
+            "duration": "4 mins",
+            "distance": "0.8 km",
+            "duration_value": 219,
+            "distance_value": 796
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A?{Bv@@L?AW",
+            "duration": "11 mins",
+            "distance": "0.8 km",
+            "duration_value": 676,
+            "distance_value": 796
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A?{Bv@@L?AW",
+            "duration": "11 mins",
+            "distance": "0.8 km",
+            "duration_value": 676,
+            "distance_value": 796
+          }
+        }
       },
       {
         "name": "Life-Link Clinic & Surgery Pasir Ris",
@@ -431,7 +1190,30 @@
         "rating": 2.3,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSysSvAoNlHWTHfw4Dlq1BfZ7QnboXqejbgoGybz_AQYlbJmG67jlPOiAzB4GXbUlvH8Y50DM8KhMSImH_aUPNqgGOAxSYc1yuHgTKF5DvcSnavrwJtGJcaSS9m_nO06wylCjCaW=w114-h86-k-no",
         "subcategory": "Medical Clinic",
-        "subcategory_reasoning": "The location is a clinic that provides healthcare services, which fits the specific subcategory of 'Medical Clinic' within the broader category of healthcare."
+        "subcategory_reasoning": "The location is a clinic that provides healthcare services, which fits the specific subcategory of 'Medical Clinic' within the broader category of healthcare.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@AjACdAAd@E~@QbAW`Cu@z@UvA]f@E`AAv@A",
+            "duration": "3 mins",
+            "distance": "0.7 km",
+            "duration_value": 166,
+            "distance_value": 711
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A|@?",
+            "duration": "10 mins",
+            "distance": "0.7 km",
+            "duration_value": 603,
+            "distance_value": 711
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A|@?",
+            "duration": "10 mins",
+            "distance": "0.7 km",
+            "duration_value": 603,
+            "distance_value": 711
+          }
+        }
       }
     ],
     "Healthcare - Supermarkets": [
@@ -445,7 +1227,30 @@
         "rating": 3.6,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx3vRmmcziva6TvHhI0oKPKK-r1cgczesU4-8JtZNKt-gwbwfBjl7PijabaYekF20sLehNk4Hui24lqFDrANvOb5pMcWrE12nxq3lr5KM_vyoK4zmRRsREbnwYf55nUglk5SLR2=w114-h86-k-no",
         "subcategory": "Supermarket",
-        "subcategory_reasoning": "Cold Storage is a well-known supermarket chain in Singapore, and its location in Pasir Ris Mall indicates it operates as a grocery store providing food and household items."
+        "subcategory_reasoning": "Cold Storage is a well-known supermarket chain in Singapore, and its location in Pasir Ris Mall indicates it operates as a grocery store providing food and household items.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?XJNCVA",
+            "duration": "4 mins",
+            "distance": "1.2 km",
+            "duration_value": 251,
+            "distance_value": 1225
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR[bANd@LNpBt@d@NXBXDp@@XBTHNCVA",
+            "duration": "17 mins",
+            "distance": "1.2 km",
+            "duration_value": 1022,
+            "distance_value": 1224
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQ?DcA{A",
+            "duration": "7 mins",
+            "distance": "1.4 km",
+            "duration_value": 400,
+            "distance_value": 1413
+          }
+        }
       },
       {
         "name": "Scarlett Supermarket Pasir Ris Mall",
@@ -457,7 +1262,30 @@
         "rating": 3.3,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxrDWnZ4swn_2sJwqPs2NOgQ8lVYg1zBkLTbGeJaV_aVVgU50z503y6SWJrcIqZO1RphdG94m999TstROxMMsF_bnbjXtvQmMAashWrpgWc8F3yFJtBxZ2_aN-2rD4yMMZkX1V-=w86-h114-k-no",
         "subcategory": "Supermarket",
-        "subcategory_reasoning": "The location is a supermarket within a mall, which fits the specific subcategory of 'Supermarket' rather than a broader category like 'Healthcare'."
+        "subcategory_reasoning": "The location is a supermarket within a mall, which fits the specific subcategory of 'Supermarket' rather than a broader category like 'Healthcare'.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?XJNCn@C^Bf@L\\MDCLQNYR_@",
+            "duration": "5 mins",
+            "distance": "1.4 km",
+            "duration_value": 296,
+            "distance_value": 1352
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nH?J|C?n@@bAAZBTHf@XbDxCRXBL?TUnACXKV?XKp@Ud@[l@",
+            "duration": "18 mins",
+            "distance": "1.3 km",
+            "duration_value": 1061,
+            "distance_value": 1266
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHj@NRIJKPYDICA",
+            "duration": "7 mins",
+            "distance": "1.4 km",
+            "duration_value": 444,
+            "distance_value": 1431
+          }
+        }
       },
       {
         "name": "NTUC FairPrice E-Hub Downtown East",
@@ -469,7 +1297,30 @@
         "rating": 4.2,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzN2HCXdlbbLwfD3Ufq3EFP6EyPsg4_ukscyw_g9nzK6TkqZzVvXiqz5-9gyXOUuLnr94vPZUUKIDLJEFM8TAychb_tBLrRMq8X1c0ga3V2qqaLgiX_uOBPSnh15DxjTXHNblDHWA=w122-h92-k-no",
         "subcategory": "Supermarket",
-        "subcategory_reasoning": "FairPrice Downtown East is primarily a retail establishment that sells groceries and household items, which fits the definition of a supermarket."
+        "subcategory_reasoning": "FairPrice Downtown East is primarily a retail establishment that sells groceries and household items, which fits the definition of a supermarket.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDNhC@JSBOeCa@kGMoBACQ?a@@q@?",
+            "duration": "3 mins",
+            "distance": "0.9 km",
+            "duration_value": 182,
+            "distance_value": 902
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?z@zBCp@@VC@RW@L|A?TJXB\\M?a@@q@?",
+            "duration": "4 mins",
+            "distance": "0.3 km",
+            "duration_value": 261,
+            "distance_value": 303
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?z@zBCp@@VC@RW@L|A?TJXB\\M?a@@q@?",
+            "duration": "4 mins",
+            "distance": "0.3 km",
+            "duration_value": 261,
+            "distance_value": 303
+          }
+        }
       },
       {
         "name": "NTUC FairPrice White Sands",
@@ -481,7 +1332,30 @@
         "rating": 4.1,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxLz87w3z6eIHoYWcd8mzTt0Fs1mVshPbwlDxgvVeqy2TvbjiMmNder3JKSV8LNLFNt9j4dDNzSQt3hYjMCkJiZ2nMBRTtWSX5DF8l3CSCWe2PDBTN7wwVhztgAAoSSKwEVmKpK=w128-h86-k-no",
         "subcategory": "Supermarket",
-        "subcategory_reasoning": "FairPrice White Sands is primarily a retail grocery store, which fits the definition of a supermarket. It provides a wide range of food and household products, making it a key shopping destination for everyday needs."
+        "subcategory_reasoning": "FairPrice White Sands is primarily a retail grocery store, which fits the definition of a supermarket. It provides a wide range of food and household products, making it a key shopping destination for everyday needs.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XElAB\\F\\Nv@l@rAnAKJ[Xi@f@YZ?ZFBB@@P?F",
+            "duration": "5 mins",
+            "distance": "1.1 km",
+            "duration_value": 273,
+            "distance_value": 1132
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHjE?fAA\\DVHh@XfA`Ah@f@KFUTy@t@EHHPR^ETJB",
+            "duration": "16 mins",
+            "distance": "1.1 km",
+            "duration_value": 954,
+            "distance_value": 1132
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHjE?fAA\\DVHh@XfA`Ah@f@KFUTy@t@EHHPR^ETJB",
+            "duration": "16 mins",
+            "distance": "1.1 km",
+            "duration_value": 954,
+            "distance_value": 1132
+          }
+        }
       }
     ],
     "Healthcare - Pharmacies": [
@@ -495,7 +1369,30 @@
         "rating": 2,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwxueKJEH97MfZcW23mkCGxqc8jzkPXEBt9zOcEgO9DF7_PGmWieqTPaoqy4if4KcdcDc8GHamlzLkqKsy3BLSSmZDGiV-M4ZKJWzmsxp8QTnT9RRXOFEn6P6j2RtrjfqM1eJB86w=w122-h92-k-no",
         "subcategory": "Pharmacy",
-        "subcategory_reasoning": "The location is a health and beauty store that primarily offers pharmaceutical products, making 'Pharmacy' the most appropriate subcategory."
+        "subcategory_reasoning": "The location is a health and beauty store that primarily offers pharmaceutical products, making 'Pharmacy' the most appropriate subcategory.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?",
+            "duration": "4 mins",
+            "distance": "1.2 km",
+            "duration_value": 237,
+            "distance_value": 1187
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR[bANd@LNpBt@d@NXBXDp@@N?",
+            "duration": "16 mins",
+            "distance": "1.2 km",
+            "duration_value": 989,
+            "distance_value": 1186
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHSAS?y@DUI",
+            "duration": "7 mins",
+            "distance": "1.4 km",
+            "duration_value": 428,
+            "distance_value": 1419
+          }
+        }
       },
       {
         "name": "Watsons Pasir Ris Mall",
@@ -507,7 +1404,30 @@
         "rating": 4.6,
         "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNnfgM8IMmsYuAzkei-iCq6U1UFJCO6JCY3voiR=w132-h86-k-no",
         "subcategory": "Pharmacy",
-        "subcategory_reasoning": "The location is a Watsons store, which is primarily a pharmacy that offers health and wellness products, making 'Pharmacy' the most appropriate subcategory."
+        "subcategory_reasoning": "The location is a Watsons store, which is primarily a pharmacy that offers health and wellness products, making 'Pharmacy' the most appropriate subcategory.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XF",
+            "duration": "4 mins",
+            "distance": "1.1 km",
+            "duration_value": 216,
+            "distance_value": 1122
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR[bANd@LNpBt@p@R",
+            "duration": "16 mins",
+            "distance": "1.1 km",
+            "duration_value": 936,
+            "distance_value": 1121
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHSAS?y@D_@Mg@?g@EQC",
+            "duration": "8 mins",
+            "distance": "1.5 km",
+            "duration_value": 475,
+            "distance_value": 1479
+          }
+        }
       },
       {
         "name": "Eu Yan Sang Pasir Ris Mall",
@@ -519,7 +1439,30 @@
         "rating": 5,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxLNrgW6dVN8HwcTkOge1PqpnzUUy8F3W4p_C_fZe81e9xPGc03gpS6_Y4tO9mORybPED2L7HwMy0XKpC9V_Wedt9FoBwOWf5WaSAAmlH46OLoEbQve-w75Nd_5akby6Nq_6ddg=w138-h92-k-no",
         "subcategory": "Traditional Chinese Medicine Pharmacy",
-        "subcategory_reasoning": "Eu Yan Sang specializes in traditional Chinese medicine and herbal products, making it a specific type of pharmacy focused on alternative healthcare."
+        "subcategory_reasoning": "Eu Yan Sang specializes in traditional Chinese medicine and herbal products, making it a specific type of pharmacy focused on alternative healthcare.",
+        "cached_routes": {
+          "Drive": {
+            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dh@?",
+            "duration": "4 mins",
+            "distance": "1.2 km",
+            "duration_value": 236,
+            "distance_value": 1183
+          },
+          "Walk": {
+            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR[bANd@LNpBt@d@NXBXDp@@N?",
+            "duration": "16 mins",
+            "distance": "1.2 km",
+            "duration_value": 986,
+            "distance_value": 1182
+          },
+          "Transit": {
+            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHSAS?y@D_@M",
+            "duration": "7 mins",
+            "distance": "1.4 km",
+            "duration_value": 431,
+            "distance_value": 1423
+          }
+        }
       }
     ]
   }

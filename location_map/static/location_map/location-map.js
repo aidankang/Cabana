@@ -15,12 +15,16 @@ class LocationExplorer {
     this.condoMarker = null;
     this.infoWindow = null;
     this.currentCategory = "Shopping & Dining";
+    this.geometryLibrary = null; // For encoding/decoding polylines
   }
 
   async init() {
     try {
       // Initialize map
       await this.initMap();
+
+      // Load geometry library for polyline encoding/decoding
+      this.geometryLibrary = await google.maps.importLibrary("geometry");
 
       // Initialize services
       this.directionsService = new google.maps.DirectionsService();
@@ -53,9 +57,39 @@ class LocationExplorer {
   async initMap() {
     const { Map } = await google.maps.importLibrary("maps");
 
+    // Custom map style
+    const mapStyles = [
+      {
+        featureType: "road",
+        elementType: "geometry",
+        stylers: [{ visibility: "on" }, { weight: 0 }],
+      },
+      {
+        featureType: "road",
+        elementType: "labels.text.fill",
+        stylers: [{ visibility: "on" }, { opacity: 0.8 }, { color: "#808080" }],
+      },
+      {
+        featureType: "road",
+        elementType: "labels.text.stroke",
+        stylers: [{ visibility: "off" }, { color: "#ffffff" }],
+      },
+      {
+        featureType: "poi",
+        elementType: "geometry",
+        stylers: [{ visibility: "off" }],
+      },
+      {
+        featureType: "poi",
+        elementType: "labels",
+        stylers: [{ visibility: "off" }],
+      },
+    ];
+
     this.map = new Map(document.getElementById("map"), {
       center: CONDO_LOCATION,
       zoom: 14,
+      styles: mapStyles,
       mapTypeControl: true,
       streetViewControl: true,
       fullscreenControl: true,
@@ -170,12 +204,7 @@ class LocationExplorer {
       <div class="info-hover">
         <h4>${location.name}</h4>
         <p class="info-description">${location.description}</p>
-        ${
-          location.distance
-            ? `<p><strong>Distance:</strong> ${location.distance}</p>`
-            : ""
-        }
-        <p class="info-hint">Click to see route</p>
+        <p class="info-hint">Click to see commute times (drive, walk, transit)</p>
       </div>
     `;
 
@@ -183,92 +212,233 @@ class LocationExplorer {
     this.infoWindow.open(this.map, marker);
   }
 
-  showRoute(marker, location) {
-    const request = {
+  async showRoute(marker, location) {
+    // Check if we have pre-cached route data in the location object
+    if (
+      location.cached_routes &&
+      Object.keys(location.cached_routes).length > 0
+    ) {
+      console.log(`Using pre-cached route for ${location.name}`);
+      this.displayCachedRoute(marker, location, location.cached_routes);
+      return;
+    }
+
+    // No cache - request from Directions API (fallback)
+    console.log(
+      `No cached routes found - fetching from API for ${location.name}`
+    );
+
+    // Request all three travel modes in parallel
+    const travelModes = [
+      { mode: google.maps.TravelMode.DRIVING, label: "Drive" },
+      { mode: google.maps.TravelMode.WALKING, label: "Walk" },
+      { mode: google.maps.TravelMode.TRANSIT, label: "Transit" },
+    ];
+
+    const requests = travelModes.map(({ mode }) => ({
       origin: CONDO_LOCATION,
       destination: { lat: location.lat, lng: location.lng },
-      travelMode: google.maps.TravelMode.DRIVING,
-    };
+      travelMode: mode,
+    }));
 
-    this.directionsService
-      .route(request)
-      .then((result) => {
-        this.directionsRenderer.setDirections(result);
-        this.displayTravelInfo(result, location);
+    try {
+      // Get all routes simultaneously
+      const results = await Promise.allSettled(
+        requests.map((request) => this.directionsService.route(request))
+      );
 
-        // Show detailed info in info window
-        const route = result.routes[0];
-        const leg = route.legs[0];
+      // Extract travel times
+      const travelTimes = {};
 
-        const content = `
-          <div class="info-detailed">
-            <h3>${location.name}</h3>
-            <p class="address">${location.address || ""}</p>
-            <p class="description">${location.description}</p>
-            <div class="info-stats">
-              <div><strong>Distance:</strong> ${leg.distance.text}</div>
-              <div><strong>Drive Time:</strong> ${leg.duration.text}</div>
-              ${
-                location.walkTime
-                  ? `<div><strong>Walk:</strong> ${location.walkTime}</div>`
-                  : ""
-              }
-              ${
-                location.busTime
-                  ? `<div><strong>Bus:</strong> ${location.busTime}</div>`
-                  : ""
-              }
-            </div>
-          </div>
-        `;
-
-        this.infoWindow.setContent(content);
-        this.infoWindow.open(this.map, marker);
-      })
-      .catch((e) => {
-        console.error("Directions request failed:", e);
-        this.infoWindow.setContent(`
-          <div class="info-error">
-            <h4>${location.name}</h4>
-            <p>Route information unavailable</p>
-            <p style="font-size: 0.85rem; color: #999;">Error: ${
-              e.message || "Unknown error"
-            }</p>
-          </div>
-        `);
-        this.infoWindow.open(this.map, marker);
+      results.forEach((result, index) => {
+        const modeLabel = travelModes[index].label;
+        if (result.status === "fulfilled") {
+          const leg = result.value.routes[0].legs[0];
+          travelTimes[modeLabel] = {
+            duration: leg.duration.text,
+            distance: leg.distance.text,
+          };
+        } else {
+          travelTimes[modeLabel] = null;
+        }
       });
+
+      // Display the driving route on the map
+      if (results[0].status === "fulfilled") {
+        this.directionsRenderer.setDirections(results[0].value);
+      }
+
+      // Display travel info in panel and info window
+      this.displayTravelInfo(travelTimes, location);
+
+      // Build info window content with all travel modes
+      const content = `
+        <div class="info-detailed">
+          <h3>${location.name}</h3>
+          <p class="address">${location.address || ""}</p>
+          <p class="description">${location.description}</p>
+          <div class="info-stats">
+            ${
+              travelTimes.Drive
+                ? `
+              <div><strong>🚗 Drive:</strong> ${travelTimes.Drive.duration} (${travelTimes.Drive.distance})</div>
+            `
+                : "<div><strong>🚗 Drive:</strong> Not available</div>"
+            }
+            ${
+              travelTimes.Walk
+                ? `
+              <div><strong>🚶 Walk:</strong> ${travelTimes.Walk.duration} (${travelTimes.Walk.distance})</div>
+            `
+                : "<div><strong>🚶 Walk:</strong> Not available</div>"
+            }
+            ${
+              travelTimes.Transit
+                ? `
+              <div><strong>🚌 Transit:</strong> ${travelTimes.Transit.duration}</div>
+            `
+                : "<div><strong>🚌 Transit:</strong> Not available</div>"
+            }
+          </div>
+          <p class="cache-note" style="font-size: 0.8rem; color: #666; margin-top: 8px;">⚠ Loaded from API (consider running fetch_routes command)</p>
+        </div>
+      `;
+
+      this.infoWindow.setContent(content);
+      this.infoWindow.open(this.map, marker);
+    } catch (e) {
+      console.error("Directions request failed:", e);
+      this.infoWindow.setContent(`
+        <div class="info-error">
+          <h4>${location.name}</h4>
+          <p>Route information unavailable</p>
+          <p style="font-size: 0.85rem; color: #999;">Error: ${
+            e.message || "Unknown error"
+          }</p>
+        </div>
+      `);
+      this.infoWindow.open(this.map, marker);
+    }
   }
 
-  displayTravelInfo(result, location) {
-    const route = result.routes[0];
-    const leg = route.legs[0];
+  displayCachedRoute(marker, location, cachedRoutes) {
+    // Convert cached route format to travel times format
+    const travelTimes = {};
+    for (const [mode, routeData] of Object.entries(cachedRoutes)) {
+      if (routeData && routeData.duration) {
+        travelTimes[mode] = {
+          duration: routeData.duration,
+          distance: routeData.distance || "N/A",
+        };
+      }
+    }
 
+    // Display the driving route using cached encoded polyline
+    if (cachedRoutes.Drive && cachedRoutes.Drive.encoded_polyline) {
+      const decodedPath = this.geometryLibrary.encoding.decodePath(
+        cachedRoutes.Drive.encoded_polyline
+      );
+
+      // Create a polyline from the decoded path
+      const routePolyline = new google.maps.Polyline({
+        path: decodedPath,
+        geodesic: true,
+        strokeColor: "#4285F4",
+        strokeOpacity: 0.7,
+        strokeWeight: 5,
+        map: this.map,
+      });
+
+      // Clear previous route and set new one
+      this.directionsRenderer.setDirections({ routes: [] });
+
+      // Store the polyline so we can clear it later
+      if (this.currentRoutePolyline) {
+        this.currentRoutePolyline.setMap(null);
+      }
+      this.currentRoutePolyline = routePolyline;
+    }
+
+    // Display travel info in panel and info window
+    this.displayTravelInfo(travelTimes, location);
+
+    // Build info window content
+    const content = `
+      <div class="info-detailed">
+        <h3>${location.name}</h3>
+        <p class="address">${location.address || ""}</p>
+        <p class="description">${location.description}</p>
+        <div class="info-stats">
+          ${
+            travelTimes.Drive
+              ? `
+            <div><strong>🚗 Drive:</strong> ${travelTimes.Drive.duration} (${travelTimes.Drive.distance})</div>
+          `
+              : "<div><strong>🚗 Drive:</strong> Not available</div>"
+          }
+          ${
+            travelTimes.Walk
+              ? `
+            <div><strong>🚶 Walk:</strong> ${travelTimes.Walk.duration} (${travelTimes.Walk.distance})</div>
+          `
+              : "<div><strong>🚶 Walk:</strong> Not available</div>"
+          }
+          ${
+            travelTimes.Transit
+              ? `
+            <div><strong>🚌 Transit:</strong> ${travelTimes.Transit.duration}</div>
+          `
+              : "<div><strong>🚌 Transit:</strong> Not available</div>"
+          }
+        </div>
+        <p class="cache-note" style="font-size: 0.8rem; color: #666; margin-top: 8px;">✓ Loaded from cache</p>
+      </div>
+    `;
+
+    this.infoWindow.setContent(content);
+    this.infoWindow.open(this.map, marker);
+  }
+
+  displayTravelInfo(travelTimes, location) {
     const panel = document.getElementById("travel-details");
     panel.innerHTML = `
       <div class="travel-route">
         <h4>Route to ${location.name}</h4>
         <div class="travel-stats">
-          <div class="stat">
-            <span class="stat-label">Distance</span>
-            <span class="stat-value">${leg.distance.text}</span>
-          </div>
-          <div class="stat">
-            <span class="stat-label">Drive Time</span>
-            <span class="stat-value">${leg.duration.text}</span>
-          </div>
+          ${
+            travelTimes.Drive
+              ? `
+            <div class="stat">
+              <span class="stat-label">🚗 Drive</span>
+              <span class="stat-value">${travelTimes.Drive.duration}</span>
+              <span class="stat-distance">${travelTimes.Drive.distance}</span>
+            </div>
+          `
+              : ""
+          }
+          ${
+            travelTimes.Walk
+              ? `
+            <div class="stat">
+              <span class="stat-label">🚶 Walk</span>
+              <span class="stat-value">${travelTimes.Walk.duration}</span>
+              <span class="stat-distance">${travelTimes.Walk.distance}</span>
+            </div>
+          `
+              : ""
+          }
+          ${
+            travelTimes.Transit
+              ? `
+            <div class="stat">
+              <span class="stat-label">🚌 Transit</span>
+              <span class="stat-value">${travelTimes.Transit.duration}</span>
+            </div>
+          `
+              : ""
+          }
         </div>
-        <p class="route-note">Route displayed on map in blue</p>
-        ${
-          location.walkTime
-            ? `<p class="extra-info"><strong>Walk:</strong> ${location.walkTime}</p>`
-            : ""
-        }
-        ${
-          location.busTime
-            ? `<p class="extra-info"><strong>Bus:</strong> ${location.busTime}</p>`
-            : ""
-        }
+        <p class="route-note">Driving route displayed on map in blue</p>
       </div>
     `;
   }
@@ -280,6 +450,13 @@ class LocationExplorer {
 
   clearRoute() {
     this.directionsRenderer.setDirections({ routes: [] });
+
+    // Clear any cached polyline we created
+    if (this.currentRoutePolyline) {
+      this.currentRoutePolyline.setMap(null);
+      this.currentRoutePolyline = null;
+    }
+
     const panel = document.getElementById("travel-details");
     panel.innerHTML =
       '<p class="info-message">Click on a marker to see route and travel time from Coastal Cabana EC</p>';
@@ -338,6 +515,7 @@ function transformLocationData(jsonData) {
       lat: loc.lat,
       lng: loc.lng,
       description: loc.subcategory || "",
+      cached_routes: loc.cached_routes || null, // Include cached routes from JSON
     }));
   }
 
@@ -360,7 +538,31 @@ async function initLocationExplorer() {
   }
 
   const explorer = new LocationExplorer();
-  explorer.init();
+  await explorer.init();
+
+  // Expose to global scope for debugging
+  window.locationExplorer = explorer;
+  console.log(
+    "Location Explorer initialized. Access via window.locationExplorer"
+  );
+
+  // Count cached routes
+  let cachedCount = 0;
+  let totalCount = 0;
+  for (const locations of Object.values(LOCATIONS)) {
+    for (const loc of locations) {
+      totalCount++;
+      if (loc.cached_routes && Object.keys(loc.cached_routes).length > 0) {
+        cachedCount++;
+      }
+    }
+  }
+  console.log(
+    `Routes: ${cachedCount}/${totalCount} locations have pre-cached routes`
+  );
+  if (cachedCount < totalCount) {
+    console.log('Run "python manage.py fetch_routes" to cache all routes');
+  }
 }
 
 // Expose to global scope for callback

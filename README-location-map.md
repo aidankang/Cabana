@@ -6,60 +6,189 @@ An interactive Google Maps-based location explorer showing nearby amenities, rou
 
 ✅ **Category-Based Filtering**: Switch between Shopping & Dining, Parks & Recreation, Schools & Childcare, Healthcare, and Transport  
 ✅ **Interactive Markers**: Click markers to see routes and travel times  
+✅ **Pre-Cached Routes**: Instant route display without API calls using pre-fetched data  
 ✅ **Hover Information**: Hover over markers to see quick details  
-✅ **Route Visualization**: Visual route display with distance and drive time  
-✅ **Travel Time Display**: Shows drive time, walk time, and bus time where available  
+✅ **Route Visualization**: Visual route display with distance and travel times  
+✅ **Travel Time Display**: Shows drive time, walk time, and transit time for all locations  
 ✅ **Responsive Design**: Works on desktop, tablet, and mobile devices
 
 ## Setup Instructions
 
-### 1. Get a Google Maps API Key
+### 1. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+This includes:
+
+- Django
+- googlemaps (for route pre-fetching)
+
+### 2. Get a Google Maps API Key
 
 1. Go to [Google Cloud Console](https://console.cloud.google.com/)
 2. Create a new project or select an existing one
 3. Enable the following APIs:
-   - **Maps JavaScript API**
-   - **Directions API**
+   - **Maps JavaScript API** (for displaying the map)
+   - **Directions API** (for pre-fetching routes)
+   - **Geometry API** (for encoding/decoding polylines)
 4. Go to **Credentials** and create an API key
-5. (Optional) Restrict your API key to your domain for security
+5. (Recommended) Restrict your API key:
+   - For frontend: Restrict to your domain
+   - For backend: Restrict to your server IP
 
-### 2. Configure the API Key
+### 3. Configure the API Key
 
-Open `location-map.html` and replace `YOUR_API_KEY` with your actual API key:
+Add your API key to Django settings or environment variables:
 
-```html
-<script
-  async
-  src="https://maps.googleapis.com/maps/api/js?key=YOUR_ACTUAL_API_KEY&libraries=marker&callback=initLocationExplorer"
-></script>
+```python
+# In settings.py or .env
+GOOGLE_MAPS_API_KEY = 'your_api_key_here'
 ```
 
-### 3. Run the Application
+### 4. Pre-Fetch All Routes (Recommended)
 
-Simply open `location-map.html` in a web browser. You can:
+Run the management command to fetch and cache all routes upfront:
 
-- **Open directly**: Double-click the HTML file
-- **Use a local server** (recommended):
+```bash
+python manage.py fetch_routes
+```
 
-  ```bash
-  # Using Python
-  python -m http.server 8000
+This will:
 
-  # Using Node.js
-  npx http-server
-  ```
+- Fetch routes for all travel modes (driving, walking, transit)
+- Store encoded polylines in `coordinates_results.json`
+- Save travel times and distances
+- Enable instant route display without API calls
 
-  Then navigate to `http://localhost:8000/location-map.html`
+Options:
+
+```bash
+# Use a specific API key
+python manage.py fetch_routes --api-key YOUR_API_KEY
+
+# Adjust delay between requests (default: 0.2 seconds)
+python manage.py fetch_routes --delay 0.5
+```
+
+### 5. Run the Django Development Server
+
+```bash
+python manage.py runserver
+```
+
+Navigate to: `http://localhost:8000/location-map/`
+
+## Management Commands
+
+### `fetch_coordinates`
+
+Fetch coordinates for new locations and add them to the JSON file:
+
+```bash
+# Add locations to a category
+python manage.py fetch_coordinates "Location 1" "Location 2" --category "Shopping & Dining"
+
+# Add MRT stations
+python manage.py fetch_coordinates "Tampines MRT" --category "Connectivity - MRT Stations"
+```
+
+### `fetch_routes` (New!)
+
+Pre-fetch all routes and cache them in the JSON file:
+
+```bash
+# Fetch all routes
+python manage.py fetch_routes
+
+# With custom API key
+python manage.py fetch_routes --api-key YOUR_KEY
+
+# With slower rate limiting
+python manage.py fetch_routes --delay 0.5
+```
+
+**Benefits:**
+
+- ✅ Routes load instantly (no API calls needed)
+- ✅ Dramatically reduced API costs (one-time fetch vs. every user click)
+- ✅ Better user experience (instant vs. 1-2 second wait)
+- ✅ Works offline after initial page load
 
 ## File Structure
 
 ```
 Cabana/
-├── location-map.html       # Main HTML page
-├── location-map.js         # JavaScript implementation
-├── location-map.css        # Styling
-└── README-location-map.md  # This file
+├── location_map/
+│   ├── management/commands/
+│   │   ├── fetch_coordinates.py   # Fetch location coordinates
+│   │   └── fetch_routes.py        # Pre-fetch and cache routes
+│   ├── static/location_map/
+│   │   ├── coordinates_results.json  # Location data + cached routes
+│   │   ├── location-map.js          # Frontend JavaScript
+│   │   └── location-map.css         # Styling
+│   ├── templates/location_map/
+│   │   └── index.html               # Main template
+│   └── views.py
+└── README-location-map.md           # This file
 ```
+
+## How Routes Are Cached
+
+### JSON Structure
+
+Each location in `coordinates_results.json` now includes `cached_routes`:
+
+```json
+{
+  "name": "White Sands Mall",
+  "lat": 1.3732,
+  "lng": 103.9493,
+  "cached_routes": {
+    "Drive": {
+      "encoded_polyline": "encoded_string_here",
+      "duration": "5 mins",
+      "distance": "1.7 km",
+      "duration_value": 300,
+      "distance_value": 1700
+    },
+    "Walk": { ... },
+    "Transit": { ... }
+  }
+}
+```
+
+### How It Works
+
+1. **Pre-fetch**: Run `fetch_routes` command once to fetch all routes
+2. **Storage**: Routes stored as encoded polylines (space-efficient)
+3. **Frontend**: JavaScript decodes polylines and displays instantly
+4. **Fallback**: If no cached route, falls back to Directions API
+
+## API Usage & Costs
+
+### With Route Caching (Recommended)
+
+**One-time costs:**
+
+- Run `fetch_routes`: ~$0.50-$2.00 (for 50-200 locations × 3 routes each)
+
+**Ongoing costs:**
+
+- Map loads: Free (within generous free tier)
+- Route displays: **$0** (uses cached data)
+
+**Estimated savings:** 99% reduction in API costs
+
+### Without Route Caching
+
+**Per-user costs:**
+
+- Each route click: ~$0.005
+- 100 users × 10 clicks = $5.00/day = $150/month
+
+**Verdict:** Route caching pays for itself after ~1 day of traffic!
 
 ## How to Use
 
