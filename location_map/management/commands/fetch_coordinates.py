@@ -2,8 +2,17 @@ import requests
 import json
 import time
 import os
+import asyncio
 from django.core.management.base import BaseCommand
 from django.conf import settings
+from pydantic import BaseModel, Field
+from gpt import gpt_request
+
+
+class LocationSubcategory(BaseModel):
+    """Structured output model for location subcategorization."""
+    subcategory: str = Field(description="Specific subcategory for the location (e.g., 'Shopping Mall', 'Primary School', 'Community Park', 'MRT Station', 'Supermarket', etc.)")
+    reasoning: str = Field(description="Brief explanation for why this subcategory was chosen")
 
 
 class Command(BaseCommand):
@@ -17,7 +26,11 @@ class Command(BaseCommand):
     '''
 
     # SerpAPI Key
-    API_KEY = "c655abc550a6a266a5dfd5f56bcca097aca2bec8349b2775333952516fecfe69"
+    API_KEY = "21d97bf1d17bccaf9b9b70da56389ce607d60fcb35bc8406b4c1342cde955aa3"
+    
+    # Singapore coordinates (default search center)
+    SINGAPORE_LAT = 1.3521
+    SINGAPORE_LNG = 103.8198
 
     def add_arguments(self, parser):
         parser.add_argument(
@@ -39,14 +52,20 @@ class Command(BaseCommand):
             help='Condo location to fetch (default: "Coastal Cabana EC Pasir Ris")'
         )
 
-    def search_location(self, query):
+    def search_location(self, query, lat=None, lng=None):
         """Search for a location using SerpAPI Google Maps"""
         url = "https://serpapi.com/search.json"
+        
+        # Use provided coordinates or default to Singapore
+        if lat is not None and lng is not None:
+            ll_param = f"@{lat},{lng},14z"
+        else:
+            ll_param = f"@{self.SINGAPORE_LAT},{self.SINGAPORE_LNG},14z"
         
         params = {
             "engine": "google_maps",
             "q": f"{query}",
-            "ll": "@1.3521,103.8198,14z",
+            "ll": ll_param,
             "type": "search",
             "hl": "en",
             "google_domain": "google.com",
@@ -73,7 +92,9 @@ class Command(BaseCommand):
                     "lat": first_result["gps_coordinates"]["latitude"],
                     "lng": first_result["gps_coordinates"]["longitude"],
                     "address": first_result.get("address", ""),
-                    "place_id": first_result.get("place_id", "")
+                    "place_id": first_result.get("place_id", ""),
+                    "rating": first_result.get("rating"),
+                    "thumbnail": first_result.get("thumbnail")
                 }
             
             self.stdout.write(self.style.WARNING(f"No results found for: {query}"))
@@ -82,6 +103,80 @@ class Command(BaseCommand):
         except Exception as e:
             self.stdout.write(self.style.ERROR(f"Error searching for {query}: {e}"))
             return None
+
+    async def categorize_locations(self, locations_by_category):
+        """
+        Use OpenAI GPT to assign subcategories to each location.
+        
+        Args:
+            locations_by_category (dict): Dictionary mapping category names to lists of locations
+            
+        Returns:
+            dict: Updated locations with subcategories added
+        """
+        self.stdout.write(self.style.SUCCESS("\n--- Categorizing Locations with GPT ---"))
+        
+        # Prepare batch requests for all locations
+        params_list = []
+        location_refs = []  # Keep track of which location each request corresponds to
+        
+        for category, locations in locations_by_category.items():
+            for location in locations:
+                # Skip if subcategory already exists
+                if 'subcategory' in location:
+                    self.stdout.write(self.style.SUCCESS(f"✓ {location['title']} already has subcategory: {location['subcategory']}"))
+                    continue
+                
+                # Create GPT request for this location
+                params = {
+                    'model': 'gpt-4o-mini',
+                    'messages': [
+                        {
+                            'role': 'system',
+                            'content': 'You are a location categorization expert. Given a location name, address, and category, assign a specific subcategory that best describes the type of place it is.'
+                        },
+                        {
+                            'role': 'user',
+                            'content': f"Location: {location['title']}\nAddress: {location.get('address', 'N/A')}\nCategory: {category}\n\nWhat specific subcategory best describes this location?"
+                        }
+                    ],
+                    'response_format': LocationSubcategory,
+                    'temperature': 0,
+                    'max_tokens': 150
+                }
+                
+                params_list.append(params)
+                location_refs.append((category, location))
+        
+        if not params_list:
+            self.stdout.write(self.style.SUCCESS("✓ All locations already categorized"))
+            return locations_by_category
+        
+        # Make concurrent GPT requests
+        self.stdout.write(f"Making {len(params_list)} GPT requests...")
+        outputs, total_cost = await gpt_request(__name__, params_list)
+        
+        # Update locations with subcategories
+        for i, output in enumerate(outputs):
+            category, location = location_refs[i]
+            if isinstance(output, LocationSubcategory):
+                location['subcategory'] = output.subcategory
+                location['subcategory_reasoning'] = output.reasoning
+                self.stdout.write(
+                    self.style.SUCCESS(
+                        f"  ✓ {location['title']}: {output.subcategory}"
+                    )
+                )
+            else:
+                self.stdout.write(
+                    self.style.WARNING(
+                        f"  ⚠ Failed to categorize {location['title']}"
+                    )
+                )
+        
+        self.stdout.write(self.style.SUCCESS(f"\n✓ Categorization complete. Total cost: ${total_cost:.4f}"))
+        
+        return locations_by_category
 
     def handle(self, *args, **options):
         # Get command arguments
@@ -113,11 +208,15 @@ class Command(BaseCommand):
             self.stdout.write(self.style.SUCCESS(f"✓ Condo already exists: {condo_query} (skipping)"))
             condo = existing_data["condo"]
         else:
-            # Fetch condo location
+            # Fetch condo location using Singapore coordinates
             self.stdout.write(f"Fetching condo location: {condo_query}")
-            condo = self.search_location(condo_query)
+            condo = self.search_location(condo_query, lat=self.SINGAPORE_LAT, lng=self.SINGAPORE_LNG)
             if condo:
                 self.stdout.write(self.style.SUCCESS(f"  ✓ Found: {condo['lat']}, {condo['lng']}"))
+        
+        # Get condo coordinates for searching nearby locations
+        condo_lat = round(condo['lat'], 4) if condo else self.SINGAPORE_LAT
+        condo_lng = round(condo['lng'], 4) if condo else self.SINGAPORE_LNG
         
         # Start with existing data
         results = {
@@ -142,7 +241,7 @@ class Command(BaseCommand):
                 continue
             
             self.stdout.write(f"Fetching: {place}")
-            coords = self.search_location(place)
+            coords = self.search_location(place, lat=condo_lat, lng=condo_lng)
             if coords:
                 results["locations"][category_name].append(coords)
                 self.stdout.write(self.style.SUCCESS(f"  ✓ Found: {coords['lat']}, {coords['lng']}"))
@@ -151,6 +250,9 @@ class Command(BaseCommand):
             
             # Rate limiting - wait 1 second between requests
             time.sleep(1)
+        
+        # Categorize locations using GPT
+        results["locations"] = asyncio.run(self.categorize_locations(results["locations"]))
         
         # Ensure the directory exists
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -173,6 +275,7 @@ class Command(BaseCommand):
         for category, places in results["locations"].items():
             self.stdout.write(f"\n{category}: {len(places)} locations")
             for place in places:
-                self.stdout.write(f"  - {place['title']}: {place['lat']}, {place['lng']}")
+                subcategory = f" [{place.get('subcategory', 'N/A')}]" if 'subcategory' in place else ""
+                self.stdout.write(f"  - {place['title']}{subcategory}: {place['lat']}, {place['lng']}")
         
         self.stdout.write(self.style.SUCCESS(f"\n✓ Successfully fetched {sum(len(places) for places in results['locations'].values())} locations"))

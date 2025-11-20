@@ -328,29 +328,17 @@ function transformLocationData(jsonData) {
   };
 
   // Transform locations by category
-  // Map JSON categories to display categories
-  const categoryMap = {
-    Education: "Schools & Childcare",
-    "Shopping & Dining": "Shopping & Dining",
-    "Parks & Recreation": "Parks & Recreation",
-    Healthcare: "Healthcare",
-    Transport: "Transport",
-  };
-
+  // Use JSON categories directly
   LOCATIONS = {};
 
-  for (const [jsonCategory, displayCategory] of Object.entries(categoryMap)) {
-    if (jsonData.locations[jsonCategory]) {
-      LOCATIONS[displayCategory] = jsonData.locations[jsonCategory].map(
-        (loc) => ({
-          name: loc.title || loc.name,
-          address: loc.address,
-          lat: loc.lat,
-          lng: loc.lng,
-          description: loc.subcategory || "",
-        })
-      );
-    }
+  for (const [category, locations] of Object.entries(jsonData.locations)) {
+    LOCATIONS[category] = locations.map((loc) => ({
+      name: loc.title || loc.name,
+      address: loc.address,
+      lat: loc.lat,
+      lng: loc.lng,
+      description: loc.subcategory || "",
+    }));
   }
 
   console.log("Transformed location data:", { CONDO_LOCATION, LOCATIONS });
