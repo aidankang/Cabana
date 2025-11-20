@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coastal Cabana EC - Location & Amenities</title>
-    <link rel="stylesheet" href="location-map.css" />
+    {% load static %}
+    <link
+      rel="stylesheet"
+      href="{% static 'location_map/location-map.css' %}"
+    />
   </head>
   <body>
     <div class="container">
@@ -57,12 +61,12 @@
     </div>
 
     <!-- Include the JavaScript file -->
-    <script src="location-map.js"></script>
+    <script src="{% static 'location_map/location-map.js' %}"></script>
 
     <!-- Google Maps API - Replace YOUR_API_KEY with your actual API key -->
     <script
       async
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAA-VGeXT0DTF2rQd3mAfK47JwDHkB43Y&libraries=marker&callback=initLocationExplorer"
+      src="https://maps.googleapis.com/maps/api/js?key={{ google_maps_api_key }}&libraries=marker&callback=initLocationExplorer"
     ></script>
   </body>
 </html>
