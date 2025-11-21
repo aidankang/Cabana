@@ -64,7 +64,7 @@ class LocationExplorer {
     this.map = new Map(document.getElementById("map"), {
       center: CONDO_LOCATION,
       zoom: 14,
-      mapId: "e57770696a6bd1c9cae8181e", // Required for Advanced Markers (styles configured in Cloud Console)
+      mapId: "3efffa2eaac033454501a8ce", // Required for Advanced Markers (styles configured in Cloud Console)
       mapTypeControl: false,
       streetViewControl: false,
       fullscreenControl: false,
@@ -166,6 +166,9 @@ class LocationExplorer {
       this.showRoute(marker, location);
     });
 
+    // Store location data with marker for easy access
+    marker.locationData = location;
+
     this.markers.push(marker);
   }
 
@@ -189,109 +192,17 @@ class LocationExplorer {
       Object.keys(location.cached_routes).length > 0
     ) {
       console.log(`Using pre-cached route for ${location.name}`);
-      this.displayCachedRoute(marker, location, location.cached_routes);
-      return;
-    }
-
-    // No cache - request from Directions API (fallback)
-    console.log(
-      `No cached routes found - fetching from API for ${location.name}`
-    );
-
-    // Request all three travel modes in parallel
-    const travelModes = [
-      { mode: google.maps.TravelMode.DRIVING, label: "Drive" },
-      { mode: google.maps.TravelMode.WALKING, label: "Walk" },
-      { mode: google.maps.TravelMode.TRANSIT, label: "Transit" },
-    ];
-
-    const requests = travelModes.map(({ mode }) => ({
-      origin: CONDO_LOCATION,
-      destination: { lat: location.lat, lng: location.lng },
-      travelMode: mode,
-    }));
-
-    try {
-      // Get all routes simultaneously
-      const results = await Promise.allSettled(
-        requests.map((request) => this.directionsService.route(request))
-      );
-
-      // Extract travel times
-      const travelTimes = {};
-
-      results.forEach((result, index) => {
-        const modeLabel = travelModes[index].label;
-        if (result.status === "fulfilled") {
-          const leg = result.value.routes[0].legs[0];
-          travelTimes[modeLabel] = {
-            duration: leg.duration.text,
-            distance: leg.distance.text,
-          };
-        } else {
-          travelTimes[modeLabel] = null;
-        }
-      });
-
-      // Display the driving route on the map
-      if (results[0].status === "fulfilled") {
-        this.directionsRenderer.setDirections(results[0].value);
-      }
-
-      // Display travel info in panel and info window
+      const travelTimes = this.displayCachedRouteOnMap(location.cached_routes);
       this.displayTravelInfo(travelTimes, location);
-
-      // Build info window content with all travel modes
-      const content = `
-        <div class="info-detailed">
-          <h3>${location.name}</h3>
-          <p class="address">${location.address || ""}</p>
-          <p class="description">${location.description}</p>
-          <div class="info-stats">
-            ${
-              travelTimes.Drive
-                ? `
-              <div><strong>🚗 Drive:</strong> ${travelTimes.Drive.duration} (${travelTimes.Drive.distance})</div>
-            `
-                : "<div><strong>🚗 Drive:</strong> Not available</div>"
-            }
-            ${
-              travelTimes.Walk
-                ? `
-              <div><strong>🚶 Walk:</strong> ${travelTimes.Walk.duration} (${travelTimes.Walk.distance})</div>
-            `
-                : "<div><strong>🚶 Walk:</strong> Not available</div>"
-            }
-            ${
-              travelTimes.Transit
-                ? `
-              <div><strong>🚌 Transit:</strong> ${travelTimes.Transit.duration}</div>
-            `
-                : "<div><strong>🚌 Transit:</strong> Not available</div>"
-            }
-          </div>
-          <p class="cache-note" style="font-size: 0.8rem; color: #666; margin-top: 8px;">⚠ Loaded from API (consider running fetch_routes command)</p>
-        </div>
-      `;
-
-      this.infoWindow.setContent(content);
-      this.infoWindow.open(this.map, marker);
-    } catch (e) {
-      console.error("Directions request failed:", e);
-      this.infoWindow.setContent(`
-        <div class="info-error">
-          <h4>${location.name}</h4>
-          <p>Route information unavailable</p>
-          <p style="font-size: 0.85rem; color: #999;">Error: ${
-            e.message || "Unknown error"
-          }</p>
-        </div>
-      `);
-      this.infoWindow.open(this.map, marker);
+      this.displayInfoWindow(marker, location, travelTimes, true);
+    } else {
+      // No cached routes available
+      console.log(`No cached routes found for ${location.name}`);
+      this.displayInfoWindow(marker, location, null, false);
     }
   }
 
-  displayCachedRoute(marker, location, cachedRoutes) {
+  displayCachedRouteOnMap(cachedRoutes) {
     // Convert cached route format to travel times format
     const travelTimes = {};
     for (const [mode, routeData] of Object.entries(cachedRoutes)) {
@@ -329,46 +240,69 @@ class LocationExplorer {
       this.currentRoutePolyline = routePolyline;
     }
 
-    // Display travel info in panel and info window
-    this.displayTravelInfo(travelTimes, location);
+    return travelTimes;
+  }
 
-    // Build info window content
-    const content = `
-      <div class="info-detailed">
-        <h3>${location.name}</h3>
-        <p class="address">${location.address || ""}</p>
-        <p class="description">${location.description}</p>
-        <div class="info-stats">
+  displayInfoWindow(marker, location, travelTimes, fromCache) {
+    let content;
+
+    if (travelTimes) {
+      // Build info window content with travel times - mobile-first design
+      content = `
+        <div class="info-detailed" style="max-width: 240px; font-size: 12px;">
           ${
-            travelTimes.Drive
-              ? `
-            <div><strong>🚗 Drive:</strong> ${travelTimes.Drive.duration} (${travelTimes.Drive.distance})</div>
-          `
-              : "<div><strong>🚗 Drive:</strong> Not available</div>"
+            location.thumbnail
+              ? `<img src="${location.thumbnail}" alt="${location.name}" style="width: calc(100% + 32px); height: 70px; object-fit: cover; border-radius: 8px 8px 0 0; margin: -16px -16px 6px -16px;">`
+              : ""
           }
-          ${
-            travelTimes.Walk
-              ? `
-            <div><strong>🚶 Walk:</strong> ${travelTimes.Walk.duration} (${travelTimes.Walk.distance})</div>
-          `
-              : "<div><strong>🚶 Walk:</strong> Not available</div>"
-          }
-          ${
-            travelTimes.Transit
-              ? `
-            <div><strong>🚌 Transit:</strong> ${travelTimes.Transit.duration}</div>
-          `
-              : "<div><strong>🚌 Transit:</strong> Not available</div>"
-          }
+          <h3 style="margin: 0 0 2px 0; font-size: 13px; font-weight: 600; line-height: 1.2;">${
+            location.name
+          }</h3>
+          <p style="margin: 0 0 4px 0; font-size: 10px; color: #666; line-height: 1.2;">${
+            location.description || ""
+          }${location.rating ? ` • ⭐ ${location.rating}` : ""}</p>
+          <div style="font-size: 10px; line-height: 1.4; margin-top: 4px;">
+            ${
+              travelTimes.Drive
+                ? `<div style="margin-bottom: 1px;"><strong>Drive:</strong> ${travelTimes.Drive.duration}</div>`
+                : ""
+            }
+            ${
+              travelTimes.Walk
+                ? `<div style="margin-bottom: 1px;"><strong>Walk:</strong> ${travelTimes.Walk.duration}</div>`
+                : ""
+            }
+            ${
+              travelTimes.Transit
+                ? `<div><strong>Bus:</strong> ${travelTimes.Transit.duration}</div>`
+                : ""
+            }
+          </div>
         </div>
-        <p class="cache-note" style="font-size: 0.8rem; color: #666; margin-top: 8px;">✓ Loaded from cache</p>
-      </div>
-    `;
+      `;
+    } else {
+      // No route data available
+      content = `
+        <div class="info-error" style="max-width: 240px; font-size: 12px;">
+          ${
+            location.thumbnail
+              ? `<img src="${location.thumbnail}" alt="${location.name}" style="width: calc(100% + 32px); height: 70px; object-fit: cover; border-radius: 8px 8px 0 0; margin: -16px -16px 6px -16px;">`
+              : ""
+          }
+          <h3 style="margin: 0 0 2px 0; font-size: 13px; font-weight: 600; line-height: 1.2;">${
+            location.name
+          }</h3>
+          <p style="margin: 0 0 4px 0; font-size: 10px; color: #666; line-height: 1.2;">${
+            location.description || ""
+          }${location.rating ? ` • ⭐ ${location.rating}` : ""}</p>
+          <p style="margin-top: 6px; font-size: 9px; color: #666; line-height: 1.3;">Route info unavailable</p>
+        </div>
+      `;
+    }
 
     this.infoWindow.setContent(content);
     this.infoWindow.open(this.map, marker);
   }
-
   displayTravelInfo(travelTimes, location) {
     const panel = document.getElementById("travel-details");
     panel.innerHTML = `
@@ -487,6 +421,8 @@ function transformLocationData(jsonData) {
       lat: loc.lat,
       lng: loc.lng,
       description: loc.subcategory || "",
+      thumbnail: loc.thumbnail || null,
+      rating: loc.rating || null,
       cached_routes: loc.cached_routes || null, // Include cached routes from JSON
     }));
   }
