@@ -70,6 +70,10 @@ class LocationExplorer {
       fullscreenControl: false,
       zoomControl: false,
     });
+
+    this.map.addListener("click", () => {
+      if (window.closeDrawer) window.closeDrawer();
+    });
   }
 
   createCondoMarker() {
@@ -77,7 +81,14 @@ class LocationExplorer {
     const condoElement = document.createElement("div");
     condoElement.className = "condo-marker";
     condoElement.innerHTML = `
-      <div class="marker-pin condo-pin"></div>
+      <div class="pulse-ring"></div>
+      <div class="condo-pin">
+        <div class="pin-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+          </svg>
+        </div>
+      </div>
     `;
 
     const marker = new this.AdvancedMarkerElement({
@@ -126,6 +137,9 @@ class LocationExplorer {
     // Clear existing markers and route
     this.clearMarkers();
     this.clearRoute();
+
+    // Close drawer if open
+    if (window.closeDrawer) window.closeDrawer();
 
     // Create markers for category
     locations.forEach((location, index) => {
@@ -224,9 +238,9 @@ class LocationExplorer {
       const routePolyline = new google.maps.Polyline({
         path: decodedPath,
         geodesic: true,
-        strokeColor: "#4285F4",
-        strokeOpacity: 0.7,
-        strokeWeight: 5,
+        strokeColor: "#1a1a1a",
+        strokeOpacity: 0.8,
+        strokeWeight: 4,
         map: this.map,
       });
 
@@ -238,6 +252,17 @@ class LocationExplorer {
         this.currentRoutePolyline.setMap(null);
       }
       this.currentRoutePolyline = routePolyline;
+
+      // Fit map bounds to show the entire route
+      const bounds = new google.maps.LatLngBounds();
+      decodedPath.forEach((point) => bounds.extend(point));
+      // Add some padding so markers aren't on the edge
+      this.map.fitBounds(bounds, {
+        top: 100,
+        bottom: 100,
+        left: 50,
+        right: 50,
+      });
     }
 
     return travelTimes;
@@ -249,59 +274,92 @@ class LocationExplorer {
     if (travelTimes) {
       // Build info window content with travel times - mobile-first design
       content = `
-        <div class="info-detailed" style="max-width: 240px; font-size: 12px;">
+        <div class="info-detailed">
           ${
             location.thumbnail
-              ? `<img src="${location.thumbnail}" alt="${location.name}" style="width: calc(100% + 32px); height: 70px; object-fit: cover; border-radius: 8px 8px 0 0; margin: -16px -16px 6px -16px;">`
+              ? `<img src="${location.thumbnail}" alt="${location.name}" class="info-thumbnail">`
               : ""
           }
-          <h3 style="margin: 0 0 2px 0; font-size: 13px; font-weight: 600; line-height: 1.2;">${
-            location.name
-          }</h3>
-          <p style="margin: 0 0 4px 0; font-size: 10px; color: #666; line-height: 1.2;">${
-            location.description || ""
-          }${location.rating ? ` • ⭐ ${location.rating}` : ""}</p>
-          <div style="font-size: 10px; line-height: 1.4; margin-top: 4px;">
-            ${
-              travelTimes.Drive
-                ? `<div style="margin-bottom: 1px;"><strong>Drive:</strong> ${travelTimes.Drive.duration}</div>`
-                : ""
-            }
-            ${
-              travelTimes.Walk
-                ? `<div style="margin-bottom: 1px;"><strong>Walk:</strong> ${travelTimes.Walk.duration}</div>`
-                : ""
-            }
-            ${
-              travelTimes.Transit
-                ? `<div><strong>Bus:</strong> ${travelTimes.Transit.duration}</div>`
-                : ""
-            }
+          <div class="info-content">
+            <h3 class="info-title">${location.name}</h3>
+            <p class="info-meta">
+              ${
+                location.rating
+                  ? `<span>${location.rating} <span class="rating-star">★</span></span>`
+                  : ""
+              }
+              ${
+                location.description
+                  ? `<span>• ${location.description}</span>`
+                  : ""
+              }
+            </p>
+            <div class="info-times">
+              ${
+                travelTimes.Drive
+                  ? `<div class="info-time-item">
+                      Drive: ${travelTimes.Drive.duration}
+                     </div>`
+                  : ""
+              }
+              ${
+                travelTimes.Walk
+                  ? `<div class="info-time-item">
+                      Walk: ${travelTimes.Walk.duration}
+                     </div>`
+                  : ""
+              }
+              ${
+                travelTimes.Transit
+                  ? `<div class="info-time-item">
+                      Bus: ${travelTimes.Transit.duration}
+                     </div>`
+                  : ""
+              }
+            </div>
           </div>
         </div>
       `;
     } else {
       // No route data available
       content = `
-        <div class="info-error" style="max-width: 240px; font-size: 12px;">
+        <div class="info-error">
           ${
             location.thumbnail
-              ? `<img src="${location.thumbnail}" alt="${location.name}" style="width: calc(100% + 32px); height: 70px; object-fit: cover; border-radius: 8px 8px 0 0; margin: -16px -16px 6px -16px;">`
+              ? `<img src="${location.thumbnail}" alt="${location.name}" class="info-thumbnail">`
               : ""
           }
-          <h3 style="margin: 0 0 2px 0; font-size: 13px; font-weight: 600; line-height: 1.2;">${
-            location.name
-          }</h3>
-          <p style="margin: 0 0 4px 0; font-size: 10px; color: #666; line-height: 1.2;">${
-            location.description || ""
-          }${location.rating ? ` • ⭐ ${location.rating}` : ""}</p>
-          <p style="margin-top: 6px; font-size: 9px; color: #666; line-height: 1.3;">Route info unavailable</p>
+          <div class="info-content">
+            <h3 class="info-title">${location.name}</h3>
+            <p class="info-meta">${location.description || ""}${
+        location.rating
+          ? ` • ${location.rating} <span class="rating-star">★</span>`
+          : ""
+      }</p>
+            <p class="info-hint">Click to see commute times</p>
+          </div>
         </div>
       `;
     }
 
     this.infoWindow.setContent(content);
-    this.infoWindow.open(this.map, marker);
+
+    // Check if mobile view
+    if (window.innerWidth < 768) {
+      const drawer = document.getElementById("location-drawer");
+      const drawerContent = document.getElementById("drawer-content");
+
+      if (drawer && drawerContent) {
+        drawerContent.innerHTML = content;
+        drawer.classList.add("visible");
+        this.infoWindow.close(); // Ensure popup is closed
+      }
+    } else {
+      this.infoWindow.open(this.map, marker);
+      // Ensure drawer is closed on desktop
+      const drawer = document.getElementById("location-drawer");
+      if (drawer) drawer.classList.remove("visible");
+    }
   }
   displayTravelInfo(travelTimes, location) {
     const panel = document.getElementById("travel-details");
@@ -475,3 +533,11 @@ async function initLocationExplorer() {
 
 // Expose to global scope for callback
 window.initLocationExplorer = initLocationExplorer;
+
+// Global function to close drawer
+window.closeDrawer = function () {
+  const drawer = document.getElementById("location-drawer");
+  if (drawer) {
+    drawer.classList.remove("visible");
+  }
+};
