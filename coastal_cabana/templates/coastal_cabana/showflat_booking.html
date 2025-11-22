@@ -1,0 +1,431 @@
+{% extends 'coastal_cabana/base.html' %}
+
+{% block title %}Showflat & Booking - Coastal Cabana Executive Condominium{% endblock %}
+{% block description %}Book your showflat visit for Coastal Cabana EC. Preview period: Dec 6-21, 2025. Located near project site at Jalan Loyang Besar, Pasir Ris.{% endblock %}
+
+{% block content %}
+<!-- Page Header -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="display-4 fw-bold mb-4">Showflat & Booking</h1>
+                <p class="lead">Experience Coastal Cabana firsthand - Book your visit today!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Launch Dates & Preview Period -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card border-primary">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h3 class="mb-0"><i class="fas fa-calendar-alt me-2"></i>Important Dates</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-4 text-center">
+                            <div class="col-lg-4">
+                                <div class="p-4 bg-primary bg-opacity-10 rounded">
+                                    <i class="fas fa-eye text-primary fs-1 mb-3"></i>
+                                    <h5 class="text-primary">Preview Period</h5>
+                                    <h4 class="fw-bold">6 Dec - 21 Dec 2025</h4>
+                                    <p class="text-muted">Visit showflat and submit applications</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4">
+                                <div class="p-4 bg-warning bg-opacity-10 rounded">
+                                    <i class="fas fa-random text-warning fs-1 mb-3"></i>
+                                    <h5 class="text-warning">Balloting</h5>
+                                    <h4 class="fw-bold">To Be Announced</h4>
+                                    <p class="text-muted">If demand exceeds supply</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4">
+                                <div class="p-4 bg-success bg-opacity-10 rounded">
+                                    <i class="fas fa-handshake text-success fs-1 mb-3"></i>
+                                    <h5 class="text-success">Booking Day</h5>
+                                    <h4 class="fw-bold">To Be Announced</h4>
+                                    <p class="text-muted">Successful applicants book units</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center mt-4">
+                            <div class="alert alert-warning">
+                                <i class="fas fa-exclamation-triangle me-2"></i>
+                                <strong>Limited Time!</strong> Preview period creates urgency for interested parties. Book your visit early!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Showflat Location & Hours -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Showflat Location & Hours</h2>
+        
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="fas fa-map-marker-alt me-2"></i>Location</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary">Showflat Address</h6>
+                        <p class="mb-3">Near project site<br>Jalan Loyang Besar area, Pasir Ris<br>Singapore</p>
+                        
+                        <h6 class="text-primary">Getting There</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-car me-2 text-muted"></i><strong>By Car:</strong> Parking available on-site</li>
+                            <li class="mb-2"><i class="fas fa-bus me-2 text-muted"></i><strong>By Bus:</strong> Nearby bus stops within walking distance</li>
+                            <li class="mb-2"><i class="fas fa-subway me-2 text-muted"></i><strong>By MRT:</strong> ~9 min drive from Pasir Ris MRT</li>
+                            <li class="mb-2"><i class="fas fa-taxi me-2 text-muted"></i><strong>By Taxi/Grab:</strong> Direct access via Jalan Loyang Besar</li>
+                        </ul>
+                        
+                        <a href="/location-map/" class="btn btn-info">
+                            <i class="fas fa-map me-2"></i>View Location Map
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="mb-0"><i class="fas fa-clock me-2"></i>Opening Hours</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary">Showflat Operating Hours</h6>
+                        
+                        <div class="table-responsive">
+                            <table class="table table-sm">
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Monday - Friday</strong></td>
+                                        <td>10:00 AM - 7:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Saturday - Sunday</strong></td>
+                                        <td>10:00 AM - 8:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Public Holidays</strong></td>
+                                        <td>10:00 AM - 6:00 PM</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="alert alert-info">
+                            <i class="fas fa-info-circle me-2"></i>
+                            <strong>Appointment Recommended:</strong> High interest expected during preview period
+                        </div>
+                        
+                        <h6 class="text-primary mt-3">What to Bring</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-1"><i class="fas fa-id-card me-2 text-muted"></i>NRIC/Passport</li>
+                            <li class="mb-1"><i class="fas fa-file-alt me-2 text-muted"></i>Income documents (if applying)</li>
+                            <li class="mb-1"><i class="fas fa-users me-2 text-muted"></i>Spouse's documents (if married)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Book Showflat Visit Form -->
+<section class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h3 class="mb-0"><i class="fas fa-calendar-alt me-2"></i>Book Your Showflat Visit</h3>
+                    </div>
+                    <div class="card-body p-5">
+                        <p class="text-center text-muted mb-4">Secure your preferred time slot and receive VIP treatment during your visit</p>
+                        
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="visitor_name" class="form-label">Full Name *</label>
+                                    <input type="text" class="form-control" id="visitor_name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="visitor_email" class="form-label">Email Address *</label>
+                                    <input type="email" class="form-control" id="visitor_email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="visitor_phone" class="form-label">Phone Number *</label>
+                                    <input type="tel" class="form-control" id="visitor_phone" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="num_visitors" class="form-label">Number of Visitors</label>
+                                    <select class="form-select" id="num_visitors">
+                                        <option value="1">1 person</option>
+                                        <option value="2" selected>2 people</option>
+                                        <option value="3">3 people</option>
+                                        <option value="4">4 people</option>
+                                        <option value="5+">5 or more</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="preferred_date" class="form-label">Preferred Date *</label>
+                                    <input type="date" class="form-control" id="preferred_date" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="preferred_time" class="form-label">Preferred Time *</label>
+                                    <select class="form-select" id="preferred_time" required>
+                                        <option value="">Select time slot</option>
+                                        <option value="10:00">10:00 AM</option>
+                                        <option value="11:00">11:00 AM</option>
+                                        <option value="12:00">12:00 PM</option>
+                                        <option value="13:00">1:00 PM</option>
+                                        <option value="14:00">2:00 PM</option>
+                                        <option value="15:00">3:00 PM</option>
+                                        <option value="16:00">4:00 PM</option>
+                                        <option value="17:00">5:00 PM</option>
+                                        <option value="18:00">6:00 PM</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="interest_units" class="form-label">Interested Unit Types</label>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="unit_3br" value="3br">
+                                                <label class="form-check-label" for="unit_3br">3-Bedroom</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="unit_3br_study" value="3br_study">
+                                                <label class="form-check-label" for="unit_3br_study">3BR + Study</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="unit_4br" value="4br">
+                                                <label class="form-check-label" for="unit_4br">4-Bedroom</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="unit_5br" value="5br">
+                                                <label class="form-check-label" for="unit_5br">5-Bedroom</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="special_requests" class="form-label">Special Requests / Questions</label>
+                                    <textarea class="form-control" id="special_requests" rows="3" placeholder="Any specific requirements or questions for your visit?"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="ec_eligible" required>
+                                        <label class="form-check-label" for="ec_eligible">
+                                            I confirm that I meet the basic EC eligibility criteria *
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="visit_consent" required>
+                                        <label class="form-check-label" for="visit_consent">
+                                            I consent to be contacted regarding my showflat visit and agree to the <a href="#" class="text-primary">Privacy Policy</a> *
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg px-5">
+                                        <i class="fas fa-calendar-check me-2"></i>Book My Visit
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Visiting Guidelines -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Visiting Guidelines</h2>
+        
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-header bg-warning text-dark">
+                        <h5 class="mb-0"><i class="fas fa-exclamation-triangle me-2"></i>Before Your Visit</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                <strong>Check Eligibility:</strong> Advisable to verify EC eligibility conditions before visiting
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-calendar text-info me-2"></i>
+                                <strong>Book Appointment:</strong> Highly recommended due to expected high interest
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-id-card text-info me-2"></i>
+                                <strong>Bring Documents:</strong> NRIC, income documents, spouse's details if applicable
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-clock text-warning me-2"></i>
+                                <strong>Allow Time:</strong> Plan for 1-2 hours for comprehensive tour and consultation
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="fas fa-info-circle me-2"></i>What to Expect</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <i class="fas fa-home text-primary me-2"></i>
+                                <strong>Model Units:</strong> View actual-size show units with premium finishes
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-map text-primary me-2"></i>
+                                <strong>Site Model:</strong> Detailed scale model showing entire development
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-calculator text-primary me-2"></i>
+                                <strong>Pricing Information:</strong> Latest price list and financing options
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-user-tie text-primary me-2"></i>
+                                <strong>Personal Consultation:</strong> One-on-one advice from property consultants
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Incentives & Benefits -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Early Registration Benefits</h2>
+        
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="card h-100 text-center border-success">
+                    <div class="card-body">
+                        <i class="fas fa-percent text-success fs-1 mb-3"></i>
+                        <h5 class="card-title text-success">Early-Bird Pricing</h5>
+                        <p class="card-text">Special preview pricing available for early registrants during the preview period</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+                <div class="card h-100 text-center border-primary">
+                    <div class="card-body">
+                        <i class="fas fa-star text-primary fs-1 mb-3"></i>
+                        <h5 class="card-title text-primary">VIP Preview Access</h5>
+                        <p class="card-text">Priority access to showflat visits and first pick of available units</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+                <div class="card h-100 text-center border-info">
+                    <div class="card-body">
+                        <i class="fas fa-gift text-info fs-1 mb-3"></i>
+                        <h5 class="card-title text-info">Latest Updates</h5>
+                        <p class="card-text">Receive price list, floor plans, and important announcements first</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Information -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Need Assistance?</h2>
+        
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <i class="fas fa-phone text-primary fs-2 mb-3"></i>
+                        <h5 class="card-title">Sales Hotline</h5>
+                        <p class="card-text">Call our dedicated sales team</p>
+                        <a href="tel:+6512345678" class="btn btn-outline-primary">
+                            <i class="fas fa-phone me-2"></i>+65 1234 5678
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <i class="fab fa-whatsapp text-success fs-2 mb-3"></i>
+                        <h5 class="card-title">WhatsApp</h5>
+                        <p class="card-text">Quick enquiries and instant responses</p>
+                        <a href="https://wa.me/6512345678" class="btn btn-outline-success">
+                            <i class="fab fa-whatsapp me-2"></i>Message Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <i class="fas fa-envelope text-info fs-2 mb-3"></i>
+                        <h5 class="card-title">Email Enquiry</h5>
+                        <p class="card-text">Detailed questions and information</p>
+                        <a href="mailto:sales@coastalcabana.com.sg" class="btn btn-outline-info">
+                            <i class="fas fa-envelope me-2"></i>Email Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="py-5 bg-primary text-white">
+    <div class="container text-center">
+        <h3 class="mb-4">Don't Miss Out on Coastal Cabana!</h3>
+        <p class="lead mb-4">Limited preview period - Secure your visit today</p>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a href="#book-visit" class="btn btn-light btn-lg" onclick="document.getElementById('visitor_name').focus();">
+                <i class="fas fa-calendar-alt me-2"></i>Book Showflat Visit Now
+            </a>
+            <a href="{% url 'coastal_cabana:contact' %}" class="btn btn-outline-light btn-lg">
+                <i class="fas fa-phone me-2"></i>Call Sales Team
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}

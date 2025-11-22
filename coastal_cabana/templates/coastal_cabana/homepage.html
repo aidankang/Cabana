@@ -1,0 +1,352 @@
+{% extends 'coastal_cabana/base.html' %}
+
+{% block title %}
+Coastal Cabana Executive Condominium - Luxury Living in Pasir Ris
+{% endblock %}
+
+{% block content %}
+<!-- Hero Banner -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h1 class="display-4 fw-bold mb-4">Coastal Cabana</h1>
+        <p class="lead mb-4">
+          New luxury executive condo combining resort-style living with modern
+          convenience
+        </p>
+        <ul class="list-unstyled mb-4">
+          <li class="mb-2">
+            <i class="fas fa-check-circle me-2"></i>748 units (2BR to 5BR) at
+            Jalan Loyang Besar, Pasir Ris
+          </li>
+          <li class="mb-2">
+            <i class="fas fa-check-circle me-2"></i>99-year leasehold, Expected
+            TOP 2029
+          </li>
+          <li class="mb-2">
+            <i class="fas fa-check-circle me-2"></i>Developer: Pasir Ris
+            Development Pte Ltd (Qingjian Realty)
+          </li>
+          <li class="mb-2">
+            <i class="fas fa-check-circle me-2"></i>60+ resort-style amenities
+          </li>
+        </ul>
+        <div class="d-flex flex-wrap gap-3">
+          <a
+            href="{% url 'coastal_cabana:showflat_booking' %}"
+            class="btn btn-primary btn-lg"
+          >
+            <i class="fas fa-calendar-alt me-2"></i>Book Showflat Visit
+          </a>
+          <a href="#register-interest" class="btn btn-outline-light btn-lg">
+            <i class="fas fa-user-plus me-2"></i>Register Interest
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="text-center">
+          <img
+            src="/static/imgs/coastal_cabana_hero.jpg"
+            alt="Coastal Cabana Development"
+            class="img-fluid rounded shadow"
+            style="max-height: 400px"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Key Project Highlights -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center section-title">Key Project Highlights</h2>
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <i class="fas fa-building text-primary fs-1 mb-3"></i>
+            <h5 class="card-title">748 Units</h5>
+            <p class="card-text">
+              2BR to 5BR configurations with sizes ranging from 872 to 1,421
+              sqft
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <i class="fas fa-map-marker-alt text-primary fs-1 mb-3"></i>
+            <h5 class="card-title">Prime Location</h5>
+            <p class="card-text">
+              Jalan Loyang Besar, Pasir Ris - Near beach, parks, and future CRL
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <i class="fas fa-swimming-pool text-primary fs-1 mb-3"></i>
+            <h5 class="card-title">Resort-Style Living</h5>
+            <p class="card-text">
+              60+ amenities including pools, gym, tennis court, and landscaped
+              gardens
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <i class="fas fa-award text-primary fs-1 mb-3"></i>
+            <h5 class="card-title">Trusted Developer</h5>
+            <p class="card-text">
+              Qingjian Realty - Multiple BCI Asia Top 10 Developer Awards
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Quick Interest Registration Form -->
+<section id="register-interest" class="py-5 bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card">
+          <div class="card-body p-5">
+            <h3 class="text-center section-title mb-4">
+              Register Your Interest
+            </h3>
+            <p class="text-center text-muted mb-4">
+              Be among the first to receive the latest price guide and invite to
+              the VIP preview
+            </p>
+
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="first_name" class="form-label"
+                    >First Name *</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="first_name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="last_name" class="form-label">Last Name *</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="last_name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email *</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="phone" class="form-label">Phone Number *</label>
+                  <input type="tel" class="form-control" id="phone" required />
+                </div>
+                <div class="col-12">
+                  <label for="interest" class="form-label"
+                    >Interest Level</label
+                  >
+                  <select class="form-select" id="interest">
+                    <option value="">Select your interest level</option>
+                    <option value="high">
+                      High - Ready to purchase within 6 months
+                    </option>
+                    <option value="medium">
+                      Medium - Considering purchase within 1 year
+                    </option>
+                    <option value="low">Low - Just browsing for now</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label"
+                    >Message (Optional)</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                    placeholder="Any specific questions or requirements?"
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="pdpa_consent"
+                      required
+                    />
+                    <label class="form-check-label" for="pdpa_consent">
+                      I consent to be contacted by the sales team and agree to
+                      the <a href="#" class="text-primary">Privacy Policy</a> *
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12 text-center">
+                  <button type="submit" class="btn btn-primary btn-lg px-5">
+                    <i class="fas fa-paper-plane me-2"></i>Register Interest
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Quick Navigation -->
+<section class="py-5">
+  <div class="container">
+    <h3 class="text-center section-title mb-5">Explore Coastal Cabana</h3>
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-info-circle text-primary fs-1 mb-3"></i>
+            <h5 class="card-title">Project Overview</h5>
+            <p class="card-text">
+              Learn about the developer, key selling points, and project details
+            </p>
+            <a
+              href="{% url 'coastal_cabana:project_overview' %}"
+              class="btn btn-outline-primary"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-map text-primary fs-1 mb-3"></i>
+            <h5 class="card-title">Location & Connectivity</h5>
+            <p class="card-text">
+              Discover the prime Pasir Ris location and nearby amenities
+            </p>
+            <a
+              href="{% url 'coastal_cabana:location' %}"
+              class="btn btn-outline-primary"
+              >Explore Location</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-home text-primary fs-1 mb-3"></i>
+            <h5 class="card-title">Floor Plans</h5>
+            <p class="card-text">
+              View detailed floor plans for all unit types from 2BR to 5BR
+            </p>
+            <a
+              href="{% url 'coastal_cabana:floor_plans' %}"
+              class="btn btn-outline-primary"
+              >View Plans</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-swimming-pool text-primary fs-1 mb-3"></i>
+            <h5 class="card-title">Facilities</h5>
+            <p class="card-text">
+              Explore 60+ resort-style amenities and facilities
+            </p>
+            <a
+              href="{% url 'coastal_cabana:site_plan_facilities' %}"
+              class="btn btn-outline-primary"
+              >View Facilities</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-dollar-sign text-primary fs-1 mb-3"></i>
+            <h5 class="card-title">Pricing</h5>
+            <p class="card-text">
+              Get the latest pricing information and unit availability
+            </p>
+            <a
+              href="{% url 'coastal_cabana:unit_mix_pricing' %}"
+              class="btn btn-outline-primary"
+              >View Pricing</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-images text-primary fs-1 mb-3"></i>
+            <h5 class="card-title">Gallery</h5>
+            <p class="card-text">
+              View artist's impressions and development photos
+            </p>
+            <a
+              href="{% url 'coastal_cabana:gallery' %}"
+              class="btn btn-outline-primary"
+              >View Gallery</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Launch Information -->
+<section class="py-5 bg-primary text-white">
+  <div class="container text-center">
+    <h3 class="mb-4">Preview Period: 6 December to 21 December 2025</h3>
+    <p class="lead mb-4">
+      Don't miss out on early-bird pricing and the best unit selection
+    </p>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+          <a
+            href="{% url 'coastal_cabana:showflat_booking' %}"
+            class="btn btn-light btn-lg"
+          >
+            <i class="fas fa-calendar-alt me-2"></i>Book Showflat Visit
+          </a>
+          <a
+            href="{% url 'coastal_cabana:eligibility_guide' %}"
+            class="btn btn-outline-light btn-lg"
+          >
+            <i class="fas fa-info-circle me-2"></i>Check Eligibility
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

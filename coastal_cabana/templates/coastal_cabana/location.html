@@ -1,0 +1,390 @@
+{% extends 'coastal_cabana/base.html' %}
+
+{% block title %}Location & Connectivity - Coastal Cabana Executive Condominium{% endblock %}
+{% block description %}Discover Coastal Cabana's prime Pasir Ris location with excellent connectivity, nearby amenities, schools, and future developments.{% endblock %}
+
+{% block content %}
+<!-- Page Header -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="display-4 fw-bold mb-4">Location & Connectivity</h1>
+                <p class="lead">Prime Pasir Ris location with excellent connectivity and abundant amenities</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Interactive Map Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h3 class="mb-0"><i class="fas fa-map me-2"></i>Location Map</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center mb-3">
+                            <p class="lead">Jalan Loyang Besar, Pasir Ris, Singapore</p>
+                        </div>
+                        <!-- Placeholder for interactive map -->
+                        <div class="bg-light p-5 text-center rounded" style="min-height: 400px;">
+                            <i class="fas fa-map-marked-alt text-muted" style="font-size: 4rem;"></i>
+                            <p class="text-muted mt-3">Interactive Map Coming Soon</p>
+                            <p class="text-muted">Location: Jalan Loyang Besar, Pasir Ris</p>
+                            <a href="/location-map/" class="btn btn-primary">
+                                <i class="fas fa-map me-2"></i>View Detailed Location Map
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Connectivity -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Excellent Connectivity</h2>
+        
+        <div class="row g-4">
+            <!-- MRT Connectivity -->
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-subway text-primary fs-2 me-3"></i>
+                            <h5 class="card-title mb-0">MRT Connectivity</h5>
+                        </div>
+                        
+                        <h6 class="text-primary">Pasir Ris MRT Station (EW1)</h6>
+                        <ul class="list-unstyled mb-3">
+                            <li><i class="fas fa-walking me-2 text-muted"></i>~20 min walk (~1.7km)</li>
+                            <li><i class="fas fa-car me-2 text-muted"></i>~9 min drive</li>
+                            <li><i class="fas fa-bus me-2 text-muted"></i>~10-15 min by bus</li>
+                        </ul>
+                        
+                        <h6 class="text-success">Future Cross Island Line (CRL)</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-calendar me-2 text-muted"></i><strong>By 2030:</strong> Pasir Ris becomes interchange station</li>
+                            <li><i class="fas fa-map-marker-alt me-2 text-muted"></i>New Loyang and Pasir Ris East stations</li>
+                            <li><i class="fas fa-calendar me-2 text-muted"></i><strong>By 2032:</strong> Elias MRT Station</li>
+                            <li><i class="fas fa-clock me-2 text-muted"></i>Pasir Ris to Punggol: 40min → ~15min</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bus & Road Connectivity -->
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-bus text-primary fs-2 me-3"></i>
+                            <h5 class="card-title mb-0">Bus & Road Network</h5>
+                        </div>
+                        
+                        <h6 class="text-primary">Major Bus Routes</h6>
+                        <p class="mb-2">Nearby bus stops within 5 mins walk:</p>
+                        <ul class="list-unstyled mb-3">
+                            <li><i class="fas fa-map-marker-alt me-2 text-muted"></i>Opp Downtown East (~2 min walk)</li>
+                            <li><i class="fas fa-map-marker-alt me-2 text-muted"></i>Downtown East (~2-5 min walk)</li>
+                            <li><i class="fas fa-map-marker-alt me-2 text-muted"></i>Aft Loyang Gdns (~5 min walk)</li>
+                        </ul>
+                        
+                        <p><strong>Bus Services:</strong> 3, 5, 6, 12, 17, 21, 58, 89, 354, 358</p>
+                        
+                        <h6 class="text-primary">Expressway Access</h6>
+                        <p>Easy access to Tampines Expressway (TPE) and major road networks for seamless city connectivity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Nearby Amenities -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Nearby Amenities</h2>
+        
+        <!-- Shopping & Dining -->
+        <div class="mb-5">
+            <h4 class="text-primary mb-4"><i class="fas fa-shopping-cart me-2"></i>Shopping & Dining</h4>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-primary">Downtown East</h6>
+                            <p class="text-muted mb-2">0.2km away (~3 min walk)</p>
+                            <p class="card-text">Eateries, cinema, Wild Wild Wet water park, E!Hub entertainment complex</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-primary">Pasir Ris Mall</h6>
+                            <p class="text-muted mb-2">~1.7km (~20 min walk, ~9 min drive)</p>
+                            <p class="card-text">Opened June 2024, 150+ shops, Uniqlo, Decathlon, Cold Storage, McDonald's, Timezone arcade</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-primary">White Sands Mall</h6>
+                            <p class="text-muted mb-2">Next to Pasir Ris MRT (~1.7km)</p>
+                            <p class="card-text">Major shopping center with supermarkets, retail, and dining options</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-primary">Pasir Ris Central Hawker Centre</h6>
+                            <p class="text-muted mb-2">Town center</p>
+                            <p class="card-text">Opened January 2018, 42 stalls offering local cuisine</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-primary">Loyang Point</h6>
+                            <p class="text-muted mb-2">Along Pasir Ris Drive 3</p>
+                            <p class="card-text">Neighborhood shopping center with retail and dining</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Parks & Recreation -->
+        <div class="mb-5">
+            <h4 class="text-primary mb-4"><i class="fas fa-tree me-2"></i>Parks & Recreation</h4>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-primary">Pasir Ris Park</h6>
+                            <p class="text-muted mb-2">~1.5km (~15-20 min walk)</p>
+                            <p class="card-text">Coastal park with beach access, park connectors, playgrounds, eateries, fishing pond. Enhanced coastal experience planned under URA Master Plan.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-primary">Pasir Ris Beach</h6>
+                            <p class="text-muted mb-2">Minutes away</p>
+                            <p class="card-text">Beautiful beachside location with easy beach access for recreational activities and relaxation.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-primary">Pasir Ris Sports Centre</h6>
+                            <p class="text-muted mb-2">Town center</p>
+                            <p class="card-text">Swimming pools, sports hall for badminton, street soccer court, gym facilities.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-primary">Central Greenway</h6>
+                            <p class="text-muted mb-2">Planned development</p>
+                            <p class="card-text">1km long shared cycling and walking trail connecting mall to Pasir Ris Park and beach.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Schools & Education -->
+        <div class="mb-5">
+            <h4 class="text-primary mb-4"><i class="fas fa-graduation-cap me-2"></i>Schools & Education</h4>
+            
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h6 class="text-secondary">Primary Schools (within 1km)</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-school me-2 text-muted"></i>Casuarina Primary School</li>
+                        <li class="mb-2"><i class="fas fa-school me-2 text-muted"></i>Pasir Ris Primary School</li>
+                        <li class="mb-2"><i class="fas fa-school me-2 text-muted"></i>White Sands Primary School</li>
+                        <li class="mb-2"><i class="fas fa-school me-2 text-muted"></i>Elias Park Primary School</li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-4">
+                    <h6 class="text-secondary">Secondary Schools</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-school me-2 text-muted"></i>Hai Sing Catholic School (~0.9km)</li>
+                        <li class="mb-2"><i class="fas fa-school me-2 text-muted"></i>Pasir Ris Crest Secondary</li>
+                        <li class="mb-2"><i class="fas fa-school me-2 text-muted"></i>Loyang View Secondary</li>
+                        <li class="mb-2"><i class="fas fa-school me-2 text-muted"></i>Meridian Secondary School</li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-4">
+                    <h6 class="text-secondary">Preschools & Others</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-child me-2 text-muted"></i>MindChamps PreSchool</li>
+                        <li class="mb-2"><i class="fas fa-child me-2 text-muted"></i>MapleBear Pasir Ris Park</li>
+                        <li class="mb-2"><i class="fas fa-school me-2 text-muted"></i>Tampines Meridian JC</li>
+                        <li class="mb-2"><i class="fas fa-school me-2 text-muted"></i>Overseas Family School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Healthcare & Supermarkets -->
+        <div class="mb-5">
+            <h4 class="text-primary mb-4"><i class="fas fa-hospital me-2"></i>Healthcare & Supermarkets</h4>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-primary">Pasir Ris Polyclinic</h6>
+                            <p class="text-muted mb-2">Pasir Ris Mall (opened October 2024)</p>
+                            <p class="card-text">Newly redeveloped, 4 times bigger. Services include general practice, dental, physiotherapy, chronic disease management, preventive care. Can handle almost 1,000 patients per day.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-primary">24-Hour Clinics</h6>
+                            <p class="text-muted mb-2">Multiple locations</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-clock me-2 text-muted"></i>Central 24-HR Clinic Pasir Ris</li>
+                                <li><i class="fas fa-clock me-2 text-muted"></i>Life-Link Clinic & Surgery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-primary">Supermarkets</h6>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-shopping-basket me-2 text-muted"></i>Cold Storage @ Pasir Ris Mall</li>
+                                <li><i class="fas fa-shopping-basket me-2 text-muted"></i>NTUC FairPrice @ E-Hub Downtown East</li>
+                                <li><i class="fas fa-shopping-basket me-2 text-muted"></i>NTUC FairPrice @ White Sands</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-primary">Pharmacies</h6>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-pills me-2 text-muted"></i>Guardian @ Pasir Ris Mall</li>
+                                <li><i class="fas fa-pills me-2 text-muted"></i>Watsons @ Pasir Ris Mall</li>
+                                <li><i class="fas fa-pills me-2 text-muted"></i>Eu Yan Sang @ Pasir Ris Mall</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Future Developments -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Future Developments (URA Master Plan)</h2>
+        
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h6 class="card-title text-success">Cross Island Line (CRL) - By 2030-2032</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-calendar me-2 text-muted"></i><strong>Phase 1 (2030):</strong> Pasir Ris MRT becomes interchange</li>
+                            <li class="mb-2"><i class="fas fa-map-marker-alt me-2 text-muted"></i>New Loyang and Pasir Ris East stations</li>
+                            <li class="mb-2"><i class="fas fa-calendar me-2 text-muted"></i><strong>By 2032:</strong> New Elias MRT station</li>
+                            <li class="mb-2"><i class="fas fa-clock me-2 text-muted"></i>Significantly reduced travel times across Singapore</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h6 class="card-title text-success">New Housing Developments</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-building me-2 text-muted"></i>2.9-hectare plot near Pasir Ris MRT (~580-650 units)</li>
+                            <li class="mb-2"><i class="fas fa-tree me-2 text-muted"></i>18-hectare site near Sungei Loyang (~4,400 units)</li>
+                            <li class="mb-2"><i class="fas fa-home me-2 text-muted"></i>Housing near Elias MRT (~4,600 units total)</li>
+                            <li class="mb-2"><i class="fas fa-chart-line me-2 text-muted"></i>Enhanced property values and community growth</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h6 class="card-title text-success">Enhanced Amenities</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-store me-2 text-muted"></i>Four neighbourhood centers planned for upgrading</li>
+                            <li class="mb-2"><i class="fas fa-tree me-2 text-muted"></i>Enhanced neighbourhood parks with new facilities</li>
+                            <li class="mb-2"><i class="fas fa-users me-2 text-muted"></i>New community hub in town centre (planned)</li>
+                            <li class="mb-2"><i class="fas fa-water me-2 text-muted"></i>Pasir Ris Park enhancements and coastal upgrades</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h6 class="card-title text-success">Economic Growth</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-industry me-2 text-muted"></i>Pasir Ris Wafer Fab Park expansion</li>
+                            <li class="mb-2"><i class="fas fa-briefcase me-2 text-muted"></i>Growth in semiconductor industry creating more jobs</li>
+                            <li class="mb-2"><i class="fas fa-bicycle me-2 text-muted"></i>Central Greenway cycling and walking network</li>
+                            <li class="mb-2"><i class="fas fa-leaf me-2 text-muted"></i>Maintaining rustic coastal charm with urban conveniences</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="py-5 bg-primary text-white">
+    <div class="container text-center">
+        <h3 class="mb-4">Experience the Best of Pasir Ris Living</h3>
+        <p class="lead mb-4">Prime location with excellent connectivity and abundant amenities</p>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a href="{% url 'coastal_cabana:showflat_booking' %}" class="btn btn-light btn-lg">
+                <i class="fas fa-calendar-alt me-2"></i>Book Showflat Visit
+            </a>
+            <a href="{% url 'coastal_cabana:site_plan_facilities' %}" class="btn btn-outline-light btn-lg">
+                <i class="fas fa-swimming-pool me-2"></i>View Facilities
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}

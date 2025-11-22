@@ -1,0 +1,494 @@
+{% extends 'coastal_cabana/base.html' %}
+
+{% block title %}Eligibility & Purchase Guide - Coastal Cabana Executive Condominium{% endblock %}
+{% block description %}Complete guide to EC eligibility criteria, CPF grants, financing options, and the e-application process for Coastal Cabana EC.{% endblock %}
+
+{% block content %}
+<!-- Page Header -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="display-4 fw-bold mb-4">Eligibility & Purchase Guide</h1>
+                <p class="lead">Everything you need to know about buying an Executive Condominium</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EC Eligibility Criteria -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">EC Eligibility Criteria</h2>
+        
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card h-100 border-primary">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0"><i class="fas fa-users me-2"></i>Basic Requirements</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <i class="fas fa-flag text-success me-2"></i>
+                                <strong>Citizenship:</strong> At least one applicant must be a Singapore Citizen
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-home text-success me-2"></i>
+                                <strong>Family Nucleus:</strong> Must form a family nucleus (spouse, children, parents, or siblings)
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-dollar-sign text-success me-2"></i>
+                                <strong>Income Ceiling:</strong> Household income not exceeding $16,000 per month
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-ban text-success me-2"></i>
+                                <strong>Property Ownership:</strong> No current ownership of private property in Singapore or overseas
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="card h-100 border-info">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="fas fa-clock me-2"></i>HDB MOP Requirements</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary">If you currently own an HDB flat:</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <i class="fas fa-calendar text-warning me-2"></i>
+                                <strong>Minimum Occupation Period (MOP):</strong> Must have fulfilled the 5-year MOP
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-exchange-alt text-warning me-2"></i>
+                                <strong>HDB Disposal:</strong> Must sell your HDB flat within 6 months of taking possession of EC
+                            </li>
+                        </ul>
+                        
+                        <h6 class="text-primary mt-4">If you don't own any property:</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <i class="fas fa-check text-success me-2"></i>
+                                <strong>First-time Buyers:</strong> Can proceed with EC application directly
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CPF Grants & Financing Options -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">CPF Grants & Financing Options</h2>
+        
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="mb-0"><i class="fas fa-gift me-2"></i>CPF Housing Grants</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary">Family Grant</h6>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i><strong>First-timers:</strong> Up to $30,000</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i><strong>Second-timers:</strong> Up to $15,000</li>
+                            <li class="mb-2"><i class="fas fa-info-circle text-info me-2"></i>Income ceiling applies: $14,000 for first-timers, $21,000 for second-timers</li>
+                        </ul>
+                        
+                        <h6 class="text-primary">Half-Housing Grant</h6>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i><strong>Amount:</strong> Up to $15,000</li>
+                            <li class="mb-2"><i class="fas fa-info-circle text-info me-2"></i>For buyers not eligible for full Family Grant</li>
+                        </ul>
+                        
+                        <h6 class="text-primary">Proximity Housing Grant</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i><strong>Amount:</strong> Up to $30,000</li>
+                            <li class="mb-2"><i class="fas fa-info-circle text-info me-2"></i>For buyers living with or near parents</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-header bg-warning text-dark">
+                        <h5 class="mb-0"><i class="fas fa-university me-2"></i>Bank Loans & Financing</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary">Important Note</h6>
+                        <div class="alert alert-warning">
+                            <i class="fas fa-exclamation-triangle me-2"></i>
+                            <strong>ECs are NOT eligible for HDB loans.</strong> You must secure a bank loan.
+                        </div>
+                        
+                        <h6 class="text-primary">Mortgage Servicing Ratio (MSR)</h6>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2"><i class="fas fa-calculator text-info me-2"></i><strong>MSR Limit:</strong> 30% of gross monthly income</li>
+                            <li class="mb-2"><i class="fas fa-info-circle text-info me-2"></i>Includes all housing loans and overdrafts</li>
+                        </ul>
+                        
+                        <h6 class="text-primary">Bank Loan Features</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Competitive interest rates</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Up to 25-year loan tenure</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Can use CPF for down payment</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Various repayment options</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Payment Schemes -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Payment Schemes Comparison</h2>
+        
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+                <thead class="table-primary">
+                    <tr>
+                        <th>Payment Stage</th>
+                        <th>Normal Payment Scheme</th>
+                        <th>Deferred Payment Scheme</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Upon Booking</strong></td>
+                        <td>20% of purchase price</td>
+                        <td>20% of purchase price</td>
+                    </tr>
+                    <tr>
+                        <td><strong>During Construction</strong></td>
+                        <td>Progressive payments based on construction stages</td>
+                        <td>Only interest on loan amount</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Upon TOP</strong></td>
+                        <td>Remaining balance (if any)</td>
+                        <td>80% balance of purchase price</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td><strong>Interest</strong></td>
+                        <td>Start paying interest as construction progresses</td>
+                        <td>Only interest during construction period</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td><strong>Best For</strong></td>
+                        <td>Buyers ready to start loan repayments immediately</td>
+                        <td>Buyers who prefer lower payments during construction</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- Resale Levy Information -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Resale Levy (For Second-time Buyers)</h2>
+        
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="card">
+                    <div class="card-header bg-warning text-dark">
+                        <h5 class="mb-0"><i class="fas fa-calculator me-2"></i>What is Resale Levy?</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>If you have previously bought a subsidised flat from HDB, you will need to pay a resale levy when buying an EC.</p>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <h6 class="text-primary">Resale Levy Rates</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-home me-2 text-muted"></i><strong>3-room or smaller:</strong> $15,000</li>
+                                    <li class="mb-2"><i class="fas fa-home me-2 text-muted"></i><strong>4-room:</strong> $25,000</li>
+                                    <li class="mb-2"><i class="fas fa-home me-2 text-muted"></i><strong>5-room or larger:</strong> $40,000</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <h6 class="text-primary">Payment</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-credit-card me-2 text-muted"></i>Can be paid using CPF or cash</li>
+                                    <li class="mb-2"><i class="fas fa-calendar me-2 text-muted"></i>Payable upon booking of EC unit</li>
+                                    <li class="mb-2"><i class="fas fa-ban me-2 text-muted"></i>Cannot be refunded or transferred</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- E-Application Process -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">E-Application Process</h2>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0"><i class="fas fa-laptop me-2"></i>How to Apply for Coastal Cabana EC</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="alert alert-info">
+                            <i class="fas fa-info-circle me-2"></i>
+                            <strong>Important:</strong> E-application is non-obligatory but required for balloting if demand exceeds supply.
+                        </div>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <h6 class="text-primary">Before You Apply</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Ensure you meet all eligibility criteria</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Prepare required documents (IC, income documents)</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Check your CPF balance for down payment</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Get preliminary bank loan approval</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <h6 class="text-primary">Application Process</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-mouse-pointer text-info me-2"></i>Submit online application during preview period</li>
+                                    <li class="mb-2"><i class="fas fa-list text-info me-2"></i>Select preferred unit types and floors</li>
+                                    <li class="mb-2"><i class="fas fa-credit-card text-info me-2"></i>Pay application fee (typically $500-$1,000)</li>
+                                    <li class="mb-2"><i class="fas fa-clock text-info me-2"></i>Wait for balloting results (if oversubscribed)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Buying Timeline -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Buying Timeline (Preview to Booking)</h2>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="timeline">
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card h-100 border-primary">
+                                <div class="card-body text-center">
+                                    <div class="bg-primary text-white rounded-circle mx-auto mb-3" style="width: 60px; height: 60px; line-height: 60px;">
+                                        <strong>1</strong>
+                                    </div>
+                                    <h6 class="card-title">E-Application Submission</h6>
+                                    <p class="card-text small">Submit application during preview period (Dec 6-21, 2025)</p>
+                                    <p class="text-muted small">Required documents and application fee</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card h-100 border-success">
+                                <div class="card-body text-center">
+                                    <div class="bg-success text-white rounded-circle mx-auto mb-3" style="width: 60px; height: 60px; line-height: 60px;">
+                                        <strong>2</strong>
+                                    </div>
+                                    <h6 class="card-title">Balloting Process</h6>
+                                    <p class="card-text small">Balloting conducted if oversubscribed</p>
+                                    <p class="text-muted small">Priority given to first-timers</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card h-100 border-warning">
+                                <div class="card-body text-center">
+                                    <div class="bg-warning text-dark rounded-circle mx-auto mb-3" style="width: 60px; height: 60px; line-height: 60px;">
+                                        <strong>3</strong>
+                                    </div>
+                                    <h6 class="card-title">Booking a Unit</h6>
+                                    <p class="card-text small">Successful applicants book specific units</p>
+                                    <p class="text-muted small">20% down payment required</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card h-100 border-info">
+                                <div class="card-body text-center">
+                                    <div class="bg-info text-white rounded-circle mx-auto mb-3" style="width: 60px; height: 60px; line-height: 60px;">
+                                        <strong>4</strong>
+                                    </div>
+                                    <h6 class="card-title">Sign S&P Agreement</h6>
+                                    <p class="card-text small">Legal completion within 8 weeks</p>
+                                    <p class="text-muted small">Legal fees and loan arrangement</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Cash/CPF Requirements -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Cash/CPF Requirements at Each Stage</h2>
+        
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead class="table-primary">
+                    <tr>
+                        <th>Stage</th>
+                        <th>Payment Required</th>
+                        <th>Payment Method</th>
+                        <th>Example (Based on $1.5M unit)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>E-Application</strong></td>
+                        <td>Application Fee</td>
+                        <td>Cash/Cheque</td>
+                        <td>~$500 - $1,000</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Upon Booking</strong></td>
+                        <td>20% Down Payment</td>
+                        <td>CPF + Cash (min 5% cash)</td>
+                        <td>$300,000 (min $75,000 cash)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Legal Completion</strong></td>
+                        <td>Legal Fees + Stamp Duty</td>
+                        <td>Cash</td>
+                        <td>~$15,000 - $20,000</td>
+                    </tr>
+                    <tr>
+                        <td><strong>During Construction</strong></td>
+                        <td>Progressive Payments</td>
+                        <td>Bank Loan + CPF</td>
+                        <td>As per construction milestones</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Upon TOP</strong></td>
+                        <td>Final Payment</td>
+                        <td>Bank Loan + CPF</td>
+                        <td>Balance amount (if any)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- EC FAQs -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Frequently Asked Questions</h2>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="accordion" id="ecFAQ">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                Can PRs buy Executive Condominiums?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#ecFAQ">
+                            <div class="accordion-body">
+                                PRs cannot be the main applicant for an EC, but they can be listed as an occupier if their spouse is a Singapore Citizen and meets all other eligibility criteria.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                What happens if I cannot secure a bank loan?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#ecFAQ">
+                            <div class="accordion-body">
+                                You should secure loan approval before booking. If you cannot get approval after booking, you may forfeit your down payment. Always get in-principle loan approval first.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                Can I sell my EC before the 5-year MOP?
+                            </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#ecFAQ">
+                            <div class="accordion-body">
+                                No, you cannot sell your EC before completing the 5-year Minimum Occupation Period. After 5 years, you can sell to Singapore Citizens and PRs only. After 10 years, you can sell to foreigners as well.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                How much CPF can I use for the EC purchase?
+                            </button>
+                        </h2>
+                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#ecFAQ">
+                            <div class="accordion-body">
+                                You can use up to the Valuation Limit (VL) of the property or purchase price, whichever is lower, subject to having sufficient CPF balance. You must maintain a minimum sum in your CPF accounts.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                What is the difference between EC and private condo?
+                            </button>
+                        </h2>
+                        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#ecFAQ">
+                            <div class="accordion-body">
+                                ECs have eligibility criteria, income ceiling, and MOP restrictions. However, they offer subsidies, no ABSD for citizens, and can use CPF housing grants. After 10 years, ECs become privatised and similar to private condos.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="py-5 bg-primary text-white">
+    <div class="container text-center">
+        <h3 class="mb-4">Ready to Start Your EC Journey?</h3>
+        <p class="lead mb-4">Get personalized advice and check your eligibility today</p>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a href="{% url 'coastal_cabana:showflat_booking' %}" class="btn btn-light btn-lg">
+                <i class="fas fa-calendar-alt me-2"></i>Book Showflat Visit
+            </a>
+            <a href="{% url 'coastal_cabana:contact' %}" class="btn btn-outline-light btn-lg">
+                <i class="fas fa-phone me-2"></i>Speak to Our Consultant
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}

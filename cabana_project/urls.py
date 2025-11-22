@@ -26,5 +26,6 @@ def health_check(request):
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('health/', csrf_exempt(health_check), name='health_check'),
-    path('', include('location_map.urls')),
+    path('location-map/', include('location_map.urls')),
+    path('', include('coastal_cabana.urls')),
 ]

@@ -63,6 +63,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'location_map',
+    'coastal_cabana',
 ]
 
 MIDDLEWARE = [

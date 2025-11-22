@@ -1,0 +1,369 @@
+{% extends 'coastal_cabana/base.html' %}
+
+{% block title %}Contact Us - Coastal Cabana Executive Condominium{% endblock %}
+{% block description %}Contact Coastal Cabana sales team. Call, WhatsApp, or email for enquiries. Register interest for VIP preview and latest updates.{% endblock %}
+
+{% block content %}
+<!-- Page Header -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="display-4 fw-bold mb-4">Contact Us</h1>
+                <p class="lead">Get in touch with our experienced sales team</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Methods -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">How to Reach Us</h2>
+        
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="card h-100 text-center border-primary">
+                    <div class="card-body">
+                        <div class="bg-primary bg-opacity-10 rounded-circle mx-auto mb-3" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-phone text-primary fs-2"></i>
+                        </div>
+                        <h5 class="card-title">Sales Hotline</h5>
+                        <p class="text-muted">Speak directly with our property consultants</p>
+                        <h4 class="text-primary mb-3">+65 1234 5678</h4>
+                        <p class="small text-muted mb-3">Mon-Fri: 9AM-7PM<br>Sat-Sun: 10AM-6PM</p>
+                        <a href="tel:+6512345678" class="btn btn-primary">
+                            <i class="fas fa-phone me-2"></i>Call Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+                <div class="card h-100 text-center border-success">
+                    <div class="card-body">
+                        <div class="bg-success bg-opacity-10 rounded-circle mx-auto mb-3" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fab fa-whatsapp text-success fs-2"></i>
+                        </div>
+                        <h5 class="card-title">WhatsApp</h5>
+                        <p class="text-muted">Quick enquiries and instant responses</p>
+                        <h4 class="text-success mb-3">+65 9876 5432</h4>
+                        <p class="small text-muted mb-3">Available 7 days a week<br>9AM-9PM</p>
+                        <a href="https://wa.me/6598765432" class="btn btn-success">
+                            <i class="fab fa-whatsapp me-2"></i>Message Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+                <div class="card h-100 text-center border-info">
+                    <div class="card-body">
+                        <div class="bg-info bg-opacity-10 rounded-circle mx-auto mb-3" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-envelope text-info fs-2"></i>
+                        </div>
+                        <h5 class="card-title">Email Enquiry</h5>
+                        <p class="text-muted">Detailed questions and documentation</p>
+                        <h6 class="text-info mb-3">sales@coastalcabana.com.sg</h6>
+                        <p class="small text-muted mb-3">Response within 24 hours<br>Monday to Sunday</p>
+                        <a href="mailto:sales@coastalcabana.com.sg" class="btn btn-info">
+                            <i class="fas fa-envelope me-2"></i>Email Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Form -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h3 class="mb-0"><i class="fas fa-comments me-2"></i>Send Us a Message</h3>
+                    </div>
+                    <div class="card-body p-5">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="contact_name" class="form-label">Full Name *</label>
+                                    <input type="text" class="form-control" id="contact_name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="contact_email" class="form-label">Email Address *</label>
+                                    <input type="email" class="form-control" id="contact_email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="contact_phone" class="form-label">Phone Number *</label>
+                                    <input type="tel" class="form-control" id="contact_phone" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="enquiry_type" class="form-label">Enquiry Type</label>
+                                    <select class="form-select" id="enquiry_type">
+                                        <option value="">Select enquiry type</option>
+                                        <option value="general">General Information</option>
+                                        <option value="pricing">Pricing & Availability</option>
+                                        <option value="showflat">Showflat Visit</option>
+                                        <option value="financing">Financing & Eligibility</option>
+                                        <option value="facilities">Facilities & Amenities</option>
+                                        <option value="location">Location & Transport</option>
+                                        <option value="developer">Developer Information</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="preferred_contact" class="form-label">Preferred Contact Method</label>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="contact_method" id="prefer_phone" value="phone">
+                                                <label class="form-check-label" for="prefer_phone">Phone Call</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="contact_method" id="prefer_whatsapp" value="whatsapp">
+                                                <label class="form-check-label" for="prefer_whatsapp">WhatsApp</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="contact_method" id="prefer_email" value="email" checked>
+                                                <label class="form-check-label" for="prefer_email">Email</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="best_time" class="form-label">Best Time to Contact</label>
+                                    <select class="form-select" id="best_time">
+                                        <option value="">Select preferred time</option>
+                                        <option value="morning">Morning (9AM-12PM)</option>
+                                        <option value="afternoon">Afternoon (12PM-5PM)</option>
+                                        <option value="evening">Evening (5PM-8PM)</option>
+                                        <option value="weekend">Weekend Only</option>
+                                        <option value="anytime">Any Time</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="contact_message" class="form-label">Your Message *</label>
+                                    <textarea class="form-control" id="contact_message" rows="5" required placeholder="Please share your questions, requirements, or any specific information you need about Coastal Cabana..."></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="marketing_consent">
+                                        <label class="form-check-label" for="marketing_consent">
+                                            I would like to receive updates about Coastal Cabana and other developments
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="contact_consent" required>
+                                        <label class="form-check-label" for="contact_consent">
+                                            I consent to be contacted regarding my enquiry and agree to the <a href="#" class="text-primary">Privacy Policy</a> *
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg px-5">
+                                        <i class="fas fa-paper-plane me-2"></i>Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- VIP Registration -->
+<section class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="card border-warning">
+                    <div class="card-header bg-warning text-dark text-center">
+                        <h3 class="mb-0"><i class="fas fa-star me-2"></i>VIP Interest Registration</h3>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8">
+                                <h5 class="text-primary">Register for VIP Preview & Benefits</h5>
+                                <ul class="list-unstyled mb-3">
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Priority access to showflat appointments</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Early-bird pricing during preview period</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>First to receive price list and floor plans</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Exclusive updates and important announcements</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Invitation to VIP preview events</li>
+                                </ul>
+                                <p class="text-muted">Join our VIP list to enjoy exclusive benefits and be among the first to secure your preferred unit.</p>
+                            </div>
+                            <div class="col-lg-4 text-center">
+                                <a href="#contact-form" class="btn btn-warning btn-lg mb-2" onclick="document.getElementById('enquiry_type').value='general'; document.getElementById('contact_message').value='I would like to register for VIP preview access and receive early-bird pricing information.';">
+                                    <i class="fas fa-user-plus me-2"></i>Register VIP Interest
+                                </a>
+                                <p class="small text-muted">Limited preview period:<br><strong>Dec 6-21, 2025</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Address & Location -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Project & Showflat Locations</h2>
+        
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0"><i class="fas fa-building me-2"></i>Project Address</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary">Coastal Cabana Executive Condominium</h6>
+                        <p class="mb-3">
+                            <i class="fas fa-map-marker-alt text-muted me-2"></i>
+                            Jalan Loyang Besar<br>
+                            Singapore<br>
+                            District 17/18, Pasir Ris
+                        </p>
+                        
+                        <h6 class="text-primary">Development Details</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-home text-muted me-2"></i><strong>Units:</strong> 748 units (2BR to 5BR)</li>
+                            <li class="mb-2"><i class="fas fa-calendar text-muted me-2"></i><strong>Expected TOP:</strong> 2029</li>
+                            <li class="mb-2"><i class="fas fa-certificate text-muted me-2"></i><strong>Tenure:</strong> 99-year leasehold</li>
+                            <li class="mb-2"><i class="fas fa-industry text-muted me-2"></i><strong>Developer:</strong> Pasir Ris Development Pte Ltd</li>
+                        </ul>
+                        
+                        <a href="/location-map/" class="btn btn-outline-primary">
+                            <i class="fas fa-map me-2"></i>View Location Map
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="fas fa-eye me-2"></i>Showflat Address</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary">Coastal Cabana Showflat</h6>
+                        <p class="mb-3">
+                            <i class="fas fa-map-marker-alt text-muted me-2"></i>
+                            Near project site<br>
+                            Jalan Loyang Besar area<br>
+                            Pasir Ris, Singapore
+                        </p>
+                        
+                        <h6 class="text-primary">Operating Hours</h6>
+                        <div class="table-responsive">
+                            <table class="table table-sm">
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Mon-Fri:</strong></td>
+                                        <td>10:00 AM - 7:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Sat-Sun:</strong></td>
+                                        <td>10:00 AM - 8:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Public Holidays:</strong></td>
+                                        <td>10:00 AM - 6:00 PM</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <a href="{% url 'coastal_cabana:showflat_booking' %}" class="btn btn-outline-info">
+                            <i class="fas fa-calendar-alt me-2"></i>Book Showflat Visit
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Agent Information -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Our Sales Team</h2>
+        
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-body p-4">
+                        <div class="row align-items-center">
+                            <div class="col-md-3 text-center">
+                                <div class="bg-primary bg-opacity-10 rounded-circle mx-auto mb-3" style="width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;">
+                                    <i class="fas fa-user-tie text-primary" style="font-size: 2.5rem;"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <h5 class="text-primary">Experienced Property Consultants</h5>
+                                <p class="mb-3">Our dedicated sales team comprises experienced property consultants who specialize in executive condominiums. They are well-versed in EC eligibility criteria, financing options, and the unique benefits of Coastal Cabana.</p>
+                                
+                                <h6 class="text-secondary">What Our Team Offers:</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1"><i class="fas fa-check text-success me-2"></i>Personalized consultation based on your needs</li>
+                                    <li class="mb-1"><i class="fas fa-check text-success me-2"></i>Comprehensive EC eligibility assessment</li>
+                                    <li class="mb-1"><i class="fas fa-check text-success me-2"></i>Financing guidance and loan arrangement assistance</li>
+                                    <li class="mb-1"><i class="fas fa-check text-success me-2"></i>End-to-end support from enquiry to key collection</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PDPA Disclaimer -->
+<section class="py-3 bg-secondary text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h6 class="mb-2"><i class="fas fa-shield-alt me-2"></i>Privacy & Data Protection</h6>
+                <p class="small mb-0">
+                    By submitting your contact information, you consent to be contacted by our sales team regarding Coastal Cabana Executive Condominium. 
+                    Your personal data will be handled in accordance with the Personal Data Protection Act (PDPA) and our Privacy Policy. 
+                    You may withdraw your consent at any time by contacting us directly.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="py-5 bg-primary text-white">
+    <div class="container text-center">
+        <h3 class="mb-4">Ready to Make Coastal Cabana Your Home?</h3>
+        <p class="lead mb-4">Our team is here to guide you every step of the way</p>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a href="tel:+6512345678" class="btn btn-light btn-lg">
+                <i class="fas fa-phone me-2"></i>Call Sales Hotline
+            </a>
+            <a href="{% url 'coastal_cabana:showflat_booking' %}" class="btn btn-outline-light btn-lg">
+                <i class="fas fa-calendar-alt me-2"></i>Book Showflat Visit
+            </a>
+            <a href="https://wa.me/6598765432" class="btn btn-outline-light btn-lg">
+                <i class="fab fa-whatsapp me-2"></i>WhatsApp Us
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}

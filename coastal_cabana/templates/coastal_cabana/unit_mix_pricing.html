@@ -1,0 +1,377 @@
+{% extends 'coastal_cabana/base.html' %}
+
+{% block title %}Unit Mix & Pricing - Coastal Cabana Executive Condominium{% endblock %}
+{% block description %}Get the latest pricing information for Coastal Cabana EC units. Starting from $1,438,000 for 3BR units. 748 total units available.{% endblock %}
+
+{% block content %}
+<!-- Page Header -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="display-4 fw-bold mb-4">Unit Mix & Pricing</h1>
+                <p class="lead">Discover our competitive pricing and unit availability</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing Overview -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="alert alert-info text-center">
+                    <h4 class="alert-heading"><i class="fas fa-info-circle me-2"></i>Pricing Information</h4>
+                    <p class="mb-2">Prices are subject to change and for reference only. Contact our sales team for the latest pricing and availability.</p>
+                    <p class="mb-0">Early-bird discounts available for early registrants during preview period!</p>
+                </div>
+            </div>
+        </div>
+        
+        <h2 class="text-center section-title mb-5">Starting Prices by Unit Type</h2>
+        
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card h-100 border-primary">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h4 class="mb-0">3-Bedroom Units</h4>
+                    </div>
+                    <div class="card-body text-center">
+                        <div class="display-6 text-primary fw-bold mb-3">From $1,438,000</div>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><strong>Size Range:</strong> 872 - 915 sqft</li>
+                            <li class="mb-2"><strong>Configurations:</strong> Deluxe, Premium, + Study</li>
+                            <li class="mb-2"><strong>Total Units:</strong> 350 units</li>
+                            <li class="mb-2"><strong>PSF Range:</strong> ~$1,500 - $1,650</li>
+                        </ul>
+                        <a href="#unit-distribution" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="card h-100 border-success">
+                    <div class="card-header bg-success text-white text-center">
+                        <h4 class="mb-0">4-Bedroom Units</h4>
+                    </div>
+                    <div class="card-body text-center">
+                        <div class="display-6 text-success fw-bold mb-3">From $1,623,000</div>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><strong>Size Range:</strong> 990 - 1,216 sqft</li>
+                            <li class="mb-2"><strong>Configurations:</strong> Classic, Premium, + Study</li>
+                            <li class="mb-2"><strong>Total Units:</strong> 376 units</li>
+                            <li class="mb-2"><strong>PSF Range:</strong> ~$1,500 - $1,600</li>
+                        </ul>
+                        <a href="#unit-distribution" class="btn btn-success">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row g-4 mt-2">
+            <div class="col-lg-12">
+                <div class="card border-warning">
+                    <div class="card-header bg-warning text-dark text-center">
+                        <h4 class="mb-0">5-Bedroom Premium Units</h4>
+                    </div>
+                    <div class="card-body text-center">
+                        <div class="display-6 text-warning fw-bold mb-3">From $2,180,000*</div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><strong>Size Range:</strong> 1,367 - 1,421 sqft</li>
+                                    <li class="mb-2"><strong>Configurations:</strong> Premium only</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><strong>Total Units:</strong> 22 units (Limited)</li>
+                                    <li class="mb-2"><strong>PSF Range:</strong> ~$1,550 - $1,600</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="text-muted small">* Estimated pricing based on size and market rates</p>
+                        <a href="#unit-distribution" class="btn btn-warning">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Unit Distribution Table -->
+<section id="unit-distribution" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Detailed Unit Distribution</h2>
+        
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead class="table-primary">
+                    <tr>
+                        <th>Unit Type</th>
+                        <th>Size (sqft)</th>
+                        <th>Size (sqm)</th>
+                        <th>Total Units</th>
+                        <th>Starting Price</th>
+                        <th>Est. PSF</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>3BR Deluxe</strong></td>
+                        <td>872</td>
+                        <td>81</td>
+                        <td>187</td>
+                        <td>$1,438,000</td>
+                        <td>~$1,650</td>
+                        <td><span class="badge bg-success">Available</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>3BR + Study</strong></td>
+                        <td>915</td>
+                        <td>85</td>
+                        <td>163</td>
+                        <td>$1,508,000</td>
+                        <td>~$1,650</td>
+                        <td><span class="badge bg-success">Available</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>4BR Classic</strong></td>
+                        <td>990</td>
+                        <td>92</td>
+                        <td>150</td>
+                        <td>$1,623,000</td>
+                        <td>~$1,640</td>
+                        <td><span class="badge bg-success">Available</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>4BR Premium</strong></td>
+                        <td>1,012 - 1,055</td>
+                        <td>94 - 98</td>
+                        <td>120</td>
+                        <td>$1,670,000</td>
+                        <td>~$1,650</td>
+                        <td><span class="badge bg-success">Available</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>4BR Premium + Study</strong></td>
+                        <td>1,163 - 1,216</td>
+                        <td>108 - 113</td>
+                        <td>106</td>
+                        <td>$1,828,000</td>
+                        <td>~$1,570</td>
+                        <td><span class="badge bg-success">Available</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>5BR Premium</strong></td>
+                        <td>1,367 - 1,421</td>
+                        <td>127 - 132</td>
+                        <td>22</td>
+                        <td>$2,180,000*</td>
+                        <td>~$1,590</td>
+                        <td><span class="badge bg-warning">Limited</span></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="table-info">
+                        <th>Total</th>
+                        <th colspan="2">All Sizes</th>
+                        <th>748 Units</th>
+                        <th colspan="3">Multiple Options</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        
+        <div class="mt-4">
+            <p class="text-muted small">
+                <strong>Note:</strong> Prices are estimates and subject to change. Contact sales team for exact pricing and latest availability.
+                PSF = Price per square foot. *5BR pricing estimated based on market rates and unit size.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Price Per Square Foot Analysis -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Price Analysis</h2>
+        
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="fas fa-chart-line me-2"></i>Price Per Square Foot</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary">Launch Range: $1,500 - $1,650 PSF</h6>
+                        <p>Based on current land cost and development expenses, Coastal Cabana offers competitive pricing within the executive condominium segment.</p>
+                        
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i><strong>Market Competitive:</strong> Aligned with recent EC launches</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i><strong>Value for Money:</strong> 60+ amenities included</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i><strong>Growth Potential:</strong> Upcoming CRL and area developments</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i><strong>Early Bird Savings:</strong> Special preview pricing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="card h-100">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="mb-0"><i class="fas fa-dollar-sign me-2"></i>Value Proposition</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary">What You Get for Your Investment</h6>
+                        
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-home me-2 text-muted"></i><strong>Quality Build:</strong> Trusted developer with award-winning track record</li>
+                            <li class="mb-2"><i class="fas fa-swimming-pool me-2 text-muted"></i><strong>Resort Amenities:</strong> 60+ facilities worth millions in value</li>
+                            <li class="mb-2"><i class="fas fa-map-marker-alt me-2 text-muted"></i><strong>Prime Location:</strong> Near beach, parks, and future MRT</li>
+                            <li class="mb-2"><i class="fas fa-chart-line me-2 text-muted"></i><strong>Appreciation Potential:</strong> Area development and connectivity improvements</li>
+                            <li class="mb-2"><i class="fas fa-shield-alt me-2 text-muted"></i><strong>EC Benefits:</strong> No ABSD, lower entry cost vs private condos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Balance Units Availability -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center section-title mb-5">Live Availability Status</h2>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0"><i class="fas fa-chart-pie me-2"></i>Unit Availability (Updated: December 2025)</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-4">
+                            <div class="col-lg-3 col-md-6 text-center">
+                                <div class="bg-success bg-opacity-10 p-3 rounded">
+                                    <i class="fas fa-home text-success fs-2"></i>
+                                    <h4 class="text-success mt-2">748</h4>
+                                    <p class="text-muted mb-0">Total Units</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6 text-center">
+                                <div class="bg-success bg-opacity-10 p-3 rounded">
+                                    <i class="fas fa-check-circle text-success fs-2"></i>
+                                    <h4 class="text-success mt-2">748</h4>
+                                    <p class="text-muted mb-0">Available for Preview</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6 text-center">
+                                <div class="bg-warning bg-opacity-10 p-3 rounded">
+                                    <i class="fas fa-clock text-warning fs-2"></i>
+                                    <h4 class="text-warning mt-2">22</h4>
+                                    <p class="text-muted mb-0">5BR Units (Limited)</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6 text-center">
+                                <div class="bg-info bg-opacity-10 p-3 rounded">
+                                    <i class="fas fa-calendar-alt text-info fs-2"></i>
+                                    <h4 class="text-info mt-2">Dec 6-21</h4>
+                                    <p class="text-muted mb-0">Preview Period</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <div class="progress" style="height: 30px;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 100%">
+                                    <strong>100% Available for Preview</strong>
+                                </div>
+                            </div>
+                            <p class="text-muted text-center mt-2">All units available during preview period - First come, first served basis during booking</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Download Price List -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card border-primary">
+                    <div class="card-body text-center">
+                        <i class="fas fa-download text-primary fs-1 mb-3"></i>
+                        <h4 class="card-title">Get Complete Price List</h4>
+                        <p class="card-text">Download the detailed price list with floor plans and latest availability</p>
+                        
+                        <form class="row g-3 justify-content-center">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="tel" class="form-control" placeholder="Your Phone Number" required>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="price_list_consent" required>
+                                    <label class="form-check-label" for="price_list_consent">
+                                        I consent to receive the price list and be contacted by the sales team
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary btn-lg px-5">
+                                    <i class="fas fa-download me-2"></i>Download Price List
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Financing Information Teaser -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3 class="section-title mb-4">Need Help with Financing?</h3>
+                <p class="lead mb-4">Learn about CPF grants, bank loans, and payment schemes available for EC purchases</p>
+                <a href="{% url 'coastal_cabana:eligibility_guide' %}" class="btn btn-outline-primary btn-lg">
+                    <i class="fas fa-calculator me-2"></i>View Financing Guide
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="py-5 bg-primary text-white">
+    <div class="container text-center">
+        <h3 class="mb-4">Ready to Secure Your Unit?</h3>
+        <p class="lead mb-4">Preview period is limited - Book your showflat visit today!</p>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a href="{% url 'coastal_cabana:showflat_booking' %}" class="btn btn-light btn-lg">
+                <i class="fas fa-calendar-alt me-2"></i>Book Showflat Visit
+            </a>
+            <a href="{% url 'coastal_cabana:contact' %}" class="btn btn-outline-light btn-lg">
+                <i class="fas fa-phone me-2"></i>Contact Sales Team
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}
