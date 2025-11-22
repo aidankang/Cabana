@@ -1,4 +1,5 @@
 {% extends 'coastal_cabana/base.html' %}
+{% load static %}
 
 {% block title %}
 Coastal Cabana Executive Condominium - Luxury Living in Pasir Ris
@@ -47,7 +48,7 @@ Coastal Cabana Executive Condominium - Luxury Living in Pasir Ris
       <div class="col-lg-6">
         <div class="text-center">
           <img
-            src="/static/imgs/coastal_cabana_hero.jpg"
+            src="{% static 'imgs/coastal_cabana_hero.jpg' %}"
             alt="Coastal Cabana Development"
             class="img-fluid rounded shadow"
             style="max-height: 400px"
