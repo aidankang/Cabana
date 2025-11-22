@@ -7,10 +7,11 @@
     "address": "Jln. Loyang Besar, Singapore",
     "place_id": "ChIJW0wmcAA92jERCiaPULfMw24",
     "rating": 5,
-    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwsHWyuc-esSfd4kjY2ZzucnF42_6N2LGyweYT0EBkJ_pZCbw0I-qkaYcPVGptBkay8slbh-nuN4DybmxrDLcrg_BEIUxvABQLp1iJxqpZcGrssLDb1Dem3OmDq1d7Ku7xe1TCv-JriyHQ=w192-h86-k-no"
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyEzmcgu_NK1HmRC9RFHDgnEE6ekOiRWSBVPC1PiOr9CUWlx9JZAEQvIE5Ba3mqNkg0t6cVMR3dQMbFnTYpW1-luNZtkNS8am0GEUEgfUXEq20uBF6DLIq-EB4QNz1RF_GQQAvNCltitX8=w192-h86-k-no",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d0070264c5b%3A0x6ec3ccb7508f260a&engine=google_maps_photos&hl=en"
   },
   "locations": {
-    "Connectivity - MRT Stations": [
+    "Connectivity": [
       {
         "name": "Pasir Ris MRT Station",
         "title": "Pasir Ris",
@@ -20,66 +21,9 @@
         "place_id": "ChIJzTCPALA92jERbKZCdNiIgNA",
         "rating": 4.1,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw8lRzyzekdSYfaGneXhtGYhOpw233e7ao-H30WJz4PdqkqEB7TMvsXnlUxKW6aMs2tQj74_eKh8Vrb9qgI8k1x0ed-MGw9F4fEikU5kaVm2mTTPkzjgHGllXS0elcdFr_2itTnqw=w122-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3db0008f30cd%3A0xd08088d87442a66c&engine=google_maps_photos&hl=en",
         "subcategory": "MRT Station",
-        "subcategory_reasoning": "Pasir Ris is a known MRT station in Singapore, serving as a key point for public transportation in the area.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XElAB\\F\\Nv@l@rAnAKJ[Xi@f@YZ?ZFBB@@PGXEFIAEASEEA",
-            "duration": "5 mins",
-            "distance": "1.2 km",
-            "duration_value": 290,
-            "distance_value": 1174
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBE\\TB@?@G~@Lr@LLJTL\\FPLLEHCH@D@I^tAT",
-            "duration": "15 mins",
-            "distance": "1.1 km",
-            "duration_value": 892,
-            "distance_value": 1071
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBE\\TB@?@G~@Lr@LLJTL\\FPLLEHCH@D@I^tAT",
-            "duration": "15 mins",
-            "distance": "1.1 km",
-            "duration_value": 892,
-            "distance_value": 1071
-          }
-        }
-      },
-      {
-        "name": "Cross Island Line Pasir Ris",
-        "title": "Pasir Ris",
-        "lat": 1.3732126999999998,
-        "lng": 103.949277,
-        "address": "Pasir Ris Dr 1, Singapore",
-        "place_id": "ChIJzTCPALA92jERbKZCdNiIgNA",
-        "rating": 4.1,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw8lRzyzekdSYfaGneXhtGYhOpw233e7ao-H30WJz4PdqkqEB7TMvsXnlUxKW6aMs2tQj74_eKh8Vrb9qgI8k1x0ed-MGw9F4fEikU5kaVm2mTTPkzjgHGllXS0elcdFr_2itTnqw=w114-h86-k-no",
-        "subcategory": "MRT Station",
-        "subcategory_reasoning": "Pasir Ris is a well-known MRT station in Singapore, serving as a key point for public transportation in the area.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XElAB\\F\\Nv@l@rAnAKJ[Xi@f@YZ?ZFBB@@PGXEFIAEASEEA",
-            "duration": "5 mins",
-            "distance": "1.2 km",
-            "duration_value": 290,
-            "distance_value": 1174
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBE\\TB@?@G~@Lr@LLJTL\\FPLLEHCH@D@I^tAT",
-            "duration": "15 mins",
-            "distance": "1.1 km",
-            "duration_value": 892,
-            "distance_value": 1071
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBE\\TB@?@G~@Lr@LLJTL\\FPLLEHCH@D@I^tAT",
-            "duration": "15 mins",
-            "distance": "1.1 km",
-            "duration_value": 892,
-            "distance_value": 1071
-          }
-        }
+        "subcategory_reasoning": "Pasir Ris is known for its MRT station, which serves as a key connectivity point in the area, facilitating public transport access."
       },
       {
         "name": "Loyang MRT Station",
@@ -89,32 +33,10 @@
         "address": "Loyang Ave, Singapore",
         "place_id": "ChIJXcjvbQA92jER9sztp_-rbCA",
         "rating": 4.7,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzVvvZspest3kbrdTxZ3RFdqcRkiNg-jh2B9t7wKUUzhPMAEBmuB9-VfU-VnYbmLyDEDBT5HqxFcF2lUegUCzYpgKfHUrXUUrgiQMhLR_0LIc6WZdpP4bOI4BetpBBOc8fd-T2liOXCbPE=w152-h86-k-no",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxeBNreexAAHjAs_U5jJa4AyX0Rqm4r-AFE57WY3_Od9a78eLhob0tLEI8aouHND1kiXxGEY4fKIfSgp-IKRhPz657gi7xxM9wrW87IRA57gCsG7wzC7kTryjYOPgPOUz-sQDzFuD1YsOA=w152-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d006defc85d%3A0x206cabffa7edccf6&engine=google_maps_photos&hl=en",
         "subcategory": "MRT Station",
-        "subcategory_reasoning": "The location is specifically identified as an MRT Station, which is a type of public transportation facility in Singapore, making 'MRT Station' the most accurate subcategory.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBATQR[ImG?wC@y@DqAp@oGZuCd@qEVoA\\w@f@y@p@i@t@WvA_@\\Ex@CdMZb@?pAClBm@|FuCh@a@JQN]DOs@eB{@gBaD_GYc@WWkAsAgDeDo@q@KKkAkAHIpBuBZ[]_@kAkAkAmA]]",
-            "duration": "7 mins",
-            "distance": "2.7 km",
-            "duration_value": 428,
-            "distance_value": 2657
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBALEJMDMImG?qC?a@@_@HO@e@@Yr@kHPaBFa@`@cELw@Tq@j@kAl@m@h@[`@MfA[hAMd@?Zu@XkBXiBDWBALAPGTKV_@nBmB^OvAwAb@e@~B}Bt@o@MW?o@Cg@wAuAsAsAa@a@qAqARGdCmCsBsBiBkB",
-            "duration": "31 mins",
-            "distance": "2.3 km",
-            "duration_value": 1843,
-            "distance_value": 2258
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBALEJMDMIqHE?P??mCBmAb@yEVsBPgB\\gDJ}@VoA\\w@f@y@p@i@f@QbA[`@I\\E`@ChA@|KXzAAVCjBo@vFqCh@a@v@a@h@Qr@[tBmAjBkATUP}@@YAWGWy@eAeDcD_EsDyAaBiBoBcB{AoAiAi@e@{AxAq@n@eBjB_C_CEFt@Zl@i@x@aA@GYY{B{Bg@k@?IZ]D?dAdA",
-            "duration": "18 mins",
-            "distance": "3.3 km",
-            "duration_value": 1082,
-            "distance_value": 3312
-          }
-        }
+        "subcategory_reasoning": "The location is specifically identified as an MRT Station, which is a type of public transportation facility that provides connectivity for commuters."
       },
       {
         "name": "Pasir Ris East MRT Station",
@@ -124,32 +46,10 @@
         "address": "Pasir Ris Dr 1, Singapore",
         "place_id": "ChIJzTCPALA92jERbKZCdNiIgNA",
         "rating": 4.1,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzT23v4msayx8utZ9YqEtkCTnIINjN_3hPm1bc9Df5-j1Dy9hXF09SOpVdm-h3owrpc43MlcnTq-aCKE9Gk1ymctPRKg8Xw0FO8WoqAy1lZHQ2SI8v6FLFOq2HwIrKgNHiMpFAG=w122-h92-k-no",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz5hPH7bsDqDrbWbQBpma8N9ciA_DvYpFNlydEUCqBN2dXBsGvYWlxTYk-uTdxCoB7-RuyKLI8QvZSKPk0kRFEDcwxv3sOBXo2yJEwOIbUqW1FzcDs4OisOvF9cryxHE82om2uc=w122-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3db0008f30cd%3A0xd08088d87442a66c&engine=google_maps_photos&hl=en",
         "subcategory": "MRT Station",
-        "subcategory_reasoning": "Pasir Ris is a well-known MRT station in Singapore, serving as a key point for public transportation in the area.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XElAB\\F\\Nv@l@rAnAKJ[Xi@f@YZ?ZFBB@@PGXEFIAEASEEA",
-            "duration": "5 mins",
-            "distance": "1.2 km",
-            "duration_value": 290,
-            "distance_value": 1174
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBE\\TB@?@G~@Lr@LLJTL\\FPLLEHCH@D@I^tAT",
-            "duration": "15 mins",
-            "distance": "1.1 km",
-            "duration_value": 892,
-            "distance_value": 1071
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBE\\TB@?@G~@Lr@LLJTL\\FPLLEHCH@D@I^tAT",
-            "duration": "15 mins",
-            "distance": "1.1 km",
-            "duration_value": 892,
-            "distance_value": 1071
-          }
-        }
+        "subcategory_reasoning": "Pasir Ris is known for its MRT station, which serves as a key connectivity point in the area, facilitating public transport access."
       },
       {
         "name": "Elias MRT Station",
@@ -159,72 +59,106 @@
         "address": "Pasir Ris Dr 3, Singapore",
         "place_id": "ChIJvSgcbQA92jERblQXivwkWHY",
         "rating": 5,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy1Z_aar6lazLWueTYe9Zwqs5x-0mAZpNBc_XWGTSnnAbLiayyRMZMrAEWVloeCuDQrVBCtkk2d8qH9C_BJ_hP2NuIJVX1aPvdm09bWr8pLEU2icWuw9k9qJEPczxNT0wLp9qt9dZnnX-Wx=w129-h86-k-no",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxIgfkCogEKiLb6p79AJDBDKih0tQBFuye4AtfWnT-Ze7QINYIUiiOJAA7ZqX48C6arVpqHwe6Q0VYv15aU5t0uOuSFaSMOUDV5_0L1ohxkJtqut11kiJos_jzwHPGCT69OAAvOVAVtJT30=w129-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d006d1c28bd%3A0x765824fc8a17546e&engine=google_maps_photos&hl=en",
         "subcategory": "MRT Station",
-        "subcategory_reasoning": "The location is specifically an MRT station, which is a type of public transportation hub in Singapore, facilitating connectivity for commuters.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEaErJiAfC}@lBw@pAiBnCgCrDwAvB_DnEyAjBs@v@g@h@YTlCnBzAjAbC|AHFGJw@zAaA~BWn@]v@eAnBs@dBa@hAuCmAgAi@cBm@qBaA{A{@?[FUpCgF~@iBV_@",
-            "duration": "10 mins",
-            "distance": "3.5 km",
-            "duration_value": 583,
-            "distance_value": 3478
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?z@zBCp@@VC@RW@L|A?TJXLpBd@nHVlDNnCDhBCtBE|@UxAe@~BUbA[dAKXKLc@hAARiAlCORg@nAEXS`@e@hAm@pA}@nBUn@Wb@iBvCkG`JWTY`@_ApAc@j@ERY^m@v@iCxCo@l@mC~BUF]XUX",
-            "duration": "33 mins",
-            "distance": "2.4 km",
-            "duration_value": 1958,
-            "distance_value": 2371
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQCPf@Lv@HrAZj@FVNIT]KgBc@oAUu@Kk@BSB_@M_@AeAEWGcA_@wAe@e@Dc@RiAvCeDdIiAfCkA`CgChEuBzCaGtIiA|A{CjDi@b@kAfAcBtAWVi@l@s@pAmBlDe@fAA`@HRLJZLlAh@tBx@bGjClBv@|@j@r@DVEPCbBeCzAwBvAmBlAqBFKNHFHBLv@j@`DjBl@^i@x@{A|Be@^YDQ@a@AqAg@_As@aAk@]Gy@lAmAdBm@bAOVQKo@c@{@g@a@UuAg@}EwBcBm@w@_@kAk@o@_@SMECAQBSn@mAhCcFl@_AQMFDwAcB",
-            "duration": "25 mins",
-            "distance": "6.0 km",
-            "duration_value": 1525,
-            "distance_value": 5961
-          }
-        }
+        "subcategory_reasoning": "Elias MRT Station is a specific type of public transportation facility that serves as a stop for the Mass Rapid Transit (MRT) system in Singapore, making it a key point for connectivity."
+      },
+      {
+        "name": "Opp Downtown East - Pasir Ris Cl",
+        "title": "Opp Downtown East - Pasir Ris Cl",
+        "lat": 1.376816,
+        "lng": 103.956245,
+        "address": "Singapore",
+        "place_id": "ChIJnfOE7bM92jERBhJoquAECs8",
+        "rating": 3,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyOlyP_qU36QtufCEHWjvGU6wY3es1G3705pTFn_8vkjGWwLkWd5a5-ri6M6ls2U8bPrtqa7CidzncRrhQjAklFClRpciBS9NKb3r8dXancBYt0nWHgMsLh_ahDSPm6E1VdrNgN=w122-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3db3ed84f39d%3A0xcf0a04e0aa681206&engine=google_maps_photos&hl=en",
+        "subcategory": "Bus Stop",
+        "subcategory_reasoning": "The location 'Opp Downtown East - Pasir Ris Cl' suggests a public transport stop, specifically for buses, which is a key aspect of connectivity in urban areas."
+      },
+      {
+        "name": "Opp Downtown East - Pasir Ris Dr 3",
+        "title": "Opp Downtown East",
+        "lat": 1.375062,
+        "lng": 103.95403999999999,
+        "address": "Singapore",
+        "place_id": "ChIJQUQ6drE92jERApHdf0iiX9c",
+        "rating": 3.7,
+        "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=fG0pb-8i5dkNMoPiEYg2yA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=204.19025&pitch=0&thumbfov=100",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3db1763a4441%3A0xd75fa2487fdd9102&engine=google_maps_photos&hl=en",
+        "subcategory": "MRT Station",
+        "subcategory_reasoning": "The location 'Opp Downtown East' suggests a transit point that facilitates connectivity, likely serving as a stop for public transportation such as the MRT, which is essential for commuting in Singapore."
+      },
+      {
+        "name": "Aft Loyang Gdns - Jln Loyang Besar",
+        "title": "Aft Loyang Gdns",
+        "lat": 1.3775925999999998,
+        "lng": 103.9569241,
+        "address": "Singapore",
+        "place_id": "ChIJGxwiiLM92jERwlEtzZMNqms",
+        "rating": 3,
+        "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-Ak3LMLOmTAkFayThiRA2A&cb_client=search.gws-prod.gps&w=86&h=86&yaw=355.37466&pitch=0&thumbfov=100",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3db388221c1b%3A0x6baa0d93cd2d51c2&engine=google_maps_photos&hl=en",
+        "subcategory": "Bus Stop",
+        "subcategory_reasoning": "The location 'Aft Loyang Gdns' in Singapore is likely a bus stop, which is a common connectivity point for public transportation, facilitating access to various destinations."
+      },
+      {
+        "name": "Tampines Expressway",
+        "title": "TPE",
+        "lat": 1.3837241999999998,
+        "lng": 103.91612119999999,
+        "address": "Singapore",
+        "place_id": "ChIJefCbZYIW2jEREFBp9FUu1CI",
+        "rating": null,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw0soA7MQIROC394M4cyF7TxZd1-ReTVPUBVWc2CheQ5TK2MO-iLhDX39EjQwCkweS-OKqxg__LdoA3u5Eu6_UoUVTActJqmBVU82IgPeFAzLSRb1rfQr4zJ2XOVrmRV89jeu6m=w86-h114-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da1682659bf079%3A0x22d42e55f4695010&engine=google_maps_photos&hl=en",
+        "subcategory": "Airport",
+        "subcategory_reasoning": "TPE refers to Taoyuan International Airport, which is a major connectivity hub for air travel in and out of Singapore."
       }
     ],
     "Shopping & Dining": [
       {
-        "name": "Downtown East",
-        "title": "Downtown East",
-        "lat": 1.3775631,
-        "lng": 103.954703,
-        "address": "1 Pasir Ris Cl, Singapore 519599",
-        "place_id": "ChIJHeeu2LU92jER7QLDVe4tKf0",
-        "rating": 4.4,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyAukV4PFTviMUjyg8V21qg1u9DuqFOBmryK_ox4Bf9sfjc1TXoe1Ak0USJvN_611UjBsTybfR9wbuY88lzQnd0TvdQUbhvHMEr6pyapSAmc81AegsqtyVTtVZyBWVeZ0sNdRrP=w122-h92-k-no",
+        "name": "NEX Shopping Mall",
+        "title": "NEX",
+        "lat": 1.3507155,
+        "lng": 103.8720247,
+        "address": "Serangoon Central, 23, Singapore 556083",
+        "place_id": "ChIJeRqAraYX2jERQpyIAXSU1SU",
+        "rating": 4.3,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxfoyaL5Iqayy_B3MnUOGRFzzGfu2Bivf3e1iIzrnK9R9kr6oS3S-iUChsMRZhfvvutZcXAgI3GpJh6XrozXfRi268EbtR10OnhvTmcBiAGW15dswhvI91RbwF9t8xe0l50EuPEn-sx7zc=w131-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da17a6ad801a79%3A0x25d5947401889c42&engine=google_maps_photos&hl=en",
         "subcategory": "Shopping Mall",
-        "subcategory_reasoning": "Downtown East is a large shopping and entertainment complex that includes various retail shops, dining options, and recreational facilities, making 'Shopping Mall' the most appropriate subcategory.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyRA[o@@cB@?Hm@@@ZLNVNZF@TS@]J@ZFTDhAARIFe@B",
-            "duration": "2 mins",
-            "distance": "0.3 km",
-            "duration_value": 117,
-            "distance_value": 340
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?z@yBDE?@RY@QF@VAHHxAAP[FS@KP",
-            "duration": "4 mins",
-            "distance": "0.3 km",
-            "duration_value": 226,
-            "distance_value": 261
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?z@yBDE?@RY@QF@VAHHxAAP[FS@KP",
-            "duration": "4 mins",
-            "distance": "0.3 km",
-            "duration_value": 226,
-            "distance_value": 261
-          }
-        }
+        "subcategory_reasoning": "NEX is a large shopping complex that includes various retail stores, dining options, and entertainment facilities, making it best categorized as a shopping mall."
       },
       {
-        "name": "White Sands Mall",
+        "name": "Tampines Mall",
+        "title": "Tampines Mall",
+        "lat": 1.3524509999999998,
+        "lng": 103.9446732,
+        "address": "4 Tampines Central 5, Singapore 529510",
+        "place_id": "ChIJ89lf6hE92jERQXt7c5QOFnY",
+        "rating": 4.3,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx6AawAHjORn3JhJPbxMfwdBiDPNI5p2fraALHUFdzofFlu9VUR0vinPRS70XaxnWC0nsnyAEkjrmneep8Xli0XrEQMRgRQ391oEFnEbjNXlsLf8EqYKEu9t4WlfbuDARmQx1BoKMm-8Sh8=w86-h114-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d11ea5fd9f3%3A0x76160e94737b7b41&engine=google_maps_photos&hl=en",
+        "subcategory": "Shopping Mall",
+        "subcategory_reasoning": "Tampines Mall is primarily a retail space that houses various shops and dining options, making it best categorized as a Shopping Mall."
+      },
+      {
+        "name": "Century Square",
+        "title": "Century Square",
+        "lat": 1.3525968,
+        "lng": 103.9436741,
+        "address": "2 Tampines Central 5, Singapore 529509",
+        "place_id": "ChIJCXOkiBE92jERm5iCnMRS4_g",
+        "rating": 4.2,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy7wvbrD2pUohgQGZ5v5omgNWt5LV8fZ6kkf5apziSq9uFZQAjB-Jd19qI5sCHC67A_2VELZaVI7wtSE2WGBnqdSbAQzR0Sb9tn21jBM4cxwhtm3a3GgqzD2IZZ6rb1E-IZnr8MCQ=w122-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d1188a47309%3A0xf8e352c49c82989b&engine=google_maps_photos&hl=en",
+        "subcategory": "Shopping Mall",
+        "subcategory_reasoning": "Century Square is a large retail complex that features a variety of shops and dining options, making it best categorized as a shopping mall."
+      },
+      {
+        "name": "White Sands Shopping Centre",
         "title": "White Sands",
         "lat": 1.3724166,
         "lng": 103.94965839999999,
@@ -232,281 +166,103 @@
         "place_id": "ChIJQyaM-6892jER4DhQn_hqaYE",
         "rating": 4.1,
         "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyqx0Qou_fZU0XaFYu9I8j8YvuWXcqAy-oujClix0TIhd8b9qMEUjMWKg6hTI9kSKeBjQtoAETqGJMWix65yI9hzdxwm9lFVvjE3n2_UnjCTEE-MeDMQpTVrbjwaZknw66irpiGOQ=w86-h114-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3daffb8c2643%3A0x81696af89f5038e0&engine=google_maps_photos&hl=en",
         "subcategory": "Shopping Mall",
-        "subcategory_reasoning": "White Sands is a shopping and dining destination that features a variety of retail stores and food outlets, making it best categorized as a shopping mall.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XElAB\\F\\Nv@l@rAnAKJ[Xi@f@YZ?ZFBB@@P",
-            "duration": "5 mins",
-            "distance": "1.1 km",
-            "duration_value": 271,
-            "distance_value": 1128
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHjE?fAA\\DVHh@XfA`Ah@f@KFUTy@t@EHHPR^ETJBP@@IEE",
-            "duration": "16 mins",
-            "distance": "1.2 km",
-            "duration_value": 975,
-            "distance_value": 1151
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHjE?fAA\\DVHh@XfA`Ah@f@KFUTy@t@EHHPR^ETJBP@@IEE",
-            "duration": "16 mins",
-            "distance": "1.2 km",
-            "duration_value": 975,
-            "distance_value": 1151
-          }
-        }
+        "subcategory_reasoning": "White Sands is a shopping and dining destination that features a variety of retail stores and food outlets, making it best categorized as a shopping mall."
       },
       {
-        "name": "Pasir Ris Mall",
-        "title": "Pasir Ris Mall",
-        "lat": 1.3727816,
-        "lng": 103.9482223,
-        "address": "7 Pasir Ris Central, Singapore 519612",
-        "place_id": "ChIJ7QR-fQA92jERw2mUoa6LoYY",
-        "rating": 3.8,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSznJyvLvbx6CyQh4e3gsBgpJqXW8MrvQaAlpPQuW8WtAoW8SsAe5vL94lzrHtasg3i-lD7VaTELVx-GUoBs0p3rVZCFpXVmEu01g2U6tEitoET4t5af8CCUePx5x6D4yOK6cYms=w114-h86-k-no",
-        "subcategory": "Shopping Mall",
-        "subcategory_reasoning": "Pasir Ris Mall is primarily a shopping destination that offers a variety of retail stores and dining options, making 'Shopping Mall' the most appropriate subcategory.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?XJNCn@C^Bf@L\\MDCLQNYGC",
-            "duration": "5 mins",
-            "distance": "1.3 km",
-            "duration_value": 291,
-            "distance_value": 1337
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nH?J|C?n@@bAAZBTHf@XbDxCRXBL?TUnACXKV?XKp@Ud@w@xA",
-            "duration": "18 mins",
-            "distance": "1.3 km",
-            "duration_value": 1087,
-            "distance_value": 1295
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHj@NRIJKNW",
-            "duration": "7 mins",
-            "distance": "1.4 km",
-            "duration_value": 433,
-            "distance_value": 1418
-          }
-        }
-      },
-      {
-        "name": "Pasir Ris Central Hawker Centre",
-        "title": "Pasir Ris Central Hawker Centre",
-        "lat": 1.373373,
-        "lng": 103.9516601,
-        "address": "110 Pasir Ris Central, Singapore 519641",
-        "place_id": "ChIJ1Y5ET7A92jERgEtUCvAQepI",
-        "rating": 4.1,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy6HtrQGx_ZpTire8bnbIY93_cg4oguhTsAH9PRZTjHlPtGxMFwHfuSwU_8NRe9HHkhNIxcqPYcjSicuzYJJs_nD3I_eg44LlKdkiGeENwDWhAYU84onvAD6vTeE5o3cGOl5KhZyQ=w114-h86-k-no",
-        "subcategory": "Hawker Centre",
-        "subcategory_reasoning": "The location is specifically a hawker centre, which is a type of food court in Singapore that offers a variety of local food stalls, making it distinct from other dining establishments.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XEt@?",
-            "duration": "3 mins",
-            "distance": "0.9 km",
-            "duration_value": 183,
-            "distance_value": 857
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJrCA~ACN?@JNrBv@nIHFRdAR\\d@jB?REXC^Lj@HZGFKPCN",
-            "duration": "11 mins",
-            "distance": "0.8 km",
-            "duration_value": 688,
-            "distance_value": 806
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJrCA~ACN?@JNrBv@nIHFRdAR\\d@jB?REXC^Lj@HZGFKPCN",
-            "duration": "11 mins",
-            "distance": "0.8 km",
-            "duration_value": 688,
-            "distance_value": 806
-          }
-        }
-      },
-      {
-        "name": "Loyang Point",
-        "title": "Loyang Point",
-        "lat": 1.3669795,
-        "lng": 103.96455379999999,
-        "address": "258-259 Pasir Ris Street 21, Singapore 510259",
-        "place_id": "ChIJxzqK6cg92jERB-QagzzIEzs",
+        "name": "Tampines 1",
+        "title": "Tampines 1",
+        "lat": 1.3540351,
+        "lng": 103.9453692,
+        "address": "10 Tampines Central 1, Singapore 529536",
+        "place_id": "ChIJTVVVIA492jER3TWGPpL6gRk",
         "rating": 4.2,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyC8Yts_mEXyiu87yBSY9b39_T4PBeUYIa0bcCS7QZKIU-1jEAmEsOMYVrgR-7gszQXOl57pqFjyzK_X927WFA0rFunM2TOD9mWf4-HemA6QcKx4aLoux1Vu2P1LKvoLwggt3AH=w114-h86-k-no",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx0yHyA16Vjyc3WuuHg9muN5IeZS2v-K_Y8MO6bpXUY7Jk_xM5YVSS7oYX32I9xe7QgpiARgciIZCinyd5oYhIyqenaN1a3f-VTs7moYWoqn5S8--S0ENQOy5nlwMVTSl4tGnbyng=w116-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d0e2055554d%3A0x1981fa923e8635dd&engine=google_maps_photos&hl=en",
         "subcategory": "Shopping Mall",
-        "subcategory_reasoning": "Loyang Point is a shopping and dining destination, which fits the characteristics of a shopping mall where various retail and food outlets are available.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBATQR[ImG?wC@y@DqAp@oGZuCd@qEVoA\\w@f@y@p@i@t@WvA_@\\Ex@CdMZb@?pAClBm@|FuCh@a@v@a@LEHP`@t@j@r@XID?\\Z",
-            "duration": "5 mins",
-            "distance": "1.9 km",
-            "duration_value": 322,
-            "distance_value": 1855
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@A_@FOCw@GiDIYAqABeABaBBSPsBBc@p@eGFWB[TaCDk@Lu@b@kAf@u@\\[n@_@XMjA]fAEv@AzEHfABHADBzADv@A|AI|Ae@bAi@zA{@bDgBh@O^r@h@r@ZOJ?\\ZBC",
-            "duration": "26 mins",
-            "distance": "1.9 km",
-            "duration_value": 1546,
-            "distance_value": 1857
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBALEJMDMIqHE?P??mCBmAb@yEVsBPgB\\gDJ}@VoA\\w@f@y@p@i@f@QbA[`@I\\E`@ChA@|KXzAAVCjBo@vFqCh@a@v@a@h@Qr@[tBmAMSFLuAz@oAl@WHFHPj@Vb@b@h@RIJ?\\ZBC",
-            "duration": "14 mins",
-            "distance": "2.1 km",
-            "duration_value": 823,
-            "distance_value": 2137
-          }
-        }
+        "subcategory_reasoning": "Tampines 1 is a commercial complex that features a variety of retail shops and dining options, making it best categorized as a shopping mall."
       },
       {
-        "name": "Elias Mall",
-        "title": "Elias Mall",
-        "lat": 1.3783052,
-        "lng": 103.94187219999999,
-        "address": "625 Elias Rd, Singapore 510625",
-        "place_id": "ChIJO78EpL492jERuWZcaOf26DA",
-        "rating": 3.9,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwUnjCR1mEKMd_GPagDlhweQAAERmfr1Y65prJ1eGvj8xJqCbMa77yG98iSzyw_glafxtCcKdg-HYlQ5gbiDU9d17igmGbRdetwS7MixHlsjASph69MiFZPM42iM6YutNzffRir=w122-h92-k-no",
-        "subcategory": "Shopping Mall",
-        "subcategory_reasoning": "Elias Mall is primarily a shopping destination that offers a variety of retail stores and dining options, making 'Shopping Mall' the most appropriate subcategory.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEaErJiAfC}@lBw@pAiBnCgCrDe@t@c@p@HFf@TZHd@Jd@HL@?IBODKLGT?",
-            "duration": "6 mins",
-            "distance": "2.0 km",
-            "duration_value": 378,
-            "distance_value": 2028
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR_@jAMf@KNQh@_C`Gy@rBCVg@lASNs@`Bg@fA_AjBuBjDEJRJdAn@]d@aB`CDL?d@CP?LEBFR",
-            "duration": "26 mins",
-            "distance": "1.9 km",
-            "duration_value": 1569,
-            "distance_value": 1898
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR_@jAMf@KNQh@_C`Gy@rBCVg@lASNs@`Bg@fA_AjBuBjDEJRJdAn@]d@aB`CDL?d@CP?LEBFR",
-            "duration": "26 mins",
-            "distance": "1.9 km",
-            "duration_value": 1569,
-            "distance_value": 1898
-          }
-        }
+        "name": "Courts Tampines",
+        "title": "COURTS Megastore",
+        "lat": 1.3734100999999999,
+        "lng": 103.9334918,
+        "address": "50 Tampines North Dr 2, Singapore 528766",
+        "place_id": "ChIJiRxdZJc92jERBXE_df96Mt8",
+        "rating": 4.8,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyfcInX72Wn7CzuQFbCHe5a0QG8DKkI7PQt8IIyALoncgd7dbtYH9YjKgHtDsCGox9MYJCYlQFwryl3KOJ9CjrQvIWoReI2SpctFh3uqsjhGGa6r6Wcir3fTJ17A08gUU5gG-bYrQ=w80-h106-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d97645d1c89%3A0xdf327aff753f7105&engine=google_maps_photos&hl=en",
+        "subcategory": "Electronics Store",
+        "subcategory_reasoning": "COURTS Megastore primarily sells electronics and home appliances, making 'Electronics Store' the most fitting subcategory within the broader 'Shopping & Dining' category."
+      },
+      {
+        "name": "Giant - Tampines",
+        "title": "Giant Hypermarket - Tampines",
+        "lat": 1.3721554999999999,
+        "lng": 103.9319823,
+        "address": "21 Tampines North Dr 2, #03-01, Singapore 528765",
+        "place_id": "ChIJRawU9pk92jERgaijG0WpCUI",
+        "rating": 4.3,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxdHqUVRtkuFYLy1u-ZhzAsMGkfLNrSPwauGYKgXqi-laYiauT_rxIGpdR2fNHXdZXfUmsuLGoLouxB_2e1oa3zXj__p5P_YNcTB0hwyHk5PA28br5INrceHyRGEqd3v0G6HUUP0TBMtvp2=w163-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d99f614ac45%3A0x4209a9451ba3a881&engine=google_maps_photos&hl=en",
+        "subcategory": "Hypermarket",
+        "subcategory_reasoning": "The location is a Giant Hypermarket, which is a large retail store that combines a supermarket and a department store, offering a wide variety of goods including groceries, clothing, and household items."
+      },
+      {
+        "name": "NTUC FairPrice",
+        "title": "FairPrice Downtown East",
+        "lat": 1.3759318,
+        "lng": 103.9554591,
+        "address": "1 Pasir Ris Cl, #02-127, Singapore 519599",
+        "place_id": "ChIJgWQB27M92jERb7jMXRnaWdE",
+        "rating": 4.2,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSykF2pP8C-Lm-J9QnL_r29hclL_h9O3sQDfIAU_IR_nUP27oRkNkxH-nSoyMOWQ3yGxIKItbh9xKZWK5C8PQ8rb0qmTk0RCDfbqcPlDNkfeUMZoxsqrJvfrShi3s9YMsibF5lsU=w122-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3db3db016481%3A0xd159da195dccb86f&engine=google_maps_photos&hl=en",
+        "subcategory": "Supermarket",
+        "subcategory_reasoning": "FairPrice Downtown East is a grocery store that primarily sells food and household items, which fits the definition of a supermarket."
+      },
+      {
+        "name": "Sheng Siong Supermarket",
+        "title": "Sheng Siong Supermarket",
+        "lat": 1.356115,
+        "lng": 103.945942,
+        "address": "506 Tampines Central 1, #01/02-361, Singapore 520506",
+        "place_id": "ChIJ1VWOUQ492jERT6ShQTPTOZc",
+        "rating": 4.3,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyYfCnN-4b0d5ermrPKGqLSpuhuD4jWJ93gYtLfliAHkRDGspWVJPbehWgKUuDDqNl9LQjMkzcQiCIK-o6Jj_zNpB8_15rfmPuvl506Ll0CfM6xqmFVcMkTGr004oZYEO9Xf7ej=w163-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d0e518e55d5%3A0x9739d33341a1a44f&engine=google_maps_photos&hl=en",
+        "subcategory": "Supermarket",
+        "subcategory_reasoning": "The location is specifically a supermarket, which is a type of retail store that primarily sells food and other household items, fitting perfectly within the broader category of Shopping & Dining."
+      },
+      {
+        "name": "Prime Supermarket",
+        "title": "Prime Supermarket",
+        "lat": 1.3489326,
+        "lng": 103.9340708,
+        "address": "823 Tampines Street 81, #01-160, Singapore 520823",
+        "place_id": "ChIJf_ZwEGs92jER2UzN0TgMhHY",
+        "rating": 4,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzcpJNM2z1wCbFvGrmBiKGXmXHC6wP9UqIX1nvfRDYAT2dtgzWPsaVlwOcDXC-xRaZuTzsZmT8PuctixiZ5UMjjnJBd6RuGvdKmqsPprgpmMDvTgXZEga08TliW6xBbXC4TBcYodA=w138-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d6b1070f67f%3A0x76840c38d1cd4cd9&engine=google_maps_photos&hl=en",
+        "subcategory": "Supermarket",
+        "subcategory_reasoning": "The location is named 'Prime Supermarket' and is categorized under 'Shopping & Dining', indicating that it primarily serves as a retail grocery store."
+      },
+      {
+        "name": "Cold Storage",
+        "title": "Cold Storage @ Tampines 1",
+        "lat": 1.354212,
+        "lng": 103.94503519999999,
+        "address": "10 Tampines Central 1, B1-01/02, Singapore 529536",
+        "place_id": "ChIJ-QEBJw492jERA4T6m9TNxUo",
+        "rating": 4.2,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyjJ8z6lqpKDzmDXuXxZ2UI8YSzGdjIUQQ2hutFvIwtGbuJi-pGTBv4O6QLrAytMxPlsT42VR2aal6-WPwpmLX1aWC8oj5qK3iN3ODoJtPnhN4YNgGiSA1uIi4M3KQr6hwP1WGf3g=w122-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d0e270101f9%3A0x4ac5cdd49bfa8403&engine=google_maps_photos&hl=en",
+        "subcategory": "Supermarket",
+        "subcategory_reasoning": "Cold Storage is a grocery store chain in Singapore, which fits the definition of a supermarket, providing a wide range of food and household products."
       }
     ],
-    "Parks & Recreation": [
-      {
-        "name": "Pasir Ris Park",
-        "title": "Pasir Ris Town Park",
-        "lat": 1.3720588,
-        "lng": 103.95268,
-        "address": "Along, Pasir Ris Central, Opposite MRT Station, Singapore 519639",
-        "place_id": "ChIJNTlhccg92jERBftThrByZK0",
-        "rating": 4.4,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxiasVRl97QdvQzHqyfZra52HR34zHxLFtvHSBhj3zw4FEAtofH3oKPiOEm9w7WyW-OTDfYbpQOs_e_iY3Hul-jo7vBwcb0G_IfCcvaGvKWXn5QjtwERxlBRUf5Z2HEnvsxRvk=w163-h92-k-no",
-        "subcategory": "Community Park",
-        "subcategory_reasoning": "Pasir Ris Town Park is a public space designed for recreational activities and community gatherings, fitting the definition of a community park.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XElAB\\F\\NPNLMPSCCCEAC?K?EFKJEJ?",
-            "duration": "4 mins",
-            "distance": "1.0 km",
-            "duration_value": 218,
-            "distance_value": 990
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJrCA~ACN?@JNrBv@nIHFRdAR\\XbAH\\NEHFFFDZFVHN@HDAB@dA`@BB@IDm@@_@BGDANDb@BJADE",
-            "duration": "13 mins",
-            "distance": "0.9 km",
-            "duration_value": 761,
-            "distance_value": 906
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJrCA~ACN?@JNrBv@nIHFRdAR\\XbAH\\NEHFFFDZFVHN@HDAB@dA`@BB@IDm@@_@BGDANDb@BJADE",
-            "duration": "13 mins",
-            "distance": "0.9 km",
-            "duration_value": 761,
-            "distance_value": 906
-          }
-        }
-      },
-      {
-        "name": "Pasir Ris Sports Centre",
-        "title": "ActiveSG Pasir Ris Sport Centre",
-        "lat": 1.3740237,
-        "lng": 103.95149459999999,
-        "address": "120 Pasir Ris Central, Singapore 519640",
-        "place_id": "ChIJ63CtJbA92jERHCySfnqil9c",
-        "rating": 4.2,
-        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMPCowQLmR27WloHnl2wLPFhUe1-vtw_Xf7Amwm=w131-h86-k-no",
-        "subcategory": "Sports Complex",
-        "subcategory_reasoning": "The ActiveSG Pasir Ris Sport Centre is primarily a facility designed for various sports and recreational activities, making 'Sports Complex' the most fitting subcategory.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@fB?@E?SAK",
-            "duration": "4 mins",
-            "distance": "0.8 km",
-            "duration_value": 225,
-            "distance_value": 798
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCFz@H|ADAT@@@DTFdADLlAEP@",
-            "duration": "11 mins",
-            "distance": "0.8 km",
-            "duration_value": 636,
-            "distance_value": 757
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCFz@H|ADAT@@@DTFdADLlAEP@",
-            "duration": "11 mins",
-            "distance": "0.8 km",
-            "duration_value": 636,
-            "distance_value": 757
-          }
-        }
-      }
-    ],
-    "Schools - Primary": [
-      {
-        "name": "Casuarina Primary School",
-        "title": "Casuarina Primary School",
-        "lat": 1.3725006,
-        "lng": 103.9570205,
-        "address": "30 Pasir Ris Street 41, Singapore 518935",
-        "place_id": "ChIJVysLeLI92jERObXZaIP4jws",
-        "rating": null,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxmtvgSkqM8HQy0jFIdGxLcDp4gGWtEdDylRzPUExtpVvxOE-y-Aith1LdC7Qe3JnQb2KMcnGw2l2wNQbmiNFDONYLP3Ds6T4twBUiDGxiwXFXCXjHqbd9p3-faIUUBIO7vfea-Lg=w152-h86-k-no",
-        "subcategory": "Primary School",
-        "subcategory_reasoning": "The location is explicitly identified as 'Casuarina Primary School', which directly indicates that it is a primary educational institution.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@AjACdAAd@E~@QdCq@",
-            "duration": "2 mins",
-            "distance": "0.5 km",
-            "duration_value": 120,
-            "distance_value": 495
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@~@[",
-            "duration": "7 mins",
-            "distance": "0.5 km",
-            "duration_value": 425,
-            "distance_value": 494
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@~@[",
-            "duration": "7 mins",
-            "distance": "0.5 km",
-            "duration_value": 425,
-            "distance_value": 494
-          }
-        }
-      },
+    "Schools": [
       {
         "name": "Pasir Ris Primary School",
         "title": "Pasir Ris Primary School",
@@ -515,32 +271,23 @@
         "address": "5 Pasir Ris Street 21, Singapore 518968",
         "place_id": "ChIJ3QRrfU082jER0DHKdROAYzM",
         "rating": null,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyyxCHYUG6BcviQjt1MOwYfYoRKTFITLekk_4ZYJl1FYyXuON_RrYeHRH2BMlc7mlJzc4UBkS5V5i3Ept-alEkMBxMZTgMp-_H2Iu6UPrqNrBdZ9YwvzuEM_Js9RLSd0sb9BkGkRg=w114-h86-k-no",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwcbF7bHG1C4ozxdos-CpOYK8B06ewCKWIcp0SkejbrwZ8RLpX7tXvSTMhPsySPxfKiXiwY4Bxm23Dlxgn_Wtq7W1tpw_UiZgttGTJ78T1iggyjszkzLuMcFbJTGWAMcx2rryp8dg=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3c4d7d6b04dd%3A0x3363801375ca31d0&engine=google_maps_photos&hl=en",
         "subcategory": "Primary School",
-        "subcategory_reasoning": "The location is explicitly identified as 'Pasir Ris Primary School', which directly indicates that it is a primary educational institution.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBATQR[ImG?wC@y@DqAp@oGZuC|Cf@|Cf@x@NHi@d@oCDOT]d@Y\\EbABF_@DE",
-            "duration": "4 mins",
-            "distance": "1.1 km",
-            "duration_value": 256,
-            "distance_value": 1149
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC?mBAcA?KL??sA?]LBJCBADKBGF?FABGBA@A?iAD?H?HBD@?a@?EFEn@?@O@GFCFGBIAo@E[JDX}Ch@kEp@_EXc@h@[^E|@@LFR@LEh@@@k@?a@?s@@Q",
-            "duration": "17 mins",
-            "distance": "1.2 km",
-            "duration_value": 1017,
-            "distance_value": 1214
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBALEJMDMIqHE?P??mCBmAb@yEVsBPgBBSNB~@LbCb@fBXx@NHi@d@oCDOT]NKTM\\EbABrADvAB@OAFwAC@k@?a@?s@@Q",
-            "duration": "10 mins",
-            "distance": "1.4 km",
-            "duration_value": 598,
-            "distance_value": 1375
-          }
-        }
+        "subcategory_reasoning": "The location is explicitly named 'Pasir Ris Primary School', indicating that it is an educational institution for primary level students."
+      },
+      {
+        "name": "Hai Sing Catholic School",
+        "title": "Hai Sing Catholic School",
+        "lat": 1.3746261,
+        "lng": 103.9547645,
+        "address": "9 Pasir Ris Drive 6, Singapore 519421",
+        "place_id": "ChIJV7vmjrE92jERwZ9jDTET-sI",
+        "rating": null,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwLYJfbr4qxA8a3gJJSNWR_UT9hMJtoZjKvinX3VBTqeHhbghziXg_7FLhfPaNIuQj7EmLGDjZax9NAQAIvsFeqSEtfTP5fMkTq6tzc5tzd6NequfwAtKCDVqvbfoLAbrrcI0g_=w132-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3db18ee6bb57%3A0xc2fa13310d639fc1&engine=google_maps_photos&hl=en",
+        "subcategory": "Secondary School",
+        "subcategory_reasoning": "Hai Sing Catholic School is a secondary educational institution, which is a specific type of school that caters to students typically aged 12 to 16 years."
       },
       {
         "name": "White Sands Primary School",
@@ -550,139 +297,114 @@
         "address": "2 Pasir Ris Street 11, Singapore 519075",
         "place_id": "ChIJPbTkO1U82jERBVRF4BcCyK4",
         "rating": null,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwCuGgd8FKKdldZAXh2l1eSB0XzsnNyNoDv6EF42MK-wDL-HBFsDjCGBufME7f_hiSj_PfVL-FIkO_K0Vn_1681Cj0A1OiIM7U9ksMRiXcMT3NlJbBHuW3w3XNI41uFTUoifzY=w114-h86-k-no",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw3FR9P6iEbsKY5nB3PFDZcWbDhPCH28y6t13NzBLqp0RPvAW8T1h3Y5MdcqhU5q3SjRvcaDJ6DM5MRPIB8lcsJDGnMa1Vt0e0xpnnQFAjeaEww5iRrcA_gtCFeXTcv3F13cWk=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3c553be4b43d%3A0xaec80217e0455405&engine=google_maps_photos&hl=en",
         "subcategory": "Primary School",
-        "subcategory_reasoning": "The location is explicitly named 'White Sands Primary School' and falls under the category of primary education, making 'Primary School' the most accurate subcategory.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@AjACdAAd@E~@QbAW`Cu@z@UvA]f@E`AA|D@~AFtAJjDh@jBd@^Hv@Lp@Dh@Ep@UVKXQNMNSNc@lAgD|B}DtB}CjA}ALUFa@Aq@M_@cBcBYWKMMLMLK@UK[]",
-            "duration": "7 mins",
-            "distance": "1.9 km",
-            "duration_value": 447,
-            "distance_value": 1926
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A`C?fA?zADz@FENN@@OfDh@|Bj@x@PdAJT?XEp@Sp@]Za@`BqEzBuDrB{CtAkBJa@?m@CSIQ}@_AkAkAQPMFQEc@c@",
-            "duration": "27 mins",
-            "distance": "1.9 km",
-            "duration_value": 1617,
-            "distance_value": 1925
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBALEJMDMIqHE?P??mCBmAb@yEVsBPgBBSNB~@LbCb@fG~@nBVhAJ|@@LAf@I~DOt@@j@FdALf@Ll@PdAd@b@RfC~AjDpBbC`BnD`C~AmCnAmBhCoDLUBKBm@AYGSS[oBkBkAqAIHTHn@r@QPMFQEc@c@",
-            "duration": "25 mins",
-            "distance": "2.5 km",
-            "duration_value": 1477,
-            "distance_value": 2537
-          }
-        }
+        "subcategory_reasoning": "The location is explicitly named 'White Sands Primary School', indicating that it is an educational institution for primary-level students."
       },
       {
-        "name": "Elias Park Primary School",
-        "title": "Elias Park Primary School",
-        "lat": 1.3749538,
-        "lng": 103.9452385,
-        "address": "11 Pasir Ris St. 52, Singapore 518866",
-        "place_id": "ChIJdzCPErs92jERJtTKrxFf9aE",
+        "name": "Casuarina Primary School",
+        "title": "Casuarina Primary School",
+        "lat": 1.3725006,
+        "lng": 103.9570205,
+        "address": "30 Pasir Ris Street 41, Singapore 518935",
+        "place_id": "ChIJVysLeLI92jERObXZaIP4jws",
         "rating": null,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxI_Qa8npulUua8h0ZSJskyvocsfoqgXaTMupXj217_0tzMO8BY05ip1gKxuJNhg0rTzwujiv6IhJ88xYXBrsv1xoCUjgWu40Rkl6tVBTN9ZRZzdOnnxWArv-J4SBal3DKdiVzh=w114-h86-k-no",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxmtvgSkqM8HQy0jFIdGxLcDp4gGWtEdDylRzPUExtpVvxOE-y-Aith1LdC7Qe3JnQb2KMcnGw2l2wNQbmiNFDONYLP3Ds6T4twBUiDGxiwXFXCXjHqbd9p3-faIUUBIO7vfea-Lg=w152-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3db2780b2b57%3A0xb8ff88368d9b539&engine=google_maps_photos&hl=en",
         "subcategory": "Primary School",
-        "subcategory_reasoning": "The location is explicitly identified as a primary school, which fits directly into the subcategory of 'Primary School' under the broader category of schools.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEs@`BpAh@rE`CnAbAg@j@@DAHGFKBGAGE",
-            "duration": "5 mins",
-            "distance": "1.5 km",
-            "duration_value": 297,
-            "distance_value": 1516
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR_@jAMf@KNQh@_C`GhAb@dCnAlAr@nA`Ac@f@@JEHIDI?ECEC",
-            "duration": "21 mins",
-            "distance": "1.5 km",
-            "duration_value": 1260,
-            "distance_value": 1516
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHSAS?y@DBLHNAVQp@[r@KHJRTd@?DAXk@fBE?GXa@fA[SGHc@f@@DAHGFOBA?ECCC",
-            "duration": "12 mins",
-            "distance": "1.8 km",
-            "duration_value": 713,
-            "distance_value": 1767
-          }
-        }
-      }
-    ],
-    "Schools - Secondary": [
-      {
-        "name": "Hai Sing Catholic School",
-        "title": "Hai Sing Catholic School",
-        "lat": 1.3746261,
-        "lng": 103.9547645,
-        "address": "9 Pasir Ris Drive 6, Singapore 519421",
-        "place_id": "ChIJV7vmjrE92jERwZ9jDTET-sI",
-        "rating": null,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxmqL6ha8aRf21MXLv8HByQsERqRrPvOGJqO_QIBlS_oMYjM6qC9lHNUHmaBOXFltdcQ7two5mRXNTlYHX3zCnoA2VgrvqKoJ2kuFEOzdlBKYgTkFPPDPp84FKD1GEItqnbh8rn=w132-h86-k-no",
-        "subcategory": "Secondary School",
-        "subcategory_reasoning": "Hai Sing Catholic School is specifically categorized as a secondary school, which aligns with its designation in the broader category of schools.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@Ad@AB?@JPvBDn@YDkBR",
-            "duration": "2 mins",
-            "distance": "0.5 km",
-            "duration_value": 139,
-            "distance_value": 476
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@^CCY?OBEDAGaA",
-            "duration": "7 mins",
-            "distance": "0.5 km",
-            "duration_value": 398,
-            "distance_value": 466
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@^CCY?OBEDAGaA",
-            "duration": "7 mins",
-            "distance": "0.5 km",
-            "duration_value": 398,
-            "distance_value": 466
-          }
-        }
+        "subcategory_reasoning": "The location is specifically named 'Casuarina Primary School', indicating that it is an educational institution for primary level students."
       },
       {
-        "name": "Pasir Ris Crest Secondary School",
-        "title": "Pasir Ris Crest Secondary School",
-        "lat": 1.3728817,
-        "lng": 103.95941599999999,
-        "address": "11 Pasir Ris Street 41, Singapore 518934",
-        "place_id": "ChIJWfHsY6092jERoJbkkNk2ECc",
+        "name": "Loyang Primary School",
+        "title": "Loyang Primary School",
+        "lat": 1.3709326,
+        "lng": 103.95595,
+        "address": "3 Pasir Ris Drive 6, Singapore 519419",
+        "place_id": "ChIJ28oExq092jERqI4U-Add9_k",
         "rating": null,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz1raXBYV0XopTW63c2ezMG9dW9qpbkc3IIS-FxuJAD2zahmzAXbmrXo_sIWAhsDNA40fACF_f4rggYHjV2gpuBydi8ZUp36SWi1BNZztKwWRVf3UGbv3I8jaeO9-MIZlR-W2JneQ=w114-h86-k-no",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxpFCf7_MI0vtP4lzJY0n6VOjLQx6eNeJ1v-X1Hmya9c3RIxyGXP-KlBJ6aKjwR0VRMLNUn6L3iDyMUaiFJsqycBL_LpfOa2AfRDtz-qlUhyeTIH1Jh742OwD65Z5fNcJ-JamWDfA=w86-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3dadc604cadb%3A0xf9f75d07f8148ea8&engine=google_maps_photos&hl=en",
+        "subcategory": "Primary School",
+        "subcategory_reasoning": "The location is specifically named 'Loyang Primary School', indicating that it is an educational institution for primary level students."
+      },
+      {
+        "name": "Coral Primary School",
+        "title": "Coral Primary School",
+        "lat": 1.3681606,
+        "lng": 103.9511088,
+        "address": "20 Pasir Ris Street 51, Singapore 518902",
+        "place_id": "ChIJfX-ENq892jERJjfIRjPFL8I",
+        "rating": null,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyW8Zo6dsfI1cBFm2imBiHN4Q9p_kH3buewDY9cnvqzKoP13_lwl7lE6MOMD0Q72h7AUhG6vlQWo-5rG7fWs3RaZeQIkwKtA6SMALkd11dmn2AjidQiCqyKkz9l_LPkI_jd7egD5w=w86-h114-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3daf36847f7d%3A0xc22fc53346c83726&engine=google_maps_photos&hl=en",
+        "subcategory": "Primary School",
+        "subcategory_reasoning": "The location is explicitly named 'Coral Primary School', indicating that it is an educational institution specifically for primary education."
+      },
+      {
+        "name": "Meridian Primary School",
+        "title": "Meridian Primary School",
+        "lat": 1.3767228,
+        "lng": 103.9354461,
+        "address": "20 Pasir Ris Street 71, Singapore 518798",
+        "place_id": "ChIJbSAqWpY92jERj-oo0YQQGP4",
+        "rating": null,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw49fWERv7sBzT1C-e7E0zQ-ms2dHN0ChFVNN5yd2TWNgSoD6eYwK4fTrc7Uo4R5rEL70fljo6W63V6q_H01x_cSDIVL6bkDXQyyxBjqUabAr34eTw4TzBfFr82dhcJJsnDogN7=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d965a2a206d%3A0xfe181084d128ea8f&engine=google_maps_photos&hl=en",
+        "subcategory": "Primary School",
+        "subcategory_reasoning": "The location is specifically named 'Meridian Primary School', indicating that it is an educational institution for primary level students."
+      },
+      {
+        "name": "East Spring Primary School",
+        "title": "East Spring Primary School",
+        "lat": 1.3529445999999998,
+        "lng": 103.96183979999999,
+        "address": "31 Tampines Street 33, Singapore 529258",
+        "place_id": "ChIJQXHosOI82jERKFah0Tvr11U",
+        "rating": null,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw_fvC5b3Onkmd9JWwHZp80lr3jIUzGjx94CAjupdANrp8l2GWPQ0sb0Y1tgNtPCaKmPc0hx1ItYU2owE1TgS61DiHMlxEBSAnAj8PILX2-90AYnXouCsiPKsTB5RWMUCMlGOs6dQ=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3ce2b0e87141%3A0x55d7eb3bd1a15628&engine=google_maps_photos&hl=en",
+        "subcategory": "Primary School",
+        "subcategory_reasoning": "The location is specifically named 'East Spring Primary School', indicating that it is an educational institution for primary level students."
+      },
+      {
+        "name": "Tampines Primary School",
+        "title": "Tampines Primary School",
+        "lat": 1.3501832,
+        "lng": 103.9444396,
+        "address": "250 Tampines Street 12, Singapore 529426",
+        "place_id": "ChIJi_FkfrM92jERwrQFxd6mcVY",
+        "rating": null,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxwQEDlJnz2JfZRm10klknfrPAuVVUr8U4MmFn0BPDpGgpH2bhqURoEAk46u2Et70DfYGqBI41pMRLNE_ChmiWJYUrqV6GOyCXfmp4LQDh3laZeEl9cOy5BHbMINJ_1W_iBYk4SSKbP2UQV=w122-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3db37e64f18b%3A0x5671a6dec505b4c2&engine=google_maps_photos&hl=en",
+        "subcategory": "Primary School",
+        "subcategory_reasoning": "The location is specifically named 'Tampines Primary School', which indicates that it is an educational institution for primary level students."
+      },
+      {
+        "name": "East Coast Primary School",
+        "title": "East Coast Primary School (ECPS)",
+        "lat": 1.3294373,
+        "lng": 103.9200331,
+        "address": "8 Chai Chee Ln, Singapore 469031",
+        "place_id": "ChIJ8cxBCFQ92jERXR_oLy6zXEM",
+        "rating": null,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwoCfS2eLHXcNaOCRUAS9OKQc_jZGxMbs6RdUPCBiY1e_Juj-Q1QyUQzw171Kz3Qyv1UOi5QLAUPrnvVts6IPgUsbgUHNhPj044OvorA7k8V1oxqlhGnhQYNBmZsr7INlVrZ3Q=w182-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d540841ccf1%3A0x435cb32e2fe81f5d&engine=google_maps_photos&hl=en",
+        "subcategory": "Primary School",
+        "subcategory_reasoning": "The location is explicitly named 'East Coast Primary School', indicating that it is an educational institution specifically for primary education."
+      },
+      {
+        "name": "Pasir Ris Secondary School",
+        "title": "Pasir Ris Secondary School",
+        "lat": 1.3548646,
+        "lng": 103.94857239999999,
+        "address": "390 Tampines St. 21, Singapore 529400",
+        "place_id": "ChIJ20PS5Q892jER2vxdSYzFMDk",
+        "rating": null,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzWNwiOHAXf8IfpOoiQL2oXVBZH_BEC1nKCoCnA5_mZ6p4W3RJJvYDePG8JQIGE0yeO5MTL1KofWvDtVFsBxXnCZnlq_G4IKEWhQSRgMsauOAyLjEqqJCl983fQSuN2i9pL7ytgtA=w86-h114-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d0fe5d243db%3A0x3930c58c495dfcda&engine=google_maps_photos&hl=en",
         "subcategory": "Secondary School",
-        "subcategory_reasoning": "The location is specifically a secondary school, which is a type of educational institution for students typically aged 12 to 16, fitting the category provided.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@AjACdAAd@E~@QbAW`Cu@NEk@qDc@cDK[OOWIYGmCKWCMM?QPiBVBBMRDHF@H",
-            "duration": "4 mins",
-            "distance": "1.0 km",
-            "duration_value": 221,
-            "distance_value": 1019
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC?mBAcA?KL??sA?]LBJCBADKBGF?FABGBA@A?iAD?H?HBD@?a@?EFEn@?@O@GFCFGBIAo@E[JDJqABOJ@RBBMRDHF@H",
-            "duration": "11 mins",
-            "distance": "0.8 km",
-            "duration_value": 654,
-            "distance_value": 765
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC?mBAcA?KL??sA?]LBJCBADKBGF?FABGBA@A?iAD?H?HBD@?a@?EFEn@?@O@GFCFGBIAo@E[JDJqABOJ@RBBMRDHF@H",
-            "duration": "11 mins",
-            "distance": "0.8 km",
-            "duration_value": 654,
-            "distance_value": 765
-          }
-        }
+        "subcategory_reasoning": "The location is specifically named 'Pasir Ris Secondary School', indicating that it is a school for secondary education."
       },
       {
         "name": "Loyang View Secondary School",
@@ -692,32 +414,36 @@
         "address": "12 Pasir Ris Street 11, Singapore 519073",
         "place_id": "ChIJXZDQtqs92jERwzIQAUvGhGg",
         "rating": null,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwKNUYVFkhggOWR9NVwrNr590K7LjpIzH8ZgunHw2anWhHhjxttm19mdz8w98sBdo5y-fL-_XkDblm0j0ajOMGBJypJbJpYqtPSXAtP7k3tdC93-PeF2dY9levTZe0cc8m-r6B7og=w152-h86-k-no",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSycFhACjXSggCWEeoU9pceftrIBK6oxcvmwnOwbtfzXTYHMPi5pxaJoPseH2SkqyakAhL2gBzAJYgflUHNhMX86fGU-NPdkAlff1ei49GwXBhO4vEfHmRbtXGXvghYTQjeRO_JSsA=w152-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3dabb6d0905d%3A0x6884c64b011032c3&engine=google_maps_photos&hl=en",
         "subcategory": "Secondary School",
-        "subcategory_reasoning": "The location is specifically identified as a secondary school, which is a type of educational institution for students typically aged 12 to 16 years.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@AjACdAAd@E~@QbAW`Cu@z@UvA]f@E`AA|D@~AFtAJjDh@jBd@^HZHJYJKP?LB",
-            "duration": "5 mins",
-            "distance": "1.1 km",
-            "duration_value": 279,
-            "distance_value": 1128
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A`C?fA?zADz@FENN@@OfDh@|Bj@x@PFSLKR?LB",
-            "duration": "16 mins",
-            "distance": "1.1 km",
-            "duration_value": 964,
-            "distance_value": 1129
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A`C?fA?zADz@FENN@@OfDh@|Bj@x@PFSLKR?LB",
-            "duration": "16 mins",
-            "distance": "1.1 km",
-            "duration_value": 964,
-            "distance_value": 1129
-          }
-        }
+        "subcategory_reasoning": "The location is specifically named 'Loyang View Secondary School', indicating that it is a school that provides secondary education."
+      },
+      {
+        "name": "Hai Sing Catholic School",
+        "title": "Hai Sing Catholic School",
+        "lat": 1.3746261,
+        "lng": 103.9547645,
+        "address": "9 Pasir Ris Drive 6, Singapore 519421",
+        "place_id": "ChIJV7vmjrE92jERwZ9jDTET-sI",
+        "rating": null,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwLYJfbr4qxA8a3gJJSNWR_UT9hMJtoZjKvinX3VBTqeHhbghziXg_7FLhfPaNIuQj7EmLGDjZax9NAQAIvsFeqSEtfTP5fMkTq6tzc5tzd6NequfwAtKCDVqvbfoLAbrrcI0g_=w132-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3db18ee6bb57%3A0xc2fa13310d639fc1&engine=google_maps_photos&hl=en",
+        "subcategory": "Secondary School",
+        "subcategory_reasoning": "Hai Sing Catholic School is a secondary educational institution, which is a specific type of school that caters to students typically aged 13 to 16 years."
+      },
+      {
+        "name": "Coral Secondary School",
+        "title": "Meridian Secondary School",
+        "lat": 1.3675302,
+        "lng": 103.9492665,
+        "address": "31 Pasir Ris Street 51, Singapore 518901",
+        "place_id": "ChIJ2YSOoKg92jERbqT4b9SPLe4",
+        "rating": null,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxJZ2rkz_4KFb2x8iDzG36DohFjn5A3VjuF-IN7XP8bCD9k97i3J4LPaaNQNIpogOdDuhiSEmC5j2p0yUlE7nlcVvDJKXR9s-CJ9S8kHGIivDRwgRzo9je1qet-SjD-aK_PC5g=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3da8a08e84d9%3A0xee2d8fd46ff8a46e&engine=google_maps_photos&hl=en",
+        "subcategory": "Secondary School",
+        "subcategory_reasoning": "The location is specifically named 'Meridian Secondary School', indicating that it is a school for secondary education, which is a distinct subcategory within the broader category of schools."
       },
       {
         "name": "Meridian Secondary School",
@@ -727,317 +453,50 @@
         "address": "31 Pasir Ris Street 51, Singapore 518901",
         "place_id": "ChIJ2YSOoKg92jERbqT4b9SPLe4",
         "rating": null,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSye6xEtFEG0U_U0at5mPW1EFZlbAdLWN8_wur3xDH4Fea3CypycucD4gBPNrAQWTzFqOTMxy1sHS1xbteJdB9LpVWWRAaHCjYtozT6rBXZXQ_8dUeyTwNncHlVkr1YRYUQ1mzI=w114-h86-k-no",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxJZ2rkz_4KFb2x8iDzG36DohFjn5A3VjuF-IN7XP8bCD9k97i3J4LPaaNQNIpogOdDuhiSEmC5j2p0yUlE7nlcVvDJKXR9s-CJ9S8kHGIivDRwgRzo9je1qet-SjD-aK_PC5g=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3da8a08e84d9%3A0xee2d8fd46ff8a46e&engine=google_maps_photos&hl=en",
         "subcategory": "Secondary School",
-        "subcategory_reasoning": "The location is specifically a secondary school, which is a type of educational institution for students typically aged 12 to 16, fitting the provided category.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XElAB\\F\\Nv@l@|AxAp@t@FJDl@QjACLnAd@|@`@JJ\\Nd@Jb@?jAH`@BfF~@v@LFKX_@\\sATFD@DCH_@b@{ATa@Fz@",
-            "duration": "7 mins",
-            "distance": "1.8 km",
-            "duration_value": 427,
-            "distance_value": 1762
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHjE?fAA\\DVHh@XfA`AzAzAV\\BNAXSlAN?dA`@j@XVJNLXL`@Hn@@\\D|@DlFdAp@HFIX_@J@\\oATFDCl@{BTa@Fz@",
-            "duration": "24 mins",
-            "distance": "1.8 km",
-            "duration_value": 1467,
-            "distance_value": 1761
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHCHr@Ph@JZHlB`@Da@AMBSJOFYZQ\\G\\DHAbAYj@a@X]~AHnCd@`Cb@RBFKVu@\\sAPFDABCPq@`@sAJQBCFz@",
-            "duration": "17 mins",
-            "distance": "2.2 km",
-            "duration_value": 1028,
-            "distance_value": 2152
-          }
-        }
-      }
-    ],
-    "Schools - Preschools & Kindergartens": [
-      {
-        "name": "MindChamps PreSchool Pasir Ris Mall",
-        "title": "MindChamps PreSchool @ Pasir Ris",
-        "lat": 1.3731137999999998,
-        "lng": 103.9486821,
-        "address": "7 Pasir Ris Central, #01-23, Mall 519612",
-        "place_id": "ChIJm-KTzWIZ2jERo5oatgIPBhc",
-        "rating": 4.9,
-        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPfIumHWgQcGK484udD8vfZIWG6808_H4pIDjVj=w80-h120-k-no",
-        "subcategory": "Preschool",
-        "subcategory_reasoning": "The location is a preschool, which is a specific type of educational institution for young children, fitting under the broader category of preschools and kindergartens.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?XJNCn@C^Bf@L\\MDCLQNYGC",
-            "duration": "5 mins",
-            "distance": "1.3 km",
-            "duration_value": 291,
-            "distance_value": 1337
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nH?J|C?n@@bAAZBTHf@XbDxCRXBL?TUnACXKV?XKp@Ud@a@v@",
-            "duration": "18 mins",
-            "distance": "1.3 km",
-            "duration_value": 1066,
-            "distance_value": 1273
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHj@NRIJKd@y@",
-            "duration": "7 mins",
-            "distance": "1.4 km",
-            "duration_value": 443,
-            "distance_value": 1440
-          }
-        }
+        "subcategory_reasoning": "The location is specifically named 'Meridian Secondary School', which indicates that it is a school for secondary education, thus fitting the subcategory of 'Secondary School'."
       },
       {
-        "name": "MapleBear Pasir Ris Park",
-        "title": "MapleBear Pasir Ris Park",
-        "lat": 1.3831575999999999,
-        "lng": 103.9433305,
-        "address": "77 Pasir Ris Ave, Singapore 519732",
-        "place_id": "ChIJrQjp4Ks92jERr2SviS264aQ",
-        "rating": 5,
-        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPE5EyLU-ZS4xAp6AmOsG_Mg36Lx-WsiXKXk4cm=w114-h86-k-no",
-        "subcategory": "Preschool",
-        "subcategory_reasoning": "MapleBear Pasir Ris Park is a preschool, which is a specific type of educational institution for young children, fitting under the broader category of preschools and kindergartens.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEaErJiAfC}@lBw@pAiBnCgCrDwAvBm@_@Y[WYOYIUSw@EyACaCC}CIcCwEFgA@eADIBU^yAzC_BfD",
-            "duration": "8 mins",
-            "distance": "2.7 km",
-            "duration_value": 464,
-            "distance_value": 2749
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?j@yBDK?e@OQUOCUAK@OCO`@I^I`@QPYB_@@QCc@Qg@YYWE@KCYWWMk@UQGs@GI?GBWTo@\\qAx@e@f@Y~@MbA?f@Ln@HL`@Fb@JPHJFIJGLGh@UlAIX@FUb@Gf@@^KR?NFNDDAL@J@NELQR]r@M^Ur@k@lAEHK`@OvAQf@]v@I`@A^BZ@DGN[lAGj@GHVZFN@pAENg@f@QJWFU@MXUVKNARA\\?LBFHLZLET?xAQh@i@bA[`@EHH@JDd@^BCJDpAj@`@NFHS\\Q^}BxEi@hA",
-            "duration": "31 mins",
-            "distance": "2.3 km",
-            "duration_value": 1854,
-            "distance_value": 2271
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?j@yBDK?e@OQUOCUAK@OCO`@I^I`@QPYB_@@QCc@Qg@YYWE@KCYWWMk@UQGs@GI?GBWTo@\\qAx@e@f@Y~@MbA?f@Ln@HL`@Fb@JPHJFIJGLGh@UlAIX@FUb@Gf@@^KR?NFNDDAL@J@NELQR]r@M^Ur@k@lAEHK`@OvAQf@]v@I`@A^BZ@DGN[lAGj@GHVZFN@pAENg@f@QJWFU@MXUVKNARA\\?LBFHLZLET?xAQh@i@bA[`@EHH@JDd@^BCJDpAj@`@NFHS\\Q^}BxEi@hA",
-            "duration": "31 mins",
-            "distance": "2.3 km",
-            "duration_value": 1854,
-            "distance_value": 2271
-          }
-        }
+        "name": "East Spring Secondary School",
+        "title": "East Spring Secondary School",
+        "lat": 1.3568208,
+        "lng": 103.96075169999999,
+        "address": "30 Tampines Street 34, Singapore 529231",
+        "place_id": "ChIJaY1pfwI92jERK2wpVmpLsjc",
+        "rating": null,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwNFX-6ptZEccrOV87CpoOk1Znqyidnw5dQJAA5-0K44cs1TgCH3Lz7tjMB_VnI6SE7Vtk16il2UASlDTbf-dVVyet3kTnm0rCrmwYChkicesZUe8FLnBVaN0SIWQfKc_YrK4Xv=w115-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d027f698d69%3A0x37b24b6a56296c2b&engine=google_maps_photos&hl=en",
+        "subcategory": "Secondary School",
+        "subcategory_reasoning": "The location is specifically named 'East Spring Secondary School', which indicates that it is a school for secondary education, distinguishing it from primary schools or other educational institutions."
       },
       {
-        "name": "Odyssey The Global Preschool Pasir Ris",
-        "title": "Odyssey The Global Preschool – Loyang",
-        "lat": 1.3797783,
-        "lng": 103.9623099,
-        "address": "191 Jln. Loyang Besar, Singapore 506996",
-        "place_id": "ChIJ9x5WHEs82jER1kODOrzUieI",
-        "rating": 4.7,
-        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM6Ptpd6N8crCw7mzNjxYnUUyCK8QKQeBD0Tf_v=w128-h86-k-no",
-        "subcategory": "Preschool",
-        "subcategory_reasoning": "The location is specifically a preschool, which is a type of educational institution for young children before they enter primary school.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBATQR[ImG?wC@y@MYKMKGSC{@?iAEsCIm@Ac@Jk@TYo@m@mB}@_DiA{EGQUU[e@[a@KUIYEa@[BEFNn@",
-            "duration": "4 mins",
-            "distance": "1.2 km",
-            "duration_value": 240,
-            "distance_value": 1186
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyRoCBCC?EAGg@@?e@Ek@@QAa@PaA@e@?WSy@Sg@m@aBOi@Uk@k@eBeAqDcAkEAGODKW_AkAYi@K[C[@MG@QBEDALHXDN",
-            "duration": "12 mins",
-            "distance": "0.9 km",
-            "duration_value": 746,
-            "distance_value": 911
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyRoCBCC?EAGg@@?e@Ek@@QAa@PaA@e@?WSy@Sg@m@aBOi@Uk@k@eBeAqDcAkEAGODKW_AkAYi@K[C[@MG@QBEDALHXDN",
-            "duration": "12 mins",
-            "distance": "0.9 km",
-            "duration_value": 746,
-            "distance_value": 911
-          }
-        }
+        "name": "Tampines Secondary School",
+        "title": "Tampines Secondary School",
+        "lat": 1.3496921,
+        "lng": 103.94455959999999,
+        "address": "252 Tampines Street 12, Singapore 529427",
+        "place_id": "ChIJ12A9rBY92jERVZn3vU8ZIjc",
+        "rating": null,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzUAtmms05tlgnnMlaGsPsCvLLRDjXtu_pEhlY1UNaJqgxJrfLEZW4AoS5ghlAxWgRoPwumKrhr131tfF6pi9Kr2RNtB1XNiVc8WIU0rNQAR4XURUKh-vfS7GWAAvkt5MwtH_UZBw=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d16ac3d60d7%3A0x3722194fbdf79955&engine=google_maps_photos&hl=en",
+        "subcategory": "Secondary School",
+        "subcategory_reasoning": "The location is specifically a secondary school, which is a type of educational institution for students typically aged 12 to 16, making 'Secondary School' the most accurate subcategory."
       },
       {
-        "name": "My Little Campus Pasir Ris",
-        "title": "My Little Campus - MLC (Pasir Ris)",
-        "lat": 1.379692,
-        "lng": 103.93606199999999,
-        "address": "735 Pasir Ris Street 72, #02-344, Singapore 510735",
-        "place_id": "ChIJISCCm5U92jERh6WbF4ESUkA",
-        "rating": 4.8,
-        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOIpj9P_ZLxXT5BBEmK94RO77_qrxQP-YJ68pTa=w129-h86-k-no",
-        "subcategory": "Preschool",
-        "subcategory_reasoning": "The location is a preschool, as indicated by its name 'My Little Campus - MLC' and the category 'Schools - Preschools & Kindergartens', which specifically refers to early childhood education.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEaErJiAfC}@lBw@pAiBnCgCrDwAvB_DnEyAjBs@v@g@h@YTlCnBzAjAbC|AHFGJw@zAaA~BWn@]v@TNlBpALQ",
-            "duration": "8 mins",
-            "distance": "2.8 km",
-            "duration_value": 505,
-            "distance_value": 2792
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR_@jAMf@KNQh@_C`Gy@rBCVg@lASNs@`Bg@fA_AjBuBjDEJc@j@mAhBo@~@GTYb@g@x@IJSFy@hA_AvAa@h@FZCLzA`AjChBx@d@ABCJCPoAzBm@dAGLDDJFBBEFKHm@jACJaA~BWn@[p@RLlBpAHK",
-            "duration": "38 mins",
-            "distance": "2.8 km",
-            "duration_value": 2291,
-            "distance_value": 2752
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@NA@NU@LzABf@TnDLpBNjC\\@hD@XElAB\\F\\Nv@l@rAnAv@v@HNFb@AXSlA]`Cw@bBQ\\KPG^rAZj@FVNu@lBkA`EgApDsBdHgA|Dk@fBe@|@oApBi@bAg@p@yCpEaE`G}@jA_AtA}AbCiBnCRNHMOK~@uAZg@KEcCcBe@YSQuBeAq@tAu@jBYn@a@`ACDNJpBrAHK",
-            "duration": "27 mins",
-            "distance": "3.6 km",
-            "duration_value": 1596,
-            "distance_value": 3554
-          }
-        }
+        "name": "East Coast Secondary School",
+        "title": "East Coast Secondary School",
+        "lat": -6.7517166,
+        "lng": 38.9591181,
+        "address": "Picha ya ndege Kibaha TC, Tanzania",
+        "place_id": "ChIJISOa95NnXBgRlPrv4HPGuGU",
+        "rating": null,
+        "thumbnail": null,
+        "photos_link": "https://serpapi.com/search.json?data_id=0x185c6793f79a2321%3A0x65b8c673e0effa94&engine=google_maps_photos&hl=en",
+        "subcategory": "Secondary School",
+        "subcategory_reasoning": "The location is specifically named 'East Coast Secondary School', indicating that it is a school that provides secondary education."
       },
-      {
-        "name": "Bright Kids School House Pasir Ris",
-        "title": "Bright Kids @ Pasir Ris",
-        "lat": 1.376379,
-        "lng": 103.9342209,
-        "address": "Blk 764 Pasir Ris Street 71, #01-246, Singapore 510764",
-        "place_id": "ChIJmxKO9pY92jERSh39aTpWR2w",
-        "rating": 4.9,
-        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMa0duQmiUsIgZXZ3RQ-O2i526RpqrOAHIOwd9j=w86-h86-k-no",
-        "subcategory": "Preschool",
-        "subcategory_reasoning": "The location is specifically a preschool, which is a type of educational institution for young children before they enter primary school.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEs@`BpAh@rE`CjBvA`BhAzBt@NDOj@uAtEgA|Dw@~B}AfCKNAbAhA\\|Ar@hB|@CJGj@E`AMl@M`@KP_@^wBjAoBjAc@f@ELENkAnB}DrGgBpCdAl@`@ZzA`AUZMLE@[MGDIN",
-            "duration": "10 mins",
-            "distance": "3.2 km",
-            "duration_value": 622,
-            "distance_value": 3200
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR_@jAMf@KNQh@iAvCo@|AhAd@nE~BtAdAj@^rA~@^LZDbAZEXB?JDCJsAnE_@nAY~@A\\k@fBOPGTMVXP\\RZTRRZ`@Td@Pt@Fh@@b@AZEn@CHIZEh@InAOh@MTm@h@kAn@MN_@NsAv@]X_@f@s@lAWd@VRBBGHVNfC~AL??DFPDBXLCRDAB?DF@JqAhCQ`@IZ?ZKZUb@@LPNAD_@r@ALIJKL]l@EJOAFMKC@KAG][uA}@QVMNE@C?YMA?MP",
-            "duration": "47 mins",
-            "distance": "3.3 km",
-            "duration_value": 2814,
-            "distance_value": 3343
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@NA@NU@LzABf@TnD\\lGA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?XJNCn@C^Bf@Lv@HrAZj@FVNu@lBsB`H}@`DuAtEi@nB{@pCMb@e@|@oApBAbAhA\\|Ar@hB|@CJGj@E`AMl@M`@KP_@^cB|@sBlA]ZY^CJs@lAgAjBU^FBCAT_@f@w@NJVNdBbAl@b@L?FV^PCRBAB?B?DL?HeAnBS^K^GV@LCLQd@MXBLNJIPS^ETi@t@O\\OAFMKC?E?MsByA[b@KD[MC?KP",
-            "duration": "27 mins",
-            "distance": "3.6 km",
-            "duration_value": 1616,
-            "distance_value": 3643
-          }
-        }
-      },
-      {
-        "name": "Bethesda Kindergarten Pasir Ris",
-        "title": "Bethesda (Pasir Ris) Kindergarten",
-        "lat": 1.3678222,
-        "lng": 103.96454279999999,
-        "address": "11 Pasir Ris Drive 2, Singapore 518458",
-        "place_id": "ChIJVfwveFQ82jERkSNTdOck4TQ",
-        "rating": 4.7,
-        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNBCGPa13-31SBxPYxC_Y6TkZSJfBRzPbfj2Wk=w114-h86-k-no",
-        "subcategory": "Kindergarten",
-        "subcategory_reasoning": "The location is specifically a kindergarten, which is a type of preschool focused on early childhood education for children typically aged 4 to 6 years.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBATQR[ImG?wC@y@DqAp@oGZuC|Cf@|Cf@x@NHi@d@oCDOT]d@Y\\EbABhGL|JNnABVGZOjCeCn@s@hBeBVYwB{Bq@s@MO",
-            "duration": "7 mins",
-            "distance": "2.0 km",
-            "duration_value": 400,
-            "distance_value": 1959
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@A_@FOCw@GiDIYAqABeABaBBSPsBBc@p@eGFWB[TaCDk@Lu@b@kAf@u@\\[n@_@XMjA]fAEv@AzEHfABHADBzADv@A|AI|Ae@bAi@zA{@xC_BN?LBNJRNLR",
-            "duration": "24 mins",
-            "distance": "1.8 km",
-            "duration_value": 1461,
-            "distance_value": 1762
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBALEJMDMIqHE?P??mCBmAb@yEVsBPgB\\gDJ}@VoA\\w@f@y@p@i@f@QbA[`@I\\E`@ChA@|KXzAAVCjBo@vFqCh@a@v@a@h@Qr@[tBmAMSFLuAz@oAl@q@TNVP`@ED\\`@",
-            "duration": "13 mins",
-            "distance": "2.1 km",
-            "duration_value": 777,
-            "distance_value": 2075
-          }
-        }
-      },
-      {
-        "name": "Learning Adventure Preschool Pasir Ris",
-        "title": "Learning Adventure Preschool @ Pasir Ris",
-        "lat": 1.3812703,
-        "lng": 103.94572029999999,
-        "address": "15 Pasir Ris Way, Singapore 518531",
-        "place_id": "ChIJg1_olCo92jERAhEjKgkKZ9s",
-        "rating": 5,
-        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMSc_FY-naKEowaLdt8JJ7oJVnr5LUjIz8h7BAT=w129-h86-k-no",
-        "subcategory": "Preschool",
-        "subcategory_reasoning": "The location is specifically a preschool, which is a type of educational institution for young children before they enter primary school. It fits within the broader category of preschools and kindergartens.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEaErJiAfC}@lBw@pAiBnCgCrDwAvBm@_@Y[WYOYIUSw@EyACaCC}CIcCGcAE}@eDD",
-            "duration": "7 mins",
-            "distance": "2.5 km",
-            "duration_value": 416,
-            "distance_value": 2480
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?j@yBDK?e@OQUOCUAK@OCO`@I^I`@QPYB_@@QCc@Qg@YYWE@KCYWWMk@UQGs@GI?GBWTo@\\qAx@e@f@Y~@MbA?f@Ln@HL`@Fb@JPHJFIJGLGh@UlAIX@FUb@Gf@@^KR?NFNDDAL@J@NELQR]r@M^Ur@k@lAEHK`@OvAQf@]v@I`@A^BZ@DGN[lAGj@NLPJb@HX@PJLRFh@ANFBJDy@jBRF_@z@aAnBrClAJLB~AF@",
-            "duration": "26 mins",
-            "distance": "2.0 km",
-            "duration_value": 1586,
-            "distance_value": 1954
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?j@yBDK?e@OQUOCUAK@OCO`@I^I`@QPYB_@@QCc@Qg@YYWE@KCYWWMk@UQGs@GI?GBWTo@\\qAx@e@f@Y~@MbA?f@Ln@HL`@Fb@JPHJFIJGLGh@UlAIX@FUb@Gf@@^KR?NFNDDAL@J@NELQR]r@M^Ur@k@lAEHK`@OvAQf@]v@I`@A^BZ@DGN[lAGj@NLPJb@HX@PJLRFh@ANFBJDy@jBRF_@z@aAnBrClAJLB~AF@",
-            "duration": "26 mins",
-            "distance": "2.0 km",
-            "duration_value": 1586,
-            "distance_value": 1954
-          }
-        }
-      },
-      {
-        "name": "Children's Cove Pasir Ris",
-        "title": "Children's Cove Preschool - Pasir Ris",
-        "lat": 1.3692862,
-        "lng": 103.9573534,
-        "address": "443 Pasir Ris Drive 6, #03-02, Singapore 510443",
-        "place_id": "ChIJFYYvh2892jER9jRMpK1Nzj4",
-        "rating": 4.9,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz8Z9wK_y5zXvD_72Bfmo_c74tRfL_1BscIgMRKo1dRCiEs2tq9zkP24X5r-qjEHWd1BMd1hfMXk8QxGuIUgyjMc3Ie4TfnlkI8PYhlLwGoTREjyecgSyyqWK1bQ5lZbSCNZacO=w114-h86-k-no",
-        "subcategory": "Preschool",
-        "subcategory_reasoning": "The location is specifically a preschool, which is a type of educational institution for young children before they enter primary school.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@AjACdAAd@E~@QbAW`Cu@z@UvA]f@E`AA|D@?oBzA@D?",
-            "duration": "4 mins",
-            "distance": "0.9 km",
-            "duration_value": 237,
-            "distance_value": 903
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A`C?z@@AaBbB@F?",
-            "duration": "13 mins",
-            "distance": "0.9 km",
-            "duration_value": 760,
-            "distance_value": 901
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A`C?z@@AaBbB@F?",
-            "duration": "13 mins",
-            "distance": "0.9 km",
-            "duration_value": 760,
-            "distance_value": 901
-          }
-        }
-      }
-    ],
-    "Schools - Tertiary & International": [
       {
         "name": "Tampines Meridian Junior College",
         "title": "Tampines Meridian Junior College",
@@ -1046,70 +505,208 @@
         "address": "21 Pasir Ris Street 71, Singapore 518799",
         "place_id": "ChIJLfkLznA92jERQzAuSnS_j0o",
         "rating": 4.3,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxVEpPYNh9s38vnAoKfPk5xNIBLHiVTV1Tse9mid_L_x87bRwNhZxcnlWrTVWIwhIi_eYeV_S8-kaUXO0Lcc7kHDx6z3GySRiq0qSsj1E1fUlYkF6fyQDGFvw5nlSwaVZutJ_kl=w114-h86-k-no",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz8qY8eLhrxD68wQ_sgouBkFqtqs7MM1fGBymFjiFNDDaCLeP8erYBBijOc06g5Pi5wSs2uWF5FyoUyQbGyVhF4kdfyxd63bJaFo1Gk9J4Tt-lc7Ya8dogc9CabsimJmLOXaqPG=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d70ce0bf92d%3A0x4a8fbf744a2e3043&engine=google_maps_photos&hl=en",
         "subcategory": "Junior College",
-        "subcategory_reasoning": "Tampines Meridian Junior College is a specific type of educational institution that provides pre-university education, which is characteristic of junior colleges in Singapore.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEaErJiAfC}@lBw@pAiBnCgCrDwAvB_DnEyAjBs@v@g@h@YTlCnBzAjAbC|AnC~AtAv@bBfAFHBLv@j@bEbCnAqB~@yAWQ[b@IWAU",
-            "duration": "10 mins",
-            "distance": "3.1 km",
-            "duration_value": 594,
-            "distance_value": 3085
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR_@jAMf@KNQh@iAvCo@|AhAd@nE~BtAdAj@^rA~@^LZDbAZEXB?JDCJsAnE_@nAY~@A\\k@fBOPGTMVXP\\RZTRRZ`@Td@Pt@Fh@@b@AZEn@YKEHBNEh@G`AE^I\\KXe@b@sDtBs@b@]^MXmAjBIRi@x@QKQ@UZIY@K",
-            "duration": "38 mins",
-            "distance": "2.8 km",
-            "duration_value": 2306,
-            "distance_value": 2766
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@NA@NU@LzABf@TnD\\lGA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?XJNCn@C^Bf@Lv@HrAZj@FVNu@lBsB`H}@`DuAtEi@nB{@pCMb@e@|@oApBAbAhA\\|Ar@hB|@CJGj@E`AMl@M`@KP_@^cB|@sBlA]ZY^CJs@lAgAjBU^FBCAg@z@KE~@{AWOQ@UZIY@K",
-            "duration": "19 mins",
-            "distance": "3.1 km",
-            "duration_value": 1118,
-            "distance_value": 3068
-          }
-        }
+        "subcategory_reasoning": "The location is specifically a junior college, which is a type of secondary education institution in Singapore that prepares students for higher education."
       },
       {
-        "name": "Overseas Family School",
-        "title": "Overseas Family School",
-        "lat": 1.3809574999999998,
-        "lng": 103.94190549999999,
-        "address": "81 Pasir Ris Heights, Singapore 519292",
-        "place_id": "ChIJ9xWcR44Z2jERVoxBJE_XLx8",
-        "rating": null,
-        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMbbLq3SlyEHsKUJKo01XsCrNgv-bU6Xxxnq4wL=w141-h86-k-no",
-        "subcategory": "International School",
-        "subcategory_reasoning": "The Overseas Family School is an educational institution that offers an international curriculum, making it best categorized as an International School.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAk@rBgBxEaErJiAfC}@lBw@pAiBnCgCrDwAvB_DnEyAjBs@v@g@h@YTOLOIiBeA{BoAe@_@CK?[FWzBwDDGD?BDA@^Tp@_B",
-            "duration": "8 mins",
-            "distance": "2.7 km",
-            "duration_value": 495,
-            "distance_value": 2672
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?z@zBCp@@VC@RW@L|A?TJXLpBd@nHVlDNnCDhBCtBE|@UxAe@~BUbA[dAKXKLc@hAARiAlCORg@nAEXS`@e@hAm@pA}@nBUn@Wb@iBvCkG`JWTY`@_ApAc@j@ERY^m@v@qBkA{@g@y@e@g@Yc@UFKFQZPl@yA",
-            "duration": "33 mins",
-            "distance": "2.4 km",
-            "duration_value": 1981,
-            "distance_value": 2367
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?z@zBCp@@VC@RW@L|A?TJXLpBd@nHVlDNnCDhBCtBE|@UxAe@~BUbA[dAKXKLc@hAARiAlCORg@nAEXS`@e@hAm@pA}@nBUn@Wb@iBvCkG`JWTY`@_ApAc@j@ERY^m@v@qBkA{@g@y@e@g@Yc@UFKFQZPl@yA",
-            "duration": "33 mins",
-            "distance": "2.4 km",
-            "duration_value": 1981,
-            "distance_value": 2367
-          }
-        }
+        "name": "NUS (Kent Ridge Campus)",
+        "title": "Kent Ridge Hall",
+        "lat": 1.2918212999999998,
+        "lng": 103.7747682,
+        "address": "10 Heng Mui Keng Ter, Singapore 119617",
+        "place_id": "ChIJVYXNhv8a2jEROiZWY3fkc4g",
+        "rating": 4.6,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx1dimtMTXrTtBOk9reDpgD8TaKDszbr6DZAb6xoynkOlAeNw86mfIikXOK3AQpZfevtWm8F8VPQaMOYoBFcMHuDMHeioXoKtxXFDxgaLMfccCgfOn3apH3SavTgcWZ41ws1RM=w176-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da1aff86cd8555%3A0x8873e4776356263a&engine=google_maps_photos&hl=en",
+        "subcategory": "University Hall",
+        "subcategory_reasoning": "Kent Ridge Hall is a residential hall associated with the National University of Singapore, making it a specific type of university accommodation rather than a general school."
+      },
+      {
+        "name": "NTU (Jurong West Campus)",
+        "title": "Nanyang Technological University",
+        "lat": 1.3483098999999998,
+        "lng": 103.6831347,
+        "address": "50 Nanyang Ave, Singapore 639798",
+        "place_id": "ChIJY0QBmQoP2jERGYItxQAIu7g",
+        "rating": 4.5,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyzSCOgs7j4o9pS1hPGjDdMrVgLo3Nvw7LfooT1rDr3O8WZ-OANmmY3IKP73NXWHxKUsARe4wjyfN1E1Hcyw8EV20r7HZLZc_nIA606eLkEOE3h6oW_IfoIEqCki1R18OlZdkuzBw=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da0f0a99014463%3A0xb8bb0800c52d8219&engine=google_maps_photos&hl=en",
+        "subcategory": "University",
+        "subcategory_reasoning": "Nanyang Technological University is a higher education institution that offers undergraduate and postgraduate degrees, making it best categorized as a university."
+      },
+      {
+        "name": "SMU (Bras Basah Campus)",
+        "title": "Singapore Management University",
+        "lat": 1.2962726999999998,
+        "lng": 103.85015779999999,
+        "address": "81 Victoria St, Singapore 188065",
+        "place_id": "ChIJGddBg6MZ2jERACsxW7Ovm_4",
+        "rating": 4.2,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxzEw_gvFwvtbqQ2lKcuqk1HjLxfwR9JVg0yJ28SCXx6TnwmoEFBm1P6qKv-WPm0VPKwGnTBDhqklAJJkJkUSOnWOVzuOE9tw67mPWFZSo4xkWOGYl3aj1orSMOAnuKlPEhr50xsw=w161-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da19a38341d719%3A0xfe9bafb35b312b00&engine=google_maps_photos&hl=en",
+        "subcategory": "University",
+        "subcategory_reasoning": "Singapore Management University is a higher education institution that offers undergraduate and postgraduate programs, making 'University' the most appropriate subcategory under the broader category of 'Schools'."
+      },
+      {
+        "name": "SIT (Dover Campus)",
+        "title": "Singapore Institute of Technology",
+        "lat": 1.4141660999999999,
+        "lng": 103.91229799999999,
+        "address": "1 Punggol Coast Road, Singapore 828608",
+        "place_id": "ChIJ-xdCuqAZ2jER6dTmMxTJE1I",
+        "rating": 4.3,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwnKuA6H5u12EMkh87l9PEFKKuMciVRH4ioF6Q-Mr_405S-D3K3KHB3ESm8c4wWyeLzmB5GhJ6jli7mBkAutDMbApZ7pC2NwN-6u1RKN9B8vfl-uFpuSkaqVqCSiiVkXNUD_-aT=w138-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da19a0ba4217fb%3A0x5213c91433e6d4e9&engine=google_maps_photos&hl=en",
+        "subcategory": "University",
+        "subcategory_reasoning": "The Singapore Institute of Technology is a higher education institution that offers degree programs, thus it fits the subcategory of 'University' within the broader category of schools."
+      },
+      {
+        "name": "SUSS (Clementi Campus)",
+        "title": "Singapore University of Social Sciences",
+        "lat": 1.329081,
+        "lng": 103.7761967,
+        "address": "463 Clementi Rd, Singapore 599494",
+        "place_id": "ChIJvQQziYAQ2jERCOP-JKA4N9k",
+        "rating": 3.7,
+        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO-KS4iHTiTN_EVkV4-deaZoUskGCrAMLzewsL1=w152-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da1080893304bd%3A0xd93738a024fee308&engine=google_maps_photos&hl=en",
+        "subcategory": "University",
+        "subcategory_reasoning": "The Singapore University of Social Sciences is a higher education institution, which classifies it specifically as a university rather than a primary or secondary school."
+      },
+      {
+        "name": "Ngee Ann Polytechnic",
+        "title": "Ngee Ann Polytechnic",
+        "lat": 1.3326746999999999,
+        "lng": 103.7766906,
+        "address": "535 Clementi Rd, Singapore 599489",
+        "place_id": "ChIJWeO0jn0Q2jERQwzr3v_n0nU",
+        "rating": 4.3,
+        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMBtn1zM0omKRnBB9YM4UBsp9T9bG52_sljLOul=w129-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da107d8eb4e359%3A0x75d2e7ffdeeb0c43&engine=google_maps_photos&hl=en",
+        "subcategory": "Polytechnic",
+        "subcategory_reasoning": "Ngee Ann Polytechnic is a specific type of educational institution in Singapore that offers diploma courses and is classified as a polytechnic, which is distinct from primary or secondary schools."
+      },
+      {
+        "name": "Republic Polytechnic",
+        "title": "Republic Polytechnic",
+        "lat": 1.442831,
+        "lng": 103.78556359999999,
+        "address": "9 Woodlands Ave 9, Singapore 738964",
+        "place_id": "ChIJ14hzqgUT2jER-IIzRuD1twI",
+        "rating": 4.1,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx3OaOm5-DPLbh_FpYhaU1eLS86DfWf9XBUBrpqvD6HLbkDI0qxQ1P0XRrO8HOuQnSDcJzIpSAAXgUUh2Ou0RdggZCX-QTOSx5v4MfMiVW5UNJueFuzXkwpoHCBwcxNOyEuRnAR=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da1305aa7388d7%3A0x2b7f5e0463382f8&engine=google_maps_photos&hl=en",
+        "subcategory": "Polytechnic",
+        "subcategory_reasoning": "Republic Polytechnic is a higher education institution in Singapore that offers diploma courses, which categorizes it specifically as a polytechnic rather than a primary or secondary school."
+      },
+      {
+        "name": "Singapore Polytechnic",
+        "title": "Singapore Polytechnic",
+        "lat": 1.3097756999999999,
+        "lng": 103.77754949999999,
+        "address": "500 Dover Rd, Singapore 139651",
+        "place_id": "ChIJFXzxL2Aa2jERnoWTOdJdVKk",
+        "rating": 4.3,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwTRCPEYFydUNvXfiLTB_DeAj4BHMM3irz0IMdSdpyj8weNz48loYmhd7T-5TpyaLaULVx0u-WD5KloCkjUR9p257PGOhAax_ywKSYDD0xOdhbTG_lfIOWdjwMW3wHVDbAaoF_1=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da1a602ff17c15%3A0xa9545dd23993859e&engine=google_maps_photos&hl=en",
+        "subcategory": "Polytechnic",
+        "subcategory_reasoning": "Singapore Polytechnic is a higher education institution that offers diploma courses, which categorizes it specifically as a polytechnic rather than a primary or secondary school."
+      },
+      {
+        "name": "Temasek Polytechnic",
+        "title": "Temasek Polytechnic",
+        "lat": 1.345315,
+        "lng": 103.931822,
+        "address": "21 Tampines Ave 1, Singapore 529757",
+        "place_id": "ChIJcWfV_mk92jERlqKEnZLi8os",
+        "rating": 4.2,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwWj0Kf9-QArEl6agDjix2EPskm2Pmneuc-QLsDt9KlUVzxDS5nTE__SUE6DJwFUwTb7v8RvmkfYaX5QGinkAbbs8D2v8EZfMkyufVAkXx9DJgHiKXDeDz7Dyp6SGL8jpgNn3dRmQ=w122-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d69fed56771%3A0x8bf2e2929d84a296&engine=google_maps_photos&hl=en",
+        "subcategory": "Polytechnic",
+        "subcategory_reasoning": "Temasek Polytechnic is a specific type of educational institution that offers diploma courses and is categorized as a polytechnic, distinguishing it from primary and secondary schools."
+      },
+      {
+        "name": "Nanyang Polytechnic",
+        "title": "Nanyang Polytechnic",
+        "lat": 1.37995,
+        "lng": 103.8489487,
+        "address": "180 Ang Mo Kio Ave 8, Singapore 569830",
+        "place_id": "ChIJnSSwZOsW2jERQtnugPYP8eU",
+        "rating": 4.3,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzDfwiY4dYLRiot9Wl9msYE-iZvpOXvUy5XGlJctvi0CnkzBOFLOF0kSubRAsoCDjFy5Zsxy7FL-tqQF7Vt945lT5osZoAYh7MfT4gb0kPLfmw8oG5vMz1f5dp6aD-mmAEJYng=w86-h114-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da16eb64b0249d%3A0xe5f10ff680eed942&engine=google_maps_photos&hl=en",
+        "subcategory": "Polytechnic",
+        "subcategory_reasoning": "Nanyang Polytechnic is a specific type of educational institution that offers diploma courses and is classified as a polytechnic, distinguishing it from primary and secondary schools."
       }
     ],
-    "Healthcare - Clinics & Polyclinics": [
+    "Healthcare": [
+      {
+        "name": "Changi General Hospital",
+        "title": "Changi General Hospital",
+        "lat": 1.3401915,
+        "lng": 103.94957009999999,
+        "address": "2 Simei St 3, Singapore 529889",
+        "place_id": "ChIJy9AGVCM92jERUnXH0bdk1NA",
+        "rating": 2.7,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxxgRL1P_FVgLJFcNv5Y6xlquV5LpdqFTR8yDHLEHyBV_NM6hFRRbIn6RIBYOGu-obp4usA5gjTe204ZPd2HA_LpBh8I_5ZAmiPpw81HSglIuuX-Jq-la8Zu9Tmw1oyDffL9ve-Rg=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d235406d0cb%3A0xd0d464b7d1c77552&engine=google_maps_photos&hl=en",
+        "subcategory": "General Hospital",
+        "subcategory_reasoning": "Changi General Hospital is a healthcare facility that provides a wide range of medical services, making it best categorized as a General Hospital."
+      },
+      {
+        "name": "Singapore General Hospital",
+        "title": "Singapore General Hospital",
+        "lat": 1.2804242,
+        "lng": 103.8348123,
+        "address": "31 Third Hospital Ave, Singapore 168753",
+        "place_id": "ChIJuW0jPXAZ2jERBh0Miu7Hh_c",
+        "rating": 2.7,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxqLsJ81kOYmT0EzDZxLmEl41UugCWdffTwFvjQBgAzugLzFsGq-wBxTkQZtqOORAD5povAiFgvBpAFbUWo6Akby2OGi4UzMVlO9OkO3rgURdL5IQ5cvuesf4AsPeD1e7gXgaxDsg=w122-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da19703d236db9%3A0xf787c7ee8a0c1d06&engine=google_maps_photos&hl=en",
+        "subcategory": "General Hospital",
+        "subcategory_reasoning": "The Singapore General Hospital is a large healthcare facility that provides a wide range of medical services, making 'General Hospital' the most appropriate subcategory."
+      },
+      {
+        "name": "National University Hospital",
+        "title": "National University Hospital",
+        "lat": 1.2937083,
+        "lng": 103.78314449999999,
+        "address": "5 Lower Kent Ridge Rd, Singapore 119074",
+        "place_id": "ChIJuyTjgFEa2jERowxaZ0BLc7k",
+        "rating": 3.1,
+        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNE_r32qwkp5rW2LMiMStdVAEyus-p48PZsf_hr=w163-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da1a5180e324bb%3A0xb9734b40675a0ca3&engine=google_maps_photos&hl=en",
+        "subcategory": "General Hospital",
+        "subcategory_reasoning": "The National University Hospital is a comprehensive healthcare facility that provides a wide range of medical services, making it best categorized as a General Hospital."
+      },
+      {
+        "name": "Tan Tock Seng Hospital",
+        "title": "Tan Tock Seng Hospital",
+        "lat": 1.3213888999999999,
+        "lng": 103.8458333,
+        "address": "11 Jln Tan Tock Seng, Singapore 308433",
+        "place_id": "ChIJmcDhEt4Z2jERb9Y4cIoZ54k",
+        "rating": 3,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxEyxRw6eHG2-vpdbm7H2WutY6YbKMaN123BdRHfJXAex0onq4UYyF-mL6-nCVWU78bcsSN1RgqyV7AedfiA9zE9TLUOSe3TzJgQ18B5e_9qDp-I4XeYPg85WHVYQoMXxcnUWahUt5dwcqN=w122-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da19de12e1c099%3A0x89e7198a7038d66f&engine=google_maps_photos&hl=en",
+        "subcategory": "General Hospital",
+        "subcategory_reasoning": "Tan Tock Seng Hospital is a large healthcare facility that provides a wide range of medical services, making it best categorized as a General Hospital."
+      },
+      {
+        "name": "KK Women's and Children's Hospital",
+        "title": "KK Women's and Children's Hospital",
+        "lat": 1.3105563999999998,
+        "lng": 103.8468048,
+        "address": "100 Bukit Timah Rd, Singapore 229899",
+        "place_id": "ChIJH5IKscEZ2jERYTIB8wGuMoM",
+        "rating": 3,
+        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPGPvQAUyuza7iejulZW0mWWVHorvmZi9bDDDcY=w152-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da19c1b10a921f%3A0x8332ae01f3013261&engine=google_maps_photos&hl=en",
+        "subcategory": "Children's Hospital",
+        "subcategory_reasoning": "The location is specifically a hospital that focuses on women's and children's health, making 'Children's Hospital' the most appropriate subcategory."
+      },
       {
         "name": "Pasir Ris Polyclinic",
         "title": "SingHealth Polyclinics - Pasir Ris",
@@ -1119,350 +716,260 @@
         "place_id": "ChIJGzOCoaw92jERwMKTdjm8d3U",
         "rating": 2.9,
         "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMQ9x-FbMKMnTL95_B9bzlglBQuhiIqpfRAgc9R=w168-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3daca182331b%3A0x7577bc397693c2c0&engine=google_maps_photos&hl=en",
         "subcategory": "Polyclinic",
-        "subcategory_reasoning": "The location is specifically a polyclinic, which is a type of healthcare facility that provides a range of medical services, including outpatient care, making it distinct from other types of clinics.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?XJNCB?",
-            "duration": "4 mins",
-            "distance": "1.2 km",
-            "duration_value": 247,
-            "distance_value": 1214
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR[bANd@LNpBt@d@NXBXDp@@XBTHNCB?",
-            "duration": "17 mins",
-            "distance": "1.2 km",
-            "duration_value": 1013,
-            "distance_value": 1214
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQ?DoA@",
-            "duration": "7 mins",
-            "distance": "1.4 km",
-            "duration_value": 408,
-            "distance_value": 1394
-          }
-        }
+        "subcategory_reasoning": "The location is a healthcare facility specifically designed to provide outpatient medical services, which is characteristic of a polyclinic."
       },
       {
-        "name": "Central 24-HR Clinic Pasir Ris",
-        "title": "Central 24-Hr Clinic (Pasir Ris) - CHAS | GP Clinic | 24 小时 诊所",
-        "lat": 1.3703975,
-        "lng": 103.9578301,
-        "address": "446 Pasir Ris Drive 6, #01-122, Singapore 510446",
-        "place_id": "ChIJ_68zTaw92jER1Lb0MkEeiFg",
-        "rating": 3.2,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxrn_Ye-S6sjoCmOS_p8mqwqHSWwjBScmIw2chSiHtksvSZa3jLNakCeffSzqR3qfnAnELkLqmwRAisnNPxVKyLQq1S3Vg4HKTeydRtW7cpa4aieVRLSlQwEW6-8VdVs39sfoqf=w114-h86-k-no",
-        "subcategory": "General Practitioner Clinic",
-        "subcategory_reasoning": "The location is a 24-hour clinic that provides general practitioner services, which fits the subcategory of a General Practitioner Clinic within the healthcare sector.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@AjACdAAd@E~@QbAW`Cu@z@UvA]f@E`AA?{Bv@@?]",
-            "duration": "4 mins",
-            "distance": "0.8 km",
-            "duration_value": 219,
-            "distance_value": 796
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A?{Bv@@L?AW",
-            "duration": "11 mins",
-            "distance": "0.8 km",
-            "duration_value": 676,
-            "distance_value": 796
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A?{Bv@@L?AW",
-            "duration": "11 mins",
-            "distance": "0.8 km",
-            "duration_value": 676,
-            "distance_value": 796
-          }
-        }
+        "name": "Tampines Polyclinic",
+        "title": "SingHealth Polyclinics - Tampines",
+        "lat": 1.3573327,
+        "lng": 103.9458525,
+        "address": "1 Tampines Street 41, Singapore 529203",
+        "place_id": "ChIJr0pVPQ892jER4AJQCrd87hM",
+        "rating": 2.6,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz0D1M9JXj1kvrEKdsefSJtoKWhiL-HafdTp_ax9ZBVDvGwMVgr0qfov3mfzB2czEO5v7c2GImzFAhwCKiJVmeW0iadRpj4HjT1FWFDxggUZGQz9mdREsXI8QxEHtkjYY2_LAks=w122-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d0f3d554aaf%3A0x13ee7cb70a5002e0&engine=google_maps_photos&hl=en",
+        "subcategory": "Polyclinic",
+        "subcategory_reasoning": "The location is a healthcare facility specifically designed to provide outpatient medical services, which is characteristic of a polyclinic."
       },
       {
-        "name": "Life-Link Clinic & Surgery Pasir Ris",
-        "title": "Lifelink Clinic & Surgery",
-        "lat": 1.3704672999999998,
-        "lng": 103.95727339999999,
-        "address": "446 Pasir Ris Drive 6, #01-120, Singapore 510446",
-        "place_id": "ChIJqU_nVKw92jERaWqLI6Ky7fY",
-        "rating": 2.3,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSysSvAoNlHWTHfw4Dlq1BfZ7QnboXqejbgoGybz_AQYlbJmG67jlPOiAzB4GXbUlvH8Y50DM8KhMSImH_aUPNqgGOAxSYc1yuHgTKF5DvcSnavrwJtGJcaSS9m_nO06wylCjCaW=w114-h86-k-no",
-        "subcategory": "Medical Clinic",
-        "subcategory_reasoning": "The location is a clinic that provides healthcare services, which fits the specific subcategory of 'Medical Clinic' within the broader category of healthcare.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARBn@ApCAj@AjACdAAd@E~@QbAW`Cu@z@UvA]f@E`AAv@A",
-            "duration": "3 mins",
-            "distance": "0.7 km",
-            "duration_value": 166,
-            "distance_value": 711
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A|@?",
-            "duration": "10 mins",
-            "distance": "0.7 km",
-            "duration_value": 603,
-            "distance_value": 711
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@Bh@@`CC^B~@C\\?^Kj@A`@Dp@IhBa@zDmAxA]d@E|@A|@?",
-            "duration": "10 mins",
-            "distance": "0.7 km",
-            "duration_value": 603,
-            "distance_value": 711
-          }
-        }
-      }
-    ],
-    "Healthcare - Supermarkets": [
-      {
-        "name": "Cold Storage Pasir Ris Mall",
-        "title": "Cold Storage @ Pasir Ris Mall",
-        "lat": 1.3734587,
-        "lng": 103.9484921,
-        "address": "7 Pasir Ris Central, B1-11, Singapore 519612",
-        "place_id": "ChIJKz8LNgA92jERK9W_9DIPfeo",
+        "name": "Mount Elizabeth Hospital",
+        "title": "Mount Elizabeth Hospital",
+        "lat": 1.305518,
+        "lng": 103.8355093,
+        "address": "3 Mount Elizabeth, Singapore 228510",
+        "place_id": "ChIJnUpJWpIZ2jERhpsQCRE_2-M",
         "rating": 3.6,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx3vRmmcziva6TvHhI0oKPKK-r1cgczesU4-8JtZNKt-gwbwfBjl7PijabaYekF20sLehNk4Hui24lqFDrANvOb5pMcWrE12nxq3lr5KM_vyoK4zmRRsREbnwYf55nUglk5SLR2=w114-h86-k-no",
-        "subcategory": "Supermarket",
-        "subcategory_reasoning": "Cold Storage is a well-known supermarket chain in Singapore, and its location in Pasir Ris Mall indicates it operates as a grocery store providing food and household items.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?XJNCVA",
-            "duration": "4 mins",
-            "distance": "1.2 km",
-            "duration_value": 251,
-            "distance_value": 1225
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR[bANd@LNpBt@d@NXBXDp@@XBTHNCVA",
-            "duration": "17 mins",
-            "distance": "1.2 km",
-            "duration_value": 1022,
-            "distance_value": 1224
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQ?DcA{A",
-            "duration": "7 mins",
-            "distance": "1.4 km",
-            "duration_value": 400,
-            "distance_value": 1413
-          }
-        }
+        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNrG6bN-0Qdk6OVYR0JuUPt6jQrp6r5_uKL7A3X=w137-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da19925a494a9d%3A0xe3db3f1109109b86&engine=google_maps_photos&hl=en",
+        "subcategory": "Hospital",
+        "subcategory_reasoning": "Mount Elizabeth Hospital is a healthcare facility that provides a wide range of medical services, making 'Hospital' the most appropriate subcategory."
       },
       {
-        "name": "Scarlett Supermarket Pasir Ris Mall",
-        "title": "Scarlett Supermarket @ Pasir Ris Mall",
-        "lat": 1.3730172,
-        "lng": 103.94868699999999,
-        "address": "7 Pasir Ris Central, B2-11/12, Mall 519612",
-        "place_id": "ChIJf_eoLQA92jERNuYJCw_lfP8",
-        "rating": 3.3,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxrDWnZ4swn_2sJwqPs2NOgQ8lVYg1zBkLTbGeJaV_aVVgU50z503y6SWJrcIqZO1RphdG94m999TstROxMMsF_bnbjXtvQmMAashWrpgWc8F3yFJtBxZ2_aN-2rD4yMMZkX1V-=w86-h114-k-no",
-        "subcategory": "Supermarket",
-        "subcategory_reasoning": "The location is a supermarket within a mall, which fits the specific subcategory of 'Supermarket' rather than a broader category like 'Healthcare'.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?XJNCn@C^Bf@L\\MDCLQNYR_@",
-            "duration": "5 mins",
-            "distance": "1.4 km",
-            "duration_value": 296,
-            "distance_value": 1352
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nH?J|C?n@@bAAZBTHf@XbDxCRXBL?TUnACXKV?XKp@Ud@[l@",
-            "duration": "18 mins",
-            "distance": "1.3 km",
-            "duration_value": 1061,
-            "distance_value": 1266
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHj@NRIJKPYDICA",
-            "duration": "7 mins",
-            "distance": "1.4 km",
-            "duration_value": 444,
-            "distance_value": 1431
-          }
-        }
-      },
-      {
-        "name": "NTUC FairPrice E-Hub Downtown East",
-        "title": "FairPrice Downtown East",
-        "lat": 1.3759318,
-        "lng": 103.9554591,
-        "address": "1 Pasir Ris Cl, #02-127, Singapore 519599",
-        "place_id": "ChIJgWQB27M92jERb7jMXRnaWdE",
-        "rating": 4.2,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzN2HCXdlbbLwfD3Ufq3EFP6EyPsg4_ukscyw_g9nzK6TkqZzVvXiqz5-9gyXOUuLnr94vPZUUKIDLJEFM8TAychb_tBLrRMq8X1c0ga3V2qqaLgiX_uOBPSnh15DxjTXHNblDHWA=w122-h92-k-no",
-        "subcategory": "Supermarket",
-        "subcategory_reasoning": "FairPrice Downtown East is primarily a retail establishment that sells groceries and household items, which fits the definition of a supermarket.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDNhC@JSBOeCa@kGMoBACQ?a@@q@?",
-            "duration": "3 mins",
-            "distance": "0.9 km",
-            "duration_value": 182,
-            "distance_value": 902
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?z@zBCp@@VC@RW@L|A?TJXB\\M?a@@q@?",
-            "duration": "4 mins",
-            "distance": "0.3 km",
-            "duration_value": 261,
-            "distance_value": 303
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?z@zBCp@@VC@RW@L|A?TJXB\\M?a@@q@?",
-            "duration": "4 mins",
-            "distance": "0.3 km",
-            "duration_value": 261,
-            "distance_value": 303
-          }
-        }
-      },
-      {
-        "name": "NTUC FairPrice White Sands",
-        "title": "FairPrice White Sands",
-        "lat": 1.3725642,
-        "lng": 103.9494771,
-        "address": "1 Pasir Ris Central St 3, #B1 - 10 White Sands, Singapore 518457",
-        "place_id": "ChIJgRt__K892jERLK-wMiITUc4",
-        "rating": 4.1,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxLz87w3z6eIHoYWcd8mzTt0Fs1mVshPbwlDxgvVeqy2TvbjiMmNder3JKSV8LNLFNt9j4dDNzSQt3hYjMCkJiZ2nMBRTtWSX5DF8l3CSCWe2PDBTN7wwVhztgAAoSSKwEVmKpK=w128-h86-k-no",
-        "subcategory": "Supermarket",
-        "subcategory_reasoning": "FairPrice White Sands is primarily a retail grocery store, which fits the definition of a supermarket. It provides a wide range of food and household products, making it a key shopping destination for everyday needs.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDTpDLpBNjC\\@hD@XElAB\\F\\Nv@l@rAnAKJ[Xi@f@YZ?ZFBB@@P?F",
-            "duration": "5 mins",
-            "distance": "1.1 km",
-            "duration_value": 273,
-            "distance_value": 1132
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHjE?fAA\\DVHh@XfA`Ah@f@KFUTy@t@EHHPR^ETJB",
-            "duration": "16 mins",
-            "distance": "1.1 km",
-            "duration_value": 954,
-            "distance_value": 1132
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHjE?fAA\\DVHh@XfA`Ah@f@KFUTy@t@EHHPR^ETJB",
-            "duration": "16 mins",
-            "distance": "1.1 km",
-            "duration_value": 954,
-            "distance_value": 1132
-          }
-        }
+        "name": "Gleneagles Hospital",
+        "title": "Gleneagles Hospital Medini Johor",
+        "lat": 1.4265967,
+        "lng": 103.6355912,
+        "address": "2, Jalan Medini Utara 4, 79250 Iskandar Puteri, Johor, Malaysia",
+        "place_id": "ChIJ0YqcCHYM2jERMxg2ZEztEjE",
+        "rating": 4.8,
+        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNFzVEzm0_YGpYZHylEE_521Gn5X8I3mpPAvNKN=w122-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da0c76089c8ad1%3A0x3112ed4c64361833&engine=google_maps_photos&hl=en",
+        "subcategory": "Hospital",
+        "subcategory_reasoning": "Gleneagles Hospital Medini Johor is a healthcare facility that provides medical services, making 'Hospital' the most appropriate subcategory."
       }
     ],
-    "Healthcare - Pharmacies": [
+    "Recreation": [
       {
-        "name": "Guardian Pasir Ris Mall",
-        "title": "Guardian Health & Beauty",
-        "lat": 1.3737347,
-        "lng": 103.9487559,
-        "address": "7 Pasir Ris Central, B1-29, Mall 519612",
-        "place_id": "ChIJP0jKSQA92jEREyjpbXAJMeI",
-        "rating": 2,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwxueKJEH97MfZcW23mkCGxqc8jzkPXEBt9zOcEgO9DF7_PGmWieqTPaoqy4if4KcdcDc8GHamlzLkqKsy3BLSSmZDGiV-M4ZKJWzmsxp8QTnT9RRXOFEn6P6j2RtrjfqM1eJB86w=w122-h92-k-no",
-        "subcategory": "Pharmacy",
-        "subcategory_reasoning": "The location is a health and beauty store that primarily offers pharmaceutical products, making 'Pharmacy' the most appropriate subcategory.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dn@?",
-            "duration": "4 mins",
-            "distance": "1.2 km",
-            "duration_value": 237,
-            "distance_value": 1187
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR[bANd@LNpBt@d@NXBXDp@@N?",
-            "duration": "16 mins",
-            "distance": "1.2 km",
-            "duration_value": 989,
-            "distance_value": 1186
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHSAS?y@DUI",
-            "duration": "7 mins",
-            "distance": "1.4 km",
-            "duration_value": 428,
-            "distance_value": 1419
-          }
-        }
+        "name": "Downtown East",
+        "title": "Downtown East",
+        "lat": 1.3775631,
+        "lng": 103.954703,
+        "address": "1 Pasir Ris Cl, Singapore 519599",
+        "place_id": "ChIJHeeu2LU92jER7QLDVe4tKf0",
+        "rating": 4.4,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxJOYT3CHLbmvqw90uFO0M3jq3F0aSqc1EcaAleyYoaDhYg-EwxZD6fRHLeRh3UmZ5id2JBlFnXlvJdOvcm1dQu3LS7cUSG77ovmGQI33NGEXo3DuV7hByzJGQPhYZTmu4EuRKQ=w122-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3db5d8aee71d%3A0xfd292dee55c302ed&engine=google_maps_photos&hl=en",
+        "subcategory": "Recreation Complex",
+        "subcategory_reasoning": "Downtown East is a large recreational area that includes various entertainment options, dining, and leisure activities, making 'Recreation Complex' the most fitting subcategory."
       },
       {
-        "name": "Watsons Pasir Ris Mall",
-        "title": "Watsons Pasir Ris Mall + GNC (Click & Collect)",
-        "lat": 1.3741238999999998,
-        "lng": 103.9486888,
-        "address": "7 Pasir Ris Central, B1-19, Mall 519612",
-        "place_id": "ChIJTYu8AgA92jERRsWkm5ZiUMk",
+        "name": "Wild Wild Wet",
+        "title": "Wild Wild Wet",
+        "lat": 1.3775946,
+        "lng": 103.9544243,
+        "address": "1 Pasir Ris Cl, Singapore 519599",
+        "place_id": "ChIJK_yDUbE92jERcjxTDAYmTrk",
+        "rating": 4.3,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw7XZnLgzzZ8LCw43tqQGVPHtHuArxAT5Oj4m52fnTcHu6BUn8D_SAHg-sSb8SpdCHAxMZkj1ybBlwtGf-PQmVRJxyDXZmu1CbVZAD42WNRyQXqtjxcEKPpVgmttgkw823KhFz4=w147-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3db15183fc2b%3A0xb94e26060c533c72&engine=google_maps_photos&hl=en",
+        "subcategory": "Water Park",
+        "subcategory_reasoning": "Wild Wild Wet is primarily a water-themed amusement park, which fits the subcategory of 'Water Park' under the broader category of recreation."
+      },
+      {
+        "name": "Escape Theme Park",
+        "title": "ESCAPE Penang",
+        "lat": 5.4497405,
+        "lng": 100.214038,
+        "address": "828, Jalan Teluk Bahang, Teluk Bahang, 11050 Tanjung Bungah, Penang, Malaysia",
+        "place_id": "ChIJdd8lXaTDSjARYLK8T3hGW-U",
         "rating": 4.6,
-        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNnfgM8IMmsYuAzkei-iCq6U1UFJCO6JCY3voiR=w132-h86-k-no",
-        "subcategory": "Pharmacy",
-        "subcategory_reasoning": "The location is a Watsons store, which is primarily a pharmacy that offers health and wellness products, making 'Pharmacy' the most appropriate subcategory.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XF",
-            "duration": "4 mins",
-            "distance": "1.1 km",
-            "duration_value": 216,
-            "distance_value": 1122
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR[bANd@LNpBt@p@R",
-            "duration": "16 mins",
-            "distance": "1.1 km",
-            "duration_value": 936,
-            "distance_value": 1121
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHSAS?y@D_@Mg@?g@EQC",
-            "duration": "8 mins",
-            "distance": "1.5 km",
-            "duration_value": 475,
-            "distance_value": 1479
-          }
-        }
+        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOREocY3TG8AAA26cDWOc-8_K8O-i962LPaSAwE=w141-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x304ac3a45d25df75%3A0xe55b46784fbcb260&engine=google_maps_photos&hl=en",
+        "subcategory": "Amusement Park",
+        "subcategory_reasoning": "ESCAPE Penang is an amusement park that offers various recreational activities and attractions, making 'Amusement Park' the most fitting subcategory."
       },
       {
-        "name": "Eu Yan Sang Pasir Ris Mall",
-        "title": "Eu Yan Sang",
-        "lat": 1.3737806,
-        "lng": 103.948774,
-        "address": "7 Pasir Ris Central, B1-21, Singapore 519612",
-        "place_id": "ChIJbfDoFwA92jERbNCNtndYOP8",
-        "rating": 5,
-        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxLNrgW6dVN8HwcTkOge1PqpnzUUy8F3W4p_C_fZe81e9xPGc03gpS6_Y4tO9mORybPED2L7HwMy0XKpC9V_Wedt9FoBwOWf5WaSAAmlH46OLoEbQve-w75Nd_5akby6Nq_6ddg=w138-h92-k-no",
-        "subcategory": "Traditional Chinese Medicine Pharmacy",
-        "subcategory_reasoning": "Eu Yan Sang specializes in traditional Chinese medicine and herbal products, making it a specific type of pharmacy focused on alternative healthcare.",
-        "cached_routes": {
-          "Drive": {
-            "encoded_polyline": "}ykGw~nyR?p@^AnBAh@ARB?NTpDVvDXxDr@~LA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@XFVFh@Dh@?",
-            "duration": "4 mins",
-            "distance": "1.2 km",
-            "duration_value": 236,
-            "distance_value": 1183
-          },
-          "Walk": {
-            "encoded_polyline": "}ykGw~nyR?d@^AlBAt@BP@DJBd@CPNdCVnDBn@PbCPvCb@nHAdBKbBKz@]dBK`@AR[bANd@LNpBt@d@NXBXDp@@N?",
-            "duration": "16 mins",
-            "distance": "1.2 km",
-            "duration_value": 986,
-            "distance_value": 1182
-          },
-          "Transit": {
-            "encoded_polyline": "}ykGw~nyR?j@eAB?G@LbACzBCTAf@?RBBz@VhDf@fHRnDRxCNzCA~@EtAKhAUzA]tAY|@BPLd@NP~@^hA`@p@Nh@Dn@?XJNCn@C^BBQAHSAS?y@D_@M",
-            "duration": "7 mins",
-            "distance": "1.4 km",
-            "duration_value": 431,
-            "distance_value": 1423
-          }
-        }
+        "name": "Pasir Ris Sports and Recreation Centre",
+        "title": "ActiveSG Pasir Ris Sport Centre",
+        "lat": 1.3740237,
+        "lng": 103.95149459999999,
+        "address": "120 Pasir Ris Central, Singapore 519640",
+        "place_id": "ChIJ63CtJbA92jERHCySfnqil9c",
+        "rating": 4.2,
+        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMPCowQLmR27WloHnl2wLPFhUe1-vtw_Xf7Amwm=w131-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3db025ad70eb%3A0xd797a27a7e922c1c&engine=google_maps_photos&hl=en",
+        "subcategory": "Sports Complex",
+        "subcategory_reasoning": "The ActiveSG Pasir Ris Sport Centre is a facility that offers various sports and recreational activities, making it best categorized as a Sports Complex."
+      },
+      {
+        "name": "Our Tampines Hub",
+        "title": "Our Tampines Hub",
+        "lat": 1.3528162,
+        "lng": 103.9396416,
+        "address": "1 Tampines Walk, Singapore 528523",
+        "place_id": "ChIJ2Y1DYBI92jERlFUKKSznJrY",
+        "rating": 4.5,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxyAOU6Tip5f5hdQnHhPbaMAKMuuEDGJOyxiumwcDQivqjuUX2FkeTdwmEFrd7Xtt6hHfyPCeMCwvcXD8797QhYUalCQscTVLOn3EqFycWYFPdtRnNtannHDJxWA3J0qoedU6lBuw=w145-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d1260438dd9%3A0xb626e72c290a5594&engine=google_maps_photos&hl=en",
+        "subcategory": "Community Recreation Center",
+        "subcategory_reasoning": "Our Tampines Hub serves as a multi-purpose community recreation center that offers various recreational facilities and activities for residents, making it a central hub for community engagement and leisure."
+      },
+      {
+        "name": "Tampines Safra",
+        "title": "SAFRA Tampines",
+        "lat": 1.3446019,
+        "lng": 103.94166489999999,
+        "address": "1/A Tampines Street 92, Singapore 528882",
+        "place_id": "ChIJCbcBihU92jERJmGum8EJ74c",
+        "rating": 4.2,
+        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNVy85eX5nSDY5YEegGoo8Cnj7sDpTSNvcQvXAH=w129-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d158a01b709%3A0x87ef09c19bae6126&engine=google_maps_photos&hl=en",
+        "subcategory": "Recreation Club",
+        "subcategory_reasoning": "SAFRA Tampines is a facility that offers various recreational activities and amenities for members, making 'Recreation Club' the most fitting subcategory."
+      },
+      {
+        "name": "Costa Sands Resort",
+        "title": "Costa Sands Resort",
+        "lat": 1.2558920999999998,
+        "lng": 103.81284,
+        "address": "Singapore",
+        "place_id": "ChIJA_w3nfkb2jERVkE0nDx9UwU",
+        "rating": 3.3,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwktY1_RTwWcDYqs4sD_SyQiSmzEQkSPhn6zZLzLk1H-FLYNbtHLskY_EQH3DIPKTwAX7l99ahsC3uCPIrqZhdSY8NJDcKLV28NndyOPu9mFw5wMP0unslFSlR78Z3JV0BIMPdgCQ=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da1bf99d37fc03%3A0x5537d3c9c344156&engine=google_maps_photos&hl=en",
+        "subcategory": "Resort",
+        "subcategory_reasoning": "Costa Sands Resort is primarily a place for leisure and relaxation, offering accommodations and recreational activities, which fits the subcategory of 'Resort'."
+      },
+      {
+        "name": "D'Resort at Downtown East",
+        "title": "D'Resort @ Downtown East",
+        "lat": 1.3798903999999999,
+        "lng": 103.9549644,
+        "address": "1 Pasir Ris Cl, Singapore 519599",
+        "place_id": "ChIJHeeu2LU92jER_BzfOqfIE0w",
+        "rating": 4.2,
+        "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNvRWGvL16gx4QMqKoWUiSrdN8qjapyGXxrv_n5=w131-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3db5d8aee71d%3A0x4c13c8a73adf1cfc&engine=google_maps_photos&hl=en",
+        "subcategory": "Resort",
+        "subcategory_reasoning": "D'Resort @ Downtown East is primarily a recreational facility that offers accommodation and leisure activities, making 'Resort' the most fitting subcategory."
+      }
+    ],
+    "Nature": [
+      {
+        "name": "Pasir Ris Park",
+        "title": "Pasir Ris Town Park",
+        "lat": 1.3720588,
+        "lng": 103.95268,
+        "address": "Along, Pasir Ris Central, Opposite MRT Station, Singapore 519639",
+        "place_id": "ChIJNTlhccg92jERBftThrByZK0",
+        "rating": 4.4,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxiasVRl97QdvQzHqyfZra52HR34zHxLFtvHSBhj3zw4FEAtofH3oKPiOEm9w7WyW-OTDfYbpQOs_e_iY3Hul-jo7vBwcb0G_IfCcvaGvKWXn5QjtwERxlBRUf5Z2HEnvsxRvk=w163-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3dc871613935%3A0xad6472b08653fb05&engine=google_maps_photos&hl=en",
+        "subcategory": "Community Park",
+        "subcategory_reasoning": "Pasir Ris Town Park is a public space designed for recreational activities and nature enjoyment, fitting the definition of a community park."
+      },
+      {
+        "name": "Loyang Tua Pek Kong Temple Beach",
+        "title": "Loyang Tua Pek Kong",
+        "lat": 1.3710939,
+        "lng": 103.96994029999999,
+        "address": "20 Loyang Way, Singapore 508774",
+        "place_id": "ChIJA-6mTVA82jERPqq88UBaGlg",
+        "rating": 4.7,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzhc1KhLy2nvjSoz0ZC9UrmUfSOierZnLbJx_XOWxEw6vxL5J2_60EDjCF2baqIOtk12f37lVED2KWmUUpjP-xc6pSWdjxLFSNBhTxIPDOnwJqAGlQ6WwSINZNSdTqGslUvg2pT=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3c504da6ee03%3A0x581a5a40f1bcaa3e&engine=google_maps_photos&hl=en",
+        "subcategory": "Temple",
+        "subcategory_reasoning": "Loyang Tua Pek Kong is a temple, which is a specific type of location that falls under the broader category of nature due to its outdoor setting and spiritual significance."
+      },
+      {
+        "name": "Changi Beach Park",
+        "title": "Changi Beach Park",
+        "lat": 1.3912863,
+        "lng": 103.9905464,
+        "address": "Nicoll Dr, Singapore 498991",
+        "place_id": "ChIJUzbaYws82jERXHKMRlUKIug",
+        "rating": 4.5,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw8DsLnUBEKnXi3RxznnPYE49_DeTMgm6QYpXNjbSOpIbQHyk0Ncy1uQ8RmynmQq7gih9jl01Se7PZySXHyLiYS1ohLS93RXl1NcrBYpH-v42hxCMNrT1lC84LZHik93nQCX2s=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3c0b63da3653%3A0xe8220a55468c725c&engine=google_maps_photos&hl=en",
+        "subcategory": "Beach Park",
+        "subcategory_reasoning": "Changi Beach Park is a recreational area that features a beach and park facilities, making 'Beach Park' the most specific subcategory to describe its nature-focused amenities and activities."
+      },
+      {
+        "name": "East Coast Park",
+        "title": "East Coast Park",
+        "lat": 1.3007841999999998,
+        "lng": 103.9121866,
+        "address": "Singapore",
+        "place_id": "ChIJ0QX_Brki2jER-pZKNdqk_a8",
+        "rating": 4.6,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwJa_fG9P3XRNi0IQu-ONqU7obuWOwrk5OFdteEMQXOqpp7jmeg8dvUFK8HUmWg4bM0oenCBWfr2imMUKFwDQE_JxY_-Hysq_d3PCb1ZDqOzufo4O-noTsDgfghisht9xGL4iWm=w122-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da22b906ff05d1%3A0xaffda4da354a96fa&engine=google_maps_photos&hl=en",
+        "subcategory": "Beach Park",
+        "subcategory_reasoning": "East Coast Park is a recreational area that features a beach along with various nature trails and outdoor activities, making 'Beach Park' the most fitting subcategory."
+      },
+      {
+        "name": "Bedok Reservoir Park",
+        "title": "Bedok Reservoir Park",
+        "lat": 1.3391412999999999,
+        "lng": 103.92270599999999,
+        "address": "760 Bedok Reservoir Rd, Singapore 479245",
+        "place_id": "ChIJw62n3Vo92jERl8c1cg9hXzE",
+        "rating": 4.5,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx54mMPdSR82Ftxb2InNgxIkPMw4IIxN2CmKE-p7jtLw-qMGk2giFMnganbheo45QSmkHkDbzkqS986c4n6dZVuNmtk7SRqVqQeQO1oxhrjWgmFQUavlpsaSr8eUBy1_g---Lkh_A=w122-h92-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d5adda7adc3%3A0x315f610f7235c797&engine=google_maps_photos&hl=en",
+        "subcategory": "Community Park",
+        "subcategory_reasoning": "Bedok Reservoir Park is a recreational area that provides green space for the community, making it a suitable subcategory under 'Community Park' within the nature category."
+      },
+      {
+        "name": "Tampines Eco Green",
+        "title": "Tampines Eco Green",
+        "lat": 1.3639478,
+        "lng": 103.9482922,
+        "address": "Tampines Ave 9, Singapore 520491",
+        "place_id": "ChIJQ-JB8ac92jERM18jZukcWnw",
+        "rating": 4.4,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwc4IBmZxY2ZTbBcSG9FEKRcG-WO-248OlH5_oilx8Iqfvfgak5D2XfOe-YQ3g8QfI2iDuBbh_Ae5-x_1eEel7Y1a4dp8eJijDVMYqtJpQGvdCa8UZfz092a3GrfMbg3eiS-wQ=w114-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3da7f141e243%3A0x7c5a1ce966235f33&engine=google_maps_photos&hl=en",
+        "subcategory": "Nature Park",
+        "subcategory_reasoning": "Tampines Eco Green is a designated area that focuses on preserving natural habitats and providing a space for outdoor activities, making it best categorized as a Nature Park."
+      },
+      {
+        "name": "Sungei Tampines",
+        "title": "Sungei Tampines",
+        "lat": 1.3737451999999999,
+        "lng": 103.95285009999999,
+        "address": "Singapore",
+        "place_id": "ChIJqzIswrE92jERtR6lNIBqb-I",
+        "rating": 4.6,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxD-FWqNGG3oEgN6_brmY8ZZdjLkCHZmw2TaZ1u_CPFqNQRrB-Xo0E7C1OOusDHfRlcc64nF-cpBMTYWoDjfXMCQ5BnuH8I4LGo7UBQmbFUNaOYPcnP0LpcNzYKeJUyRSyuKEFMkw=w152-h86-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3db1c22c32ab%3A0xe26f6a8034a51eb5&engine=google_maps_photos&hl=en",
+        "subcategory": "River",
+        "subcategory_reasoning": "Sungei Tampines is a river in Singapore, which fits the nature category as it represents a natural waterway."
+      },
+      {
+        "name": "Tampines Quarry",
+        "title": "Tampines Quarry",
+        "lat": 1.3527524,
+        "lng": 103.92500679999999,
+        "address": "Tampines Industrial Ave 1, Singapore",
+        "place_id": "ChIJCcEgOQA92jERWKw-8Cp_J-A",
+        "rating": 4.4,
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxlBy5VJMeAWAe9qm31ms_1gtOP8I2L1khW4cKXl-7GFqTNNsvXB0o36Cc-pAzFB5EgcUB47MMQYeEHHOaSpNiuvNe5xDqTcHxlmCfmPxv1xqmuc06Rn-sY0kpMlIY-cDnNwxkyP5z4AaIu=w80-h106-k-no",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x31da3d003920c109%3A0xe0277f2af03eac58&engine=google_maps_photos&hl=en",
+        "subcategory": "Quarry Park",
+        "subcategory_reasoning": "Tampines Quarry is a natural area that has been transformed from a former quarry site into a recreational park, making 'Quarry Park' the most fitting subcategory."
       }
     ]
   }

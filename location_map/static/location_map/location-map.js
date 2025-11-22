@@ -363,6 +363,7 @@ class LocationExplorer {
   }
   displayTravelInfo(travelTimes, location) {
     const panel = document.getElementById("travel-details");
+    if (!panel) return;
     panel.innerHTML = `
       <div class="travel-route">
         <h4>Route to ${location.name}</h4>
@@ -422,8 +423,10 @@ class LocationExplorer {
     }
 
     const panel = document.getElementById("travel-details");
-    panel.innerHTML =
-      '<p class="info-message">Click on a marker to see route and travel time from Coastal Cabana EC</p>';
+    if (panel) {
+      panel.innerHTML =
+        '<p class="info-message">Click on a marker to see route and travel time from Coastal Cabana EC</p>';
+    }
   }
 
   fitBounds() {

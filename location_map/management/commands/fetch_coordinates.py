@@ -94,7 +94,8 @@ class Command(BaseCommand):
                     "address": first_result.get("address", ""),
                     "place_id": first_result.get("place_id", ""),
                     "rating": first_result.get("rating"),
-                    "thumbnail": first_result.get("thumbnail")
+                    "thumbnail": first_result.get("thumbnail"),
+                    "photos_link": first_result.get("photos_link")
                 }
             
             self.stdout.write(self.style.WARNING(f"No results found for: {query}"))
