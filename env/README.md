@@ -32,22 +32,32 @@ notepad env\.env.secrets.dev
 notepad env\.env.secrets.prod
 ```
 
-### 3. Start Development
+### 3. Validate Your Setup
+
+```powershell
+# Check that all required files and variables are present
+.\deployment\validate-env.ps1 dev
+```
+
+### 4. Start Development
 
 ```powershell
 # Docker will automatically use env/.env.dev + env/.env.secrets.dev
+# FAILS if files are missing - no defaults used!
 .\deployment\docker-test.ps1 dev
 ```
 
 ## File Types
 
 ### Environment Variables (.env.dev, .env.prod)
+
 - **Safe to commit to Git** ✅
 - Contains non-sensitive configuration
 - DEBUG settings, allowed hosts, feature flags
 - Database connection strings (without passwords)
 
 ### Secrets (.env.secrets.dev, .env.secrets.prod)
+
 - **NEVER commit to Git** ❌
 - Contains sensitive data
 - API keys, passwords, tokens
@@ -68,6 +78,7 @@ All files now start with `.env` so they'll show with the environment variable ic
 ## Security
 
 The `.gitignore` file is configured to:
+
 - ✅ Commit: `.env.dev`, `.env.prod`, `.env.secrets.*.example`
 - ❌ Ignore: `.env.secrets.dev`, `.env.secrets.prod`
 

@@ -1,0 +1,52 @@
+# Cloud Run service configuration
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: cabana-project
+  annotations:
+    run.googleapis.com/ingress: all
+    run.googleapis.com/execution-environment: gen2
+spec:
+  template:
+    metadata:
+      annotations:
+        run.googleapis.com/cpu-throttling: "false"
+        run.googleapis.com/execution-environment: gen2
+        run.googleapis.com/memory: "1Gi"
+        run.googleapis.com/cpu: "1000m"
+    spec:
+      containerConcurrency: 100
+      timeoutSeconds: 300
+      containers:
+        - image: gcr.io/PROJECT_ID/cabana-project:latest
+          ports:
+            - containerPort: 8080
+          env:
+            # Secrets are automatically injected here by deploy.sh from .env.secrets.* files
+            # Essential non-secret environment variables
+            - name: DEBUG
+              value: "False"
+            - name: DJANGO_SETTINGS_MODULE
+              value: "cabana_project.settings"
+            - name: ALLOWED_HOSTS
+              value: "*.run.app"
+            - name: CSRF_TRUSTED_ORIGINS
+              value: "https://*.run.app"
+          resources:
+            limits:
+              cpu: 1000m
+              memory: 1Gi
+          livenessProbe:
+            httpGet:
+              path: /health/
+              port: 8080
+            initialDelaySeconds: 60
+            timeoutSeconds: 30
+            periodSeconds: 60
+          readinessProbe:
+            httpGet:
+              path: /health/
+              port: 8080
+            initialDelaySeconds: 30
+            timeoutSeconds: 30
+            periodSeconds: 30

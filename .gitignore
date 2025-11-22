@@ -11,11 +11,15 @@ media/
 # Python
 .venv/
 venv/
-ENV/
-env/
 
-# Environment variables
-.env
+# Environment secrets (DO NOT COMMIT)
+env/.env.secrets.dev
+env/.env.secrets.prod
+
+# Temporary files
+secrets.json
+temp-secrets.json
+temp-docker-*.env
 
 # IDE
 .vscode/

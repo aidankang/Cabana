@@ -1,0 +1,85 @@
+version: '3.8'
+
+services:
+  # Development service - uses development stage with live code reloading
+  web:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+      target: development
+    ports:
+      - "8080:8080"
+    env_file:
+      - ../env/.env.dev
+      - ../env/.env.secrets.dev
+    volumes:
+      # Mount source code for live reloading in development
+      - ..:/app
+      # Mount environment files
+      - ../env:/app/env
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health/"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    
+  # Production-like testing service - uses production stage
+  web-prod:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+      target: production
+    ports:
+      - "8081:8080"
+    env_file:
+      - ../env/.env.prod
+      - ../env/.env.secrets.prod
+    volumes:
+      # Only mount environment files, not source code
+      - ../env:/app/env
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  # Optional: PostgreSQL for local development
+  db:
+    image: postgres:13-alpine
+    environment:
+      - POSTGRES_DB=cabana_dev
+      - POSTGRES_USER=cabana
+      - POSTGRES_PASSWORD=dev_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cabana -d cabana_dev"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Optional: Redis for caching
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  postgres_data:
+
+networks:
+  default:
+    name: cabana_network
