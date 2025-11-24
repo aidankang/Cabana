@@ -1,0 +1,25 @@
+# Requirements for Brochure Processor
+
+# Core dependencies  
+replicate>=0.15.0
+Pillow>=10.0.0
+pydantic>=2.0.0
+httpx>=0.24.0
+
+# OpenAI and async support (from existing gpt module)
+openai>=1.0.0  
+tenacity>=8.0.0
+python-dotenv>=1.0.0
+
+# JSON repair utility (used in gpt_requests.py)
+json-repair>=0.7.0
+
+# Jinja2 for template rendering (from existing render_template.py)
+Jinja2>=3.1.0
+
+# Optional: Progress tracking
+tqdm>=4.65.0
+
+# Development/Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0

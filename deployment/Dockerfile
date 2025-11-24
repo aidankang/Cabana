@@ -28,11 +28,11 @@ RUN pip install gunicorn python-dotenv
 # ============== DEVELOPMENT STAGE ==============
 FROM base AS development
 
-# Copy project files
-COPY . .
+# Create a non-root user first
+RUN adduser --disabled-password --gecos '' appuser
 
-# Create a non-root user
-RUN adduser --disabled-password --gecos '' appuser && chown -R appuser /app
+# Copy project files and change ownership in one step
+COPY --chown=appuser:appuser . .
 USER appuser
 
 # Development health check (more frequent for faster feedback)
@@ -45,11 +45,11 @@ CMD ["python", "manage.py", "runserver", "0.0.0.0:8080"]
 # ============== PRODUCTION STAGE ==============
 FROM base AS production
 
-# Copy project files
-COPY . .
+# Create a non-root user first
+RUN adduser --disabled-password --gecos '' appuser
 
-# Create a non-root user
-RUN adduser --disabled-password --gecos '' appuser && chown -R appuser /app
+# Copy project files and change ownership in one step
+COPY --chown=appuser:appuser . .
 USER appuser
 
 # Collect static files
