@@ -14,8 +14,8 @@ staticfiles/
 venv/
 
 # Environment secrets (DO NOT COMMIT)
-env/.env.secrets.dev
-env/.env.secrets.prod
+.env.secrets.*
+!.env.secrets.*.example
 
 # Temporary files
 secrets.json

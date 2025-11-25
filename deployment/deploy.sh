@@ -71,68 +71,62 @@ validate_prerequisites() {
     echo -e "${GREEN}✅ Prerequisites validated${NC}"
 }
 
-update_django_secrets() {
-    echo -e "${BLUE}🔐 Updating Django secrets in Secret Manager...${NC}"
+prepare_env_vars() {
+    echo -e "${BLUE}🔐 Preparing environment variables...${NC}"
     
+    local env_file="env/.env.$ENV_TYPE"
     local secrets_file="env/.env.secrets.$ENV_TYPE"
-    local secret_name="django-secrets"
     
-    # Check if secrets file exists
+    # Check if both files exist
+    if [[ ! -f "$env_file" ]]; then
+        echo -e "${RED}❌ Environment file not found: $env_file${NC}"
+        return 1
+    fi
+    
     if [[ ! -f "$secrets_file" ]]; then
         echo -e "${RED}❌ Secrets file not found: $secrets_file${NC}"
         return 1
     fi
     
-    # Create a temporary JSON file for the secrets
-    local temp_secrets_file=$(mktemp)
-    echo "{" > "$temp_secrets_file"
+    echo -e "${YELLOW}📄 Reading environment from: $env_file${NC}"
+    echo -e "${YELLOW}🔐 Reading secrets from: $secrets_file${NC}"
     
-    # Convert .env format to JSON format
-    local first_entry=true
-    while IFS='=' read -r key value || [[ -n "$key" ]]; do
-        # Skip empty lines and comments
-        [[ -z "$key" || "$key" =~ ^[[:space:]]*# ]] && continue
-        
-        # Remove leading/trailing whitespace
-        key=$(echo "$key" | xargs)
-        value=$(echo "$value" | xargs)
-        
-        # Remove quotes from value if present
-        value=$(echo "$value" | sed 's/^["'\'']\|["'\'']$//g')
-        
-        # Add comma if not first entry
-        if [[ "$first_entry" == "false" ]]; then
-            echo "," >> "$temp_secrets_file"
-        fi
-        first_entry=false
-        
-        # Escape quotes in value and add to JSON
-        value=$(echo "$value" | sed 's/"/\\"/g')
-        echo -n "  \"$key\": \"$value\"" >> "$temp_secrets_file"
-        
-    done < <(grep -v '^[[:space:]]*$' "$secrets_file")
+    # Function to process env file and extract key=value pairs
+    process_env_file() {
+        local file="$1"
+        while IFS='=' read -r key value || [[ -n "$key" ]]; do
+            # Skip empty lines and comments
+            [[ -z "$key" || "$key" =~ ^[[:space:]]*# ]] && continue
+            
+            # Remove leading/trailing whitespace
+            key=$(echo "$key" | xargs)
+            value=$(echo "$value" | xargs)
+            
+            # Remove quotes from value if present
+            value=$(echo "$value" | sed 's/^["'\'']\|["'\'']$//g')
+            
+            # Add to env vars string with custom delimiter to handle special characters
+            if [[ -n "$ENV_VARS" ]]; then
+                ENV_VARS="$ENV_VARS|$key=$value"
+            else
+                ENV_VARS="$key=$value"
+            fi
+        done < <(grep -v '^[[:space:]]*$' "$file")
+    }
     
-    echo "" >> "$temp_secrets_file"
-    echo "}" >> "$temp_secrets_file"
+    # Build environment variables string from both files
+    ENV_VARS=""
     
-    echo -e "${YELLOW}📄 Secrets JSON content:${NC}"
-    cat "$temp_secrets_file"
-    echo ""
+    # Process regular environment file first
+    process_env_file "$env_file"
     
-    # Check if secret already exists
-    if gcloud secrets describe "$secret_name" --project="$PROJECT_ID" &>/dev/null; then
-        echo -e "${YELLOW}🔄 Updating existing secret: $secret_name${NC}"
-        gcloud secrets versions add "$secret_name" --data-file="$temp_secrets_file" --project="$PROJECT_ID"
-    else
-        echo -e "${YELLOW}🆕 Creating new secret: $secret_name${NC}"
-        gcloud secrets create "$secret_name" --data-file="$temp_secrets_file" --project="$PROJECT_ID"
-    fi
+    # Process secrets file
+    process_env_file "$secrets_file"
     
-    # Clean up temporary file
-    rm "$temp_secrets_file"
-    
-    echo -e "${GREEN}✅ Django secrets updated successfully${NC}"
+    echo -e "${GREEN}✅ Environment variables prepared from both files${NC}"
 }
+
+
 
 setup_gcloud() {
     echo -e "${BLUE}📋 Setting up Google Cloud...${NC}"
@@ -150,91 +144,34 @@ setup_gcloud() {
     echo -e "${GREEN}✅ Google Cloud setup completed${NC}"
 }
 
-update_yaml_with_secrets() {
-    echo -e "${BLUE}🔐 Updating YAML with secrets from environment file...${NC}"
-    
-    local secrets_file="env/.env.secrets.$ENV_TYPE"
-    local yaml_file="deployment/cloudrun-service.yaml"
-    
-    if [[ ! -f "$secrets_file" ]]; then
-        echo -e "${YELLOW}⚠️  Secrets file not found: $secrets_file${NC}"
-        echo -e "${YELLOW}Using existing YAML configuration${NC}"
-        return 0
-    fi
-    
-    echo -e "${YELLOW}📄 Reading secrets from: $secrets_file${NC}"
-    
-    # Create a backup of the original YAML
-    cp "$yaml_file" "$yaml_file.backup"
-    
-    # Generate secret environment variables
-    local secret_vars=""
-    while IFS='=' read -r key value || [[ -n "$key" ]]; do
-        # Skip empty lines and comments
-        [[ -z "$key" || "$key" =~ ^[[:space:]]*# ]] && continue
-        
-        # Remove leading/trailing whitespace
-        key=$(echo "$key" | xargs)
-        
-        # Add secret reference
-        secret_vars+="            - name: $key
-              valueFrom:
-                secretKeyRef:
-                  name: django-secrets
-                  key: $key
-"
-    done < <(grep -v '^[[:space:]]*$' "$secrets_file")
-    
-    # Create a temporary file with the updated content
-    local temp_file=$(mktemp)
-    
-    # Read the YAML file and replace the secrets section
-    awk -v secrets="$secret_vars" -v secrets_file="$secrets_file" '
-    /^          env:/ {
-        print $0
-        print "            # All secrets from Secret Manager - auto-generated from " secrets_file
-        print secrets
-        # Skip until we find the non-secret environment variables comment
-        while (getline > 0 && !/# Non-secret environment variables/) {
-            continue
-        }
-        print "            # Non-secret environment variables from .env files"
-        next
-    }
-    /# All secrets from Secret Manager/,/# Non-secret environment variables/ {
-        next
-    }
-    { print }
-    ' "$yaml_file" > "$temp_file"
-    
-    # Replace the original file
-    mv "$temp_file" "$yaml_file"
-    
-    local secret_count=$(echo "$secret_vars" | grep -c "name:" || echo "0")
-    echo -e "${GREEN}✅ Updated $yaml_file with $secret_count secret references${NC}"
-    echo -e "${BLUE}💾 Backup saved as $yaml_file.backup${NC}"
-}
+
 
 build_and_deploy() {
     echo -e "${BLUE}🏗️  Building and deploying...${NC}"
     
     # Build Docker image using production stage
     echo -e "${YELLOW}Building production Docker image...${NC}"
-    gcloud builds submit --tag $IMAGE_NAME --substitutions="_DOCKER_TARGET=production" .
+    gcloud builds submit --config deployment/cloudbuild.yaml --substitutions="_DOCKER_TARGET=production,_IMAGE_NAME=$IMAGE_NAME" .
     
-    # Update the YAML file with current secrets from the secrets file
-    update_yaml_with_secrets
+    # Prepare environment variables from secrets file
+    prepare_env_vars
     
-    # Create a temporary YAML file with PROJECT_ID substituted
-    echo -e "${YELLOW}📝 Preparing Cloud Run service configuration...${NC}"
-    local temp_yaml=$(mktemp)
-    sed "s/PROJECT_ID/$PROJECT_ID/g" deployment/cloudrun-service.yaml > "$temp_yaml"
+    echo -e "${YELLOW}🚀 Deploying to Cloud Run with environment variables...${NC}"
+    echo -e "${BLUE}Using custom delimiter to handle special characters in values${NC}"
     
-    echo -e "${YELLOW}🚀 Deploying to Cloud Run using YAML configuration...${NC}"
-    gcloud run services replace "$temp_yaml" --region $REGION
-    
-    # Clean up temporary file
-    rm "$temp_yaml"
+    # Use custom delimiter syntax to handle commas and special characters
+    # ^:^ means use ':' as delimiter instead of ','
+    gcloud run deploy $SERVICE_NAME \
+        --image $IMAGE_NAME \
+        --region $REGION \
+        --platform managed \
+        --allow-unauthenticated \
+        --set-env-vars "^|^$ENV_VARS" \
+        --memory 1Gi \
+        --cpu 1000m \
+        --concurrency 100 \
+        --timeout 300 \
+        --port 8080
     
     echo -e "${GREEN}✅ Deployment completed successfully!${NC}"
 }
@@ -274,6 +211,5 @@ echo ""
 
 validate_prerequisites
 setup_gcloud
-update_django_secrets
 build_and_deploy
 show_results

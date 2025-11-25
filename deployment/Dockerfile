@@ -66,4 +66,4 @@ HEALTHCHECK --interval=30s --timeout=30s --start-period=60s --retries=3 \
 EXPOSE 8080
 
 # Start production server
-CMD ["gunicorn", "--bind", ":8080", "--workers", "1", "--threads", "8", "--timeout", "0", "cabana_project.wsgi:application"]
+CMD ["gunicorn", "--bind", ":8080", "--workers", "1", "--threads", "8", "--timeout", "0", "--access-logfile", "-", "--access-logformat", "%(h)s %(l)s %(u)s %(t)s \"%(r)s\" %(s)s %(b)s \"%(f)s\" \"%(a)s\"", "cabana_project.wsgi:application"]
