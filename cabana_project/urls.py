@@ -18,14 +18,24 @@ from django.contrib import admin
 from django.urls import path, include
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
+from django.contrib.sitemaps.views import sitemap
+from coastal_cabana.sitemaps import CoastalCabanaSitemap, LocationMapSitemap, StaticViewSitemap
 
 def health_check(request):
     """Health check endpoint for Cloud Run"""
     return JsonResponse({"status": "healthy", "service": "cabana-project"})
 
+# Sitemap configuration
+sitemaps = {
+    'coastal_cabana': CoastalCabanaSitemap,
+    'location_map': LocationMapSitemap,
+    'static': StaticViewSitemap,
+}
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('health/', csrf_exempt(health_check), name='health_check'),
+    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
     path('location-map/', include('location_map.urls')),
     path('', include('coastal_cabana.urls')),
 ]
