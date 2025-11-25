@@ -23,14 +23,30 @@ deployment/
 - Google Cloud CLI (gcloud) for production deployment
 - Environment files configured (see [Environment Setup](#environment-setup))
 
+### First Time Setup
+
+```bash
+# Build the Docker images (do this once)
+./deployment/docker-test.sh dev --build
+
+# For subsequent runs (much faster)
+./deployment/docker-test.sh dev
+```
+
 ### Local Development
 
 ```bash
-# Start development environment with live reload
+# Start development environment (quick start, no rebuild)
 ./deployment/docker-test.sh dev
+
+# Start development environment with rebuild (first time or after changes)
+./deployment/docker-test.sh dev --build
 
 # Start production-like testing environment
 ./deployment/docker-test.sh prod
+
+# Start production-like testing with rebuild
+./deployment/docker-test.sh prod --build
 
 # Run comprehensive tests
 ./deployment/docker-test.sh test
@@ -148,18 +164,49 @@ OPENAI_API_KEY=your-production-openai-key
 - **db**: Optional PostgreSQL for local development
 - **redis**: Optional Redis for caching
 
+## 🔄 When to Use --build Flag
+
+### Use `--build` when:
+- **First time setup**: Initial project setup
+- **Requirements changed**: Modified `requirements.txt`
+- **Dockerfile modified**: Changed Docker configuration
+- **Base image updates**: Want latest Python/system packages
+- **Debugging**: Something seems broken, fresh build might help
+
+### Skip `--build` for:
+- **Daily development**: Code changes (handled by volume mounting)
+- **Quick testing**: Just want to run the app
+- **Restarting**: After stopping the container
+
+### Typical Workflow:
+```bash
+# Monday morning - fresh start
+./deployment/docker-test.sh dev --build
+
+# Rest of the week - quick starts
+./deployment/docker-test.sh dev
+./deployment/docker-test.sh stop
+./deployment/docker-test.sh dev  # Fast restart
+```
+
 ## 📋 Development Commands
 
 ### Basic Commands
 
 ```bash
-# Start development (uses env/.env.dev + env/.env.secrets.dev)
+# Start development (quick start - uses existing container)
 ./deployment/docker-test.sh dev
 
-# Start production-like testing (uses env/.env.prod + env/.env.secrets.prod)
+# Start development with rebuild (first time or after dependency changes)
+./deployment/docker-test.sh dev --build
+
+# Start production-like testing (quick start)
 ./deployment/docker-test.sh prod
 
-# Run full test suite
+# Start production-like testing with rebuild
+./deployment/docker-test.sh prod --build
+
+# Run full test suite (always rebuilds for testing)
 ./deployment/docker-test.sh test
 
 # View logs

@@ -7,14 +7,15 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media/
+staticfiles/
 
 # Python
 .venv/
 venv/
 
 # Environment secrets (DO NOT COMMIT)
-env/.env.secrets.dev
-env/.env.secrets.prod
+.env.secrets.*
+!.env.secrets.*.example
 
 # Temporary files
 secrets.json
@@ -34,3 +35,6 @@ Thumbs.db
 
 # playwright
 .playwright-mcp/
+
+#input files
+input/

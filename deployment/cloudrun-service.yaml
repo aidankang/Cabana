@@ -5,7 +5,6 @@ metadata:
   name: cabana-project
   annotations:
     run.googleapis.com/ingress: all
-    run.googleapis.com/execution-environment: gen2
 spec:
   template:
     metadata:
@@ -22,31 +21,21 @@ spec:
           ports:
             - containerPort: 8080
           env:
-            # Secrets are automatically injected here by deploy.sh from .env.secrets.* files
-            # Essential non-secret environment variables
-            - name: DEBUG
-              value: "False"
-            - name: DJANGO_SETTINGS_MODULE
-              value: "cabana_project.settings"
-            - name: ALLOWED_HOSTS
-              value: "*.run.app"
-            - name: CSRF_TRUSTED_ORIGINS
-              value: "https://*.run.app"
-          resources:
-            limits:
-              cpu: 1000m
-              memory: 1Gi
-          livenessProbe:
-            httpGet:
-              path: /health/
-              port: 8080
-            initialDelaySeconds: 60
-            timeoutSeconds: 30
-            periodSeconds: 60
-          readinessProbe:
-            httpGet:
-              path: /health/
-              port: 8080
-            initialDelaySeconds: 30
-            timeoutSeconds: 30
-            periodSeconds: 30
+            # All secrets from Secret Manager - auto-generated from env/.env.secrets.prod
+            - name: SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: django-secrets
+                  key: SECRET_KEY
+            - name: GOOGLE_MAPS_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: django-secrets
+                  key: GOOGLE_MAPS_API_KEY
+            - name: OPENAI_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: django-secrets
+                  key: OPENAI_API_KEY
+
+            # Non-secret environment variables from .env files

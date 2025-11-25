@@ -19,8 +19,8 @@ print_usage() {
     echo "Usage: $0 [command]"
     echo ""
     echo "Commands:"
-    echo "  dev      - Start development environment (with live reload)"
-    echo "  prod     - Start production-like environment for testing"
+    echo "  dev      - Start development environment (add --build to rebuild)"
+    echo "  prod     - Start production-like environment (add --build to rebuild)"
     echo "  test     - Run full test suite (build + health checks)"
     echo "  stop     - Stop all running services"
     echo "  clean    - Stop and remove all containers, images, and volumes"
@@ -29,9 +29,10 @@ print_usage() {
     echo "  shell    - Open interactive shell in development container"
     echo ""
     echo "Examples:"
-    echo "  ./docker-test.sh dev     # Start development with live reload"
-    echo "  ./docker-test.sh prod    # Test production-like deployment"
-    echo "  ./docker-test.sh test    # Full validation suite"
+    echo "  ./docker-test.sh dev           # Quick start (no rebuild)"
+    echo "  ./docker-test.sh dev --build   # Start with rebuild"
+    echo "  ./docker-test.sh prod --build  # Test production with rebuild"
+    echo "  ./docker-test.sh test          # Full validation suite"
 }
 
 validate_environment() {
@@ -56,23 +57,45 @@ validate_environment() {
 }
 
 start_dev() {
-    echo -e "${BLUE}🚀 Starting Development Environment${NC}"
+    local build_flag=""
+    if [[ "$2" == "--build" ]]; then
+        build_flag="--build"
+        echo -e "${BLUE}🚀 Starting Development Environment (with rebuild)${NC}"
+    else
+        echo -e "${BLUE}⚡ Starting Development Environment (quick start)${NC}"
+    fi
     
     validate_environment "dev" || exit 1
     
-    echo -e "${YELLOW}Building and starting development services...${NC}"
+    if [[ -n "$build_flag" ]]; then
+        echo -e "${YELLOW}Building and starting development services...${NC}"
+    else
+        echo -e "${YELLOW}Starting development services...${NC}"
+    fi
+    
     cd deployment
-    docker-compose up --build web
+    docker-compose up $build_flag web
 }
 
 start_prod() {
-    echo -e "${BLUE}🚀 Starting Production-like Environment${NC}"
+    local build_flag=""
+    if [[ "$2" == "--build" ]]; then
+        build_flag="--build"
+        echo -e "${BLUE}🚀 Starting Production-like Environment (with rebuild)${NC}"
+    else
+        echo -e "${BLUE}⚡ Starting Production-like Environment (quick start)${NC}"
+    fi
     
     validate_environment "prod" || exit 1
     
-    echo -e "${YELLOW}Building and starting production-like services...${NC}"
+    if [[ -n "$build_flag" ]]; then
+        echo -e "${YELLOW}Building and starting production-like services...${NC}"
+    else
+        echo -e "${YELLOW}Starting production-like services...${NC}"
+    fi
+    
     cd deployment
-    docker-compose up --build web-prod
+    docker-compose up $build_flag web-prod
 }
 
 run_tests() {
@@ -170,10 +193,10 @@ open_shell() {
 # Main script logic
 case "${1:-}" in
     dev)
-        start_dev
+        start_dev "$@"
         ;;
     prod)
-        start_prod
+        start_prod "$@"
         ;;
     test)
         run_tests

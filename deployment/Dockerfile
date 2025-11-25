@@ -28,11 +28,11 @@ RUN pip install gunicorn python-dotenv
 # ============== DEVELOPMENT STAGE ==============
 FROM base AS development
 
-# Copy project files
-COPY . .
+# Create a non-root user first
+RUN adduser --disabled-password --gecos '' appuser
 
-# Create a non-root user
-RUN adduser --disabled-password --gecos '' appuser && chown -R appuser /app
+# Copy project files and change ownership in one step
+COPY --chown=appuser:appuser . .
 USER appuser
 
 # Development health check (more frequent for faster feedback)
@@ -45,11 +45,14 @@ CMD ["python", "manage.py", "runserver", "0.0.0.0:8080"]
 # ============== PRODUCTION STAGE ==============
 FROM base AS production
 
-# Copy project files
-COPY . .
+# Create a non-root user first
+RUN adduser --disabled-password --gecos '' appuser
 
-# Create a non-root user
-RUN adduser --disabled-password --gecos '' appuser && chown -R appuser /app
+# Create staticfiles directory with proper ownership before switching to appuser
+RUN mkdir -p /app/staticfiles && chown -R appuser:appuser /app/staticfiles
+
+# Copy project files and change ownership in one step
+COPY --chown=appuser:appuser . .
 USER appuser
 
 # Collect static files
@@ -63,4 +66,4 @@ HEALTHCHECK --interval=30s --timeout=30s --start-period=60s --retries=3 \
 EXPOSE 8080
 
 # Start production server
-CMD ["gunicorn", "--bind", ":8080", "--workers", "1", "--threads", "8", "--timeout", "0", "cabana_project.wsgi:application"]
+CMD ["gunicorn", "--bind", ":8080", "--workers", "1", "--threads", "8", "--timeout", "0", "--access-logfile", "-", "--access-logformat", "%(h)s %(l)s %(u)s %(t)s \"%(r)s\" %(s)s %(b)s \"%(f)s\" \"%(a)s\"", "cabana_project.wsgi:application"]
