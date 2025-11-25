@@ -48,6 +48,9 @@ FROM base AS production
 # Create a non-root user first
 RUN adduser --disabled-password --gecos '' appuser
 
+# Create staticfiles directory with proper ownership before switching to appuser
+RUN mkdir -p /app/staticfiles && chown -R appuser:appuser /app/staticfiles
+
 # Copy project files and change ownership in one step
 COPY --chown=appuser:appuser . .
 USER appuser
